@@ -1,0 +1,300 @@
+html{color:#FFF;background:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+  margin:0;
+  padding:0;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{
+  font-style:normal;
+  font-weight:normal;
+}
+li{list-style:none;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after{content:'';}
+abbr,acronym{
+  border:0;
+  font-variant:normal;
+}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+}
+input,textarea,select{font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+body{/*Font size: The /1.25 refers to the spacing between lines*/
+  font:13.5px/1.25 arial,helvetica,clean,sans-serif;
+}
+select,input,button,textarea{
+  font:99% arial,helvetica,clean,sans-serif;
+}
+table{
+  font-size:inherit;
+  font:100%;
+}
+pre,code,kbd,samp,tt{
+  font-family:monospace;
+  font-size:94%;
+  line-height:100%;
+}
+body{text-align:center;}
+
+/* START animated spoiler CSS by Bloggersentral.com */
+.spoilerbutton {display:block;margin:5px 0;}
+.spoiler {overflow:hidden;background: #222222;}
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.spoilerbutton[value="Show"] + .spoiler > div {margin-top:-100%;}
+.spoilerbutton[value="Hide"] + .spoiler {padding:0px;}
+/* END animated spoiler CSS by Bloggersentral.com */
+
+a:link{color:rgb(192,255,255);}
+a:visited {color:rgb(50,200,200);}
+a:hover {color:rgb(82,235,251);}
+
+#ft{clear:both;}
+footer{clear:both;}
+#top{
+  text-align:left;
+  margin:auto 10px;
+  width:auto;
+}
+
+.yui-t1{
+  margin:auto;
+  text-align:left;
+}
+.yui-b{position:relative;}#yui-main .yui-b{position:static;}#yui-main{width:100%;}.yui-t1 #yui-main{float:right;margin-left:-25em;}.yui-t1 .yui-b{float:left;width:12.30769em;}.yui-t1 #yui-main .yui-b{margin-left:13.30769em;}#yui-main .yui-b{float:none;width:auto;}
+
+/*Alter things common to all bodies here*/
+.yui-g{
+  max-width: 850px;
+  width: 100%;
+}
+
+/*Allows word wrapping for non-top, non-footer non-sidebar content (AKA just .yui-b). Code from w3schools.*/
+.yui-b{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+h1 {font-size: 138.5%;}
+h2 {font-size: 123.1%;}
+h3 {font-size: 108%;}
+h1, h2, h3 {  
+  margin-top: 1em;  
+  margin-right: 0px;  
+  margin-bottom: 1em;  
+  margin-left: 0px;
+}
+h1, h2, h3, h4, h5, h6, strong {font-weight: bold;}
+abbr, acronym {  
+  border-bottom-width: 1px;  
+  border-bottom-style: dotted;  
+  border-bottom-color: black;  
+  cursor: help;
+}
+em {font-style: italic;}
+blockquote, ul, ol, dl {  
+  margin-top: 1em;  
+  margin-right: 1em;  
+  margin-bottom: 1em;  
+  margin-left: 1em;
+}
+ol, ul, dl {margin-left: 2em;}
+ol li {  
+  list-style-type: decimal;  
+  list-style-position: outside;  
+  list-style-image: none;
+}
+ul li {  
+  list-style-type: disc;  
+  list-style-position: outside;  
+  list-style-image: none;
+}
+dl dd {margin-left: 1em;}
+th, td {  
+  border-top-width: 1px;  
+  border-right-width: 1px;  
+  border-bottom-width: 1px;  
+  border-left-width: 1px;  
+  border-top-style: solid;  
+  border-right-style: solid;  
+  border-bottom-style: solid;  
+  border-left-style: solid;  
+  border-top-color: black;  
+  border-right-color: black;  
+  border-bottom-color: black;  
+  border-left-color: black;  
+  padding-top: 0.5em;  
+  padding-right: 0.5em;  
+  padding-bottom: 0.5em;  
+  padding-left: 0.5em;
+}
+th {  
+  font-weight: bold;  
+  text-align: center;
+}
+caption {  
+  margin-bottom: 0.5em;  
+  text-align: center;
+}
+p, fieldset, table, pre {margin-bottom: 1em;}
+
+/*TUTORIAL ASSIST BY SPAREN*/
+.tut_exercise{
+    background-color: #000080;
+    color: #00FFCC;
+    border-style: double;
+    border-width: 1px;
+    padding: 2px;
+}
+.tut_checkpoint{
+    background-color: #400000;
+    color: #FF99FF;
+    border-style: double;
+    border-width: 1px;
+    padding: 2px;
+}
+
+/*MENUS BY SPAREN. PLACED AT BOTTOM IN ORDER TO OVERRIDE ALL DEFAULTS*/
+#menubar{/*Move and position the menubar.*/
+  width: 154px;
+  float: left;
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  position:relative;/*This and the Z index line move this div above the div that is covering it*/
+  z-index:100;
+}
+#menubar ul{
+  text-align:left;
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #00DDAA;
+}
+#menubar a{/*Unlike nav bar, using a instead of li because every item is in fact a link*/
+  float: center;
+  list-style-type: none;
+  display:inline-block;
+  width: 142px;
+  height: 24px;
+  font-weight: bold;
+  background-color: #003329;
+  text-align: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #00DDAA;
+}
+#menubar a:hover{
+  background-color: #004C3D;
+}
+
+.tutnavbar{
+  text-align:center;
+}
+.tutnavbar ul{/*For ph3 tutorial navigation list*/
+  text-align:center;
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;
+}
+.tutnavbar li{
+  float: center;
+  display:inline-block;
+  text-align: center;
+}
+
+.tutnavbar a, .tutnavbar span{
+  float: center;
+  list-style-type: none;
+  display:inline-block;
+  width: 120px;
+  font-weight: bold;
+  background-color: #00804C;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00AADD;
+}
+.tutorialnav a{
+  list-style-type: none;
+  display:inline-block;
+  width: 80%;
+  font-weight: bold;
+  background-color: #002030;
+  padding: 4px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00AADD;
+}
+.tutorialnav a:hover{
+  background-color: #003344;
+}
+/*END MENUS BY SPAREN*/
+
+/* CSS @media overrides. 468 is the largest an iPhone can do  */
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .yui-t1 #yui-main{
+    margin-left:0em;
+  }
+  .yui-t1 #yui-main .yui-b{
+    margin-left:0em;
+  }
+  #menubar{/*Move and position the menubar div.*/
+    width: 100%;
+    float: center;
+    position:relative;/*This and the Z index line move this div above the div that is covering it*/
+    z-index:100;
+    display: inline-block;
+    text-align:center;
+    height:100%;
+    padding: 5px 0px; /* Prevent collision with navigation bars in tutorials */
+  }
+  #menubar ul{ 
+    text-align:center;
+    border-style: none;
+  }
+  #menubar li{
+    float: center;
+    display:inline-block;
+    text-align: center;
+  }
+  #menubar a{/*Unlike nav bar, using a instead of li because every item is in fact a link*/
+    float: center;
+  }
+  .tutnavbar{
+    position:relative;
+  }
+}

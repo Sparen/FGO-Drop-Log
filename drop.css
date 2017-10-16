@@ -1,0 +1,56 @@
+    p { 
+        font-family: DIN Alternate; 
+    }
+    table, tr, th, td {
+        border: 1px solid white;
+    }
+    tr, th {
+        font-size: 8px;
+    }
+
+    .item {
+        width: 20px;
+        height: auto;
+    }
+
+    .h-master {
+        color: #CCCCCC;
+        background-color: #222222;
+        border-width: 4px; 
+        border-color: #CCCCCC; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
+
+    .h-fuyuki {
+        color: #FFCC00;
+        background-color: #882200;
+        border-width: 4px; 
+        border-color: #FFCC00; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
+    .h-orleans, .h-daily {
+        color: #AAFFCC;
+        background-color: #338844;
+        border-width: 4px; 
+        border-color: #AAFFCC; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
+    .h-septem {
+        color: #FFFFCC;
+        background-color: #AA6600;
+        border-width: 4px; 
+        border-color: #FFFFCC; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
+    .h-okeanos {
+        color: #CCEEFF;
+        background-color: #2222CC;
+        border-width: 4px; 
+        border-color: #CCEEFF; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
