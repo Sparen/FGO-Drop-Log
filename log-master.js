@@ -1,41 +1,194 @@
 "use strict";
 
+//When adding new data, use CTRL-F on the name of the quest or class.
+//That's the only sane way to do this, unfortunately
+
 var daily_saber_obj = {
     "quests": [
         {
-            "qname": "10 AP",
-            "last-upd": "2017 10 16",
-            "column": "125",
+            "qname": "10 AP", "last-upd": "2017 10 16", "column": "125",
             "droplog": [
-                {
-                    "uplog": true,
-                    "drop": ["GEM_BL_SAB", "EXP_3_SAB"]
-                }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB"] }
             ]
         },
         {
-            "qname": "20 AP",
-            "last-upd": "",
-            "column": "",
+            "qname": "20 AP", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "30 AP",
-            "last-upd": "",
-            "column": "",
+            "qname": "30 AP", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP",
-            "last-upd": "2017 10 16",
-            "column": "125",
+            "qname": "40 AP", "last-upd": "2017 10 16", "column": "125",
             "droplog": [
-                {
-                    "uplog": true,
-                    "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"]
-                }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] }
+            ]
+        }
+    ]
+};
+
+var daily_lancer_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+var daily_archer_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["EXP_2_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["PIECE_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_3_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC"] }
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC", "EVIL_BONE"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_2_ARC", "EVIL_BONE"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC", "EVIL_BONE"] }
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC"] },
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
+            ]
+        }
+    ]
+};
+
+var daily_rider_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+var daily_caster_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+var daily_assassin_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+var daily_berserker_obj = {
+    "quests": [
+        {
+            "qname": "10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "40 AP", "last-upd": "", "column": "",
+            "droplog": [
             ]
         }
     ]
@@ -139,6 +292,18 @@ function loadDaily() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadDaily: Loading Daily Quests - Saber");
     loadObject(daily_saber_obj, "daily-saber");
+    console.log("loadDaily: Loading Daily Quests - Lancer");
+    loadObject(daily_lancer_obj, "daily-lancer");
+    console.log("loadDaily: Loading Daily Quests - Archer");
+    loadObject(daily_archer_obj, "daily-archer");
+    console.log("loadDaily: Loading Daily Quests - Rider");
+    loadObject(daily_rider_obj, "daily-rider");
+    console.log("loadDaily: Loading Daily Quests - Caster");
+    loadObject(daily_caster_obj, "daily-caster");
+    console.log("loadDaily: Loading Daily Quests - Assassin");
+    loadObject(daily_assassin_obj, "daily-assassin");
+    console.log("loadDaily: Loading Daily Quests - Berserker");
+    loadObject(daily_berserker_obj, "daily-berserker");
 }
 
 //Loads log object into the HTML table located at tableid
