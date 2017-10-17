@@ -7,6 +7,7 @@ This project, started October 15, 2017, aims to log my contributions to the crow
 This repository supports GitHub Pages:  
 [https://sparen.github.io/FGO-Drop-Log/free-quest.html]  
 [https://sparen.github.io/FGO-Drop-Log/daily-quest.html]  
+[https://sparen.github.io/FGO-Drop-Log/event-quest.html]  
 
 In order to accomplish the task in a way that is intuitive to me, I have decided to use downsampled versions of the game's proper graphics for item drops. 
 
@@ -14,5 +15,13 @@ This repository is not open to pull requests. As it is a personal log, it is mea
 
 P.S. Don't look at the JavaScript. The nested loops are hideous.
 
-As of yet, I do not know how long I will maintain this project, or how many different things I will cover (e.g. events). However, the data is available for those who are curious.
+As of yet, I do not know how long I will maintain this project, or how many different things I will cover. However, the data is available for those who are curious.
 
+### Drop Submissions
+
+I am logging on the following sites:
+
+[https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=439336721](Free Quests)  
+[https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=1345853608](Daily Quests)  
+
+[https://docs.google.com/spreadsheets/d/1NtTeo1hG7zaTpQrVHOyKDnA6NXnEq2187oLFd7jI8lo/edit#gid=748720390](Halloween Event 2017 Free Quests)  

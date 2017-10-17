@@ -430,6 +430,34 @@ var free_okeanos_obj = {
     ]
 };
 
+/* ----- ----- ----- ----- ----- EVENT QUESTS ----- ----- ----- ----- ----- */
+// _HALLOWEEN2017 
+var event_halloween2017_obj = {
+    "quests": [
+        {
+            "qname": "Dancer's Castle Gate: 10 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Throne of the Impaler: 30 AP", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Hidden Room of Cat Maid: 40 AP", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] }
+            ]
+        }
+    ]
+};
+
 /* ----- ----- ----- ----- ----- CODE ----- ----- ----- ----- ----- */
 
 //Map contiaining item string -> image path data
@@ -523,6 +551,19 @@ function initPathMap() {
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG"});
     //Special drops
 
+    //Event drops
+    //-- Nerofest
+    imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/_event/Bronze_nero_medal.png", "label": "BNM"});
+    imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/_event/Gold_nero_medal.png", "label": "GNM"});
+    //-- Moon Goddess
+    imgpathmap.push({"id": "DUMPLING", "path": "./icon/_event/Dango.png", "label": "D"});
+    imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/_event/Goldendango.png", "label": "RD"});
+    //-- Halloween 2017
+    imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/_event/Cupcake.png", "label": "PC"});
+    imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/_event/Sweet_candle.png", "label": "SC"});
+    imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/_event/Trick_bat.png", "label": "MB"});
+    imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/_event/Pumpkin.png", "label": "PL"});
+
     //Misc
 }
 
@@ -556,6 +597,12 @@ function loadFree() {
     loadObject(free_okeanos_obj, "free-okeanos");
 }
 
+function loadEvent() {
+    initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    console.log("loadEvent: Loading Event Quests - Halloween 2017");
+    loadObject(event_halloween2017_obj, "event-halloween2017");
+}
+
 //Loads log object into the HTML table located at tableid
 function loadObject(logobj, tableid) {
     var tablehtml = "<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>";
@@ -574,9 +621,18 @@ function loadObject(logobj, tableid) {
         for (var j = 0; j < logobj.quests.length; j += 1) {
             var droplog = logobj.quests[j].droplog;
             for (var k = 0; k < droplog.length; k += 1) {
+                //Regular drops
                 var droplist = droplog[k].drop;
                 for (var l = 0; l < droplist.length; l += 1) {
                     if (targetID === droplist[l]) {
+                        found = true;
+                        break;
+                    }
+                }
+                //Stack drops
+                var stackdroplist = droplog[k].stackdrop;
+                for (var l = 0; l < stackdroplist.length; l += 1) {
+                    if (targetID === stackdroplist[l].id) {
                         found = true;
                         break;
                     }
@@ -627,6 +683,20 @@ function loadObject(logobj, tableid) {
                             numitemTOTAL[l] += 1;
                             if (!currdroplog.uplog) {
                                 numitemUNLOG[l] += 1;
+                            }
+                        }
+                    }
+                }
+            }
+            //Handle stack drops here
+            if (currdroplog.hasOwnProperty('stackdrop')) {
+                for (var k = 0; k < currdroplog.stackdrop.length; k += 1) {
+                    //Search for matches in the list of items
+                    for (var l = 0; l < imgpathmap.length; l += 1) {
+                        if (currdroplog.stackdrop[k].id === imgpathmap[l].id) {
+                            numitemTOTAL[l] += currdroplog.stackdrop[k].stack;
+                            if (!currdroplog.uplog) {
+                                numitemUNLOG[l] += currdroplog.stackdrop[k].stack;
                             }
                         }
                     }
