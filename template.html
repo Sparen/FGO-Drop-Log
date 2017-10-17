@@ -20,74 +20,12 @@
 <p>EXP Servant card drops are not tallied for free quests other than Fuyuki out of convention.</p>
 
 <h2>Logging Procedures</h2>
-<p>Whenever possible, go to the logged column and update the counts in the column. Update the date online and here as well.</p>
-<p>Every now and then results will be consolidated, and columns will be wiped. For this reason, the following will go into play:<br>
-Every cell will have 2 values. A to-report count, and a total count in []. The to-report count is how many drops have occurred since the last time I logged online. The total count is the total amount I have ever logged. Total count should ALWAYS be updated when I log in my local database here.</p>
-
+<p>Log new data in the log-master.js. The uplog field is true if I have already posted the data to the spreadsheet, and false otherwise.</p>
+<p>Cells will contain the following format: # [#], where the outer number is the number of unlogged data points and where the number in brackets is the total count.</p>
 
 <h1 class="h-master">MASTER</h3>
-<p>Tables with all items in order are here for reference. When creating the table for a new region, copy the appropriate th headers; remove items that don't spawn in that area.</p>
-<p>It will be best to compress pieces and monuments for free quests, and perhaps gems as well. See Okeanos for format.</p>
-
-<table>
-<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>
-<th><img class="item" src="./icon/Shiningsaber.png"><br>S</th>
-<th><img class="item" src="./icon/Shininglancer.png"><br>L</th>
-<th><img class="item" src="./icon/Shiningarcher.png"><br>A</th>
-<th><img class="item" src="./icon/Shiningrider.png"><br>R</th>
-<th><img class="item" src="./icon/Shiningcaster.png"><br>C</th>
-<th><img class="item" src="./icon/Shiningassassin.png"><br>A</th>
-<th><img class="item" src="./icon/Shiningberserker.png"><br>B</th>
-</tr>
-</table>
-
-<table>
-<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>
-<th><img class="item" src="./icon/Magicsaber.png"><br>S</th>
-<th><img class="item" src="./icon/Magiclancer.png"><br>L</th>
-<th><img class="item" src="./icon/Magicarcher.png"><br>A</th>
-<th><img class="item" src="./icon/Magicrider.png"><br>R</th>
-<th><img class="item" src="./icon/Magiccaster.png"><br>C</th>
-<th><img class="item" src="./icon/Magicassassin.png"><br>A</th>
-<th><img class="item" src="./icon/Magicberserker.png"><br>B</th>
-</tr>
-</table>
-
-<table>
-<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>
-<th><img class="item" src="./icon/Saber_piece.png"><br>S</th>
-<th><img class="item" src="./icon/Lancer_piece.png"><br>L</th>
-<th><img class="item" src="./icon/Archer_piece.png"><br>A</th>
-<th><img class="item" src="./icon/Rider_piece.png"><br>R</th>
-<th><img class="item" src="./icon/Caster_piece.png"><br>C</th>
-<th><img class="item" src="./icon/Assassin_piece.png"><br>A</th>
-<th><img class="item" src="./icon/Berserker_piece.png"><br>B</th>
-</tr>
-</table>
-
-<table>
-<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>
-<th><img class="item" src="./icon/Saber_monument.png"><br>S</th>
-<th><img class="item" src="./icon/Lancer_monument.png"><br>L</th>
-<th><img class="item" src="./icon/Archer_monument.png"><br>A</th>
-<th><img class="item" src="./icon/Rider_monument.png"><br>R</th>
-<th><img class="item" src="./icon/Caster_monument.png"><br>C</th>
-<th><img class="item" src="./icon/Assassin_monument.png"><br>A</th>
-<th><img class="item" src="./icon/Berserker_monument.png"><br>B</th>
-</tr>
-</table>
-
-<table>
-<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Saber.png"><br>S</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Lancer.png"><br>L</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Archer.png"><br>A</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Rider.png"><br>R</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Caster.png"><br>C</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Assassin.png"><br>A</th>
-<th><img class="item" src="./icon/Ember-of-Wisdom---Brown-Berserker.png"><br>B</th>
-</tr>
-</table>
+<p>There used to be many tables here, but I automated everything with Javascript. :(</p>
+<p>I'm only leaving the nice drops because why not.</p>
 
 <table>
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th>

@@ -12,5 +12,7 @@ In order to accomplish the task in a way that is intuitive to me, I have decided
 
 This repository is not open to pull requests. As it is a personal log, it is meant to track exclusively my contributions. I also discourage forking the project and trying to use the system for yourself, as the HTML tables and font sizes + image sizes were haphazardly cobbled together so that they can barely fit on my screen, let alone yours. Additionally, I wedged myself into an admittedly horrible way of keeping track of drops due to the monthly consolidation of drop data and the necessity to avoid providing duplicate data.
 
+P.S. Don't look at the JavaScript. The nested loops are hideous.
+
 As of yet, I do not know how long I will maintain this project, or how many different things I will cover (e.g. events). However, the data is available for those who are curious.
 
