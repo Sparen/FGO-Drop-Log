@@ -1,8 +1,11 @@
 "use strict";
 
-//When adding new data, use CTRL-F on the name of the quest or class.
-//That's the only sane way to do this, unfortunately
+//When adding new data, use CTRL-F on the name of the region, quest name, or class.
+//That's the only sane way to do this, unfortunately.
+//Use _SABER, _FUYUKI, etc.
 
+/* ----- ----- ----- ----- ----- DAILY QUESTS ----- ----- ----- ----- ----- */
+// _SABER 
 var daily_saber_obj = {
     "quests": [
         {
@@ -29,7 +32,7 @@ var daily_saber_obj = {
         }
     ]
 };
-
+// _LANCER
 var daily_lancer_obj = {
     "quests": [
         {
@@ -54,7 +57,7 @@ var daily_lancer_obj = {
         }
     ]
 };
-
+// _ARCHER
 var daily_archer_obj = {
     "quests": [
         {
@@ -93,7 +96,7 @@ var daily_archer_obj = {
         }
     ]
 };
-
+// _RIDER
 var daily_rider_obj = {
     "quests": [
         {
@@ -118,7 +121,7 @@ var daily_rider_obj = {
         }
     ]
 };
-
+// _CASTER
 var daily_caster_obj = {
     "quests": [
         {
@@ -143,7 +146,7 @@ var daily_caster_obj = {
         }
     ]
 };
-
+// _ASSASSIN
 var daily_assassin_obj = {
     "quests": [
         {
@@ -168,7 +171,7 @@ var daily_assassin_obj = {
         }
     ]
 };
-
+// _BERSERKER
 var daily_berserker_obj = {
     "quests": [
         {
@@ -193,6 +196,239 @@ var daily_berserker_obj = {
         }
     ]
 };
+
+/* ----- ----- ----- ----- ----- FREE QUESTS ----- ----- ----- ----- ----- */
+// _FUYUKI
+var free_fuyuki_obj = {
+    "quests": [
+        {
+            "qname": "X-A: The Residential Ruin", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": [] }
+            ]
+        },
+        {
+            "qname": "X-B: Ground Zero", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X-C: Giant Bridge", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X-D: Blood Soaked Port", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X-E: Church of Wandering Corpses", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X-F: Burnt-Down Schoolhouse", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X-G: Blazing Forest", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mobile Coordinate No.0: Massive Cavern", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+// _ORLEANS
+var free_orleans_obj = {
+    "quests": [
+        {
+            "qname": "Domremy: Jeanne's Birthplace", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Vaucouleure: First Fortress", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "La Charite: Loire Ridge", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Jura: Primeval Forest", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Lyon: Town of the Dead", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Marseille: Facing the Mediterranean Sea", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Thiers: Town of Blades", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Bordeaux: A Toast with Wine", "last-upd": "2017 10 16", "column": "3",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
+            ]
+        },
+        {
+            "qname": "Orleans: Fateful Fortress", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Paris: City of Art", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+// _SEPTEM
+var free_septem_obj = {
+    "quests": [
+        {
+            "qname": "Appia Road: Queen of the Street", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Rome: Rome Was Not Built In A Day", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mt. Etna: Exciting Land", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Florence: City of Flowers", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mediolanum: Middle of the Plain", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Germania: The Dark Forest", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Massilia: An Ancient Harbour", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Gaul: Smoldering Warzone", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Britania: Misty Forest", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Shaped Isle: Cave of the Goddess", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Alliance Capital: Rome's Horizon", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+// _OKEANOS
+var free_okeanos_obj = {
+    "quests": [
+        {
+            "qname": "Pirate Ship: Band of Corsairs", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Pirate Island: Pirate Hideout", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "King's Abode Island: Cursed Pirates", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mapped Island: Minotaur's Maze", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Sunken Rock Seas: Ship Graveyard", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": [] }
+            ]
+        },
+        {
+            "qname": "Two-Current Sea: Sea of Freedom", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Island of Wyverns: Dragon Paradise", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Caldera Island: Unexplored Island", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Stormy Seas: Wandering Ghost Ship", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Archipelago: Quiet Bay", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Bountiful Sea: Secret Route", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+/* ----- ----- ----- ----- ----- CODE ----- ----- ----- ----- ----- */
 
 //Map contiaining item string -> image path data
 var imgpathmap = [];
@@ -304,6 +540,18 @@ function loadDaily() {
     loadObject(daily_assassin_obj, "daily-assassin");
     console.log("loadDaily: Loading Daily Quests - Berserker");
     loadObject(daily_berserker_obj, "daily-berserker");
+}
+
+function loadFree() {
+    initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    console.log("loadFree: Loading Free Quests - Fuyuki");
+    loadObject(free_fuyuki_obj, "free-fuyuki");
+    console.log("loadFree: Loading Free Quests - Orleans");
+    loadObject(free_orleans_obj, "free-orleans");
+    console.log("loadFree: Loading Free Quests - Septem");
+    loadObject(free_septem_obj, "free-septem");
+    console.log("loadFree: Loading Free Quests - Okeanos");
+    loadObject(free_okeanos_obj, "free-okeanos");
 }
 
 //Loads log object into the HTML table located at tableid
