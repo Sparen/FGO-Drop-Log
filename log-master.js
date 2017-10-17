@@ -435,33 +435,33 @@ var free_okeanos_obj = {
 var event_halloween2017_obj = {
     "quests": [
         {
-            "qname": "Dancer's Castle Gate: 10 AP", "last-upd": "", "column": "",
+            "qname": "Dancer's Castle Gate: 10 AP", "last-upd": "", "column": "30",
             "droplog": [
             ]
         },
         {
-            "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "", "column": "",
+            "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "2017 10 17", "column": "30",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
-            "qname": "Throne of the Impaler: 30 AP", "last-upd": "", "column": "",
+            "qname": "Throne of the Impaler: 30 AP", "last-upd": "2017 10 17", "column": "30",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
-            "qname": "Hidden Room of Cat Maid: 40 AP", "last-upd": "", "column": "",
+            "qname": "Hidden Room of Cat Maid: 40 AP", "last-upd": "2017 10 17", "column": "30",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 6}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GHOST_LANTERN", "GHOST_LANTERN"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "PUMPKIN_LANTERN", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 3}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
-                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_ASS"], "stackdrop": [{"id": "PUMPKIN_LANTERN", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 6}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GHOST_LANTERN", "GHOST_LANTERN"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "PUMPKIN_LANTERN", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 3}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_ASS"], "stackdrop": [{"id": "PUMPKIN_LANTERN", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] }
             ]
         }
     ]
