@@ -21,7 +21,7 @@ As of yet, I do not know how long I will maintain this project, or how many diff
 
 I am logging on the following sites:
 
-[https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=439336721](Free Quests)  
-[https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=1345853608](Daily Quests)  
+[Free Quests](https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=439336721)  
+[Daily Quests](https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=1345853608)  
 
-[https://docs.google.com/spreadsheets/d/1NtTeo1hG7zaTpQrVHOyKDnA6NXnEq2187oLFd7jI8lo/edit#gid=748720390](Halloween Event 2017 Free Quests)  
+[Halloween Event 2017 Free Quests](https://docs.google.com/spreadsheets/d/1NtTeo1hG7zaTpQrVHOyKDnA6NXnEq2187oLFd7jI8lo/edit#gid=748720390)  
