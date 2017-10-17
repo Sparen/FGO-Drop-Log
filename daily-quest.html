@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="blah.css">
     <link rel="stylesheet" type="text/css" href="drop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<body id="mhome" onload="load()">
+<body id="mhome" onload="load();loadDaily()">
     <h1 style="background-color:darksalmon">Fate/Grand Order - Daily Quest Drops</h1>
 <div class="yui-t1" id="top">
     <div id="menubar">
@@ -14,7 +14,7 @@
     <div class="yui-g" id="indexnav">
 
 <h1 class="h-daily">SABER</h3>
-<table>
+<table id="daily-saber">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningsaber.png"><br>S</th>
 <th><img class="item" src="./icon/Magicsaber.png"><br>S</th>
@@ -71,7 +71,7 @@
 </table>
 
 <h1 class="h-daily">LANCER</h3>
-<table>
+<table id="daily-lancer">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shininglancer.png"><br>L</th>
 <th><img class="item" src="./icon/Magiclancer.png"><br>L</th>
@@ -128,7 +128,7 @@
 </table>
 
 <h1 class="h-daily">ARCHER</h3>
-<table>
+<table id="daily-archer">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningarcher.png"><br>A</th>
 <th><img class="item" src="./icon/Magicarcher.png"><br>A</th>
@@ -185,7 +185,7 @@
 </table>
 
 <h1 class="h-daily">RIDER</h3>
-<table>
+<table id="daily-rider">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningrider.png"><br>R</th>
 <th><img class="item" src="./icon/Magicrider.png"><br>R</th>
@@ -242,7 +242,7 @@
 </table>
 
 <h1 class="h-daily">CASTER</h3>
-<table>
+<table id="daily-caster">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningcaster.png"><br>C</th>
 <th><img class="item" src="./icon/Magiccaster.png"><br>C</th>
@@ -299,7 +299,7 @@
 </table>
 
 <h1 class="h-daily">ASSASSIN</h3>
-<table>
+<table id="daily-assassin">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningassassin.png"><br>A</th>
 <th><img class="item" src="./icon/Magicassassin.png"><br>A</th>
@@ -356,7 +356,7 @@
 </table>
 
 <h1 class="h-daily">BERSERKER</h3>
-<table>
+<table id="daily-berserker">
 <tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>
 <th><img class="item" src="./icon/Shiningberserker.png"><br>B</th>
 <th><img class="item" src="./icon/Magicberserker.png"><br>B</th>
@@ -420,5 +420,6 @@
       <footer id="ft">
       </footer>
     <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./log-master.js"></script>
 </body>
 </html>
