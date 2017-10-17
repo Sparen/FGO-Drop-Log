@@ -63,37 +63,37 @@ var daily_lancer_obj = {
 var daily_archer_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "10 AP", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["EXP_2_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["PIECE_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_3_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC"] }
+                { "uplog": true, "drop": ["EXP_2_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC"] }
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "20 AP", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC", "EVIL_BONE"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_2_ARC", "EVIL_BONE"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC", "EVIL_BONE"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_2_ARC", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "EXP_3_ARC", "EVIL_BONE"] }
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "30 AP", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC"] },
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "40 AP", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
             ]
         }
     ]
