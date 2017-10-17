@@ -622,19 +622,23 @@ function loadObject(logobj, tableid) {
             var droplog = logobj.quests[j].droplog;
             for (var k = 0; k < droplog.length; k += 1) {
                 //Regular drops
-                var droplist = droplog[k].drop;
-                for (var l = 0; l < droplist.length; l += 1) {
-                    if (targetID === droplist[l]) {
-                        found = true;
-                        break;
+                if (droplog[k].hasOwnProperty('drop')) {
+                    var droplist = droplog[k].drop;
+                    for (var l = 0; l < droplist.length; l += 1) {
+                        if (targetID === droplist[l]) {
+                            found = true;
+                            break;
+                        }
                     }
                 }
                 //Stack drops
-                var stackdroplist = droplog[k].stackdrop;
-                for (var l = 0; l < stackdroplist.length; l += 1) {
-                    if (targetID === stackdroplist[l].id) {
-                        found = true;
-                        break;
+                if (droplog[k].hasOwnProperty('stackdrop')) {
+                    var stackdroplist = droplog[k].stackdrop;
+                    for (var l = 0; l < stackdroplist.length; l += 1) {
+                        if (targetID === stackdroplist[l].id) {
+                            found = true;
+                            break;
+                        }
                     }
                 }
             }
