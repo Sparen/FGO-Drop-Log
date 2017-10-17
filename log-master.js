@@ -442,17 +442,24 @@ var event_halloween2017_obj = {
         {
             "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
             "qname": "Throne of the Impaler: 30 AP", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
             "qname": "Hidden Room of Cat Maid: 40 AP", "last-upd": "", "column": "",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] }
+                { "uplog": false, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
+                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] },
+                { "uplog": false, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 6}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GHOST_LANTERN", "GHOST_LANTERN"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
+                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}] }
             ]
         }
     ]
