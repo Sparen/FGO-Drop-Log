@@ -38,11 +38,13 @@ var daily_lancer_obj = {
         {
             "qname": "10 AP", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] }
             ]
         },
         {
             "qname": "20 AP", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["EXP_3_LAN", "PIECE_LAN", "EVIL_BONE", "EVIL_BONE"] }
             ]
         },
         {
