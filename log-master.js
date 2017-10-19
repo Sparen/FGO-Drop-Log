@@ -735,7 +735,9 @@ function loadObject(logobj, tableid) {
         //Next, the drops
         for (var m = 0; m < imgpathmap.length; m += 1) {
             if (logItems[m] === 1) {
-                tablehtml += '<td>' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']</td>';
+                var percent = (numitemTOTAL[m] / numrunsTOTAL * 100).toFixed(1);
+                if (numrunsTOTAL === 0) {percent = (0).toFixed(1);} //avoid NaN
+                tablehtml += '<td>' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '%</td>';
             }
         }
 
