@@ -443,7 +443,8 @@ var event_halloween2017_obj = {
         {
             "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "2017 10 17", "column": "30",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
