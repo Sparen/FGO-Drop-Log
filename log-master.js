@@ -36,16 +36,16 @@ var daily_saber_obj = {
 var daily_lancer_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "10 AP", "last-upd": "2017 10 24", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] },
-                { "uplog": false, "drop": ["GEM_BL_LAN", "EXP_2_LAN", "EXP_3_LAN"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "EXP_2_LAN", "EXP_3_LAN"] }
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "20 AP", "last-upd": "2017 10 24", "column": "125",
             "droplog": [
-                { "uplog": false, "drop": ["EXP_3_LAN", "PIECE_LAN", "EVIL_BONE", "EVIL_BONE"] }
+                { "uplog": true, "drop": ["EXP_3_LAN", "PIECE_LAN", "EVIL_BONE", "EVIL_BONE"] }
             ]
         },
         {
