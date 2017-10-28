@@ -522,6 +522,11 @@ var event_halloween2017_obj = {
                 { "uplog": false, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 7}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}] },
                 { "uplog": false, "drop": ["GEM_BL_CAS", "EVIL_BONE", "GHOST_LANTERN"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}] }
             ]
+        },
+        {
+            "qname": "Live Stage of the Dragon Princess: 50 AP", "last-upd": "", "column": "30",
+            "droplog": [
+            ]
         }
     ]
 };
