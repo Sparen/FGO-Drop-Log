@@ -92,9 +92,10 @@ var daily_archer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Archer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 30", "column": "30",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] }
             ]
         }
     ]
