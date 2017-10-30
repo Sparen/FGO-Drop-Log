@@ -457,7 +457,10 @@ var event_halloween2017_obj = {
                 { "uplog": true, "drop": ["GEM_BL_BER"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_CAS"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 4}] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 4}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 6}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
