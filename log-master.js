@@ -805,11 +805,17 @@ function loadObject(logobj, tableid) {
         //Next, the drops
         for (var m = 0; m < imgpathmap.length; m += 1) {
             if (logItems[m] === 1) {
-                var decimalfix = 1; //default to 1 decimal place
-                if ((numitemTOTAL[m] / numrunsTOTAL * 100) >= 100) {decimalfix = 0;}
-                var percent = (numitemTOTAL[m] / numrunsTOTAL * 100).toFixed(decimalfix);
-                if (numrunsTOTAL === 0) {percent = (0).toFixed(decimalfix);} //avoid NaN
-                tablehtml += '<td>' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '%</td>';
+                var percentdecimalfix = 1; //default to 1 decimal place
+                if ((numitemTOTAL[m] / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+                var percent = (numitemTOTAL[m] / numrunsTOTAL * 100).toFixed(percentdecimalfix);
+                if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
+
+                var apperdropdecimalfix = 1; //default to 1 decimal place
+                if ((quest.ap.toString()/(numitemTOTAL[m] / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+                var apperdrop = (parseInt(quest.ap)/(numitemTOTAL[m] / numrunsTOTAL)).toFixed(apperdropdecimalfix);
+                if (numrunsTOTAL === 0 || numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
+
+                tablehtml += '<td>' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span></td>';
             }
         }
 
