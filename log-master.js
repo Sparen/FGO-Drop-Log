@@ -5,66 +5,66 @@
 //Use _SABER, _FUYUKI, etc.
 
 /* ----- ----- ----- ----- ----- DAILY QUESTS ----- ----- ----- ----- ----- */
-// _SABER 
-var daily_saber_obj = {
+// _SABER 2017 OCT
+var daily_saber_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "2017 10 16", "column": "125",
+            "qname": "Saber Training Ground - Novice", "ap": "10", "last-upd": "2017 10 16", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB"] }
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "Saber Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Saber Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "2017 10 16", "column": "125",
+            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 10 16", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] }
             ]
         }
     ]
 };
-// _LANCER
-var daily_lancer_obj = {
+// _LANCER 2017 OCT
+var daily_lancer_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "2017 10 24", "column": "125",
+            "qname": "Lancer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 24", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "EXP_2_LAN", "EXP_3_LAN"] }
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "2017 10 24", "column": "125",
+            "qname": "Lancer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 24", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_3_LAN", "PIECE_LAN", "EVIL_BONE", "EVIL_BONE"] }
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Lancer Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
     ]
 };
-// _ARCHER
-var daily_archer_obj = {
+// _ARCHER 2017 OCT
+var daily_archer_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_2_ARC", "EXP_3_ARC"] },
                 { "uplog": true, "drop": ["PIECE_ARC"] },
@@ -77,7 +77,7 @@ var daily_archer_obj = {
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_2_ARC", "EVIL_BONE"] },
@@ -86,115 +86,115 @@ var daily_archer_obj = {
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Advanced", "ap": "30", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC"] }
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 17", "column": "125",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] }
             ]
         }
     ]
 };
-// _RIDER
-var daily_rider_obj = {
+// _RIDER 2017 OCT
+var daily_rider_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "Rider Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "Rider Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 30", "column": "30",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "EXP_3_RID", "EXP_3_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "EXP_3_RID", "EXP_3_RID"] }
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Rider Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
     ]
 };
-// _CASTER
-var daily_caster_obj = {
+// _CASTER 2017 OCT
+var daily_caster_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
     ]
 };
-// _ASSASSIN
-var daily_assassin_obj = {
+// _ASSASSIN 2017 OCT
+var daily_assassin_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "Assassin Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "Assassin Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Assassin Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
     ]
 };
-// _BERSERKER
-var daily_berserker_obj = {
+// _BERSERKER 2017 OCT
+var daily_berserker_2017_10_obj = {
     "quests": [
         {
-            "qname": "10 AP", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "20 AP", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "30 AP", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "40 AP", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
@@ -206,43 +206,43 @@ var daily_berserker_obj = {
 var free_fuyuki_obj = {
     "quests": [
         {
-            "qname": "X-A: The Residential Ruin", "last-upd": "", "column": "",
+            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "", "column": "",
             "droplog": [
                 { "uplog": false, "drop": [] }
             ]
         },
         {
-            "qname": "X-B: Ground Zero", "last-upd": "", "column": "",
+            "qname": "X-B: Ground Zero", "ap": "4", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "X-C: Giant Bridge", "last-upd": "", "column": "",
+            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "X-D: Blood Soaked Port", "last-upd": "", "column": "",
+            "qname": "X-D: Blood Soaked Port", "ap": "5", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "X-E: Church of Wandering Corpses", "last-upd": "", "column": "",
+            "qname": "X-E: Church of Wandering Corpses", "ap": "5", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "X-F: Burnt-Down Schoolhouse", "last-upd": "", "column": "",
+            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "X-G: Blazing Forest", "last-upd": "", "column": "",
+            "qname": "X-G: Blazing Forest", "ap": "15", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Mobile Coordinate No.0: Massive Cavern", "last-upd": "", "column": "",
+            "qname": "Mobile Coordinate No.0: Massive Cavern", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
@@ -252,42 +252,42 @@ var free_fuyuki_obj = {
 var free_orleans_obj = {
     "quests": [
         {
-            "qname": "Domremy: Jeanne's Birthplace", "last-upd": "", "column": "",
+            "qname": "Domremy: Jeanne's Birthplace", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Vaucouleure: First Fortress", "last-upd": "", "column": "",
+            "qname": "Vaucouleure: First Fortress", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "La Charite: Loire Ridge", "last-upd": "", "column": "",
+            "qname": "La Charite: Loire Ridge", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Jura: Primeval Forest", "last-upd": "", "column": "",
+            "qname": "Jura: Primeval Forest", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Lyon: Town of the Dead", "last-upd": "", "column": "",
+            "qname": "Lyon: Town of the Dead", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Marseille: Facing the Mediterranean Sea", "last-upd": "", "column": "",
+            "qname": "Marseille: Facing the Mediterranean Sea", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Thiers: Town of Blades", "last-upd": "", "column": "",
+            "qname": "Thiers: Town of Blades", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "last-upd": "2017 10 16", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2017 10 16", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -299,12 +299,12 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Orleans: Fateful Fortress", "last-upd": "", "column": "",
+            "qname": "Orleans: Fateful Fortress", "ap": "8", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Paris: City of Art", "last-upd": "", "column": "",
+            "qname": "Paris: City of Art", "ap": "13", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
@@ -314,57 +314,57 @@ var free_orleans_obj = {
 var free_septem_obj = {
     "quests": [
         {
-            "qname": "Appia Road: Queen of the Street", "last-upd": "", "column": "",
+            "qname": "Appia Road: Queen of the Street", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Rome: Rome Was Not Built In A Day", "last-upd": "", "column": "",
+            "qname": "Rome: Rome Was Not Built In A Day", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Mt. Etna: Exciting Land", "last-upd": "", "column": "",
+            "qname": "Mt. Etna: Exciting Land", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Florence: City of Flowers", "last-upd": "", "column": "",
+            "qname": "Florence: City of Flowers", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Mediolanum: Middle of the Plain", "last-upd": "", "column": "",
+            "qname": "Mediolanum: Middle of the Plain", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Germania: The Dark Forest", "last-upd": "", "column": "",
+            "qname": "Germania: The Dark Forest", "ap": "15", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Massilia: An Ancient Harbour", "last-upd": "", "column": "",
+            "qname": "Massilia: An Ancient Harbour", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Gaul: Smoldering Warzone", "last-upd": "", "column": "",
+            "qname": "Gaul: Smoldering Warzone", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Britania: Misty Forest", "last-upd": "", "column": "",
+            "qname": "Britannia: Misty Forest", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Shaped Isle: Cave of the Goddess", "last-upd": "", "column": "",
+            "qname": "Shaped Isle: Cave of the Goddess", "ap": "9", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Alliance Capital: Rome's Horizon", "last-upd": "", "column": "",
+            "qname": "Alliance Capital: Rome's Horizon", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
@@ -374,58 +374,58 @@ var free_septem_obj = {
 var free_okeanos_obj = {
     "quests": [
         {
-            "qname": "Pirate Ship: Band of Corsairs", "last-upd": "", "column": "",
+            "qname": "Pirate Ship: Band of Corsairs", "ap": "12", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Pirate Island: Pirate Hideout", "last-upd": "", "column": "",
+            "qname": "Pirate Island: Pirate Hideout", "ap": "13", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "King's Abode Island: Cursed Pirates", "last-upd": "", "column": "",
+            "qname": "King's Abode Island: Cursed Pirates", "ap": "13", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Mapped Island: Minotaur's Maze", "last-upd": "", "column": "",
+            "qname": "Mapped Island: Minotaur's Maze", "ap": "13", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Sunken Rock Seas: Ship Graveyard", "last-upd": "", "column": "",
+            "qname": "Sunken Rock Seas: Ship Graveyard", "ap": "17", "last-upd": "", "column": "",
             "droplog": [
                 { "uplog": false, "drop": [] }
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "last-upd": "", "column": "",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Island of Wyverns: Dragon Paradise", "last-upd": "", "column": "",
+            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Caldera Island: Unexplored Island", "last-upd": "", "column": "",
+            "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Stormy Seas: Wandering Ghost Ship", "last-upd": "", "column": "",
+            "qname": "Stormy Seas: Wandering Ghost Ship", "ap": "15", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Archipelago: Quiet Bay", "last-upd": "", "column": "",
+            "qname": "Archipelago: Quiet Bay", "ap": "15", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "Bountiful Sea: Secret Route", "last-upd": "", "column": "",
+            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
@@ -437,13 +437,13 @@ var free_okeanos_obj = {
 var event_halloween2017_obj = {
     "quests": [
         {
-            "qname": "Dancer's Castle Gate: 10 AP", "last-upd": "2017 10 19", "column": "30",
+            "qname": "Dancer's Castle Gate: First Stage", "ap": "10", "last-upd": "2017 10 19", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN", "EVIL_BONE"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 6}] }
             ]
         },
         {
-            "qname": "Great Hall of the Cleaning Queen: 20 AP", "last-upd": "2017 10 29", "column": "30",
+            "qname": "Great Hall of the Cleaning Queen: Second Stage", "ap": "20", "last-upd": "2017 10 29", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] },
                 { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 2}] },
@@ -460,13 +460,13 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Throne of the Impaler: 30 AP", "last-upd": "2017 10 17", "column": "30",
+            "qname": "Throne of the Impaler: Thid Stage", "ap": "30", "last-upd": "2017 10 17", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
-            "qname": "Hidden Room of Cat Maid: 40 AP", "last-upd": "2017 10 28", "column": "30",
+            "qname": "Hidden Room of Cat Maid: Final Stage", "ap": "40", "last-upd": "2017 10 28", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
@@ -534,7 +534,7 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Live Stage of the Dragon Princess: 50 AP", "last-upd": "2017 10 28", "column": "30",
+            "qname": "Live Stage of the Dragon Princess: Encore Live", "ap": "50", "last-upd": "2017 10 28", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "MISCHIEVOUS_BAT", "stack": 10}, {"id": "PETIT_CAKE", "stack": 8}, {"id": "PETIT_CAKE", "stack": 8}] }
             ]
@@ -653,20 +653,20 @@ function initPathMap() {
 
 function loadDaily() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
-    console.log("loadDaily: Loading Daily Quests - Saber");
-    loadObject(daily_saber_obj, "daily-saber");
-    console.log("loadDaily: Loading Daily Quests - Lancer");
-    loadObject(daily_lancer_obj, "daily-lancer");
-    console.log("loadDaily: Loading Daily Quests - Archer");
-    loadObject(daily_archer_obj, "daily-archer");
-    console.log("loadDaily: Loading Daily Quests - Rider");
-    loadObject(daily_rider_obj, "daily-rider");
-    console.log("loadDaily: Loading Daily Quests - Caster");
-    loadObject(daily_caster_obj, "daily-caster");
-    console.log("loadDaily: Loading Daily Quests - Assassin");
-    loadObject(daily_assassin_obj, "daily-assassin");
-    console.log("loadDaily: Loading Daily Quests - Berserker");
-    loadObject(daily_berserker_obj, "daily-berserker");
+    console.log("loadDaily: Loading Daily Quests - Saber (Oct 2017 Dailies)");
+    loadObject(daily_saber_2017_10_obj, "daily-saber-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Lancer (Oct 2017 Dailies)");
+    loadObject(daily_lancer_2017_10_obj, "daily-lancer-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Archer (Oct 2017 Dailies)");
+    loadObject(daily_archer_2017_10_obj, "daily-archer-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Rider (Oct 2017 Dailies)");
+    loadObject(daily_rider_2017_10_obj, "daily-rider-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Caster (Oct 2017 Dailies)");
+    loadObject(daily_caster_2017_10_obj, "daily-caster-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Assassin (Oct 2017 Dailies)");
+    loadObject(daily_assassin_2017_10_obj, "daily-assassin-2017-10");
+    console.log("loadDaily: Loading Daily Quests - Berserker (Oct 2017 Dailies)");
+    loadObject(daily_berserker_2017_10_obj, "daily-berserker-2017-10");
 }
 
 function loadFree() {
@@ -689,7 +689,7 @@ function loadEvent() {
 
 //Loads log object into the HTML table located at tableid
 function loadObject(logobj, tableid) {
-    var tablehtml = "<tr><th>Location + Quest</th><th>Col</th><th>Last Upd</th><th>#</th>";
+    var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>#</th>";
 
     //We want to determine all the possible items that spawn given all occurrences in this object.
     //We will store this using a boolean array of size equivalent to that of imgpathmap
@@ -798,7 +798,7 @@ function loadObject(logobj, tableid) {
         }
         //Now that we've checked everything in the droplogs, let's create the table row for this quest
         //First, the basic information
-        tablehtml += '<tr><td>' + quest.qname + '</td><td>' + quest.column + '</td>';
+        tablehtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
         tablehtml += '<td>' + quest["last-upd"] + '</td>';
         tablehtml += '<td>' + numrunsUNLOG.toString() + ' [' + numrunsTOTAL.toString() + ']</td>';
 
