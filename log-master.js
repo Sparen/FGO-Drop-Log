@@ -699,12 +699,14 @@ function loadQueryEngine() {
     for (var i = 0; i < numitems; i += 1) {
         //Retrieve the target Item ID
         var targetID = imgpathmap[i].id;
+        var targetPath = imgpathmap[i].path;
+        var targetLabel = imgpathmap[i].label;
         var targetqengine = imgpathmap[i].qengine;
         if (targetqengine) {
-            var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\')">Run</button>';
+            var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\', \'' + targetPath + '\', \'' + targetLabel + '\')">Run</button>';
             var tablerow = '';
             if (i % 7 == 0) {tablerow += '<tr>';}
-            tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + imgpathmap[i].path + '"><br>' + imgpathmap[i].label + '<br>' + button + '</th>';
+            tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + targetPath + '"><br>' + targetLabel + '<br>' + button + '</th>';
             if (i % 7 == 6) {tablerow += '</tr>';}
             tablecontents += tablerow;
         }
@@ -854,8 +856,10 @@ function loadObject(logobj, tableid) {
 }
 
 //Calculates stats for the given item ID
-function getDropStats(itemID) {
-    var todisplay = "Query Results:<br>----------------------------------------<br>";
+function getDropStats(itemID, itemPath, itemLabel) {
+    var todisplay = "<p>Query Results:</p>";
+    todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
+    todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
     todisplay += getDropStatsQ(itemID, daily_saber_2017_10_obj);
     todisplay += getDropStatsQ(itemID, daily_lancer_2017_10_obj);
@@ -868,16 +872,62 @@ function getDropStats(itemID) {
     todisplay += getDropStatsQ(itemID, free_orleans_obj);
     todisplay += getDropStatsQ(itemID, free_septem_obj);
     todisplay += getDropStatsQ(itemID, free_okeanos_obj);
-    todisplay += "----------------------------------------<br>";
+    todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;
 }
 
-function getDropStatsQ(itemID, questobj) {
+function getDropStatsQ(itemID, logobj) {
     var toreturn = "";
 
-    //If we added at least one quest, add a break
-    if (toreturn != "") {
-        toreturn += "<br>";
+    //For every quest in the log object...
+    for (var i = 0; i < logobj.quests.length; i += 1) {
+        var quest = logobj.quests[i];
+        //Gather data
+        var numrunsTOTAL = 0;
+        var numitemcountTOTAL = 0;
+        //Now we iterate through the droplogs
+        for (var j = 0; j < quest.droplog.length; j += 1) {
+            var currdroplog = quest.droplog[j];
+            //For every drop in the current droplog, if there are drops
+            if (currdroplog.hasOwnProperty('drop')) {
+                for (var k = 0; k < currdroplog.drop.length; k += 1) {
+                    if (currdroplog.drop[k] === itemID) {
+                        numitemcountTOTAL += 1;
+                    }
+                }
+            }
+            //Handle stack drops here
+            if (currdroplog.hasOwnProperty('stackdrop')) {
+                for (var k = 0; k < currdroplog.stackdrop.length; k += 1) {
+                    if (currdroplog.stackdrop[k].id === itemID) {
+                        numitemcountTOTAL += currdroplog.stackdrop[k].stack;
+                    }
+                }
+            }
+            //Increment run counts
+            numrunsTOTAL += 1;
+        }
+        //If at least one occurrence of the item dropped, we will write a log.
+        if (numitemcountTOTAL > 0) {
+            //Let us begin the output
+            //First, the basic information
+            toreturn += '<div style="border: 1px solid #222222; padding: 8px">'
+            toreturn += '<h4 style="color:#FFEEEE; border-left: 4px solid #CCCCCC; padding-left: 4px">' + quest.qname + '</h4>';
+            toreturn += '<div class="useDIN" style="padding-left: 16px">AP: ' + quest.ap + '<br>Number of runs: ' + numrunsTOTAL.toString() + '<br>';
+
+            var percentdecimalfix = 1; //default to 1 decimal place
+            if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+            var percent = (numitemcountTOTAL / numrunsTOTAL * 100).toFixed(percentdecimalfix);
+            if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
+
+            var apperdropdecimalfix = 1; //default to 1 decimal place
+            if ((quest.ap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+            var apperdrop = (parseInt(quest.ap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
+            if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
+
+            toreturn += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span></div>';
+            toreturn += '</div>'
+        }
     }
     return toreturn
 }
