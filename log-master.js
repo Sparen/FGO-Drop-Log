@@ -54,8 +54,9 @@ var daily_lancer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
+            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 31", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "EXP_1_LAN", "EXP_2_LAN", "EXP_2_LAN", "VOIDS_DUST"] }
             ]
         }
     ]
@@ -444,7 +445,7 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Great Hall of the Cleaning Queen: Second Stage", "ap": "20", "last-upd": "2017 10 29", "column": "30",
+            "qname": "Great Hall of the Cleaning Queen: Second Stage", "ap": "20", "last-upd": "2017 10 31", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] },
                 { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 2}] },
@@ -460,7 +461,8 @@ var event_halloween2017_obj = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}] },
                 { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}] },
                 { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 3}, {"id": "SWEET_CANDLE", "stack": 4}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 6}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 6}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 2}] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 4}] }
             ]
         },
         {
