@@ -186,18 +186,21 @@ var daily_berserker_2017_10_obj = {
             ]
         },
         {
-            "qname": "Berserker Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Intermediate", "ap": "20", "last-upd": "2017 11 01", "column": "32",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_2_BER", "GEM_BL_BER", "GEM_BL_BER", "PIECE_BER"] }
             ]
         },
         {
-            "qname": "Berserker Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 01", "column": "32",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_3_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "VOIDS_DUST"] }
             ]
         },
         {
-            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
+            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2017 11 01", "column": "32",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_2_BER", "EXP_2_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER"] }
             ]
         }
     ]
