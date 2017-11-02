@@ -7,6 +7,7 @@
 /* ----- ----- ----- ----- ----- DAILY QUESTS ----- ----- ----- ----- ----- */
 // _SABER 2017 OCT
 var daily_saber_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Saber Training Ground - Novice", "ap": "10", "last-upd": "2017 10 16", "column": "125",
@@ -34,6 +35,7 @@ var daily_saber_2017_10_obj = {
 };
 // _LANCER 2017 OCT
 var daily_lancer_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Lancer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 24", "column": "125",
@@ -63,6 +65,7 @@ var daily_lancer_2017_10_obj = {
 };
 // _ARCHER 2017 OCT
 var daily_archer_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Archer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 17", "column": "125",
@@ -103,6 +106,7 @@ var daily_archer_2017_10_obj = {
 };
 // _RIDER 2017 OCT
 var daily_rider_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Rider Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -129,6 +133,7 @@ var daily_rider_2017_10_obj = {
 };
 // _CASTER 2017 OCT
 var daily_caster_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Caster Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -154,6 +159,7 @@ var daily_caster_2017_10_obj = {
 };
 // _ASSASSIN 2017 OCT
 var daily_assassin_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Assassin Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -179,6 +185,7 @@ var daily_assassin_2017_10_obj = {
 };
 // _BERSERKER 2017 OCT
 var daily_berserker_2017_10_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Berserker Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -209,6 +216,7 @@ var daily_berserker_2017_10_obj = {
 /* ----- ----- ----- ----- ----- FREE QUESTS ----- ----- ----- ----- ----- */
 // _FUYUKI
 var free_fuyuki_obj = {
+    "colors": ["#FFCC00", "#882200"],
     "quests": [
         {
             "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "", "column": "",
@@ -255,6 +263,7 @@ var free_fuyuki_obj = {
 };
 // _ORLEANS
 var free_orleans_obj = {
+    "colors": ["#AAFFCC", "#338844"],
     "quests": [
         {
             "qname": "Domremy: Jeanne's Birthplace", "ap": "7", "last-upd": "", "column": "",
@@ -333,6 +342,7 @@ var free_orleans_obj = {
 };
 // _SEPTEM
 var free_septem_obj = {
+    "colors": ["#FFFFCC", "#AA6600"],
     "quests": [
         {
             "qname": "Appia Road: Queen of the Street", "ap": "9", "last-upd": "", "column": "",
@@ -393,6 +403,7 @@ var free_septem_obj = {
 };
 // _OKEANOS
 var free_okeanos_obj = {
+    "colors": ["#CCEEFF", "#2222CC"],
     "quests": [
         {
             "qname": "Pirate Ship: Band of Corsairs", "ap": "12", "last-upd": "", "column": "",
@@ -440,7 +451,8 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_ARC"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
@@ -451,6 +463,8 @@ var free_okeanos_obj = {
         {
             "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_SAB", "METEORIC_HORSESHOE"] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
@@ -479,6 +493,7 @@ var free_okeanos_obj = {
 /* ----- ----- ----- ----- ----- EVENT QUESTS ----- ----- ----- ----- ----- */
 // _HALLOWEEN2017 
 var event_halloween2017_obj = {
+    "colors": ["#FFCCAA", "#CC6633"],
     "quests": [
         {
             "qname": "Dancer's Castle Gate: First Stage", "ap": "10", "last-upd": "2017 10 19", "column": "30",
@@ -902,6 +917,10 @@ function loadObject(logobj, tableid) {
 //Calculates stats for the given item ID
 function getDropStats(itemID, itemPath, itemLabel) {
     var todisplay = "<p>Query Results:</p>";
+    todisplay += '<p><span style="color:#FF0000">UNRELIABLE (0-5 Runs)</span><br><span style="color:#FF00AA">LACKING DATA (6-10 Runs)</span><br>';
+    todisplay += '<span style="color:#CCAAFF">SOMEWHAT RELIABLE (11-25 Runs)</span><br><span style="color:#88CCFF">RATHER RELIABLE (26-50 Runs)</span><br>';
+    todisplay += '<span style="color:#66DDFF">RELIABLE (51-75 Runs)</span><br><span style="color:#66EEDD">VERY RELIABLE (76-100 Runs)</span><br>';
+    todisplay += '<span style="color:#66FFCC">EXTREMELY RELIABLE (>100 Runs)</span></p>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
@@ -953,11 +972,27 @@ function getDropStatsQ(itemID, logobj) {
         }
         //If at least one occurrence of the item dropped, we will write a log.
         if (numitemcountTOTAL > 0) {
+            var textcolor = "#FFFFFF"; //Color of text. Will change depending on the reliability of the data.
+            if (numrunsTOTAL <= 5) {
+                textcolor = "#FF0000";
+            } else if (numrunsTOTAL <= 10) {
+                textcolor = "#FF00AA";
+            } else if (numrunsTOTAL <= 25) {
+                textcolor = "#CCAAFF";
+            } else if (numrunsTOTAL <= 50) {
+                textcolor = "#88CCFF";
+            } else if (numrunsTOTAL <= 75) {
+                textcolor = "#66DDFF";
+            } else if (numrunsTOTAL <= 100) {
+                textcolor = "#66EEDD";
+            } else {
+                textcolor = "#66FFCC";
+            }
             //Let us begin the output
             //First, the basic information
             toreturn += '<div style="border: 1px solid #222222; padding: 8px">'
-            toreturn += '<h4 style="color:#FFEEEE; border-left: 4px solid #CCCCCC; padding-left: 4px">' + quest.qname + '</h4>';
-            toreturn += '<div class="useDIN" style="padding-left: 16px">AP: ' + quest.ap + '<br>Number of runs: ' + numrunsTOTAL.toString() + '<br>';
+            toreturn += '<h4 style="color:' + logobj.colors[0] + '; background-color:' + logobj.colors[1] + ';border-left: 4px solid ' + logobj.colors[0] + '; padding-left: 4px">' + quest.qname + '</h4>';
+            toreturn += '<div class="useDIN" style="padding-left: 16px;color:' + textcolor + '">AP: ' + quest.ap + '<br>Number of runs: ' + numrunsTOTAL.toString() + '<br>';
 
             var percentdecimalfix = 1; //default to 1 decimal place
             if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
