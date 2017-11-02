@@ -287,7 +287,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Thiers: Town of Blades", "ap": "7", "last-upd": "2017 10 31", "column": "3",
+            "qname": "Thiers: Town of Blades", "ap": "7", "last-upd": "2017 11 01", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
@@ -295,7 +295,13 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["DRAGON_FANG"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] }
             ]
         },
         {
@@ -415,8 +421,10 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "", "column": "",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 01", "column": "37",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] }
             ]
         },
         {
