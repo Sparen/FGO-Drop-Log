@@ -141,18 +141,21 @@ var daily_caster_2017_10_obj = {
             ]
         },
         {
-            "qname": "Caster Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Intermediate", "ap": "20", "last-upd": "2017 11 03", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_3_CAS", "GEM_RD_CAS", "PIECE_CAS", "VOIDS_DUST"] }
             ]
         },
         {
-            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 03", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] }
             ]
         },
         {
-            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
+            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "2017 11 03", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] }
             ]
         }
     ]
@@ -432,7 +435,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 02", "column": "37",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 03", "column": "37",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
@@ -452,7 +455,15 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
