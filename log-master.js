@@ -472,7 +472,27 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC"] },
-                { "uplog": true, "drop": ["GEM_BL_BER"] }
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER"] },
+                { "uplog": true, "drop": ["GEM_RD_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] }
             ]
         },
         {
