@@ -16,19 +16,22 @@ var daily_saber_2017_10_obj = {
             ]
         },
         {
-            "qname": "Saber Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Saber Training Ground - Intermediate", "ap": "20", "last-upd": "2017 11 05", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "EXP_3_SAB"] }
             ]
         },
         {
-            "qname": "Saber Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Saber Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 05", "column": "30",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "MONU_SAB"] }
             ]
         },
         {
-            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 10 16", "column": "125",
+            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 11 05", "column": "30",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] }
             ]
         }
     ]
@@ -435,7 +438,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 03", "column": "37",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 05", "column": "37",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
