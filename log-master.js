@@ -448,7 +448,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 05", "column": "37",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 06", "column": "37",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
@@ -505,7 +505,9 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_BER"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] }
             ]
         },
         {
@@ -514,10 +516,10 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "2017 11 06", "column": "37",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_SAB", "METEORIC_HORSESHOE"] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -531,13 +533,17 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2017 11 02", "column": "44",
+            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2017 11 06", "column": "44",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER", "PHOENIX_FEATHER"] }
             ]
         }
     ]
