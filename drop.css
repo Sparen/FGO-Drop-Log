@@ -1,5 +1,8 @@
     p, .useDIN { 
-        font-family: DIN Alternate; 
+        font-family: DIN Alternate, Helvetica; 
+    }
+    .useMONO { 
+        font-family: Andale Mono, Lucida Console, monospace; 
     }
     table, tr, th, td {
         border: 1px solid white;

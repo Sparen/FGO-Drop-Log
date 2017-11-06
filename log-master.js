@@ -976,7 +976,7 @@ function loadObject(logobj, tableid) {
 //Calculates stats for the given item ID
 function getDropStats(itemID, itemPath, itemLabel) {
     var todisplay = "<p>Query Results:</p>";
-    todisplay += '<p><span style="color:#FF0000">UNRELIABLE (0-5 Runs)</span><br><span style="color:#FF00AA">LACKING DATA (6-10 Runs)</span><br>';
+    todisplay += '<p><span style="color:#FF6666">UNRELIABLE (0-5 Runs)</span><br><span style="color:#FF66AA">LACKING DATA (6-10 Runs)</span><br>';
     todisplay += '<span style="color:#CCAAFF">SOMEWHAT RELIABLE (11-25 Runs)</span><br><span style="color:#88CCFF">RATHER RELIABLE (26-50 Runs)</span><br>';
     todisplay += '<span style="color:#66DDFF">RELIABLE (51-75 Runs)</span><br><span style="color:#66EEDD">VERY RELIABLE (76-100 Runs)</span><br>';
     todisplay += '<span style="color:#66FFCC">EXTREMELY RELIABLE (>100 Runs)</span></p>';
@@ -1033,9 +1033,9 @@ function getDropStatsQ(itemID, logobj) {
         if (numitemcountTOTAL > 0) {
             var textcolor = "#FFFFFF"; //Color of text. Will change depending on the reliability of the data.
             if (numrunsTOTAL <= 5) {
-                textcolor = "#FF0000";
+                textcolor = "#FF6666";
             } else if (numrunsTOTAL <= 10) {
-                textcolor = "#FF00AA";
+                textcolor = "#FF66AA";
             } else if (numrunsTOTAL <= 25) {
                 textcolor = "#CCAAFF";
             } else if (numrunsTOTAL <= 50) {
@@ -1049,9 +1049,9 @@ function getDropStatsQ(itemID, logobj) {
             }
             //Let us begin the output
             //First, the basic information
-            toreturn += '<div style="border: 1px solid #222222; padding: 8px">'
-            toreturn += '<h4 style="color:' + logobj.colors[0] + '; background-color:' + logobj.colors[1] + ';border-left: 4px solid ' + logobj.colors[0] + '; padding-left: 4px">' + quest.qname + '</h4>';
-            toreturn += '<div class="useDIN" style="padding-left: 16px;color:' + textcolor + '">AP: ' + quest.ap + '<br>Number of runs: ' + numrunsTOTAL.toString() + '<br>';
+            toreturn += '<div style="border: 1px solid #222222; padding: 8px; background-color: #111111">'
+            toreturn += '<h4 style="color:' + logobj.colors[0] + '; background-color:' + logobj.colors[1] + ';border-left: 4px solid ' + logobj.colors[0] + '; padding-left: 4px">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
+            toreturn += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
 
             var percentdecimalfix = 1; //default to 1 decimal place
             if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
@@ -1062,6 +1062,9 @@ function getDropStatsQ(itemID, logobj) {
             if ((quest.ap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
             var apperdrop = (parseInt(quest.ap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
             if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
+
+            //Padding for slightly more uniform formatting. Not going beyond 1000 because it's pointless lol
+            if (numrunsTOTAL >= 1000) {toreturn += '&nbsp;';} else if (numrunsTOTAL >= 100) {toreturn += '&nbsp;&nbsp;';} else if (numrunsTOTAL >= 10) {toreturn += '&nbsp;&nbsp;&nbsp;';} else {toreturn += '&nbsp;&nbsp;&nbsp;&nbsp;';}
 
             toreturn += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span></div>';
             toreturn += '</div>'
