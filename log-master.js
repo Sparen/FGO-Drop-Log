@@ -28,10 +28,11 @@ var daily_saber_2017_10_obj = {
             ]
         },
         {
-            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 11 05", "column": "30",
+            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 11 06", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] },
-                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "VOIDS_DUST"] }
             ]
         }
     ]
@@ -99,10 +100,19 @@ var daily_archer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Archer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 30", "column": "30",
+            "qname": "Archer Training Ground - Expert", "ap": "40", "last-upd": "2017 11 06", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
-                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "MONU_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "EXP_3_ARC", "PROOF_OF_HERO", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC"] }
             ]
         }
     ]
