@@ -684,8 +684,32 @@ var event_gudaguda2017_obj = {
     "colors": ["#FFAAAA", "#CC3333"],
     "quests": [
         {
-            "qname": "", "ap": "10", "last-upd": "", "column": "",
+            "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "GUDAGUDA Tea Set Collection - Intermediate", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 300}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "GUDAGUDA Tea Set Collection - Advanced", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 300}, {"id": "HONNOJI_POINTS", "stack": 300}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 4}, {"id": "HIRA_GUMO", "stack": 2}, {"id": "HIRA_GUMO", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Sanjiva [BER]", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["PROOF_OF_HERO", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 5}] }
             ]
         }
     ]
@@ -797,9 +821,10 @@ function initPathMap() {
     imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/_event/Trick_bat.png", "label": "MB", "qengine": false});
     imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/_event/Pumpkin.png", "label": "PL", "qengine": false});
     //-- GUDAGUDA 2017
+    imgpathmap.push({"id": "HONNOJI_POINTS", "path": "./icon/_event/Honnoji.png", "label": "HP", "qengine": false});
     imgpathmap.push({"id": "TSUKUMOGAMI_NASU", "path": "./icon/_event/Tsukumogami_nasu.png", "label": "TN", "qengine": false});
-    imgpathmap.push({"id": "YOUHEN_TENMOKU_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": false});
-    imgpathmap.push({"id": "HIRAGUMO", "path": "./icon/_event/Hiragumo.png", "label": "HG", "qengine": false});
+    imgpathmap.push({"id": "YOHEN_TENMOKU_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": false});
+    imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/_event/Hiragumo.png", "label": "HG", "qengine": false});
 
     //Misc
 }
