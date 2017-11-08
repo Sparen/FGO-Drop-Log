@@ -1081,7 +1081,9 @@ function getDropStatsQ(itemID, logobj) {
             //Padding for slightly more uniform formatting. Not going beyond 1000 because it's pointless lol
             if (numrunsTOTAL >= 1000) {toreturn += '&nbsp;';} else if (numrunsTOTAL >= 100) {toreturn += '&nbsp;&nbsp;';} else if (numrunsTOTAL >= 10) {toreturn += '&nbsp;&nbsp;&nbsp;';} else {toreturn += '&nbsp;&nbsp;&nbsp;&nbsp;';}
 
-            toreturn += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span></div>';
+            var runsperdrop = (apperdrop/parseInt(quest.ap)).toFixed(1);
+
+            toreturn += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
             toreturn += '</div>'
         }
     }
