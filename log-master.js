@@ -679,6 +679,18 @@ var event_halloween2017_obj = {
     ]
 };
 
+// _GUDAGUDA2017 
+var event_gudaguda2017_obj = {
+    "colors": ["#FFAAAA", "#CC3333"],
+    "quests": [
+        {
+            "qname": "", "ap": "10", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
 /* ----- ----- ----- ----- ----- CODE ----- ----- ----- ----- ----- */
 
 //Map contiaining item string -> image path data
@@ -784,6 +796,10 @@ function initPathMap() {
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/_event/Sweet_candle.png", "label": "SC", "qengine": false});
     imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/_event/Trick_bat.png", "label": "MB", "qengine": false});
     imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/_event/Pumpkin.png", "label": "PL", "qengine": false});
+    //-- GUDAGUDA 2017
+    imgpathmap.push({"id": "TSUKUMOGAMI_NASU", "path": "./icon/_event/Tsukumogami_nasu.png", "label": "TN", "qengine": false});
+    imgpathmap.push({"id": "YOUHEN_TENMOKU_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": false});
+    imgpathmap.push({"id": "HIRAGUMO", "path": "./icon/_event/Hiragumo.png", "label": "HG", "qengine": false});
 
     //Misc
 }
@@ -822,6 +838,8 @@ function loadEvent() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadEvent: Loading Event Quests - Halloween 2017");
     loadObject(event_halloween2017_obj, "event-halloween2017");
+    console.log("loadEvent: Loading Event Quests - GUDAGUDA 2017");
+    loadObject(event_gudaguda2017_obj, "event-gudaguda2017");
 }
 
 function loadQueryEngine() {

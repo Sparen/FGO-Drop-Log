@@ -25,3 +25,4 @@ I am logging on the following sites:
 [Daily Quests](https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=1345853608)  
 
 [Halloween Event 2017 Free Quests](https://docs.google.com/spreadsheets/d/1NtTeo1hG7zaTpQrVHOyKDnA6NXnEq2187oLFd7jI8lo/edit#gid=748720390)  
+[GUDAGUDA Honnouji 2017 Free Quests](https://docs.google.com/spreadsheets/d/1ySH20L_HA5dRRR0WgfkmVeUCsQleOIc-oPtYvp0wxh4/edit#gid=748720390)
