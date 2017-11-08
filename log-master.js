@@ -448,7 +448,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 06", "column": "37",
+            "qname": "Two-Current Sea: Sea of Freedom", "ap": "14", "last-upd": "2017 11 07", "column": "37",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
@@ -507,7 +507,22 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "OCTUPLET_CRYSTAL"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_BL_BER"] }
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_RD_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
