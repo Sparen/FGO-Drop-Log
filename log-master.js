@@ -684,32 +684,52 @@ var event_gudaguda2017_obj = {
     "colors": ["#FFAAAA", "#CC3333"],
     "quests": [
         {
-            "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "", "column": "",
+            "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "2017 11 09", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 5}] },
-                { "uplog": false, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 1}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Intermediate", "ap": "20", "last-upd": "", "column": "",
+            "qname": "GUDAGUDA Tea Set Collection - Intermediate", "ap": "20", "last-upd": "2017 11 09", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 300}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 100}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 1}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 4}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": ["EVIL_BONE"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": ["EVIL_BONE", "MONU_BER"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Advanced", "ap": "30", "last-upd": "", "column": "",
+            "qname": "GUDAGUDA Tea Set Collection - Advanced", "ap": "30", "last-upd": "2017 11 09", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 100}, {"id": "HONNOJI_POINTS", "stack": 300}, {"id": "HONNOJI_POINTS", "stack": 300}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "TSUKUMOGAMI_NASU", "stack": 3}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 2}, {"id": "YOHEN_TENMOKU_CHAWAN", "stack": 4}, {"id": "HIRA_GUMO", "stack": 2}, {"id": "HIRA_GUMO", "stack": 3}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}, {"id": "HIRA_GUMO", "stack": 2}, {"id": "HIRA_GUMO", "stack": 3}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Sanjiva [BER]", "ap": "40", "last-upd": "", "column": "",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Sanjiva [BER]", "ap": "40", "last-upd": "2017 11 09", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": ["PROOF_OF_HERO", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "HONNOJI_POINTS", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 5}] }
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 5}] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}] }
             ]
         }
     ]
@@ -820,10 +840,10 @@ function initPathMap() {
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/_event/Sweet_candle.png", "label": "SC", "qengine": false});
     imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/_event/Trick_bat.png", "label": "MB", "qengine": false});
     imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/_event/Pumpkin.png", "label": "PL", "qengine": false});
-    //-- GUDAGUDA 2017
-    imgpathmap.push({"id": "HONNOJI_POINTS", "path": "./icon/_event/Honnoji.png", "label": "HP", "qengine": false});
-    imgpathmap.push({"id": "TSUKUMOGAMI_NASU", "path": "./icon/_event/Tsukumogami_nasu.png", "label": "TN", "qengine": false});
-    imgpathmap.push({"id": "YOHEN_TENMOKU_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": false});
+    //-- GUDAGUDA 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
+    imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/_event/Honnoji.png", "label": "HP", "qengine": false});
+    imgpathmap.push({"id": "T_NASU", "path": "./icon/_event/Tsukumogami_nasu.png", "label": "TN", "qengine": false});
+    imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": false});
     imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/_event/Hiragumo.png", "label": "HG", "qengine": false});
 
     //Misc
