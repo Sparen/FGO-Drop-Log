@@ -696,7 +696,15 @@ var event_gudaguda2017_obj = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}] }
             ]
         },
         {
@@ -713,7 +721,9 @@ var event_gudaguda2017_obj = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 4}] }
             ]
         },
         {
@@ -730,6 +740,12 @@ var event_gudaguda2017_obj = {
                 { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Kalasutra [SAB]", "ap": "40", "last-upd": "", "column": "32",
+            "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "T_NASU", "stack": 3}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] }
             ]
         }
     ]
