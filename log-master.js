@@ -95,21 +95,21 @@ function initPathMap() {
 
     //Event drops
     //-- Nerofest
-    imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/_event/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
-    imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/_event/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
     //-- Moon Goddess
-    imgpathmap.push({"id": "DUMPLING", "path": "./icon/_event/Dango.png", "label": "D", "qengine": "EVENT"});
-    imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/_event/Goldendango.png", "label": "RD", "qengine": "EVENT"});
+    imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/Dango.png", "label": "D", "qengine": "EVENT"});
+    imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/Goldendango.png", "label": "RD", "qengine": "EVENT"});
     //-- Halloween 2017
-    imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/_event/Cupcake.png", "label": "PC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/_event/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/_event/Trick_bat.png", "label": "MB", "qengine": "EVENT"});
-    imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/_event/Pumpkin.png", "label": "PL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/Cupcake.png", "label": "PC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/ event/Trick_bat.png", "label": "MB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/ event/Pumpkin.png", "label": "PL", "qengine": "EVENT"});
     //-- GUDAGUDA 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
-    imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/_event/Honnoji.png", "label": "HP", "qengine": "EVENT"});
-    imgpathmap.push({"id": "T_NASU", "path": "./icon/_event/Tsukumogami_nasu.png", "label": "TN", "qengine": "EVENT"});
-    imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/_event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/_event/Hiragumo.png", "label": "HG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/ event/Honnoji.png", "label": "HP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "T_NASU", "path": "./icon/ event/Tsukumogami_nasu.png", "label": "TN", "qengine": "EVENT"});
+    imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/ event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/ event/Hiragumo.png", "label": "HG", "qengine": "EVENT"});
 
     //Misc
 }
