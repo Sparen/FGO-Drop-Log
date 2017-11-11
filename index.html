@@ -37,7 +37,7 @@
 <p>EXP Servant card drops are only uplogged to the crowdsourcing spreadsheets for Daily Quests if a field exists. Generally, only Silver EXP drops are actually logged. However, on my site I will log all of them for dailies.</p>
 
 <h3>Logging Procedures</h3>
-<p>Log new data in the log-master.js. The uplog field is true if I have already posted the data to the public spreadsheet, and false otherwise.</p>
+<p>Log new data in the log-daily.js, log-free.js, and log-event.js. From October 15, 2017 - November 10, 2017, all of the log data went in log-master but that turned log-master into a 1500 line behemoth, hence the refactoring. The uplog field is true if I have already posted the data to the public spreadsheet, and false otherwise.</p>
 <p>Cells will contain the following format: # [#], where the outer number is the number of unlogged data points and where the number in brackets is the total count.</p>
 
 <p>There used to be many tables here, but I automated everything with Javascript. :(</p>

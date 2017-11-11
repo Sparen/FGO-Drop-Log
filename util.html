@@ -19,7 +19,7 @@
 <h3 class="h-gudaguda">GUDAGUDA Honnouji Shorthand Converter</h3>
 <p>
 Input: CSV string with units in the format X#x#<br>
-Output: Extended log-master object<br>
+Output: Extended log-event object<br>
 EX: "H100x3,N3x1,C1x1,C2x3,H2x1" produces:<br>
 <code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] }</code><br>
 Please note that non-event items are not handled by this system and must be added to the drop array independently.

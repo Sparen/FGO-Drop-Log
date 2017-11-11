@@ -48,6 +48,6 @@ function SCgudaguda() {
         }
     }
     output = output.substr(0, output.length - 2); //prune last trailing comma and space
-    output += '] }</code>';
+    output += '] },</code>';
     document.getElementById("gudaguda-sc-output").innerHTML = output;
 }
