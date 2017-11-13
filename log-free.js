@@ -1,7 +1,7 @@
 /* ----- ----- ----- ----- ----- FREE QUESTS ----- ----- ----- ----- ----- */
 // _FUYUKI
 var free_fuyuki_obj = {
-    "colors": ["#FFCC00", "#882200"],
+    "cssclass": "h-fuyuki",
     "quests": [
         {
             "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "", "column": "",
@@ -48,7 +48,7 @@ var free_fuyuki_obj = {
 };
 // _ORLEANS
 var free_orleans_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-orleans",
     "quests": [
         {
             "qname": "Domremy: Jeanne's Birthplace", "ap": "7", "last-upd": "", "column": "",
@@ -127,7 +127,7 @@ var free_orleans_obj = {
 };
 // _SEPTEM
 var free_septem_obj = {
-    "colors": ["#FFFFCC", "#AA6600"],
+    "cssclass": "h-septem",
     "quests": [
         {
             "qname": "Appia Road: Queen of the Street", "ap": "9", "last-upd": "", "column": "",
@@ -188,7 +188,7 @@ var free_septem_obj = {
 };
 // _OKEANOS
 var free_okeanos_obj = {
-    "colors": ["#CCEEFF", "#2222CC"],
+    "cssclass": "h-okeanos",
     "quests": [
         {
             "qname": "Pirate Ship: Band of Corsairs", "ap": "12", "last-upd": "", "column": "",

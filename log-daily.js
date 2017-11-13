@@ -1,7 +1,7 @@
 /* ----- ----- ----- ----- ----- DAILY QUESTS ----- ----- ----- ----- ----- */
 // _SABER 2017 OCT
 var daily_saber_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-knight1",
     "quests": [
         {
             "qname": "Saber Training Ground - Novice", "ap": "10", "last-upd": "2017 10 16", "column": "125",
@@ -33,7 +33,7 @@ var daily_saber_2017_10_obj = {
 };
 // _LANCER 2017 OCT
 var daily_lancer_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-knight1",
     "quests": [
         {
             "qname": "Lancer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 24", "column": "125",
@@ -63,7 +63,7 @@ var daily_lancer_2017_10_obj = {
 };
 // _ARCHER 2017 OCT
 var daily_archer_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-knight1",
     "quests": [
         {
             "qname": "Archer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 17", "column": "125",
@@ -113,7 +113,7 @@ var daily_archer_2017_10_obj = {
 };
 // _RIDER 2017 OCT
 var daily_rider_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-cavalry1",
     "quests": [
         {
             "qname": "Rider Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -140,7 +140,7 @@ var daily_rider_2017_10_obj = {
 };
 // _CASTER 2017 OCT
 var daily_caster_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-cavalry1",
     "quests": [
         {
             "qname": "Caster Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -169,7 +169,7 @@ var daily_caster_2017_10_obj = {
 };
 // _ASSASSIN 2017 OCT
 var daily_assassin_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-cavalry1",
     "quests": [
         {
             "qname": "Assassin Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",
@@ -195,7 +195,7 @@ var daily_assassin_2017_10_obj = {
 };
 // _BERSERKER 2017 OCT
 var daily_berserker_2017_10_obj = {
-    "colors": ["#AAFFCC", "#338844"],
+    "cssclass": "h-daily-cavalry1",
     "quests": [
         {
             "qname": "Berserker Training Ground - Novice", "ap": "10", "last-upd": "", "column": "",

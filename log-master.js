@@ -406,7 +406,7 @@ function getDropStatsQ(itemID, logobj) {
             //Let us begin the output
             //First, the basic information
             toreturn += '<div style="border: 1px solid #222222; padding: 8px; background-color: #111111">'
-            toreturn += '<h4 style="color:' + logobj.colors[0] + '; background-color:' + logobj.colors[1] + ';border-left: 4px solid ' + logobj.colors[0] + '; padding-left: 4px">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
+            toreturn += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
             toreturn += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
 
             var percentdecimalfix = 1; //default to 1 decimal place

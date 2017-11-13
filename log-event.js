@@ -1,7 +1,7 @@
 /* ----- ----- ----- ----- ----- EVENT QUESTS ----- ----- ----- ----- ----- */
 // _HALLOWEEN2017 
 var event_halloween2017_obj = {
-    "colors": ["#FFCCAA", "#CC6633"],
+    "cssclass": "h-halloween",
     "quests": [
         {
             "qname": "Dancer's Castle Gate: First Stage", "ap": "10", "last-upd": "2017 10 19", "column": "30",
@@ -115,7 +115,7 @@ var event_halloween2017_obj = {
 
 // _GUDAGUDA2017 
 var event_gudaguda2017_obj = {
-    "colors": ["#FFAAAA", "#CC3333"],
+    "cssclass": "h-gudaguda",
     "quests": [
         {
             "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "2017 11 12", "column": "32",
