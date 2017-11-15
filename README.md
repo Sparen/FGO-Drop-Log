@@ -11,6 +11,8 @@ This repository supports GitHub Pages:
 
 In order to accomplish the task in a way that is intuitive to me, I have decided to use downsampled versions of the game's proper graphics for item drops. 
 
+These are taken from GamePress.
+
 This repository is not open to pull requests. As it is a personal log, it is meant to track exclusively my contributions. I used to discourage forking here in the README but since I created the repo the organization and structure of the system has improved by a few orders of magnitude. It's still a mess, but hey; it works!
 
 P.S. Don't look at the JavaScript. The nested loops are hideous.

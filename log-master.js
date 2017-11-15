@@ -105,11 +105,17 @@ function initPathMap() {
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
     imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/ event/Trick_bat.png", "label": "MB", "qengine": "EVENT"});
     imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/ event/Pumpkin.png", "label": "PL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_TRICK_OR_TREAT", "path": "./icon/ ce/Trickicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_MAID_IN_HALLOWEEN", "path": "./icon/ ce/Maidicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_HALLOWEEN_PRINCESS", "path": "./icon/ ce/Princessicon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- GUDAGUDA 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
     imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/ event/Honnoji.png", "label": "HP", "qengine": "EVENT"});
     imgpathmap.push({"id": "T_NASU", "path": "./icon/ event/Tsukumogami_nasu.png", "label": "TN", "qengine": "EVENT"});
     imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/ event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": "EVENT"});
     imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/ event/Hiragumo.png", "label": "HG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_OKITA", "path": "./icon/ ce/Okitaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_NOBU", "path": "./icon/ ce/Nobuicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_GUDAO", "path": "./icon/ ce/Gudaoicon.png", "label": "CE", "qengine": "EVENT-CE"});
 
     //Misc
 }
@@ -157,6 +163,7 @@ function loadQueryEngine() {
     console.log("loadQueryEngine: Preparing Query Engine");
     var tablecontents = "";
     var numitems = imgpathmap.length;
+    var itemcounter = 0; //Some items will be excluded, so make sure the table doesn't break weirdly when excluding them.
     for (var i = 0; i < numitems; i += 1) {
         //Retrieve the target Item ID
         var targetID = imgpathmap[i].id;
@@ -166,20 +173,22 @@ function loadQueryEngine() {
         if (targetqengine == "ALWAYS") {
             var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\', \'' + targetPath + '\', \'' + targetLabel + '\', false)">Run</button>';
             var tablerow = '';
-            if (i % 7 == 0) {tablerow += '<tr>';}
+            if (itemcounter % 7 == 0) {tablerow += '<tr>';}
             tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + targetPath + '"><br>' + targetLabel + '<br>' + button + '</th>';
-            if (i % 7 == 6) {tablerow += '</tr>';}
+            if (itemcounter % 7 == 6) {tablerow += '</tr>';}
             tablecontents += tablerow;
+            itemcounter += 1;
         } else if (targetqengine == "EVENT") {
             var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\', \'' + targetPath + '\', \'' + targetLabel + '\', true)">Run</button>';
             var tablerow = '';
-            if (i % 7 == 0) {tablerow += '<tr>';}
+            if (itemcounter % 7 == 0) {tablerow += '<tr>';}
             tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + targetPath + '"><br>' + targetLabel + '<br>' + button + '</th>';
-            if (i % 7 == 6) {tablerow += '</tr>';}
+            if (itemcounter % 7 == 6) {tablerow += '</tr>';}
             tablecontents += tablerow;
+            itemcounter += 1;
         }
     }
-    if (numitems % 7 != 6) {tablecontents += '</tr>';} //prevent malformed tables
+    if (itemcounter % 7 != 6) {tablecontents += '</tr>';} //prevent malformed tables
     document.getElementById("query-engine-master").innerHTML = tablecontents;
 }
 
