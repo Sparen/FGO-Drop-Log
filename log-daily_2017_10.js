@@ -154,9 +154,10 @@ var daily_caster_2017_10_obj = {
             ]
         },
         {
-            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 03", "column": "30",
+            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 24", "column": "30",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] }
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] },
+                { "uplog": true, "drop": ["EXP_3_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "PIECE_CAS", "VOIDS_DUST"] }
             ]
         },
         {
