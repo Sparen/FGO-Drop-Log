@@ -4,7 +4,7 @@ var daily_saber_2017_10_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "Saber Training Ground - Novice", "ap": "10", "last-upd": "2017 10 16", "column": "125",
+            "qname": "Saber Training Ground - Novice", "ap": "10", "last-upd": "2017 10 16", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB"] }
             ]
@@ -22,11 +22,19 @@ var daily_saber_2017_10_obj = {
             ]
         },
         {
-            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 11 06", "column": "30",
+            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2017 11 26", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
-                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PIECE_SAB", "EXP_2_SAB", "PROOF_OF_HERO", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "PIECE_SAB", "MONU_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PROOF_OF_HERO"] }
             ]
         }
     ]
@@ -36,14 +44,14 @@ var daily_lancer_2017_10_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "Lancer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 24", "column": "125",
+            "qname": "Lancer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 24", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "EXP_2_LAN", "EXP_3_LAN"] }
             ]
         },
         {
-            "qname": "Lancer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 24", "column": "125",
+            "qname": "Lancer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 24", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_3_LAN", "PIECE_LAN", "EVIL_BONE", "EVIL_BONE"] }
             ]
@@ -66,7 +74,7 @@ var daily_archer_2017_10_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "Archer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Novice", "ap": "10", "last-upd": "2017 10 17", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_2_ARC", "EXP_3_ARC"] },
                 { "uplog": true, "drop": ["PIECE_ARC"] },
@@ -79,7 +87,7 @@ var daily_archer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Archer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Intermediate", "ap": "20", "last-upd": "2017 10 17", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "EXP_2_ARC", "EXP_3_ARC", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_2_ARC", "EVIL_BONE"] },
@@ -88,7 +96,7 @@ var daily_archer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Archer Training Ground - Advanced", "ap": "30", "last-upd": "2017 10 17", "column": "125",
+            "qname": "Archer Training Ground - Advanced", "ap": "30", "last-upd": "2017 10 17", "column": "",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC"] }
             ]
