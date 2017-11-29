@@ -62,9 +62,12 @@ var daily_lancer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "2017 10 31", "column": "30",
+            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "2017 11 28", "column": "30",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "EXP_1_LAN", "EXP_2_LAN", "EXP_2_LAN", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "EXP_1_LAN", "EXP_2_LAN", "EXP_2_LAN", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "MONU_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "MONU_LAN", "VOIDS_DUST", "VOIDS_DUST"] }
             ]
         }
     ]
