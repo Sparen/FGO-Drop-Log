@@ -1,0 +1,1 @@
+All images are 800x300, taken directly from http://fate-go.us/news/?category=NEWS

@@ -16,6 +16,10 @@
         height: auto;
     }
 
+    .banner {
+        width: 400px;
+    }
+
     .h-master {
         color: #CCCCCC;
         background-color: #222222;
