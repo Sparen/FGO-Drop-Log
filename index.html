@@ -16,11 +16,14 @@
 <h1 class="h-master">Sparen's FGO Drop Rate Log</h3>
 <p>Welcome to my Fate/Grand Order North America server drop rate contribution log.</p>
 
-<p>This project, started October 15, 2017, aims to log my contributions to the crowdsourcing for free and daily quest drop rates in Fate/Grand Order. I am storing publicly as a git repository so that I can visually see when I mess up (since I guarantee I will forget to do something eventually), and so that others can see where the numbers I contribute are coming from.</p>
-<p>As of yet, I do not know how long I will maintain this project, or how many different things I will cover. However, the data is available for those who are curious. See the sidebar for links to the different sites.</p>
+<p>This project, started October 15, 2017, aims to log my contributions to the crowdsourcing for free and daily quest drop rates in Fate/Grand Order. I am storing publicly as a <a href="https://github.com/Sparen/FGO-Drop-Log">git repository</a> so that I can visually see when I mess up (since I guarantee I will forget to do something eventually), and so that others can see where the numbers I contribute are coming from.</p>
+<p>As of yet, I do not know how long I will maintain this project, or how many different things I will cover. However, the data is available for those who are curious. See the sidebar for links to the different pages.</p>
+<br>
+<p>Since I only have data for quests that existed when I was collecting data, I do not have logs for Nerofest 2017 or Moon Festival 2017, and I do not have logs for the original daily quests.</p>
+<p>Please be aware that since all the data on this site is from my own logs, the Query feature may not be comprehensive enough for general use. Please refer to the drop spreadsheets of compiled data for more reliable drop rates.</p>
 
 <h3>Drop Submissions</h3>
-<p>I am logging on the following sites:
+<p>I am logging on the following documents:
 <div>
 <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=439336721">Free Quests</a><br>
 <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Vt1zgFdgtL0UvKSsfJeu1ucxPVAeTQfPMN8dPs_B_8Y/edit#gid=1345853608">Daily Quests</a><br>
@@ -38,7 +41,7 @@
 <p>EXP Servant card drops are only uplogged to the crowdsourcing spreadsheets for Daily Quests if a field exists. Generally, only Silver EXP drops are actually logged. However, on my site I will log all of them for dailies.</p>
 
 <h3>Logging Procedures</h3>
-<p>Log new data in the log-daily.js, log-free.js, and log-event.js. From October 15, 2017 - November 10, 2017, all of the log data went in log-master but that turned log-master into a 1500 line behemoth, hence the refactoring. The uplog field is true if I have already posted the data to the public spreadsheet, and false otherwise.</p>
+<p>Log new data in the log-daily_YYYY_MM.js, log-free.js, and log-event_YYYY.js. From October 15, 2017 - November 10, 2017, all of the log data went in log-master but that turned log-master into a 1500 line behemoth, hence the refactoring. The uplog field is true if I have already posted the data to the public spreadsheet, and false otherwise.</p>
 <p>Cells will contain the following format: # [#], where the outer number is the number of unlogged data points and where the number in brackets is the total count.</p>
 
 <p>There used to be many tables here, but I automated everything with Javascript. :(</p>
