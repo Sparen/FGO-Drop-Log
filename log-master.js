@@ -116,6 +116,12 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_OKITA", "path": "./icon/ ce/Okitaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_NOBU", "path": "./icon/ ce/Nobuicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_GUDAO", "path": "./icon/ ce/Gudaoicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    //-- Christmas 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
+    imgpathmap.push({"id": "MINI_RIBBON", "path": "./icon/ event/Mini_ribbon.png", "label": "MR", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SILVER_BELL", "path": "./icon/ event/Silver_bell.png", "label": "SB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "GOLD_STAR", "path": "./icon/ event/Gold_star.png", "label": "GS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "M_SOCK", "path": "./icon/ event/Magic_sock.png", "label": "MS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_HOLY_NIGHT_SIGN", "path": "./icon/ ce/Holynighticon.png", "label": "CE", "qengine": "EVENT-CE"});
 
     //Misc
 }
@@ -156,6 +162,8 @@ function loadEvent() {
     loadObject(event_halloween2017_obj, "event-halloween2017");
     console.log("loadEvent: Loading Event Quests - GUDAGUDA 2017");
     loadObject(event_gudaguda2017_obj, "event-gudaguda2017");
+    console.log("loadEvent: Loading Event Quests - Christmas 2017");
+    loadObject(event_christmas2017_obj, "event-christmas2017");
 }
 
 function loadQueryEngine() {
@@ -358,6 +366,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     if (eventflag) {
         todisplay += getDropStatsQ(itemID, event_halloween2017_obj);
         todisplay += getDropStatsQ(itemID, event_gudaguda2017_obj);
+        todisplay += getDropStatsQ(itemID, event_christmas2017_obj);
     }
     todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;

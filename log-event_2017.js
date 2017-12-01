@@ -369,3 +369,34 @@ var event_gudaguda2017_obj = {
         }
     ]
 };
+
+// _CHRISTMAS2017 
+var event_christmas2017_obj = {
+    "cssclass": "h-christmas",
+    "quests": [
+        {
+            "qname": "Stocking Gathering - Novice: Dreaming Christmas", "ap": "10", "last-upd": "2017 12 01", "column": "35",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "M_SOCK", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}] },
+                { "uplog": true, "drop": ["METEORIC_HORSESHOE", "METEORIC_HORSESHOE"], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Intermediate: Smiling Christmas", "ap": "20", "last-upd": "2017 12 01", "column": "35",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 6}, {"id": "GOLD_STAR", "stack": 2}, {"id": "M_SOCK", "stack": 3}, {"id": "M_SOCK", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 6}, {"id": "SILVER_BELL", "stack": 6}, {"id": "M_SOCK", "stack": 3}, {"id": "M_SOCK", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 6}, {"id": "GOLD_STAR", "stack": 2}, {"id": "M_SOCK", "stack": 3}, {"id": "M_SOCK", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 6}, {"id": "GOLD_STAR", "stack": 2}, {"id": "M_SOCK", "stack": 3}, {"id": "M_SOCK", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Advanced: Naughty Christmas", "ap": "30", "last-upd": "", "column": "35",
+            "droplog": [
+            ]
+        }
+    ]
+};

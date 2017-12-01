@@ -16,6 +16,25 @@
 <h1 class="h-master">Utilities</h1>
 <p>This page contains utilities for data collection.</p>
 
+<h3 class="h-christmas">Christmas 2017 Shorthand Converter</h3>
+<p>
+Input: CSV string with units in the format X#x#<br>
+Output: Extended log-event object<br>
+EX: "R1x3,R3x1,R6x1,B2x1,X2x2" produces:<br>
+<code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}, {"id": "M_SOCK", "stack": 2}] },
+</code><br>
+Please note that non-event items are not handled by this system and must be added to the drop array independently.
+</p>
+<p>INPUT:</p>
+<input type="text" name="christmas2017-sc-input" id="christmas2017-sc-input" size="96"><br><br>
+<p>OUTPUT: (Safari: Tripleclick over code to select contents)</p>
+<div id="christmas2017-sc-output" style="background-color:#333333">
+</div>
+<br>
+<input type="submit" value="Submit" onClick="SCchristmas2017()">
+
+<hr>
+
 <h3 class="h-gudaguda">GUDAGUDA Honnouji Shorthand Converter</h3>
 <p>
 Input: CSV string with units in the format X#x#<br>

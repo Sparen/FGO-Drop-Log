@@ -6,6 +6,57 @@ var ID_T_NASU = 1;
 var ID_YT_CHAWAN = 2;
 var ID_HIRA_GUMO = 3;
 
+var ID_MINI_RIBBON = 0;
+var ID_SILVER_BELL = 1;
+var ID_GOLD_STAR = 2;
+var ID_M_SOCK = 3;
+
+function SCchristmas2017() {
+    //Get the string located at name/id christmas2017-sc-input
+    var input = document.getElementById("christmas2017-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "R") {
+            typeConst = ID_MINI_RIBBON;
+        } else if (typeID == "B") {
+            typeConst = ID_SILVER_BELL;
+        } else if (typeID == "S") {
+            typeConst = ID_GOLD_STAR;
+        } else if (typeID == "X") {
+            typeConst = ID_M_SOCK;
+        } else {
+            alert("SCchristmas2017: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_MINI_RIBBON) {
+                itemblock += 'MINI_RIBBON';
+            } else if (typeConst == ID_SILVER_BELL) {
+                itemblock += 'SILVER_BELL';
+            } else if (typeConst == ID_GOLD_STAR) {
+                itemblock += 'GOLD_STAR';
+            } else if (typeConst == ID_M_SOCK) {
+                itemblock += 'M_SOCK';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("christmas2017-sc-output").innerHTML = output;
+}
+
 function SCgudaguda() {
     //Get the string located at name/id gudaguda-sc-input
     var input = document.getElementById("gudaguda-sc-input").value;
