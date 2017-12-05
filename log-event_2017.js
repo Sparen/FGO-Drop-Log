@@ -438,6 +438,22 @@ var event_christmas2017_obj = {
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "M_SOCK", "stack": 4}, {"id": "M_SOCK", "stack": 4}, {"id": "M_SOCK", "stack": 5}] }
             ]
+        },
+        {
+            "qname": "Stocking Gathering - Expert: Almost Christmas", "ap": "40", "last-upd": "2017 12 05", "column": "35",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": ["CE_HOLY_NIGHT_SIGN"], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] }
+            ]
         }
     ]
 };
