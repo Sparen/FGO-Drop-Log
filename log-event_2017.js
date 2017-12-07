@@ -440,7 +440,7 @@ var event_christmas2017_obj = {
             ]
         },
         {
-            "qname": "Stocking Gathering - Expert: Almost Christmas", "ap": "40", "last-upd": "2017 12 05", "column": "35",
+            "qname": "Stocking Gathering - Expert: Almost Christmas", "ap": "40", "last-upd": "2017 12 06", "column": "35",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
@@ -452,7 +452,22 @@ var event_christmas2017_obj = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
                 { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
-                { "uplog": true, "drop": ["CE_HOLY_NIGHT_SIGN"], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] }
+                { "uplog": true, "drop": ["CE_HOLY_NIGHT_SIGN"], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SILVER_BELL", "stack": 2}, {"id": "GOLD_STAR", "stack": 2}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 4}, {"id": "GOLD_STAR", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 6}, {"id": "M_SOCK", "stack": 7}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Holy Night: Grown-up's Christmas", "ap": "50", "last-upd": "", "column": "35",
+            "droplog": [
             ]
         }
     ]
