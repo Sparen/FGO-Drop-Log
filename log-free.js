@@ -35,8 +35,11 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-G: Blazing Forest", "ap": "15", "last-upd": "", "column": "",
+            "qname": "X-G: Blazing Forest", "ap": "15", "last-upd": "2017 12 13", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_1_SAB", "EXP_1_LAN"] }
             ]
         },
         {
