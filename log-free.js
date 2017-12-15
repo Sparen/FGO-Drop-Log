@@ -335,3 +335,10 @@ var free_okeanos_obj = {
         }
     ]
 };
+
+// _LONDON
+var free_london_obj = {
+    "cssclass": "h-london",
+    "quests": [
+    ]
+};

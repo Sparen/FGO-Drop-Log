@@ -154,6 +154,8 @@ function loadFree() {
     loadObject(free_septem_obj, "free-septem");
     console.log("loadFree: Loading Free Quests - Okeanos");
     loadObject(free_okeanos_obj, "free-okeanos");
+    console.log("loadFree: Loading Free Quests - London");
+    loadObject(free_london_obj, "free-london");
 }
 
 function loadEvent() {
