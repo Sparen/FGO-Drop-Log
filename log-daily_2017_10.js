@@ -180,21 +180,23 @@ var daily_caster_2017_10_obj = {
             ]
         },
         {
-            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "2017 11 24", "column": "30",
+            "qname": "Caster Training Ground - Advanced", "ap": "30", "last-upd": "2017 12 15", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] },
-                { "uplog": true, "drop": ["EXP_3_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "PIECE_CAS", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["EXP_3_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "PIECE_CAS", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] }
             ]
         },
         {
-            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "2017 11 30", "column": "30",
+            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "2017 12 15", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "PIECE_CAS"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] },
                 { "uplog": true, "drop": ["GEM_GD_CAS", "MONU_CAS", "EXP_2_CAS", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS"] },
-                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "PIECE_CAS"] }
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "PIECE_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] }
             ]
         }
     ]
