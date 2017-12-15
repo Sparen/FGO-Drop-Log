@@ -345,10 +345,10 @@ function loadObject(logobj, tableid) {
 //Calculates stats for the given item ID. Used in Query Engine.
 function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     var todisplay = "<p>Query Results:</p>";
-    todisplay += '<p><span style="color:#FF6666">UNRELIABLE (0-5 Runs)</span><br><span style="color:#FF66AA">LACKING DATA (6-10 Runs)</span><br>';
-    todisplay += '<span style="color:#CCAAFF">SOMEWHAT RELIABLE (11-25 Runs)</span><br><span style="color:#88CCFF">RATHER RELIABLE (26-50 Runs)</span><br>';
-    todisplay += '<span style="color:#66DDFF">RELIABLE (51-75 Runs)</span><br><span style="color:#66EEDD">VERY RELIABLE (76-100 Runs)</span><br>';
-    todisplay += '<span style="color:#66FFCC">EXTREMELY RELIABLE (>100 Runs)</span></p>';
+    todisplay += '<table><tr><th><span style="color:#FF6666">UNRELIABLE</span></th><th><span style="color:#FF66AA">LACKING DATA</span></th><th><span style="color:#CCAAFF">SOMEWHAT RELIABLE</span></th><th><span style="color:#88CCFF">RATHER RELIABLE</span></th><th><span style="color:#66DDFF">RELIABLE</span></th><th><span style="color:#66EEDD">VERY RELIABLE</span></th><th><span style="color:#66FFCC">EXTREMELY RELIABLE</span></th></tr>';
+    todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
+    todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span><br>';
+    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span></div><br>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
