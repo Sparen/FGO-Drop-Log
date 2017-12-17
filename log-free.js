@@ -315,8 +315,21 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "", "column": "",
+            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "2017 12 17", "column": "58",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] }
             ]
         },
         {

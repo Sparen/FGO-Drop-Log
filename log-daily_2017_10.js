@@ -223,6 +223,8 @@ var daily_assassin_2017_10_obj = {
         {
             "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS"] },
+                { "uplog": false, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "MONU_ASS"] }
             ]
         }
     ]
