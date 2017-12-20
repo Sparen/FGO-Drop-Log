@@ -370,5 +370,56 @@ var free_okeanos_obj = {
 var free_london_obj = {
     "cssclass": "h-london",
     "quests": [
+        {
+            "qname": "Old Street: Fog, Carriages, and Gaslights", "ap": "15", "last-upd": "2017 12 20", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"] }
+            ]
+        },
+        {
+            "qname": "White Chapel: Slum", "ap": "15", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "City of London: Square Mile", "ap": "15", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Soho: Charming Downtown Area", "ap": "16", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Westminster: Scotland Yard", "ap": "16", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Regent Park: Royal Family's Hunting Ground", "ap": "16", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2017 12 19", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] }
+            ]
+        },
+        {
+            "qname": "Southwark: Borough Market", "ap": "19", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Hyde Park: ", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
     ]
 };
