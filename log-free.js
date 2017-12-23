@@ -379,45 +379,68 @@ var free_london_obj = {
             ]
         },
         {
-            "qname": "White Chapel: Slum", "ap": "15", "last-upd": "", "column": "",
+            "qname": "White Chapel: Slum", "ap": "15", "last-upd": "2017 12 21", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS"] }
             ]
         },
         {
-            "qname": "City of London: Square Mile", "ap": "15", "last-upd": "", "column": "",
-            "droplog": [
-            ]
-        },
-        {
-            "qname": "Soho: Charming Downtown Area", "ap": "16", "last-upd": "", "column": "",
-            "droplog": [
-            ]
-        },
-        {
-            "qname": "Westminster: Scotland Yard", "ap": "16", "last-upd": "", "column": "",
-            "droplog": [
-            ]
-        },
-        {
-            "qname": "Regent Park: Royal Family's Hunting Ground", "ap": "16", "last-upd": "", "column": "",
-            "droplog": [
-            ]
-        },
-        {
-            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2017 12 19", "column": "5",
+            "qname": "City of London: Square Mile", "ap": "15", "last-upd": "2017 12 22", "column": "5",
             "droplog": [
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Southwark: Borough Market", "ap": "19", "last-upd": "", "column": "",
+            "qname": "Soho: Charming Downtown Area", "ap": "16", "last-upd": "2017 12 21", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "MONU_CAS"] }
             ]
         },
         {
-            "qname": "Hyde Park: ", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Westminster: Scotland Yard", "ap": "16", "last-upd": "2017 12 22", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": [] }
+            ]
+        },
+        {
+            "qname": "Regent Park: Royal Family's Hunting Ground", "ap": "16", "last-upd": "2017 12 21", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_SAB"] }
+            ]
+        },
+        {
+            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2017 12 22", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS"] }
+            ]
+        },
+        {
+            "qname": "Southwark: Borough Market", "ap": "19", "last-upd": "2017 12 22", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN", "HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": ["HOMUNCULUS_BABY"] }
+            ]
+        },
+        {
+            "qname": "Hyde Park: Vestiges of the Crystal Palace", "ap": "20", "last-upd": "", "column": "",
             "droplog": [
             ]
         }

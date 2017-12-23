@@ -364,6 +364,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += getDropStatsQ(itemID, free_orleans_obj);
     todisplay += getDropStatsQ(itemID, free_septem_obj);
     todisplay += getDropStatsQ(itemID, free_okeanos_obj);
+    todisplay += getDropStatsQ(itemID, free_london_obj);
     //Ensure only the most recent run of a event is used
     if (eventflag || document.getElementById("queryEventCB").checked) {
         todisplay += getDropStatsQ(itemID, event_halloween2017_obj);
