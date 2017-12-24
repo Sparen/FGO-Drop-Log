@@ -428,7 +428,14 @@ var free_london_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_ASS"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS"] },
+                { "uplog": false, "drop": ["GEM_BL_SAB"] },
+                { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_ASS"] },
+                { "uplog": false, "drop": ["EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
