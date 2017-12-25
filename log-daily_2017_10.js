@@ -135,7 +135,9 @@ var daily_archer_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "MONU_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "MONU_ARC", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "VOIDS_DUST", "SEED_OF_YGGDRASIL"] },
-                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] }
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "MONU_ARC"] },
+                { "uplog": false, "drop": ["GEM_RD_ARC", "PIECE_ARC", "EXP_1_ARC", "PHOENIX_FEATHER"] }
             ]
         }
     ]
