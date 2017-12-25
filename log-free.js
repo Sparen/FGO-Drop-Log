@@ -435,6 +435,11 @@ var free_london_obj = {
                 { "uplog": false, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_ASS"] },
                 { "uplog": false, "drop": ["EVIL_BONE", "EVIL_BONE"] },
                 { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["ETERNAL_GEAR"] },
+                { "uplog": false, "drop": ["GEM_BL_SAB"] },
+                { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] },
                 { "uplog": false, "drop": [] }
             ]
         },
