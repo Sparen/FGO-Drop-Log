@@ -267,7 +267,8 @@ var daily_berserker_2017_10_obj = {
                 { "uplog": true, "drop": ["EXP_2_BER", "EXP_2_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "EXP_3_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "MONU_BER"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "VOIDS_DUST", "OCTUPLET_CRYSTAL"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "VOIDS_DUST", "OCTUPLET_CRYSTAL"] },
+                { "uplog": false, "drop": ["GEM_RD_BER", "MONU_BER", "PROOF_OF_HERO"] }
             ]
         }
     ]

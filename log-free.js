@@ -440,6 +440,7 @@ var free_london_obj = {
                 { "uplog": false, "drop": ["GEM_BL_SAB"] },
                 { "uplog": false, "drop": ["EVIL_BONE"] },
                 { "uplog": false, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] },
+                { "uplog": false, "drop": [] },
                 { "uplog": false, "drop": [] }
             ]
         },
