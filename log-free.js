@@ -130,7 +130,12 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
-                { "uplog": true, "drop": ["GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": false, "drop": ["GEM_BL_LAN"] },
+                { "uplog": false, "drop": ["GEM_BL_LAN"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["GEM_BL_ASS"] },
+                { "uplog": false, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] }
             ]
         },
         {
@@ -441,7 +446,16 @@ var free_london_obj = {
                 { "uplog": false, "drop": ["EVIL_BONE"] },
                 { "uplog": false, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] },
                 { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] }
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["EVIL_BONE", "EVIL_BONE", "ETERNAL_GEAR"] },
+                { "uplog": false, "drop": ["GEM_RD_ASS"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": ["EVIL_BONE"] }
             ]
         },
         {

@@ -168,7 +168,13 @@ var daily_rider_2017_10_obj = {
             "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2017 12 13", "column": "30",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID"] },
+                { "uplog": false, "drop": ["GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
+                { "uplog": false, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "EXP_1_RID", "DRAGON_FANG"] },
+                { "uplog": false, "drop": ["GEM_RD_RID", "MONU_RID", "EXP_1_RID", "EXP_3_RID", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": false, "drop": ["GEM_RD_RID", "GEM_GD_RID", "MONU_RID"] },
+                { "uplog": false, "drop": ["GEM_BL_RID", "GEM_RD_RID", "MONU_RID", "DRAGON_FANG"] },
+                { "uplog": false, "drop": ["PIECE_RID", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG", "VOIDS_DUST"] }
             ]
         }
     ]
