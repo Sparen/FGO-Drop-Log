@@ -577,3 +577,10 @@ var event_christmas2017_obj = {
         }
     ]
 };
+
+// _SABERWARS2017 
+var event_saberwars2017_obj = {
+    "cssclass": "h-saberwars",
+    "quests": [
+    ]
+};
