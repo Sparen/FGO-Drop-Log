@@ -102,7 +102,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2017 12 15", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 02", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -131,11 +131,11 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ASS"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS"] },
-                { "uplog": false, "drop": ["GEM_BL_LAN"] },
-                { "uplog": false, "drop": ["GEM_BL_LAN"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["GEM_BL_ASS"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] }
             ]
         },
         {
@@ -424,7 +424,7 @@ var free_london_obj = {
             ]
         },
         {
-            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2017 12 22", "column": "5",
+            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2018 01 02", "column": "5",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
@@ -434,28 +434,28 @@ var free_london_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB"] },
-                { "uplog": false, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_ASS"] },
-                { "uplog": false, "drop": ["EVIL_BONE", "EVIL_BONE"] },
-                { "uplog": false, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["ETERNAL_GEAR"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB"] },
-                { "uplog": false, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["EVIL_BONE", "EVIL_BONE", "ETERNAL_GEAR"] },
-                { "uplog": false, "drop": ["GEM_RD_ASS"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": ["EVIL_BONE"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_ASS"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] }
             ]
         },
         {
