@@ -424,7 +424,7 @@ var free_london_obj = {
             ]
         },
         {
-            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2018 01 02", "column": "5",
+            "qname": "Clerkenwell: Soothing Well", "ap": "18", "last-upd": "2018 01 04", "column": "5",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
@@ -455,7 +455,8 @@ var free_london_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "ETERNAL_GEAR"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
-                { "uplog": true, "drop": ["EVIL_BONE"] }
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "ETERNAL_GEAR"] }
             ]
         },
         {

@@ -236,10 +236,10 @@ var daily_assassin_2017_10_obj = {
             ]
         },
         {
-            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "", "column": "",
+            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 01 04", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS"] },
-                { "uplog": false, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "MONU_ASS"] }
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "MONU_ASS"] }
             ]
         }
     ]
@@ -260,22 +260,28 @@ var daily_berserker_2017_10_obj = {
             ]
         },
         {
-            "qname": "Berserker Training Ground - Advanced", "ap": "30", "last-upd": "2017 12 13", "column": "32",
+            "qname": "Berserker Training Ground - Advanced", "ap": "30", "last-upd": "2018 01 04", "column": "32",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_3_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "CLAW_OF_CHAOS"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "MONU_BER", "EXP_2_BER", "CLAW_OF_CHAOS"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "MONU_BER", "EXP_2_BER", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "EXP_3_BER", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "MONU_BER", "EXP_2_BER"] }
             ]
         },
         {
-            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 01 02", "column": "32",
+            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 01 04", "column": "32",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_2_BER", "EXP_2_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "EXP_3_BER"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "VOIDS_DUST", "OCTUPLET_CRYSTAL"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "MONU_BER", "PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "EXP_1_BER", "EXP_1_BER", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "EXP_1_BER", "EXP_1_BER", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER", "EXP_1_BER"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "MONU_BER", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "PIECE_BER", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] }
             ]
         }
     ]
