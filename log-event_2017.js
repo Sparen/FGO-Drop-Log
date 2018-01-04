@@ -578,8 +578,8 @@ var event_christmas2017_obj = {
     ]
 };
 
-// _SABERWARS2017 
-var event_saberwars2017_obj = {
+// _SABERWARS2018
+var event_saberwars2018_obj = {
     "cssclass": "h-saberwars",
     "quests": [
     ]

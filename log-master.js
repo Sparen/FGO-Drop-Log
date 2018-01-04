@@ -166,8 +166,8 @@ function loadEvent() {
     loadObject(event_gudaguda2017_obj, "event-gudaguda2017");
     console.log("loadEvent: Loading Event Quests - Christmas 2017");
     loadObject(event_christmas2017_obj, "event-christmas2017");
-    console.log("loadEvent: Loading Event Quests - Saber Wars 2017");
-    loadObject(event_saberwars2017_obj, "event-saberwars2017");
+    console.log("loadEvent: Loading Event Quests - Saber Wars 2018");
+    loadObject(event_saberwars2018_obj, "event-saberwars2018");
 }
 
 function loadQueryEngine() {
@@ -372,7 +372,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
         todisplay += getDropStatsQ(itemID, event_halloween2017_obj);
         todisplay += getDropStatsQ(itemID, event_gudaguda2017_obj);
         todisplay += getDropStatsQ(itemID, event_christmas2017_obj);
-        todisplay += getDropStatsQ(itemID, event_saberwars2017_obj);
+        todisplay += getDropStatsQ(itemID, event_saberwars2018_obj);
     }
     todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;
