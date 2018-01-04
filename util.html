@@ -16,6 +16,25 @@
 <h1 class="h-master">Utilities</h1>
 <p>This page contains utilities for data collection.</p>
 
+<h3 class="h-saberwars">Saber Wars Shorthand Converter</h3>
+<p>
+Input: CSV string with units in the format X#x#<br>
+Output: Extended log-event object<br>
+EX: "A100x3,T2x4,T4x1,L2x1" produces:<br>
+<code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 100}, {"id": "ALTRIUM", "stack": 100}, {"id": "ALTRIUM", "stack": 100}, {"id": "TRANSISTOR", "stack": 2}, {"id": "TRANSISTOR", "stack": 2}, {"id": "TRANSISTOR", "stack": 2}, {"id": "TRANSISTOR", "stack": 2}, {"id": "TRANSISTOR", "stack": 4}, {"id": "AP_LENS", "stack": 2}] },
+</code><br>
+Please note that non-event items are not handled by this system and must be added to the drop array independently.
+</p>
+<p>INPUT:</p>
+<input type="text" name="saberwars-sc-input" id="saberwars2018-sc-input" size="96"><br><br>
+<p>OUTPUT: (Safari: Tripleclick over code to select contents)</p>
+<div id="saberwars2018-sc-output" style="background-color:#333333">
+</div>
+<br>
+<input type="submit" value="Submit" onClick="SCsaberwars2018()">
+
+<br>
+
 <h3 class="h-christmas">Christmas 2017 Shorthand Converter</h3>
 <p>
 Input: CSV string with units in the format X#x#<br>
@@ -40,7 +59,7 @@ Please note that non-event items are not handled by this system and must be adde
 Input: CSV string with units in the format X#x#<br>
 Output: Extended log-event object<br>
 EX: "H100x3,N3x1,C1x1,C2x3,H2x1" produces:<br>
-<code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] }</code><br>
+<code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 3}, {"id": "YT_CHAWAN", "stack": 1}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "YT_CHAWAN", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}] },</code><br>
 Please note that non-event items are not handled by this system and must be added to the drop array independently.
 </p>
 <p>INPUT:</p>

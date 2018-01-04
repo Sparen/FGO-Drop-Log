@@ -122,6 +122,15 @@ function initPathMap() {
     imgpathmap.push({"id": "GOLD_STAR", "path": "./icon/ event/Gold_star.png", "label": "GS", "qengine": "EVENT"});
     imgpathmap.push({"id": "M_SOCK", "path": "./icon/ event/Magic_sock.png", "label": "MS", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_HOLY_NIGHT_SIGN", "path": "./icon/ ce/Holynighticon.png", "label": "CE", "qengine": "EVENT-CE"});
+    //-- Saber Wars 2018 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
+    imgpathmap.push({"id": "ALTRIUM", "path": "./icon/ event/Altrium.png", "label": "アホ", "qengine": "EVENT"});
+    imgpathmap.push({"id": "TRANSISTOR", "path": "./icon/ event/Transistor.png", "label": "TG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "AP_LENS", "path": "./icon/ event/Universallens.png", "label": "APL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "VACUUM_TUBE", "path": "./icon/ event/Vacuumtube.png", "label": "VT", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_MYSTERIOUS_SUBSTANCE_BETA", "path": "./icon/ ce/Substancebetaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_MYSTERIOUS_SUBSTANCE_ALPHA", "path": "./icon/ ce/Substancealphaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_PURELY_BLOOM", "path": "./icon/ ce/Purebloomicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_STAR_OF_ALTRIA", "path": "./icon/ ce/Artoriastaricon.png", "label": "CE", "qengine": "EVENT-CE"});
 
     //Misc
 }
