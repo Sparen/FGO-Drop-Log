@@ -30,7 +30,7 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": ["EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ARC"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_1_SAB", "EXP_1_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         },
         {
@@ -43,7 +43,7 @@ var free_fuyuki_obj = {
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_1_SAB", "EXP_1_LAN"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         },
         {
