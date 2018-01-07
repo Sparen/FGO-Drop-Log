@@ -25,8 +25,12 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-E: Church of Wandering Corpses", "ap": "5", "last-upd": "", "column": "",
+            "qname": "X-E: Church of Wandering Corpses", "ap": "5", "last-upd": "2018 01 07", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_1_SAB", "EXP_1_SAB"] }
             ]
         },
         {
