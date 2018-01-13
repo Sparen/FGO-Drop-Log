@@ -215,7 +215,7 @@ function loadQueryEngine() {
 
 //Loads log object into the HTML table located at tableid
 function loadObject(logobj, tableid) {
-    var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>#</th>";
+    var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>Icon</th><th>#</th>";
 
     //We want to determine all the possible items that spawn given all occurrences in this object.
     //We will store this using a boolean array of size equivalent to that of imgpathmap
@@ -326,6 +326,11 @@ function loadObject(logobj, tableid) {
         //First, the basic information
         tablehtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
         tablehtml += '<td>' + quest["last-upd"] + '</td>';
+        if (quest.hasOwnProperty('icon')) {
+            tablehtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
+        } else {
+            tablehtml += '<td></td>';
+        }
         tablehtml += '<td>' + numrunsUNLOG.toString() + ' [' + numrunsTOTAL.toString() + ']</td>';
 
         //Next, the drops

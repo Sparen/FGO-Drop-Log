@@ -52,7 +52,7 @@ var event_saberwars2018_obj = {
             ]
         },
         {
-            "qname": "Equipment Gathering - Planet", "ap": "40", "last-upd": "2018 01 12", "column": "32",
+            "qname": "Equipment Gathering - Planet", "ap": "40", "last-upd": "2018 01 12", "column": "32", "icon": "ruler-jeanne.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "AP_LENS", "stack": 4}, {"id": "VACUUM_TUBE", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "TRANSISTOR", "stack": 4}, {"id": "AP_LENS", "stack": 4}, {"id": "VACUUM_TUBE", "stack": 8}] },
@@ -68,7 +68,7 @@ var event_saberwars2018_obj = {
             ]
         },
         {
-            "qname": "Equipment Gathering - Star Cluster", "ap": "40", "last-upd": "2018 01 09", "column": "32",
+            "qname": "Equipment Gathering - Star Cluster", "ap": "40", "last-upd": "2018 01 09", "column": "32", "icon": "archer-tesla.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 400}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 2000}, {"id": "AP_LENS", "stack": 4}, {"id": "AP_LENS", "stack": 4}, {"id": "AP_LENS", "stack": 6}, {"id": "AP_LENS", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 10}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 400}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 600}, {"id": "ALTRIUM", "stack": 2000}, {"id": "AP_LENS", "stack": 4}, {"id": "AP_LENS", "stack": 4}, {"id": "AP_LENS", "stack": 6}, {"id": "AP_LENS", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 10}] },
@@ -84,7 +84,7 @@ var event_saberwars2018_obj = {
             ]
         },
         {
-            "qname": "Equipment Gathering - Galaxy", "ap": "40", "last-upd": "2018 01 12", "column": "32",
+            "qname": "Equipment Gathering - Galaxy", "ap": "40", "last-upd": "2018 01 12", "column": "32", "icon": "lancer-scathach.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "ALTRIUM", "stack": 400}, {"id": "ALTRIUM", "stack": 400}, {"id": "ALTRIUM", "stack": 800}, {"id": "ALTRIUM", "stack": 2000}, {"id": "VACUUM_TUBE", "stack": 2}, {"id": "VACUUM_TUBE", "stack": 2}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 12}] },
                 { "uplog": true, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR", "ETERNAL_GEAR"], "stackdrop": [{"id": "ALTRIUM", "stack": 400}, {"id": "ALTRIUM", "stack": 800}, {"id": "ALTRIUM", "stack": 2000}, {"id": "VACUUM_TUBE", "stack": 2}, {"id": "VACUUM_TUBE", "stack": 2}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 6}, {"id": "VACUUM_TUBE", "stack": 12}] },
