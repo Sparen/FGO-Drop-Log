@@ -215,7 +215,7 @@ function loadQueryEngine() {
 
 //Loads log object into the HTML table located at tableid
 function loadObject(logobj, tableid) {
-    var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>Icon</th><th>#</th>";
+    var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>Boss</th><th>#</th>";
 
     //We want to determine all the possible items that spawn given all occurrences in this object.
     //We will store this using a boolean array of size equivalent to that of imgpathmap

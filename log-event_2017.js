@@ -4,13 +4,13 @@ var event_halloween2017_obj = {
     "cssclass": "h-halloween",
     "quests": [
         {
-            "qname": "Dancer's Castle Gate: First Stage", "ap": "10", "last-upd": "2017 10 19", "column": "30",
+            "qname": "Dancer's Castle Gate: First Stage", "ap": "10", "last-upd": "2017 10 19", "column": "30", "icon": "assassin-matahari.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN", "EVIL_BONE"], "stackdrop": [{"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 6}] }
             ]
         },
         {
-            "qname": "Great Hall of the Cleaning Queen: Second Stage", "ap": "20", "last-upd": "2017 10 31", "column": "30",
+            "qname": "Great Hall of the Cleaning Queen: Second Stage", "ap": "20", "last-upd": "2017 10 31", "column": "30", "icon": "assassin-carmilla.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}] },
                 { "uplog": true, "drop": ["GEM_BL_CAS"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 6}, {"id": "PETIT_CAKE", "stack": 2}, {"id": "PETIT_CAKE", "stack": 2}] },
@@ -31,13 +31,13 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Throne of the Impaler: Thid Stage", "ap": "30", "last-upd": "2017 10 17", "column": "30",
+            "qname": "Throne of the Impaler: Thid Stage", "ap": "30", "last-upd": "2017 10 17", "column": "30", "icon": "berserker-vladiii.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
         },
         {
-            "qname": "Hidden Room of Cat Maid: Final Stage", "ap": "40", "last-upd": "2017 10 28", "column": "30",
+            "qname": "Hidden Room of Cat Maid: Final Stage", "ap": "40", "last-upd": "2017 10 28", "column": "30", "icon": "berserker-tamamocat.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "SWEET_CANDLE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PUMPKIN_LANTERN", "stack": 3}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SWEET_CANDLE", "stack": 4}, {"id": "PETIT_CAKE", "stack": 4}, {"id": "MISCHIEVOUS_BAT", "stack": 7}] },
@@ -105,7 +105,7 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Live Stage of the Dragon Princess: Encore Live", "ap": "50", "last-upd": "2017 10 28", "column": "30",
+            "qname": "Live Stage of the Dragon Princess: Encore Live", "ap": "50", "last-upd": "2017 10 28", "column": "30", "icon": "lancer-elizabeth.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "MISCHIEVOUS_BAT", "stack": 10}, {"id": "PETIT_CAKE", "stack": 8}, {"id": "PETIT_CAKE", "stack": 8}] }
             ]
@@ -118,7 +118,7 @@ var event_gudaguda2017_obj = {
     "cssclass": "h-gudaguda",
     "quests": [
         {
-            "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Novice", "ap": "10", "last-upd": "2017 11 22", "column": "32", "icon": "archer-arash.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 5}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 1}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 5}, {"id": "YT_CHAWAN", "stack": 2}] },
@@ -263,7 +263,7 @@ var event_gudaguda2017_obj = {
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Sanjiva [BER]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Sanjiva [BER]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "berserker-ericbloodaxe.png",
             "droplog": [
                 { "uplog": true, "drop": ["PROOF_OF_HERO", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 5}] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
@@ -276,26 +276,26 @@ var event_gudaguda2017_obj = {
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Kalasutra [SAB]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Kalasutra [SAB]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "saber-caesar.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 100}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "T_NASU", "stack": 3}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] },
                 { "uplog": true, "drop": ["EVIL_BONE"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "T_NASU", "stack": 3}, {"id": "T_NASU", "stack": 3}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 5}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Samghata [ASS]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Samghata [ASS]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "assassin-matahari.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 1}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 6}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Raurava [RID]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Raurava [RID]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "rider-drake.png",
             "droplog": [
                 { "uplog": true, "drop": ["METEORIC_HORSESHOE"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 300}, {"id": "HONNOJI_PT", "stack": 300}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 2}, {"id": "HIRA_GUMO", "stack": 2}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 6}] }
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Maharaurava [LAN]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Maharaurava [LAN]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "lancer-benkei.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 7}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 7}] },
@@ -314,7 +314,7 @@ var event_gudaguda2017_obj = {
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Tapana [CAS]", "ap": "40", "last-upd": "2017 11 22", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Tapana [CAS]", "ap": "40", "last-upd": "2017 11 22", "column": "32", "icon": "caster-gilles.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 6}, {"id": "HIRA_GUMO", "stack": 9}] },
                 { "uplog": true, "drop": ["CE_NOBU"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 3}, {"id": "HIRA_GUMO", "stack": 6}] },
@@ -335,7 +335,7 @@ var event_gudaguda2017_obj = {
             ]
         },
         {
-            "qname": "GUDAGUDA Tea Set Collection - Hell - Pratapana [ARC]", "ap": "40", "last-upd": "2017 11 24", "column": "32",
+            "qname": "GUDAGUDA Tea Set Collection - Hell - Pratapana [ARC]", "ap": "40", "last-upd": "2017 11 24", "column": "32", "icon": "archer-nobunaga.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 7}, {"id": "HIRA_GUMO", "stack": 10}] },
                 { "uplog": true, "drop": ["DRAGONS_REVERSE_SCALE"], "stackdrop": [{"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HONNOJI_PT", "stack": 1000}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 4}, {"id": "HIRA_GUMO", "stack": 10}] },
@@ -375,7 +375,7 @@ var event_christmas2017_obj = {
     "cssclass": "h-christmas",
     "quests": [
         {
-            "qname": "Stocking Gathering - Novice: Dreaming Christmas", "ap": "10", "last-upd": "2017 12 04", "column": "35",
+            "qname": "Stocking Gathering - Novice: Dreaming Christmas", "ap": "10", "last-upd": "2017 12 04", "column": "35", "icon": "caster-medealily.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "SILVER_BELL", "stack": 2}, {"id": "M_SOCK", "stack": 2}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 1}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 3}, {"id": "MINI_RIBBON", "stack": 6}, {"id": "M_SOCK", "stack": 2}] },
