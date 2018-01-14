@@ -20,8 +20,10 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-D: Blood Soaked Port", "ap": "5", "last-upd": "", "column": "",
+            "qname": "X-D: Blood Soaked Port", "ap": "5", "last-upd": "2018 01 14", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         },
         {
