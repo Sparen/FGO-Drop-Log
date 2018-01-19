@@ -124,3 +124,11 @@
         border-style: none double none double; 
         padding-left: 4px; 
     }
+    .h-valentines {
+        color: #FFDDDD;
+        background-color: #884411;
+        border-width: 4px; 
+        border-color: #FFDDDD; 
+        border-style: none double none double; 
+        padding-left: 4px; 
+    }
