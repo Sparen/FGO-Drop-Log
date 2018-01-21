@@ -4,9 +4,16 @@ var free_fuyuki_obj = {
     "cssclass": "h-fuyuki",
     "quests": [
         {
-            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "", "column": "",
+            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "2018 01 21", "column": "6",
             "droplog": [
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB"] }
             ]
         },
         {
@@ -108,7 +115,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 02", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 21", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -141,7 +148,17 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_ASS"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         },
         {
@@ -171,8 +188,9 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Mt. Etna: Exciting Land", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Mt. Etna: Exciting Land", "ap": "9", "last-upd": "2018 01 21", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS"] }
             ]
         },
         {
@@ -361,7 +379,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2017 11 06", "column": "44",
+            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 01 21", "column": "44",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": [] },
@@ -371,7 +389,8 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
-                { "uplog": true, "drop": ["PHOENIX_FEATHER", "PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["PHOENIX_FEATHER", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"] }
             ]
         }
     ]
@@ -474,8 +493,11 @@ var free_london_obj = {
             ]
         },
         {
-            "qname": "Hyde Park: Vestiges of the Crystal Palace", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Hyde Park: Vestiges of the Crystal Palace", "ap": "20", "last-upd": "2018 01 21", "column": "21",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_CAS"] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"] }
             ]
         }
     ]
