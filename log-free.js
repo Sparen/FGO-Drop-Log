@@ -4,7 +4,7 @@ var free_fuyuki_obj = {
     "cssclass": "h-fuyuki",
     "quests": [
         {
-            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "2018 01 21", "column": "6",
+            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "2018 01 25", "column": "6",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
@@ -13,7 +13,16 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] }
             ]
         },
         {
@@ -115,7 +124,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 21", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 25", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -158,7 +167,9 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
