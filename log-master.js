@@ -131,7 +131,16 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_MYSTERIOUS_SUBSTANCE_ALPHA", "path": "./icon/ ce/Substancealphaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_PURELY_BLOOM", "path": "./icon/ ce/Purebloomicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_STAR_OF_ALTRIA", "path": "./icon/ ce/Artoriastaricon.png", "label": "CE", "qengine": "EVENT-CE"});
-
+    //-- Valentines 2018 [Items are only here for reference as no logging is intended]
+    //imgpathmap.push({"id": "CHOCO_COIN_ALL", "path": "./icon/ event/All-Coin.png", "label": "X", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_SABER", "path": "./icon/ event/Saber-Coin.png", "label": "S", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_LANCER", "path": "./icon/ event/Lancer-Coin.png", "label": "L", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_ARCHER", "path": "./icon/ event/Archer-Coin.png", "label": "A", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_RIDER", "path": "./icon/ event/Rider-Coin.png", "label": "R", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_CASTER", "path": "./icon/ event/Caster-Coin.png", "label": "C", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_ASSASSIN", "path": "./icon/ event/Assassin-Coin.png", "label": "A", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/Matchoco.png", "label": "BC", "qengine": "EVENT"});
     //Misc
 }
 
