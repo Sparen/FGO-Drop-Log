@@ -141,6 +141,7 @@ function initPathMap() {
     //imgpathmap.push({"id": "CHOCO_COIN_ASSASSIN", "path": "./icon/ event/Assassin-Coin.png", "label": "A", "qengine": "EVENT"});
     //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
     //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/Matchoco.png", "label": "BC", "qengine": "EVENT"});
+    //-- Kara no Kyoukai 2018 [Items are only here for reference as no logging is intended]
     //Misc
 }
 
