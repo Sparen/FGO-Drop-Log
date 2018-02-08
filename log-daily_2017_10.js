@@ -23,7 +23,7 @@ var daily_saber_2017_10_obj = {
             ]
         },
         {
-            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2018 01 21", "column": "30", "icon": "saber-altria.png",
+            "qname": "Saber Training Ground - Expert", "ap": "40", "last-upd": "2018 02 07", "column": "30", "icon": "saber-altria.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
@@ -40,7 +40,10 @@ var daily_saber_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "PIECE_SAB", "VOIDS_DUST", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
-                { "uplog": true, "drop": ["PIECE_SAB", "EXP_1_SAB", "PROOF_OF_HERO", "PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["PIECE_SAB", "EXP_1_SAB", "PROOF_OF_HERO", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "PIECE_SAB", "MONU_SAB", "PROOF_OF_HERO", "VOIDS_DUST", "SEED_OF_YGGDRASIL"] }
             ]
         }
     ]
@@ -296,7 +299,7 @@ var daily_berserker_2017_10_obj = {
             ]
         },
         {
-            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 01 25", "column": "32", "icon": "berserker-lancelot.png",
+            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 02 07", "column": "32", "icon": "berserker-lancelot.png",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_2_BER", "EXP_2_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "EXP_3_BER"] },
@@ -311,7 +314,8 @@ var daily_berserker_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "EXP_1_BER", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "EXP_3_BER"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "MONU_BER", "EXP_3_BER", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "MONU_BER", "EXP_3_BER", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] }
             ]
         }
     ]

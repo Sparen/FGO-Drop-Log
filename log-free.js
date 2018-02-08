@@ -355,7 +355,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "2017 12 17", "column": "58",
+            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "2018 02 07", "column": "58",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID"] },
                 { "uplog": true, "drop": ["DRAGON_FANG"] },
@@ -369,7 +369,16 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": ["GEM_BL_RID"] },
                 { "uplog": true, "drop": ["DRAGON_FANG"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG"] },
-                { "uplog": true, "drop": ["DRAGON_FANG"] }
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -390,7 +399,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 01 21", "column": "44",
+            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 02 07", "column": "44",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": [] },
@@ -401,6 +410,16 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["PHOENIX_FEATHER", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PHOENIX_FEATHER", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["PHOENIX_FEATHER"] }
             ]
         }
