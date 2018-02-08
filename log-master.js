@@ -142,6 +142,9 @@ function initPathMap() {
     //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
     //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/Matchoco.png", "label": "BC", "qengine": "EVENT"});
     //-- Kara no Kyoukai 2018 [Items are only here for reference as no logging is intended]
+    //imgpathmap.push({"id": "MINERAL_WATER", "path": "./icon/ event/mineralWater.png", "label": "MW", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "STRAWBERRY_IC", "path": "./icon/ event/strawberryIceCream.png", "label": "SIC", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "BLACK_CAT_FIGURINE", "path": "./icon/ event/blackCatFigurine.png", "label": "BCF", "qengine": "EVENT"});
     //Misc
 }
 
