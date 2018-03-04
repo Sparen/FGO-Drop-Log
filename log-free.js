@@ -124,7 +124,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 01 25", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 03 03", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -169,7 +169,12 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] }
             ]
         },
         {
@@ -355,7 +360,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "2018 02 07", "column": "58",
+            "qname": "Island of Wyverns: Dragon Paradise", "ap": "14", "last-upd": "2018 03 03", "column": "58",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID"] },
                 { "uplog": true, "drop": ["DRAGON_FANG"] },
@@ -378,7 +383,16 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID"] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] }
             ]
         },
         {
