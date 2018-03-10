@@ -31,7 +31,7 @@ var event_halloween2017_obj = {
             ]
         },
         {
-            "qname": "Throne of the Impaler: Thid Stage", "ap": "30", "last-upd": "2017 10 17", "column": "30", "icon": "berserker-vladiii.png",
+            "qname": "Throne of the Impaler: Third Stage", "ap": "30", "last-upd": "2017 10 17", "column": "30", "icon": "berserker-vladiii.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "EVIL_BONE"], "stackdrop": [{"id": "MISCHIEVOUS_BAT", "stack": 5}, {"id": "PETIT_CAKE", "stack": 2}] }
             ]
