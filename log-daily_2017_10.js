@@ -188,7 +188,7 @@ var daily_rider_2017_10_obj = {
             ]
         },
         {
-            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 03 03", "column": "30", "icon": "rider-marie.png",
+            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 03 09", "column": "30", "icon": "rider-marie.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID"] },
@@ -202,7 +202,19 @@ var daily_rider_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "MONU_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "PIECE_RID"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "PIECE_RID", "PIECE_RID", "DRAGONS_REVERSE_SCALE"] },
-                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "PIECE_RID", "DRAGON_FANG"] }
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "PIECE_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "PIECE_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "PIECE_RID", "DRAGON_FANG", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "MONU_RID", "EXP_3_RID", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "MONU_RID", "MONU_RID"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "PIECE_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "EXP_3_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["PIECE_RID", "EXP_1_RID", "EXP_2_RID", "DRAGON_FANG", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "PIECE_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "MONU_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "PIECE_RID"] }
             ]
         }
     ]
@@ -232,7 +244,7 @@ var daily_caster_2017_10_obj = {
             ]
         },
         {
-            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "2018 01 21", "column": "30", "icon": "caster-zhugeliang.png",
+            "qname": "Caster Training Ground - Expert", "ap": "40", "last-upd": "2018 03 09", "column": "30", "icon": "caster-zhugeliang.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "PIECE_CAS"] },
@@ -241,7 +253,9 @@ var daily_caster_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "PIECE_CAS"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] },
-                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] }
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "MONU_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "PIECE_CAS", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "EXP_3_CAS", "EXP_3_CAS"] }
             ]
         }
     ]
@@ -268,11 +282,14 @@ var daily_assassin_2017_10_obj = {
             ]
         },
         {
-            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 01 21", "column": "32", "icon": "assassin-carmilla.png",
+            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 03 09", "column": "32", "icon": "assassin-carmilla.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "MONU_ASS"] },
-                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_GD_ASS", "MONU_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_GD_ASS", "MONU_ASS"] },
+                { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "EXP_2_ASS", "DRAGON_FANG", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_1_ASS", "EXP_2_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "VOIDS_DUST", "VOIDS_DUST"] }
             ]
         }
     ]
