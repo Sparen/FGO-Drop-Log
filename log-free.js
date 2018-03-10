@@ -568,3 +568,10 @@ var free_london_obj = {
         }
     ]
 };
+
+// _EPU
+var free_epu_obj = {
+    "cssclass": "h-epu",
+    "quests": [
+    ]
+};
