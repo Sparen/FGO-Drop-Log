@@ -88,9 +88,13 @@ function initPathMap() {
     imgpathmap.push({"id": "SERPENT_JEWEL", "path": "./icon/Snake_jewel.png", "label": "SJ", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SEED_OF_YGGDRASIL", "path": "./icon/Yggdrasil_seed.png", "label": "SoY", "qengine": "ALWAYS"});
     //Super rare drops
+    imgpathmap.push({"id": "BLACK_BEAST_GREASE", "path": "./icon/Blacktallow.png", "label": "BBG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "CLAW_OF_CHAOS", "path": "./icon/Talon_of_chaos.png", "label": "CoC", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "DRAGONS_REVERSE_SCALE", "path": "./icon/Dragons_reverse_scale.png", "label": "DRS", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "WARHORSE'S_YOUNG_HORN", "path": "./icon/Warhorse's Small Horn.png", "label": "WYH", "qengine": "ALWAYS"});
     //Special drops
 
     //Event drops
