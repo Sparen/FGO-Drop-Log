@@ -182,6 +182,8 @@ function loadFree() {
     loadObject(free_okeanos_obj, "free-okeanos");
     console.log("loadFree: Loading Free Quests - London");
     loadObject(free_london_obj, "free-london");
+    console.log("loadFree: Loading Free Quests - E Pluribus Unum");
+    loadObject(free_epu_obj, "free-epu");
 }
 
 function loadEvent() {

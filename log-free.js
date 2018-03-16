@@ -573,5 +573,15 @@ var free_london_obj = {
 var free_epu_obj = {
     "cssclass": "h-epu",
     "quests": [
+        {
+            "qname": "Black Hills: Holy Mountain", "ap": "17", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Riverton: The Great Riverbed", "ap": "17", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
     ]
 };
