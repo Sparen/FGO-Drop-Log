@@ -582,6 +582,31 @@ var free_epu_obj = {
             "qname": "Riverton: The Great Riverbed", "ap": "17", "last-upd": "", "column": "",
             "droplog": [
             ]
+        },
+        {
+            "qname": "Denver: Mile High City", "ap": "17", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Deming: New Chicago", "ap": "17", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Lubbock: Texas Ranger", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Dallas: Cowtown Colosseum", "ap": "17", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
         }
     ]
 };
