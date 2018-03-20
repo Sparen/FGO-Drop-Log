@@ -574,8 +574,11 @@ var free_epu_obj = {
     "cssclass": "h-epu",
     "quests": [
         {
-            "qname": "Black Hills: Holy Mountain", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Black Hills: Holy Mountain", "ap": "17", "last-upd": "2018 03 20", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["ETERNAL_GEAR"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
