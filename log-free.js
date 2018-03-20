@@ -607,6 +607,36 @@ var free_epu_obj = {
             "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "", "column": "",
             "droplog": [
             ]
+        },
+        {
+            "qname": "Alcatraz: Prison Island", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Des Moines: Surveillance Fortress", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Kearney: Great Plains", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Charlotte: Gold Rush", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Washington: Special Administrative Area", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
         }
     ]
 };
