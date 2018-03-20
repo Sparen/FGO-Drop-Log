@@ -582,8 +582,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Riverton: The Great Riverbed", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Riverton: The Great Riverbed", "ap": "17", "last-upd": "2018 03 20", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PIECE_LAN"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] }
             ]
         },
         {
