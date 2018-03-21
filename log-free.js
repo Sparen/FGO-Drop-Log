@@ -590,8 +590,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Denver: Mile High City", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Denver: Mile High City", "ap": "17", "last-upd": "2018 03 21", "column": "3", "icon": "lancer-karna.png",
             "droplog": [
+                { "uplog": true, "drop": ["PIECE_LAN"] },
+                { "uplog": true, "drop": ["PIECE_LAN"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
