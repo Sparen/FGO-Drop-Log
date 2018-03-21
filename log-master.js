@@ -382,7 +382,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     var todisplay = "<p>Query Results:</p>";
     todisplay += '<table><tr><th><span style="color:#FF6666">UNRELIABLE</span></th><th><span style="color:#FF66AA">LACKING DATA</span></th><th><span style="color:#CCAAFF">SOMEWHAT RELIABLE</span></th><th><span style="color:#88CCFF">RATHER RELIABLE</span></th><th><span style="color:#66DDFF">RELIABLE</span></th><th><span style="color:#66EEDD">VERY RELIABLE</span></th><th><span style="color:#66FFCC">EXTREMELY RELIABLE</span></th></tr>';
     todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
-    todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span><br>';
+    todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span>&nbsp;<span class="h-epu">E PLURIBUS UNUM&nbsp;</span><br>';
     todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span></div><br>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
@@ -400,6 +400,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += getDropStatsQ(itemID, free_septem_obj);
     todisplay += getDropStatsQ(itemID, free_okeanos_obj);
     todisplay += getDropStatsQ(itemID, free_london_obj);
+    todisplay += getDropStatsQ(itemID, free_epu_obj);
     //Ensure only the most recent run of a event is used
     if (eventflag || document.getElementById("queryEventCB").checked) {
         todisplay += getDropStatsQ(itemID, event_halloween2017_obj);
