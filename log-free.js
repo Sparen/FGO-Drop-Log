@@ -598,8 +598,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Deming: New Chicago", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Deming: New Chicago", "ap": "17", "last-upd": "2018 03 22", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_RD_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] }
             ]
         },
         {
