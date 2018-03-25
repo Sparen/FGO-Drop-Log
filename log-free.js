@@ -606,8 +606,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Lubbock: Texas Ranger", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Lubbock: Texas Ranger", "ap": "18", "last-upd": "2018 03 24", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS", "PROOF_OF_HERO"] }
             ]
         },
         {
