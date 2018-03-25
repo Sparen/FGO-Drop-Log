@@ -614,8 +614,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Dallas: Cowtown Colosseum", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Dallas: Cowtown Colosseum", "ap": "17", "last-upd": "2018 03 25", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
