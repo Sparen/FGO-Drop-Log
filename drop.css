@@ -16,8 +16,42 @@
         height: auto;
     }
 
+    .cicon {
+        width: 32px;
+        height: auto;
+    }
+
+    .iconq {
+        background-color: green;
+        padding: 4px;
+        display: inline-block;
+        border: 1px solid #AAFFAA;
+        border-radius: 2px;
+    }
+
+    .icona {
+        background-color: blue;
+        padding: 4px;
+        display: inline-block;
+        border: 1px solid #AAAAFF;
+        border-radius: 2px;
+    }
+
+    .iconb {
+        background-color: red;
+        padding: 4px;
+        display: inline-block;
+        border: 1px solid #FFAAAA;
+        border-radius: 2px;
+    }
+
     .servantsmall {
         width: 32px;
+        height: auto;
+    }
+
+    .servantmed {
+        width: 64px;
         height: auto;
     }
 
