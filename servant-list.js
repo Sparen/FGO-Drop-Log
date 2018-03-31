@@ -5,7 +5,7 @@ function loadServantList() {
 }
 
 function loadObject(obj, dest) {
-    var str = '<tr><th>ID</th><th>Icon</th><th>Class</th><th>Rarity</th><th>Name</th><th>Deck</th><th>NP</th><th>Crit Star<br>Absorb | Gen</th><th>NP Charge<br>ATK | DEF</th><th>Gender</th><th>Attribute</th><th>Alignment</th><th>Extra Traits</th></tr>';
+    var str = '<tr><th>ID</th><th>Icon</th><th>Class</th><th>&star;</th><th>Name</th><th>Deck</th><th>NP</th><th>Crit Star<br>Absorb | Gen</th><th>NP Charge<br>ATK | DEF</th><th>Gender</th><th>Attrib.</th><th>Alignment</th><th>Extra Traits</th></tr>';
     for (i = 0; i < obj.servants.length; i += 1) {
         var servant = obj.servants[i];
         str += '<tr><td>' + servant.idnum + '</td><td><img class="servantmed" src="./sicon/' + servant.sicon + '"></td>';
