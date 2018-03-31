@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="blah.css">
     <link rel="stylesheet" type="text/css" href="drop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<body id="mhome" onload="load();loadQueryEngine()">
+<body id="mhome" onload="load();loadServantList()">
     <h1 style="background-color:darksalmon">Fate/Grand Order - Servant List</h1>
 <div class="yui-t1" id="top">
     <div id="menubar">
@@ -26,16 +26,9 @@
 </ul>
 
 <h3 class="h-master" id="h_release">Release Servants</h3>
+<table id="table-release"></table>
 <table>
 <tr><th>ID</th><th>Icon</th><th>Class</th><th>Rarity</th><th>Name</th><th>Deck</th><th>NP</th><th>Basic Traits</th><th>Extra Traits</th></tr>
-<tr><td>001</td><td><img class="servantmed" src="./sicon/shielder-mash.png"></td>
-    <td><img class="cicon" src="./cicon/shielder-s.png"></td><td>3-4</td><td>Mash Kyrielight<br>マシュ・キリエライト</td>
-    <td><div class="iconq">Q</div><div class="icona">A</div><div class="icona">A</div><div class="iconb">B</div><div class="iconb">B</div></td><td><div class="icona">A</div></td>
-    <td>Female - Earth - Lawful - Good</td><td>Humanoid - Riding<br>Weak to Enuma Elish</td></tr>
-<tr><td>002</td><td><img class="servantmed" src="./sicon/saber-altria.png"></td>
-    <td><img class="cicon" src="./cicon/saber-g.png"></td><td>5</td><td>Altria Pendragon<br>アルトリア・ペンドラゴン</td>
-    <td><div class="iconq">Q</div><div class="icona">A</div><div class="icona">A</div><div class="iconb">B</div><div class="iconb">B</div></td><td><div class="iconb">B</div></td>
-    <td>Female - Earth - Lawful - Good</td><td>Altria - Dragon - Humanoid - King - Riding - Saberface<br>Weak to Enuma Elish</td></tr>
 <tr><td>003</td><td><img class="servantmed" src="./sicon/saber-saberalter.png"></td>
     <td><img class="cicon" src="./cicon/saber-g.png"></td><td>4</td><td>Altria Pendragon (Alter)<br>アルトリア・ペンドラゴン〔オルタ〕</td>
     <td><div class="iconq">Q</div><div class="icona">A</div><div class="icona">A</div><div class="iconb">B</div><div class="iconb">B</div></td><td><div class="iconb">B</div></td>
@@ -291,5 +284,6 @@
       <footer id="ft">
       </footer>
     <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./servant-list.js"></script>
 </body>
 </html>
