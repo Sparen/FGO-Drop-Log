@@ -1,4 +1,4 @@
-//EXTRA TRAITS STRUCTURE: <BRYNHILDR> - All traits in groups of three - <WEAK TO ENUMA ELISH>
+//EXTRA TRAITS STRUCTURE: <BRYNHILD> - All traits in groups of three - <WEAK TO ENUMA ELISH>
 
 var servantlist_obj_release = {
     "servants": [
@@ -96,6 +96,101 @@ var servantlist_obj_release = {
             "ess": "Man",
             "alignment": "Chaotic Good",
             "traits": ["Humanoid - King - Riding", "Roman - Saberface", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "006",
+            "sicon": "saber-siegfried.png",
+            "ename": "Siegfried",
+            "jname1": "ジークフリート",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "4",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "B",
+            "starabs": "97",
+            "stargen": "10%",
+            "npcharge": ["0.83%", "3.0%"],
+            "gender": "Male",
+            "ess": "Earth",
+            "alignment": "Chaotic Good",
+            "traits": ["Brynhild's Beloved", "Dragon - Humanoid - King", "Riding", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "007",
+            "sicon": "saber-caesar.png",
+            "ename": "Gaius Julius Caesar",
+            "jname1": "ガイウス・ユリウス・カエサル",
+            "cicon": "saber-s.png",
+            "class": "Saber",
+            "rarity": "3",
+            "deck": ["Q", "Q", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "Q",
+            "starabs": "99",
+            "stargen": "10%",
+            "npcharge": ["1.1%", "3.0%"],
+            "gender": "Male",
+            "ess": "Man",
+            "alignment": "True Neutral",
+            "traits": ["Brynhild's Beloved", "Divine - Humanoid - King", "Riding - Roman", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "008",
+            "sicon": "saber-altera.png",
+            "ename": "Altera",
+            "jname1": "アルテラ",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "B",
+            "starabs": "102",
+            "stargen": "10.1%",
+            "npcharge": ["0.84%", "3.0%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Chaotic Good",
+            "traits": ["Divine - Humanoid - King", "Riding", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "009",
+            "sicon": "saber-gilles.png",
+            "ename": "Gilles de Rais",
+            "jname1": "ジル・ド・レェ",
+            "cicon": "saber-s.png",
+            "class": "Saber",
+            "rarity": "3",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "A",
+            "starabs": "98",
+            "stargen": "9.9%",
+            "npcharge": ["0.82%", "3.0%"],
+            "gender": "Male",
+            "ess": "Man",
+            "alignment": "Lawful Good",
+            "traits": ["Brynhild's Beloved", "Humanoid - Riding", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "010",
+            "sicon": "saber-deon.png",
+            "ename": "Chevalier d'Eon",
+            "jname1": "シュヴァリエ・デオン",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "4",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "A",
+            "starabs": "102",
+            "stargen": "10%",
+            "npcharge": ["0.83%", "3.0%"],
+            "gender": "Unknown",
+            "ess": "Man",
+            "alignment": "True Neutral",
+            "traits": ["Humanoid - Riding", "Weak to Enuma Elish"]
         }
     ]
 };
