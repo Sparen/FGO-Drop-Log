@@ -1,3 +1,5 @@
+//EXTRA TRAITS STRUCTURE: <BRYNHILDR> - All traits in groups of three - <WEAK TO ENUMA ELISH>
+
 var servantlist_obj_release = {
     "servants": [
         {
@@ -36,7 +38,64 @@ var servantlist_obj_release = {
             "gender": "Female",
             "ess": "Earth",
             "alignment": "Lawful Good",
-            "traits": ["Altria - Dragon - Humanoid - King - Riding - Saberface", "Weak to Enuma Elish"]
+            "traits": ["Altria - Dragon - Humanoid", "King - Riding - Saberface", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "003",
+            "sicon": "saber-saberalter.png",
+            "ename": "Altria Pendragon (Alter)",
+            "jname1": "アルトリア・ペンドラゴン〔オルタ〕",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "4",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "B",
+            "starabs": "99",
+            "stargen": "9.9%",
+            "npcharge": ["0.86%", "3.0%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Lawful Evil",
+            "traits": ["Altria - Dragon - Humanoid", "King - Saberface", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "004",
+            "sicon": "saber-saberlily.png",
+            "ename": "Altria Pendragon (Lily)",
+            "jname1": "アルトリア・ペンドラゴン〔リリィ〕",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "4",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 3],
+            "np": "B",
+            "starabs": "102",
+            "stargen": "10%",
+            "npcharge": ["0.86%", "3.0%"],
+            "gender": "Female",
+            "ess": "Earth",
+            "alignment": "Lawful Good",
+            "traits": ["Altria - Dragon - Humanoid", "King - Riding - Saberface", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "005",
+            "sicon": "saber-nero.png",
+            "ename": "Nero Claudius",
+            "jname1": "ネロ・クラウディウス",
+            "cicon": "saber-g.png",
+            "class": "Saber",
+            "rarity": "4",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [2, 2, 1, 5],
+            "np": "A",
+            "starabs": "102",
+            "stargen": "10.1%",
+            "npcharge": ["0.84%", "3.0%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Chaotic Good",
+            "traits": ["Humanoid - King - Riding", "Roman - Saberface", "Weak to Enuma Elish"]
         }
     ]
 };
