@@ -622,8 +622,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "2018 04 01", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN", "GEM_BL_ARC", "PROOF_OF_HERO"] }
             ]
         },
         {
