@@ -306,10 +306,15 @@ function loadObject(logobj, tableid) {
         //These arrays are the same size as imgpathmap and logItems
         var numitemUNLOG = [];
         var numitemTOTAL = [];
+        //Same as above but used to store stack size data. Each element is an object mapping stack size to occurences
+        var numitemstackUNLOG = [];
+        var numitemstackTOTAL = [];
         //Initialize arrays for the current quest
         for (var j = 0; j < imgpathmap.length; j += 1) {
             numitemUNLOG.push(0);
             numitemTOTAL.push(0);
+            numitemstackUNLOG.push({});
+            numitemstackTOTAL.push({});
         }
         //Now we iterate through the droplogs
         for (var j = 0; j < quest.droplog.length; j += 1) {
@@ -335,9 +340,20 @@ function loadObject(logobj, tableid) {
                     //Search for matches in the list of items
                     for (var l = 0; l < imgpathmap.length; l += 1) {
                         if (currdroplog.stackdrop[k].id === imgpathmap[l].id) {
+                            //Increment item count by the stack size
                             numitemTOTAL[l] += currdroplog.stackdrop[k].stack;
+                            if (numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] === undefined) {
+                                numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] = 1;
+                            } else {
+                                numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] += 1;
+                            }
                             if (!currdroplog.uplog) {
                                 numitemUNLOG[l] += currdroplog.stackdrop[k].stack;
+                                if (numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] === undefined) {
+                                    numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] = 1;
+                                } else {
+                                    numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] += 1;
+                                }
                             }
                         }
                     }
@@ -373,7 +389,25 @@ function loadObject(logobj, tableid) {
                 var apperdrop = (parseInt(quest.ap)/(numitemTOTAL[m] / numrunsTOTAL)).toFixed(apperdropdecimalfix);
                 if (numrunsTOTAL === 0 || numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
 
-                tablehtml += '<td>' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span></td>';
+
+                var stacksizetext = "";
+                //Make the tooltip with stack size information iff the item was a stack item
+                if (Object.keys(numitemstackTOTAL[m]).length !== 0) {
+                    stacksizetext += '<span class="tooltiptext">';
+                    stacksizetext += 'All Runs:<br>';
+                    for(var key in numitemstackTOTAL[m]) {
+                        var value = numitemstackTOTAL[m][key];
+                        stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
+                    }
+                    stacksizetext += '<hr>Only Unlogged Runs:<br>';
+                    for(var key in numitemstackUNLOG[m]) {
+                        var value = numitemstackUNLOG[m][key];
+                        stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
+                    }
+                    stacksizetext += '</span>';
+                }
+
+                tablehtml += '<td><div class="tooltip">' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
             }
         }
 
