@@ -16,6 +16,57 @@ var ID_TRANSISTOR = 1;
 var ID_AP_LENS = 2;
 var ID_VACUUM_TUBE = 3;
 
+var ID_VITRUVIAN_MAN = 0;
+var ID_SELF_PORTRAIT = 1;
+var ID_MONA_LISA = 2;
+var ID_MANUSCRIPT = 3;
+
+function SCdavinci2018() {
+    //Get the string located at name/id davinci2018-sc-input
+    var input = document.getElementById("davinci2018-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "V") {
+            typeConst = ID_VITRUVIAN_MAN;
+        } else if (typeID == "S") {
+            typeConst = ID_SELF_PORTRAIT;
+        } else if (typeID == "L") {
+            typeConst = ID_MONA_LISA;
+        } else if (typeID == "M") {
+            typeConst = ID_MANUSCRIPT;
+        } else {
+            alert("SCdavinci2018: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_VITRUVIAN_MAN) {
+                itemblock += 'VITRUVIAN_MAN';
+            } else if (typeConst == ID_SELF_PORTRAIT) {
+                itemblock += 'SELF_PORTRAIT';
+            } else if (typeConst == ID_MONA_LISA) {
+                itemblock += 'MONA_LISA';
+            } else if (typeConst == ID_MANUSCRIPT) {
+                itemblock += 'MANUSCRIPT';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("davinci2018-sc-output").innerHTML = output;
+}
+
 function SCsaberwars2018() {
     //Get the string located at name/id saberwars2018-sc-input
     var input = document.getElementById("saberwars2018-sc-input").value;

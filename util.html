@@ -16,6 +16,25 @@
 <h1 class="h-master">Utilities</h1>
 <p>This page contains utilities for data collection.</p>
 
+<h3 class="h-davinci">Da Vinci & 7 Counterfeit Heroic Spirits Shorthand Converter</h3>
+<p>
+Input: CSV string with units in the format X#x#<br>
+Output: Extended log-event object<br>
+EX: "V2x1,S2x3,L1x3,M1x1,M3x3" produces:<br>
+<code style="font-size:8px">{ "uplog": false, "drop": [], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}] },
+</code><br>
+Please note that non-event items are not handled by this system and must be added to the drop array independently.
+</p>
+<p>INPUT:</p>
+<input type="text" name="davinci-sc-input" id="davinci2018-sc-input" size="96"><br><br>
+<p>OUTPUT: (Safari: Tripleclick over code to select contents)</p>
+<div id="davinci2018-sc-output" style="background-color:#333333">
+</div>
+<br>
+<input type="submit" value="Submit" onClick="SCdavinci2018()">
+
+<hr>
+
 <h3 class="h-saberwars">Saber Wars Shorthand Converter</h3>
 <p>
 Input: CSV string with units in the format X#x#<br>

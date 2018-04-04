@@ -29,6 +29,7 @@ function initPathMap() {
     imgpathmap.push({"id": "GEM_GD_ASS", "path": "./icon/Secretassassin.png", "label": "A", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "GEM_GD_BER", "path": "./icon/Secretberserker.png", "label": "B", "qengine": "ALWAYS"});
     //Ascension pieces
+    imgpathmap.push({"id": "PIECE_XXX", "path": "./icon/Saber_piece.png", "label": "ANY", "qengine": "NEVER"});
     imgpathmap.push({"id": "PIECE_SAB", "path": "./icon/Saber_piece.png", "label": "S", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PIECE_LAN", "path": "./icon/Lancer_piece.png", "label": "L", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PIECE_ARC", "path": "./icon/Archer_piece.png", "label": "A", "qengine": "ALWAYS"});
@@ -36,6 +37,7 @@ function initPathMap() {
     imgpathmap.push({"id": "PIECE_CAS", "path": "./icon/Caster_piece.png", "label": "C", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PIECE_ASS", "path": "./icon/Assassin_piece.png", "label": "A", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PIECE_BER", "path": "./icon/Berserker_piece.png", "label": "B", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "MONU_XXX", "path": "./icon/Saber_monument.png", "label": "ANY", "qengine": "NEVER"});
     imgpathmap.push({"id": "MONU_SAB", "path": "./icon/Saber_monument.png", "label": "S", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "MONU_LAN", "path": "./icon/Lancer_monument.png", "label": "L", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "MONU_ARC", "path": "./icon/Archer_monument.png", "label": "A", "qengine": "ALWAYS"});
@@ -149,7 +151,11 @@ function initPathMap() {
     //imgpathmap.push({"id": "MINERAL_WATER", "path": "./icon/ event/mineralWater.png", "label": "MW", "qengine": "EVENT"});
     //imgpathmap.push({"id": "STRAWBERRY_IC", "path": "./icon/ event/strawberryIceCream.png", "label": "SIC", "qengine": "EVENT"});
     //imgpathmap.push({"id": "BLACK_CAT_FIGURINE", "path": "./icon/ event/blackCatFigurine.png", "label": "BCF", "qengine": "EVENT"});
-    //Misc
+    //-- Da Vinci 2018 [Manuscripts default to True image for contrast with background]
+    imgpathmap.push({"id": "VITRUVIAN_MAN", "path": "./icon/ event/vitruvianMan.png", "label": "VM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SELF_PORTRAIT", "path": "./icon/ event/selfPortrait.png", "label": "SP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MONA_LISA", "path": "./icon/ event/monaLisa.png", "label": "ML", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MANUSCRIPT", "path": "./icon/ event/manuscriptTrue.png", "label": "M", "qengine": "EVENT"});
 }
 
 function loadDaily() {
@@ -196,6 +202,8 @@ function loadEvent() {
     loadObject(event_christmas2017_obj, "event-christmas2017");
     console.log("loadEvent: Loading Event Quests - Saber Wars 2018");
     loadObject(event_saberwars2018_obj, "event-saberwars2018");
+    console.log("loadEvent: Loading Event Quests - Da Vinci 2018");
+    loadObject(event_davinci2018_obj, "event-davinci2018");
 }
 
 function loadQueryEngine() {
@@ -383,7 +391,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += '<table><tr><th><span style="color:#FF6666">UNRELIABLE</span></th><th><span style="color:#FF66AA">LACKING DATA</span></th><th><span style="color:#CCAAFF">SOMEWHAT RELIABLE</span></th><th><span style="color:#88CCFF">RATHER RELIABLE</span></th><th><span style="color:#66DDFF">RELIABLE</span></th><th><span style="color:#66EEDD">VERY RELIABLE</span></th><th><span style="color:#66FFCC">EXTREMELY RELIABLE</span></th></tr>';
     todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
     todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span>&nbsp;<span class="h-epu">E PLURIBUS UNUM&nbsp;</span><br>';
-    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span></div><br>';
+    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span>&nbsp;<span class="h-davinci">DA VINCI&nbsp;</span></div><br>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
@@ -407,6 +415,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
         todisplay += getDropStatsQ(itemID, event_gudaguda2017_obj);
         todisplay += getDropStatsQ(itemID, event_christmas2017_obj);
         todisplay += getDropStatsQ(itemID, event_saberwars2018_obj);
+        todisplay += getDropStatsQ(itemID, event_davinci2018_obj);
     }
     todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;

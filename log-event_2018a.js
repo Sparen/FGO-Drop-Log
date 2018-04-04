@@ -174,3 +174,33 @@ var event_saberwars2018_obj = {
         }
     ]
 };
+
+
+// _DAVINCI2018
+var event_davinci2018_obj = {
+    "cssclass": "h-davinci",
+    "quests": [
+        {
+            "qname": "Search for Counterfeits - Novice", "ap": "10", "last-upd": "2018 04 04", "column": "16",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 2}, {"id": "VITRUVIAN_MAN", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Search for Counterfeits - Intermediate", "ap": "20", "last-upd": "2018 04 04", "column": "16",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": ["PIECE_XXX"], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Search for Counterfeits - Advanced", "ap": "30", "last-upd": "2018 04 04", "column": "16",
+            "droplog": [
+                { "uplog": true, "drop": ["PIECE_XXX"], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 2}, {"id": "VITRUVIAN_MAN", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 4}] }
+            ]
+        }
+    ]
+};
