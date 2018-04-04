@@ -315,13 +315,13 @@ p, fieldset, table, pre {margin-bottom: 1em;}
     color: #000;
     text-align: left;
     padding: 5px;
-    border-radius: 6px;
+    border-radius: 4px;
     border: 2px solid #AACCFF;
  
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    bottom: 100%;
+    bottom: 110%;
     left: 50%;
     margin-left: -75px;
 }
@@ -336,10 +336,10 @@ p, fieldset, table, pre {margin-bottom: 1em;}
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
     left: 50%;
-    margin-left: -5px;
+    margin-left: -12px;
     border-width: 5px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: #FFFFFF transparent transparent transparent;
 }
 
 /* END Tooltips from https://www.w3schools.com/css/css_tooltip.asp */
