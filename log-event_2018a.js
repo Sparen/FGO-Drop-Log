@@ -187,13 +187,17 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Intermediate", "ap": "20", "last-upd": "2018 04 04", "column": "16",
+            "qname": "Search for Counterfeits - Intermediate", "ap": "20", "last-upd": "2018 04 05", "column": "16",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 3}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
-                { "uplog": true, "drop": ["PIECE_XXX"], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] }
+                { "uplog": true, "drop": ["PIECE_XXX"], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": ["DRAGON_FANG"], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "SELF_PORTRAIT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}] }
             ]
         },
         {
@@ -203,10 +207,23 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Vecchio- [BER]", "ap": "40", "last-upd": "2018 04 04", "column": "16",
+            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Vecchio- [BER]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
             "droplog": [
                 { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
-                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] }
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] }
+            ]
+        },
+        {
+            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Ambrosiana- [RID]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
+            "droplog": [
+                { "uplog": true, "drop": ["METEORIC_HORSESHOE"], "stackdrop": [{"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 6}] }
             ]
         }
     ]
