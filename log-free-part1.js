@@ -630,18 +630,27 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Alcatraz: Prison Island", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Alcatraz: Prison Island", "ap": "18", "last-upd": "2018 04 05", "column": "3", "icon": "berserker-beowulf.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Des Moines: Surveillance Fortress", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Des Moines: Surveillance Fortress", "ap": "18", "last-upd": "2018 04 05", "column": "3", "icon": "lancer-lishuwen.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Kearney: Great Plains", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Kearney: Great Plains", "ap": "18", "last-upd": "2018 04 05", "column": "18",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {

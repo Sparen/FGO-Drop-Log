@@ -96,7 +96,7 @@ function initPathMap() {
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "WARHORSE'S_YOUNG_HORN", "path": "./icon/Warhorse's Small Horn.png", "label": "WYH", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "WARHORSE_YOUNG_HORN", "path": "./icon/Warhorse's Small Horn.png", "label": "WYH", "qengine": "ALWAYS"});
     //Special drops
 
     //Event drops
