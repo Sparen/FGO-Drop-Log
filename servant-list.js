@@ -2,6 +2,7 @@
 
 function loadServantList() {
     loadObject(servantlist_obj_release, "table-release");
+    loadObject(servantlist_obj_part1, "table-part1");
 }
 
 function loadObject(obj, dest) {
