@@ -410,7 +410,11 @@ function loadObject(logobj, tableid) {
                     stacksizetext += '</span>';
                 }
 
-                tablehtml += '<td><div class="tooltip">' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
+                if (numitemTOTAL[m] > 0) {
+                    tablehtml += '<td><div class="tooltip">' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
+                } else {
+                    tablehtml += '<td>-</td>';
+                }
             }
         }
 
