@@ -67,6 +67,7 @@ var free_fuyuki_obj = {
         {
             "qname": "Mobile Coordinate No.0: Massive Cavern", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": [] }
             ]
         }
     ]
