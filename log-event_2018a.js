@@ -211,7 +211,7 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Vecchio- [BER]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Vecchio- [BER]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
             "droplog": [
                 { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
                 { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 1}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MANUSCRIPT", "stack": 6}] },
@@ -225,13 +225,13 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Ambrosiana- [RID]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Ambrosiana- [RID]", "ap": "40", "last-upd": "2018 04 05", "column": "16",
             "droplog": [
                 { "uplog": true, "drop": ["METEORIC_HORSESHOE"], "stackdrop": [{"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 6}] }
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Czartoryski- [CAS]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Czartoryski- [CAS]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["MONU_XXX", "FORBIDDEN_PAGE", "HEART_OF_A_FOREIGN_GOD"], "stackdrop": [{"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 3}, {"id": "MONA_LISA", "stack": 3}, {"id": "MONA_LISA", "stack": 3}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 6}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 2}, {"id": "MONA_LISA", "stack": 3}, {"id": "MONA_LISA", "stack": 3}, {"id": "MONA_LISA", "stack": 3}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 1}, {"id": "MANUSCRIPT", "stack": 6}] },
@@ -251,7 +251,7 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Uffizi- [LAN]", "ap": "40", "last-upd": "2018 04 08", "column": "48",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Uffizi- [LAN]", "ap": "40", "last-upd": "2018 04 08", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 7}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 4}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 7}] },
@@ -277,7 +277,7 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Vatican- [ASS]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Vatican- [ASS]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 4}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 3}, {"id": "MANUSCRIPT", "stack": 8}] },
@@ -307,13 +307,13 @@ var event_davinci2018_obj = {
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Grazie- [ARC]", "ap": "40", "last-upd": "2018 04 09", "column": "48",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Grazie- [ARC]", "ap": "40", "last-upd": "2018 04 09", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "VITRUVIAN_MAN", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 5}, {"id": "SELF_PORTRAIT", "stack": 9}, {"id": "MONA_LISA", "stack": 7}, {"id": "MONA_LISA", "stack": 12}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 9}] }
             ]
         },
         {
-            "qname": "Search for Counterfeits - Tour in the Fake Art Museum -Hermitage- [SAB]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Hermitage- [SAB]", "ap": "40", "last-upd": "2018 04 11", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["MONU_XXX", "SEED_OF_YGGDRASIL"], "stackdrop": [{"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 10}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 10}] },
@@ -334,6 +334,12 @@ var event_davinci2018_obj = {
                 { "uplog": true, "drop": ["SPIRIT_ROOT"], "stackdrop": [{"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 10}] },
                 { "uplog": true, "drop": ["SPIRIT_ROOT"], "stackdrop": [{"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 10}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "MONA_LISA", "stack": 4}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MONA_LISA", "stack": 6}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 2}, {"id": "MANUSCRIPT", "stack": 10}] }
+            ]
+        },
+        {
+            "qname": "Search for Counterfeits: Tour in the Fake Art Museum -Louvre-", "ap": "40", "last-upd": "2018 04 11", "column": "48",
+            "droplog": [
+                
             ]
         }
     ]
