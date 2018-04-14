@@ -457,7 +457,11 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += getDropStatsQ(itemID, free_okeanos_obj);
     todisplay += getDropStatsQ(itemID, free_london_obj);
     todisplay += getDropStatsQ(itemID, free_epu_obj);
-    //Ensure only the most recent run of a event is used
+    //If limited time quest checkbox is enabled
+    if (document.getElementById("queryLTQCB").checked) {
+        todisplay += getDropStatsQ(itemID, event_hunting1_obj);
+    }
+    //If the item is an event item or if the checkbox for viewing event data for all items is checked
     if (eventflag || document.getElementById("queryEventCB").checked) {
         todisplay += getDropStatsQ(itemID, event_halloween2017_obj);
         todisplay += getDropStatsQ(itemID, event_gudaguda2017_obj);
