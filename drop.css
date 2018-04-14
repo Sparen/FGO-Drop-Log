@@ -134,6 +134,14 @@
         padding-left: 4px; 
         border-radius: 2px;
     }
+    .h-hunting {
+        color: #FFEE55;
+        background-color: #2277BB;
+        border-width: 4px; 
+        border-color: #FFEE55; 
+        border-style: none dashed none dashed; 
+        padding-left: 4px; 
+    }
     .h-halloween {
         color: #FFCCAA;
         background-color: #CC6633;
@@ -187,6 +195,14 @@
         background-color: #AA8844;
         border-width: 4px; 
         border-color: #FFDD88; 
+        border-style: none double none double; 
+        padding-left: 4px; 
+    }
+    .h-accelzero {
+        color: #FF2222;
+        background-color: #000044;
+        border-width: 4px; 
+        border-color: #FF2222; 
         border-style: none double none double; 
         padding-left: 4px; 
     }

@@ -209,6 +209,12 @@ function loadEvent() {
     loadObject(event_davinci2018_obj, "event-davinci2018");
 }
 
+function loadHuntEvent() {
+    initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    console.log("loadHuntEvent: Loading Hunting Quests Part 1");
+    loadObject(event_hunting1_obj, "event-hunting1");
+}
+
 function loadQueryEngine() {
     initPathMap();
     console.log("loadQueryEngine: Preparing Query Engine");
