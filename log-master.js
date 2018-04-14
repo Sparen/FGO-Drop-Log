@@ -156,9 +156,9 @@ function initPathMap() {
     imgpathmap.push({"id": "SELF_PORTRAIT", "path": "./icon/ event/selfPortrait.png", "label": "SP", "qengine": "EVENT"});
     imgpathmap.push({"id": "MONA_LISA", "path": "./icon/ event/monaLisa.png", "label": "ML", "qengine": "EVENT"});
     imgpathmap.push({"id": "MANUSCRIPT", "path": "./icon/ event/manuscriptTrue.png", "label": "M", "qengine": "EVENT"});
-    imgpathmap.push({"id": "CE_SCHOLARS_CHALDEA", "path": "./icon/ ce/Schoolchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
-    imgpathmap.push({"id": "CE_EMPIETA", "path": "./icon/ ce/Empietaicon.png", "label": "CE", "qengine": "EVENT-CE"});
-    imgpathmap.push({"id": "CE_HOLY_MAIDEN_CHALDEA", "path": "./icon/ ce/Holymaidenchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_SCHOLARS_OF_CHALDEA", "path": "./icon/ ce/Schoolchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_THE_MERCILESS_ONE", "path": "./icon/ ce/Empietaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_MAIDEN_LEADING_CHALDEA", "path": "./icon/ ce/Holymaidenchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
