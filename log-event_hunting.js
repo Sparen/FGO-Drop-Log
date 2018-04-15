@@ -17,10 +17,18 @@ var event_hunting1_obj = {
             ]
         },
         {
-            "qname": "[2018 04 14] Skeleton Hunt - Pride Rank", "ap": "40", "last-upd": "", "column": "",
+            "qname": "[2018 04 14] Skeleton Hunt - Pride Rank", "ap": "40", "last-upd": "2018 04 14", "column": "32",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
-                { "uplog": false, "drop": ["GEM_RD_ARC", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC" ] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "EVIL_BONE", "EVIL_BONE", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC" ] }
             ]
         }
     ]
