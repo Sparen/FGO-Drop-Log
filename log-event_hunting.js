@@ -75,6 +75,46 @@ var event_hunting1_obj = {
                 { "uplog": true, "drop": ["PHOENIX_FEATHER", "PHOENIX_FEATHER", "SEED_OF_YGGDRASIL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "SEED_OF_YGGDRASIL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB"] }
             ]
+        },
+        {
+            "qname": "[2018 04 16] Bicorn Hunt - Cause Rank [LAN]", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_RD_LAN", "HOMUNCULUS_BABY", "EXP_4_LAN", "EXP_4_LAN"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 16] Bicorn Hunt - Fes Rank [LAN]", "ap": "35", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["HOMUNCULUS_BABY", "HOMUNCULUS_BABY", "WARHORSE_YOUNG_HORN", "EXP_4_LAN"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 16] Bicorn Hunt - Pride Rank [LAN]", "ap": "40", "last-upd": "2018 04 17", "column": "32",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_GD_LAN", "HOMUNCULUS_BABY", "HOMUNCULUS_BABY", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["GEM_GD_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 17] Gazer Hunt - Cause Rank [ARC]", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_RD_ARC", "PROOF_OF_HERO"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 17] Gazer Hunt - Fes Rank [ARC]", "ap": "35", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 17] Gazer Hunt - Pride Rank [ARC]", "ap": "40", "last-upd": "2018 04 17", "column": "32",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PROOF_OF_HERO", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_ARC"] }
+            ]
         }
     ]
 };
