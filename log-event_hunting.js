@@ -113,7 +113,17 @@ var event_hunting1_obj = {
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PROOF_OF_HERO", "EXP_4_ARC"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_ARC"] }
+                { "uplog": true, "drop": ["GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_GD_ARC", "PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD", "EXP_4_ARC"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 18] Spriggan Hunt - Cause Rank [SAB]", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_RD_SAB", "ETERNAL_GEAR", "EXP_4_SAB"] }
             ]
         }
     ]
