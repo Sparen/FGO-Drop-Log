@@ -446,3 +446,10 @@ var event_davinci2018_obj = {
         }
     ]
 };
+
+// _ACCELZEROORDER2018
+var event_accelzero2018_obj = {
+    "cssclass": "h-accelzero",
+    "quests": [
+    ]
+};

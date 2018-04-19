@@ -159,6 +159,14 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_SCHOLARS_OF_CHALDEA", "path": "./icon/ ce/Schoolchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_THE_MERCILESS_ONE", "path": "./icon/ ce/Empietaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MAIDEN_LEADING_CHALDEA", "path": "./icon/ ce/Holymaidenchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    //-- Face/Accel Zero Order [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
+    imgpathmap.push({"id": "EMB_SAB", "path": "./icon/ event/accelzero/120_Saber Emblem.png", "label": "S", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_LAN", "path": "./icon/ event/accelzero/122_Lancer Emblem.png", "label": "L", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_ARC", "path": "./icon/ event/accelzero/121_Archer Emblem.png", "label": "A", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_RID", "path": "./icon/ event/accelzero/123_Rider Emblem.png", "label": "R", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_CAS", "path": "./icon/ event/accelzero/124_Caster Emblem.png", "label": "C", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_ASS", "path": "./icon/ event/accelzero/125_Assassin Emblem.png", "label": "A", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EMB_BER", "path": "./icon/ event/accelzero/126_Berserker Emblem.png", "label": "B", "qengine": "EVENT"});
 }
 
 function loadDaily() {
@@ -207,6 +215,8 @@ function loadEvent() {
     loadObject(event_saberwars2018_obj, "event-saberwars2018");
     console.log("loadEvent: Loading Event Quests - Da Vinci 2018");
     loadObject(event_davinci2018_obj, "event-davinci2018");
+    console.log("loadEvent: Loading Event Quests - Fate/Accel Zero Order 2018");
+    loadObject(event_accelzero2018_obj, "event-accelzero2018");
 }
 
 function loadHuntEvent() {
@@ -439,7 +449,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
     todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span>&nbsp;<span class="h-epu">E PLURIBUS UNUM&nbsp;</span><br>';
     todisplay += '<span class="h-daily-knight1">DAILY (KNIGHT)&nbsp;</span>&nbsp;<span class="h-daily-cavalry1">DAILY (CAVALRY)&nbsp;</span>&nbsp;<span class="h-hunting">HUNTING&nbsp;</span><br>';
-    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span>&nbsp;<span class="h-davinci">DA VINCI&nbsp;</span></div><br>';
+    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span>&nbsp;<span class="h-davinci">DA VINCI&nbsp;</span>&nbsp;<span class="h-accelzero">ACCEL ZERO&nbsp;</span></div><br>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
@@ -468,6 +478,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
         todisplay += getDropStatsQ(itemID, event_christmas2017_obj);
         todisplay += getDropStatsQ(itemID, event_saberwars2018_obj);
         todisplay += getDropStatsQ(itemID, event_davinci2018_obj);
+        todisplay += getDropStatsQ(itemID, event_accelzero2018_obj);
     }
     todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;
