@@ -125,6 +125,32 @@ var event_hunting1_obj = {
             "droplog": [
                 { "uplog": false, "drop": ["GEM_RD_SAB", "ETERNAL_GEAR", "EXP_4_SAB"] }
             ]
+        },
+        {
+            "qname": "[2018 04 18] Spriggan Hunt - Fes Rank [SAB]", "ap": "35", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR", "SPIRIT_ROOT", "EXP_4_SAB"] }
+            ]
+        },
+        {
+            "qname": "[2018 04 18] Spriggan Hunt - Pride Rank [SAB]", "ap": "40", "last-upd": "2018 04 19", "column": "32",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_SAB", "ETERNAL_GEAR", "SPIRIT_ROOT", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "SPIRIT_ROOT", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "SPIRIT_ROOT", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "ETERNAL_GEAR", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "ETERNAL_GEAR", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "ETERNAL_GEAR", "ETERNAL_GEAR", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "ETERNAL_GEAR", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "ETERNAL_GEAR", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR", "SPIRIT_ROOT", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "EXP_4_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "ETERNAL_GEAR", "SPIRIT_ROOT", "EXP_4_SAB"] }
+            ]
         }
     ]
 };
