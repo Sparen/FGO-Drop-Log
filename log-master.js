@@ -167,6 +167,8 @@ function initPathMap() {
     imgpathmap.push({"id": "EMB_CAS", "path": "./icon/ event/accelzero/124_Caster Emblem.png", "label": "C", "qengine": "EVENT"});
     imgpathmap.push({"id": "EMB_ASS", "path": "./icon/ event/accelzero/125_Assassin Emblem.png", "label": "A", "qengine": "EVENT"});
     imgpathmap.push({"id": "EMB_BER", "path": "./icon/ event/accelzero/126_Berserker Emblem.png", "label": "B", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_CREST_WORMS", "path": "./icon/ ce/Crestwormsicon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_HIS_RIGHTFUL_PLACE", "path": "./icon/ ce/Hisrightfulplaceicon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {

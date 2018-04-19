@@ -451,5 +451,52 @@ var event_davinci2018_obj = {
 var event_accelzero2018_obj = {
     "cssclass": "h-accelzero",
     "quests": [
+        {
+            "qname": "Residential Area: The Creeping Mask Rank D", "ap": "10", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Residential Area: The Creeping Mask Rank C", "ap": "15", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank D", "ap": "10", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank C", "ap": "15", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Wharf: Fiend Infested Harbor Rank D", "ap": "10", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Wharf: Fiend Infested Harbor Rank C", "ap": "15", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] },
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] }
+            ]
+        }
     ]
 };
