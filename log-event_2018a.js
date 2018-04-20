@@ -468,6 +468,7 @@ var event_accelzero2018_objA = {
         {
             "qname": "Residential Area: The Creeping Mask Rank B", "ap": "25", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
@@ -493,7 +494,9 @@ var event_accelzero2018_objA = {
         {
             "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank B", "ap": "25", "last-upd": "NL", "column": "NL",
             "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE", "FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
             ]
         },
         {
@@ -509,12 +512,13 @@ var event_accelzero2018_objA = {
             "droplog": [
                 { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] },
-                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] }
+                { "uplog": true, "drop": ["CE_CREST_WORMS", "CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] }
             ]
         },
         {
             "qname": "Wharf: Fiend Infested Harbor Rank B", "ap": "25", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}] }
             ]
         },
         {
@@ -536,6 +540,10 @@ var event_accelzero2018_objA = {
         {
             "qname": "New Fuyuki: Back Alley Mystery Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] }
             ]
         },
         {
@@ -564,6 +572,41 @@ var event_accelzero2018_objA = {
         {
             "qname": "Reservoir: Ominous Tentacles Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Reservoir: Ominous Tentacles Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank D", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Tohsaka Residence: Be Elegant Rank D", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Tohsaka Residence: Be Elegant Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
             ]
         }
     ]
@@ -573,7 +616,7 @@ var event_accelzero2018_objB = {
     "cssclass": "h-accelzero",
     "quests": [
         {
-            "qname": "Residential Area: The Creeping Mask Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "Residential Area: The Creeping Mask Rank A", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
@@ -583,13 +626,14 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Wharf: Fiend Infested Harbor Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "Wharf: Fiend Infested Harbor Rank A", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
             ]
         },
         {
-            "qname": "New Fuyuki: Back Alley Mystery Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "New Fuyuki: Back Alley Mystery Rank A", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] }
             ]
         },
         {
@@ -598,7 +642,12 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Reservoir: Ominous Tentacles Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "Reservoir: Ominous Tentacles Rank A", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank A", "ap": "", "last-upd": "", "column": "",
             "droplog": [
             ]
         }
