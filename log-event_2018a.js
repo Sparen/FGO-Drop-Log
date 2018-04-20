@@ -448,7 +448,7 @@ var event_davinci2018_obj = {
 };
 
 // _ACCELZEROORDER2018
-var event_accelzero2018_obj = {
+var event_accelzero2018_objA = {
     "cssclass": "h-accelzero",
     "quests": [
         {
@@ -484,12 +484,16 @@ var event_accelzero2018_obj = {
                 { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}, {"id": "EMB_BER", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 4}, {"id": "EMB_CAS", "stack": 4}] }
             ]
         },
         {
             "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank B", "ap": "25", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
             ]
         },
         {
@@ -510,6 +514,91 @@ var event_accelzero2018_obj = {
         },
         {
             "qname": "Wharf: Fiend Infested Harbor Rank B", "ap": "25", "last-upd": "NL", "column": "NL",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "New Fuyuki: Back Alley Mystery Rank D", "ap": "10", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "New Fuyuki: Back Alley Mystery Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": ["SERPENT_JEWEL"], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}] },
+                { "uplog": true, "drop": ["SERPENT_JEWEL"], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "New Fuyuki: Back Alley Mystery Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Fuyuki Church: Feast of Joy Rank D", "ap": "15", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Fuyuki Church: Feast of Joy Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ASS", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Fuyuki Church: Feast of Joy Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Reservoir: Ominous Tentacles Rank D", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 4}, {"id": "EMB_ARC", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Reservoir: Ominous Tentacles Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+var event_accelzero2018_objB = {
+    "cssclass": "h-accelzero",
+    "quests": [
+        {
+            "qname": "Residential Area: The Creeping Mask Rank A", "ap": "", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank A", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Wharf: Fiend Infested Harbor Rank A", "ap": "", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "New Fuyuki: Back Alley Mystery Rank A", "ap": "", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Fuyuki Church: Feast of Joy Rank A", "ap": "", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Reservoir: Ominous Tentacles Rank A", "ap": "", "last-upd": "", "column": "",
             "droplog": [
             ]
         }

@@ -218,7 +218,8 @@ function loadEvent() {
     console.log("loadEvent: Loading Event Quests - Da Vinci 2018");
     loadObject(event_davinci2018_obj, "event-davinci2018");
     console.log("loadEvent: Loading Event Quests - Fate/Accel Zero Order 2018");
-    loadObject(event_accelzero2018_obj, "event-accelzero2018");
+    loadObject(event_accelzero2018_objA, "event-accelzero2018A");
+    loadObject(event_accelzero2018_objB, "event-accelzero2018B");
 }
 
 function loadHuntEvent() {
@@ -480,7 +481,8 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
         todisplay += getDropStatsQ(itemID, event_christmas2017_obj);
         todisplay += getDropStatsQ(itemID, event_saberwars2018_obj);
         todisplay += getDropStatsQ(itemID, event_davinci2018_obj);
-        todisplay += getDropStatsQ(itemID, event_accelzero2018_obj);
+        todisplay += getDropStatsQ(itemID, event_accelzero2018_objA);
+        todisplay += getDropStatsQ(itemID, event_accelzero2018_objB);
     }
     todisplay += "</div>";
     document.getElementById("query-engine-result").innerHTML = todisplay;
