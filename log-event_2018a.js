@@ -561,6 +561,7 @@ var event_accelzero2018_objA = {
         {
             "qname": "Fuyuki Church: Feast of Joy Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
@@ -596,6 +597,10 @@ var event_accelzero2018_objA = {
         {
             "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] }
             ]
         },
         {
@@ -607,6 +612,37 @@ var event_accelzero2018_objA = {
         {
             "qname": "Tohsaka Residence: Be Elegant Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Tohsaka Residence: Be Elegant Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Homurahara Academy: One Never Stops Learning Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_CAS", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Homurahara Academy: One Never Stops Learning Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Einzbern Castle: Garden of Dancing Lives Rank C", "ap": "20", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Einzbern Castle: Garden of Dancing Lives Rank B", "ap": "30", "last-upd": "NL", "column": "NL",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 8}] }
             ]
         }
     ]
@@ -616,13 +652,20 @@ var event_accelzero2018_objB = {
     "cssclass": "h-accelzero",
     "quests": [
         {
-            "qname": "Residential Area: The Creeping Mask Rank A", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Residential Area: The Creeping Mask Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
             "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank A", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}] }
             ]
         },
         {
@@ -631,14 +674,16 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "New Fuyuki: Back Alley Mystery Rank A", "ap": "30", "last-upd": "", "column": "",
+            "qname": "New Fuyuki: Back Alley Mystery Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 4}, {"id": "EMB_SAB", "stack": 8}] }
             ]
         },
         {
-            "qname": "Fuyuki Church: Feast of Joy Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "Fuyuki Church: Feast of Joy Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
@@ -647,8 +692,31 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank A", "ap": "", "last-upd": "", "column": "",
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] },
+                { "uplog": true, "drop": ["CE_CREST_WORMS", "CE_HIS_RIGHTFUL_PLACE"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Tohsaka Residence: Be Elegant Rank A", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Homurahara Academy: One Never Stops Learning Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
+            "droplog": [
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_CAS", "stack": 8}] }
+            ]
+        },
+        {
+            "qname": "Einzbern Castle: Garden of Dancing Lives Rank A", "ap": "30", "last-upd": "2018 04 22", "column": "8",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 4}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] }
             ]
         }
     ]
