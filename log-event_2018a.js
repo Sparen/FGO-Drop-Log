@@ -677,9 +677,9 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank EX", "ap": "30", "last-upd": "", "column": "", "icon": "rider-iskandar.png",
+            "qname": "Fuyuki Bridge: BRIDGE BATTLE Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", "icon": "rider-iskandar.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}] }
             ]
         },
         {
@@ -701,9 +701,26 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "New Fuyuki: Back Alley Mystery Rank EX", "ap": "30", "last-upd": "2018 04 25", "column": "8", "icon": "lancer-diarmuid.png",
+            "qname": "New Fuyuki: Back Alley Mystery Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", "icon": "lancer-diarmuid.png",
             "droplog": [
-                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] }
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] }
             ]
         },
         {
