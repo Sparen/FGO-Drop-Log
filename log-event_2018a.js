@@ -750,9 +750,14 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank EX", "ap": "30", "last-upd": "2018 04 25", "column": "8", "icon": "rider-alexander.png",
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", "icon": "rider-alexander.png",
             "droplog": [
-                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CE_HIS_RIGHTFUL_PLACE"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CE_CREST_WORMS", "CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
             ]
         },
         {
