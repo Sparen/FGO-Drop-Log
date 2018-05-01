@@ -714,9 +714,13 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Fuyuki Church: Feast of Joy Rank EX", "ap": "30", "last-upd": "2018 04 25", "column": "8", "icon": "archer-gilgamesh.png",
+            "qname": "Fuyuki Church: Feast of Joy Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", "icon": "archer-gilgamesh.png",
             "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
