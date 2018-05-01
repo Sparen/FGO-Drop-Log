@@ -779,9 +779,15 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Homurahara Academy: One Never Stops Learning Rank EX", "ap": "30", "last-upd": "2018 04 25", "column": "8",
+            "qname": "Homurahara Academy: One Never Stops Learning Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8",
             "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["SPIRIT_ROOT", "CE_HIS_RIGHTFUL_PLACE"], "stackdrop": [{"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
             ]
         },
         {
