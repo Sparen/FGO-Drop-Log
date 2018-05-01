@@ -762,9 +762,12 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Tohsaka Residence: Be Elegant Rank EX", "ap": "30", "last-upd": "", "column": "", "icon": "archer-kogil.png",
+            "qname": "Tohsaka Residence: Be Elegant Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", "icon": "archer-kogil.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_BER", "stack": 4}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
             ]
         },
         {
