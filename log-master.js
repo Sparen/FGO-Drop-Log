@@ -519,8 +519,11 @@ function getDropStatsQ(itemID, logobj) {
             //Increment run counts
             numrunsTOTAL += 1;
         }
+        if (document.getElementById("queryIgnoreSub5").checked && numrunsTOTAL < 5) {
+            //If ignoring nodes with under 5 runs and this node has under 5 runs, do not add.
+        }
         //If at least one occurrence of the item dropped, we will write a log.
-        if (numitemcountTOTAL > 0) {
+        else if (numitemcountTOTAL > 0) {
             var textcolor = "#FFFFFF"; //Color of text. Will change depending on the reliability of the data.
             if (numrunsTOTAL <= 5) {
                 textcolor = "#FF6666";
