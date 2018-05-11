@@ -678,7 +678,11 @@ var event_accelzero2018_objB = {
                 { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
                 { "uplog": true, "drop": ["VOIDS_DUST", "TEARSTONE_OF_BLOOD"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
                 { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
-                { "uplog": true, "drop": ["TEARSTONE_OF_BLOOD"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
+                { "uplog": true, "drop": ["TEARSTONE_OF_BLOOD"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": false, "drop": ["VOIDS_DUST", "CE_HIS_RIGHTFUL_PLACE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] },
+                { "uplog": false, "drop": ["VOIDS_DUST", "TEARSTONE_OF_BLOOD"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 4}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}, {"id": "EMB_ASS", "stack": 8}] }
             ]
         },
         {
@@ -725,7 +729,7 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "New Fuyuki: Back Alley Mystery Rank EX", "ap": "30", "last-upd": "2018 05 06", "column": "8", "icon": "lancer-diarmuid.png",
+            "qname": "New Fuyuki: Back Alley Mystery Rank EX", "ap": "30", "last-upd": "2018 05 11", "column": "8", "icon": "lancer-diarmuid.png",
             "droplog": [
                 { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
@@ -758,7 +762,26 @@ var event_accelzero2018_objB = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "ETERNAL_GEAR"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "CE_HIS_RIGHTFUL_PLACE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_LAN", "stack": 8}, {"id": "EMB_LAN", "stack": 8}] }
             ]
         },
         {
@@ -789,10 +812,12 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Reservoir: Ominous Tentacles Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8", 
+            "qname": "Reservoir: Ominous Tentacles Rank EX", "ap": "30", "last-upd": "2018 05 11", "column": "8", 
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["SERPENT_JEWEL", "SERPENT_JEWEL"], "stackdrop": [{"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_ARC", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
             ]
         },
         {
@@ -805,7 +830,7 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank EX", "ap": "30", "last-upd": "2018 05 06", "column": "8", "icon": "rider-alexander.png",
+            "qname": "Samurai Residence: The Buzz That Breaks the Silence Rank EX", "ap": "30", "last-upd": "2018 05 11", "column": "8", "icon": "rider-alexander.png",
             "droplog": [
                 { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
@@ -822,7 +847,20 @@ var event_accelzero2018_objB = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
                 { "uplog": true, "drop": ["VOIDS_DUST", "CLAW_OF_CHAOS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
-                { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CE_CREST_WORMS"], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 4}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}, {"id": "EMB_BER", "stack": 8}] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"], "stackdrop": [{"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_RID", "stack": 8}, {"id": "EMB_BER", "stack": 8}] }
             ]
         },
         {
@@ -849,7 +887,7 @@ var event_accelzero2018_objB = {
             ]
         },
         {
-            "qname": "Homurahara Academy: One Never Stops Learning Rank EX", "ap": "30", "last-upd": "2018 05 01", "column": "8",
+            "qname": "Homurahara Academy: One Never Stops Learning Rank EX", "ap": "30", "last-upd": "2018 05 11", "column": "8",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
@@ -857,7 +895,9 @@ var event_accelzero2018_objB = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
                 { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
-                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["SPIRIT_ROOT"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE", "FORBIDDEN_PAGE"], "stackdrop": [{"id": "EMB_SAB", "stack": 8}, {"id": "EMB_SAB", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}, {"id": "EMB_CAS", "stack": 8}] }
             ]
         },
         {

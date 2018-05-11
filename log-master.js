@@ -205,7 +205,7 @@ function loadFree() {
     loadObject(free_epu_obj, "free-epu");
 }
 
-function loadEvent() {
+function loadEvent17() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadEvent: Loading Event Quests - Halloween 2017");
     loadObject(event_halloween2017_obj, "event-halloween2017");
@@ -213,6 +213,10 @@ function loadEvent() {
     loadObject(event_gudaguda2017_obj, "event-gudaguda2017");
     console.log("loadEvent: Loading Event Quests - Christmas 2017");
     loadObject(event_christmas2017_obj, "event-christmas2017");
+}
+
+function loadEvent18() {
+    initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadEvent: Loading Event Quests - Saber Wars 2018");
     loadObject(event_saberwars2018_obj, "event-saberwars2018");
     console.log("loadEvent: Loading Event Quests - Da Vinci 2018");
