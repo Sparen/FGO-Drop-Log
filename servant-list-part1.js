@@ -1016,6 +1016,26 @@ var servantlist_obj_part1 = {
             "ess": "Sky",
             "alignment": "Chaotic Good",
             "traits": ["Divine - Humanoid", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "112",
+            "sicon": "assassin-shutendouji.png",
+            "ename": "Shuten Douji",
+            "jname1": "シュテンドウジ",
+            "jname2": "酒吞童子",
+            "cicon": "assassin-g.png",
+            "class": "Assassin",
+            "rarity": "5",
+            "deck": ["Q", "Q", "A", "A", "B"],
+            "deckhits": [4, 3, 1, 6],
+            "np": "A",
+            "starabs": "98",
+            "stargen": "25%",
+            "npcharge": ["0.55%", "4.0%"],
+            "gender": "Female",
+            "ess": "Earth",
+            "alignment": "Chaotic Evil",
+            "traits": ["Demonic - Divine - Dragon", "Humanoid", "Weak to Enuma Elish"]
         }
     ]
 };
