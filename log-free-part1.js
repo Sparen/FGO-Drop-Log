@@ -655,18 +655,41 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "", "column": "",
+            "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "2018 05 17", "column": "8", "icon": "archer-arjuna.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] }
             ]
         },
         {
-            "qname": "Charlotte: Gold Rush", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Charlotte: Gold Rush", "ap": "20", "last-upd": "2018 05 17", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_CAS", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "PIECE_BER", "MONU_BER", "PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] }
             ]
         },
         {
-            "qname": "Washington: Special Administrative Area", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Washington: Special Administrative Area", "ap": "20", "last-upd": "2018 05 17", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["EXP_4_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_SAB"] }
+            ]
+        },
+        {
+            "qname": "Chicago: Windy City", "ap": "21", "last-upd": "2018 05 17", "column": "11",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] }
             ]
         }
     ]
