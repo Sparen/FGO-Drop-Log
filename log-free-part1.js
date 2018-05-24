@@ -663,7 +663,7 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Charlotte: Gold Rush", "ap": "20", "last-upd": "2018 05 17", "column": "6",
+            "qname": "Charlotte: Gold Rush", "ap": "20", "last-upd": "2018 05 24", "column": "6",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST", "VOIDS_DUST"] },
@@ -673,7 +673,24 @@ var free_epu_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["VOIDS_DUST"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "MONU_BER", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PIECE_BER", "PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["MONU_LAN"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO", "VOIDS_DUST", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PIECE_BER", "MONU_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["MONU_BER", "PROOF_OF_HERO", "PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PIECE_LAN"] },
+                { "uplog": true, "drop": ["PIECE_BER", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PIECE_BER", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ARC", "PIECE_LAN", "PIECE_BER", "PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["MONU_BER"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] }
             ]
         },
         {
