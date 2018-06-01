@@ -1036,6 +1036,26 @@ var servantlist_obj_part1 = {
             "ess": "Earth",
             "alignment": "Chaotic Evil",
             "traits": ["Demonic - Divine - Dragon", "Humanoid", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "113",
+            "sicon": "caster-xuanzang.png",
+            "ename": "Xuanzang Sanzang",
+            "jname1": "ゲンジョウサンゾウ",
+            "jname2": "玄奘三藏",
+            "cicon": "caster-g.png",
+            "class": "Caster",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "A", "B"],
+            "deckhits": [3, 2, 1, 6],
+            "np": "B",
+            "starabs": "52",
+            "stargen": "11%",
+            "npcharge": ["0.82%", "3.0%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Lawful Good",
+            "traits": ["Divine - Humanoid", "Weak to Enuma Elish"]
         }
     ]
 };
