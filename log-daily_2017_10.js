@@ -88,7 +88,7 @@ var daily_lancer_2017_10_obj = {
             ]
         },
         {
-            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "2018 05 24", "column": "12", "icon": "lancer-elizabeth.png",
+            "qname": "Lancer Training Ground - Expert", "ap": "40", "last-upd": "2018 06 01", "column": "12", "icon": "lancer-elizabeth.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "EXP_1_LAN", "EXP_2_LAN", "EXP_2_LAN", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN", "SEED_OF_YGGDRASIL"] },
@@ -120,7 +120,11 @@ var daily_lancer_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_LAN", "MONU_LAN", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "MONU_LAN", "MONU_LAN"] },
                 { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "PIECE_LAN"] },
-                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "PIECE_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_GD_LAN", "PIECE_LAN", "PROOF_OF_HERO", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "MONU_LAN", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN", "MONU_LAN", "SEED_OF_YGGDRASIL"] }
             ]
         }
     ]
@@ -351,7 +355,7 @@ var daily_assassin_2017_10_obj = {
             ]
         },
         {
-            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 04 01", "column": "12", "icon": "assassin-carmilla.png",
+            "qname": "Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 06 01", "column": "12", "icon": "assassin-carmilla.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "MONU_ASS"] },
@@ -372,7 +376,9 @@ var daily_assassin_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "PIECE_ASS", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_GD_ASS", "PIECE_ASS", "MONU_ASS", "DRAGON_FANG"] },
-                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "GHOST_LANTERN"] }
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_GD_ASS", "PIECE_ASS", "MONU_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS", "MONU_ASS"] }
             ]
         }
     ]
@@ -404,7 +410,7 @@ var daily_berserker_2017_10_obj = {
             ]
         },
         {
-            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 04 01", "column": "12", "icon": "berserker-lancelot.png",
+            "qname": "Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 06 01", "column": "12", "icon": "berserker-lancelot.png",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_2_BER", "EXP_2_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "MONU_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "PIECE_BER", "EXP_3_BER"] },
@@ -434,7 +440,13 @@ var daily_berserker_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "MONU_BER", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "MONU_BER", "VOIDS_DUST", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "CLAW_OF_CHAOS"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "PIECE_BER", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "PIECE_BER", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "EXP_2_BER"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "EXP_2_BER", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "PIECE_BER", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "PIECE_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_GD_BER", "MONU_BER", "EXP_1_BER", "OCTUPLET_CRYSTAL"] }
             ]
         }
     ]
