@@ -7,7 +7,8 @@ This project, started October 15, 2017, aims to log my contributions to the crow
 This repository supports GitHub Pages:  
 [https://sparen.github.io/FGO-Drop-Log/free-quest.html]  
 [https://sparen.github.io/FGO-Drop-Log/daily-quest.html]  
-[https://sparen.github.io/FGO-Drop-Log/event-quest.html]  
+[https://sparen.github.io/FGO-Drop-Log/event17-quest.html] 
+[https://sparen.github.io/FGO-Drop-Log/event18-quest.html]  
 
 In order to accomplish the task in a way that is intuitive to me, I have decided to use downsampled versions of the game's proper graphics for item drops. 
 
