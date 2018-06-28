@@ -719,3 +719,16 @@ var free_epu_obj = {
         }
     ]
 };
+
+// _CAMELOT
+var free_camelot_obj = {
+    "cssclass": "h-camelot",
+    "quests": [
+        {
+            "qname": "Sandstorm Desert: Garden of the Sphinx", "ap": "19", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_GD_CAS", "EVIL_BONE", "EVIL_BONE"] }
+            ]
+        }
+    ]
+};
