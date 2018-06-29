@@ -77,12 +77,14 @@ function initPathMap() {
     //Common drops
     imgpathmap.push({"id": "DRAGON_FANG", "path": "./icon/Dragon_fang.png", "label": "DF", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "EVIL_BONE", "path": "./icon/Unlucky_bone.png", "label": "EB", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "FOOLS_CHAIN", "path": "./icon/Chain of Fools.png", "label": "FC", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PROOF_OF_HERO", "path": "./icon/Heros_proof.png", "label": "PoH", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "VOIDS_DUST", "path": "./icon/Voids_dust.png", "label": "VD", "qengine": "ALWAYS"});
     //Rare drops
     imgpathmap.push({"id": "ETERNAL_GEAR", "path": "./icon/Infinity_gear.png", "label": "EG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "FORBIDDEN_PAGE", "path": "./icon/Forbidden_page.png", "label": "FP", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "GHOST_LANTERN", "path": "./icon/Ghost_lantern.png", "label": "GL", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GREAT_KNIGHT_MEDAL", "path": "./icon/Great Knight Medal.png", "label": "GKM", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HOMUNCULUS_BABY", "path": "./icon/Homunculus_baby.png", "label": "HB", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "METEORIC_HORSESHOE", "path": "./icon/Meteoric_horseshoe.png", "label": "MH", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "OCTUPLET_CRYSTAL", "path": "./icon/Octuplet_twin_crystals.png", "label": "OC", "qengine": "ALWAYS"});
@@ -94,6 +96,8 @@ function initPathMap() {
     imgpathmap.push({"id": "CLAW_OF_CHAOS", "path": "./icon/Talon_of_chaos.png", "label": "CoC", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "DRAGONS_REVERSE_SCALE", "path": "./icon/Dragons_reverse_scale.png", "label": "DRS", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "LAMP_OF_EVIL_SEALING", "path": "./icon/Lamp of Sealed Evil.png", "label": "LoES", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "SCARAB_OF_WISDOM", "path": "./icon/Scarab of Wisdom.png", "label": "SoW", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "WARHORSE_YOUNG_HORN", "path": "./icon/Warhorse Small Horn.png", "label": "WYH", "qengine": "ALWAYS"});
