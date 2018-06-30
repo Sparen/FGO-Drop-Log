@@ -232,10 +232,12 @@ var daily_rider_2017_10_obj = {
             ]
         },
         {
-            "qname": "Rider Training Ground - Intermediate", "ap": "20", "last-upd": "2018 01 21", "column": "", "icon": "rider-ushiwakamaru.png",
+            "qname": "Rider Training Ground - Intermediate", "ap": "20", "last-upd": "2018 06 30", "column": "12", "icon": "rider-ushiwakamaru.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "EXP_3_RID", "EXP_3_RID"] },
-                { "uplog": true, "drop": ["GEM_RD_RID", "PIECE_RID", "EXP_1_RID", "EXP_3_RID", "DRAGON_FANG"] }
+                { "uplog": true, "drop": ["GEM_RD_RID", "PIECE_RID", "EXP_1_RID", "EXP_3_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "PIECE_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "EXP_3_RID"] }
             ]
         },
         {
@@ -247,7 +249,7 @@ var daily_rider_2017_10_obj = {
             ]
         },
         {
-            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 05 24", "column": "12", "icon": "rider-marie.png",
+            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 06 30", "column": "12", "icon": "rider-marie.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID"] },
@@ -287,7 +289,9 @@ var daily_rider_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID"] },
                 { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "DRAGON_FANG", "DRAGONS_REVERSE_SCALE"] },
                 { "uplog": true, "drop": ["GEM_GD_RID", "MONU_RID", "MONU_RID", "MONU_RID"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_RID", "MONU_RID", "MONU_RID", "EXP_3_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_RID", "MONU_RID", "MONU_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "MONU_RID"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "VOIDS_DUST"] }
             ]
         }
     ]

@@ -725,19 +725,19 @@ var free_camelot_obj = {
     "cssclass": "h-camelot",
     "quests": [
         {
-            "qname": "Sandstorm Desert: Garden of the Sphinx", "ap": "19", "last-upd": "", "column": "",
+            "qname": "Sandstorm Desert: Garden of the Sphinx", "ap": "19", "last-upd": "2018 06 30", "column": "2",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_GD_CAS", "EVIL_BONE", "EVIL_BONE"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "EXP_4_CAS"] },
-                { "uplog": false, "drop": ["GEM_GD_CAS"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_GD_CAS", "EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_4_CAS"] },
+                { "uplog": true, "drop": ["GEM_GD_CAS"] }
             ]
         },
         {
-            "qname": "Dune of Dawn: The Incandescent Crest", "ap": "19", "last-upd": "", "column": "",
+            "qname": "Dune of Dawn: The Incandescent Crest", "ap": "19", "last-upd": "2018 06 30", "column": "2",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EXP_4_CAS", "SERPENT_JEWEL"] },
-                { "uplog": false, "drop": ["EXP_4_CAS", "SERPENT_JEWEL"] },
-                { "uplog": false, "drop": ["EXP_4_CAS"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EXP_4_CAS", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["EXP_4_CAS", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["EXP_4_CAS"] }
             ]
         }
     ]
