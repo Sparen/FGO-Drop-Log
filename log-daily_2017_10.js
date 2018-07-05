@@ -227,17 +227,26 @@ var daily_rider_2017_10_obj = {
     "cssclass": "h-daily-cavalry1",
     "quests": [
         {
-            "qname": "Rider Training Ground - Novice", "ap": "10", "last-upd": "", "column": "", "icon": "rider-medusa.png",
+            "qname": "Rider Training Ground - Novice", "ap": "10", "last-upd": "2018 07 05", "column": "12", "icon": "rider-medusa.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID", "PIECE_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["EXP_2_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "PIECE_RID", "EXP_3_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "PIECE_RID", "EXP_2_RID"] }
             ]
         },
         {
-            "qname": "Rider Training Ground - Intermediate", "ap": "20", "last-upd": "2018 06 30", "column": "12", "icon": "rider-ushiwakamaru.png",
+            "qname": "Rider Training Ground - Intermediate", "ap": "20", "last-upd": "2018 07 05", "column": "12", "icon": "rider-ushiwakamaru.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "EXP_3_RID", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "PIECE_RID", "EXP_1_RID", "EXP_3_RID", "DRAGON_FANG"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "PIECE_RID"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "EXP_3_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "EXP_3_RID", "EXP_3_RID"] }
             ]
         },
         {
@@ -249,7 +258,7 @@ var daily_rider_2017_10_obj = {
             ]
         },
         {
-            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 06 30", "column": "12", "icon": "rider-marie.png",
+            "qname": "Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 07 05", "column": "12", "icon": "rider-marie.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID"] },
@@ -291,7 +300,10 @@ var daily_rider_2017_10_obj = {
                 { "uplog": true, "drop": ["GEM_GD_RID", "MONU_RID", "MONU_RID", "MONU_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_RID", "MONU_RID", "MONU_RID", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "MONU_RID"] },
-                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "PIECE_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_GD_RID", "PIECE_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_RID", "PIECE_RID", "MONU_RID", "DRAGON_FANG", "DRAGON_FANG"] }
             ]
         }
     ]
