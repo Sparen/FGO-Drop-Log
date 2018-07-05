@@ -739,6 +739,41 @@ var free_camelot_obj = {
                 { "uplog": true, "drop": ["EXP_4_CAS", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["EXP_4_CAS"] }
             ]
+        },
+        {
+            "qname": "Wastelands of Death: The Mad Banquet of Blood and Flesh", "ap": "19", "last-upd": "2018 07 05", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
+            ]
+        },
+        {
+            "qname": "East Village: The Withered Mountain Ridge", "ap": "19", "last-upd": "", "column": "",
+            "droplog": [
+                { "uplog": false, "drop": [] }
+            ]
+        },
+        {
+            "qname": "Fortress of the Round Table: The Raiding Party of Knights", "ap": "19", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mausoleum of the Evening Bell: The Angel of Death", "ap": "19", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "West Village Ruins: Traces of Cruelty", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Atlas Institute: Cellar of Giants", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+                 { "uplog": false, "drop": ["EXP_4_ARC"] }
+            ]
         }
     ]
 };
