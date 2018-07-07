@@ -774,6 +774,21 @@ var free_camelot_obj = {
             "droplog": [
                  { "uplog": false, "drop": ["EXP_4_ARC"] }
             ]
+        },
+        {
+            "qname": "Main Gate: The Gate of Consecration", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Holy City: The Ideal City", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Great Temple: Castle of the Sun King", "ap": "22", "last-upd": "", "column": "",
+            "droplog": [
+            ]
         }
     ]
 };
