@@ -749,9 +749,11 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "East Village: The Withered Mountain Ridge", "ap": "19", "last-upd": "", "column": "",
+            "qname": "East Village: The Withered Mountain Ridge", "ap": "19", "last-upd": "2018 07 18", "column": "3",
             "droplog": [
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] }
             ]
         },
         {
@@ -770,9 +772,11 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Atlas Institute: Cellar of Giants", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Atlas Institute: Cellar of Giants", "ap": "20", "last-upd": "2018 07 18", "column": "4",
             "droplog": [
-                 { "uplog": false, "drop": ["EXP_4_ARC"] }
+                 { "uplog": true, "drop": ["EXP_4_ARC"] },
+                 { "uplog": true, "drop": ["FORBIDDEN_PAGE"] },
+                 { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -786,8 +790,21 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Great Temple: Castle of the Sun King", "ap": "22", "last-upd": "", "column": "",
+            "qname": "Hidden Village: Mirage of Dreams", "ap": "21", "last-upd": "", "column": "",
             "droplog": [
+            ]
+        },
+        {
+            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Great Temple: Castle of the Sun King", "ap": "22", "last-upd": "2018 07 18", "column": "4",
+            "droplog": [
+                { "uplog": true, "drop": ["EXP_4_CAS", "EXP_4_CAS", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["EXP_4_CAS", "EXP_4_CAS"] },
+                { "uplog": true, "drop": ["EXP_4_CAS", "EXP_4_CAS"] }
             ]
         }
     ]
