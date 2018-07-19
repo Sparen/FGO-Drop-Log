@@ -780,13 +780,19 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Main Gate: The Gate of Consecration", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Main Gate: The Gate of Consecration", "ap": "20", "last-upd": "2018 07 18", "column": "7",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_4_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] }
             ]
         },
         {
-            "qname": "Holy City: The Ideal City", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Holy City: The Ideal City", "ap": "20", "last-upd": "2018 07 18", "column": "4",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_4_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["EXP_4_SAB"] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL", "SPIRIT_ROOT"] }
             ]
         },
         {
@@ -797,6 +803,14 @@ var free_camelot_obj = {
         {
             "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "", "column": "",
             "droplog": [
+            ]
+        },
+        {
+            "qname": "Land of the Void: Desolate World", "ap": "22", "last-upd": "2018 07 18", "column": "3",
+            "droplog": [
+                { "uplog": true, "drop": ["METEORIC_HORSESHOE", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "METEORIC_HORSESHOE", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
