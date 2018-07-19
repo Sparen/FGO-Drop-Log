@@ -91,6 +91,9 @@ function getDropDisplay(itemID, eventflag) {
         }
     }
     // If necessary, sort
+    if (document.getElementById("querySortByAPD").checked) {
+        nodeobjlist = sortNodesByAPD(nodeobjlist);
+    }
 
     for (var i = 0; i < nodeobjlist.length; i += 1) {
         nodelisthtml += nodeobjlist[i].htmlval;
@@ -176,8 +179,50 @@ function getDropStatsQ(itemID, logobj) {
 
             querynode += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
             querynode += '</div>';
-            toreturn.push({"htmlval" : querynode, "apd" : apperdrop});
+            toreturn.push({"htmlval" : querynode, "apd" : parseFloat(apperdrop)});
         }
     }
     return toreturn;
+}
+
+// Sorts by APD, lowest at top. Wrapper for sortByField.
+function sortNodesByAPD(nodeobjlist) {
+    var newarr = sortByField("apd", nodeobjlist, 0, nodeobjlist.length - 1);
+    return newarr;
+}
+
+//Sorts the output array by the given field in place using quick sort.
+function sortByField(field, arr, left, right) {
+    var len = arr.length;
+    var pivot;
+    var partitionIndex;
+
+    if (left < right) {
+        pivot = right; //set pivot
+        partitionIndex = sortPartition(field, arr, pivot, left, right);
+        sortByField(field, arr, left, partitionIndex - 1);
+        sortByField(field, arr, partitionIndex + 1, right);
+    }
+    return arr;
+}
+
+function sortPartition(field, arr, pivot, left, right){
+    //console.log("TEST: arr[pivot]: " + JSON.stringify(arr[pivot]));
+    var pivotValue = arr[pivot][field];
+    var partitionIndex = left;
+
+    for(var i = left; i < right; i++){
+        if(arr[i][field] < pivotValue){
+            swap(arr, i, partitionIndex);
+            partitionIndex++;
+        }
+    }
+    swap(arr, right, partitionIndex);
+    return partitionIndex;
+}
+
+function swap(arr, i, j){
+    var temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
 }
