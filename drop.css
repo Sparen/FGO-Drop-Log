@@ -11,6 +11,11 @@
         font-size: 8px;
     }
 
+    /* Pages with tables can use the extra space */
+    .tablepage {
+        max-width: 1080px;
+    }
+
     .item {
         width: 20px;
         height: auto;

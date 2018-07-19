@@ -757,8 +757,11 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Fortress of the Round Table: The Raiding Party of Knights", "ap": "19", "last-upd": "", "column": "",
+            "qname": "Fortress of the Round Table: The Raiding Party of Knights", "ap": "19", "last-upd": "2018 07 18", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PROOF_OF_HERO", "PROOF_OF_HERO"] }
             ]
         },
         {
@@ -801,8 +804,11 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "2018 07 18", "column": "16", "icon": "saber-gawain.png",
             "droplog": [
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["EXP_4_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PIECE_SAB", "VOIDS_DUST"] }
             ]
         },
         {
