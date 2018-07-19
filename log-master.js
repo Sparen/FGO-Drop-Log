@@ -502,6 +502,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     document.getElementById("query-engine-result").innerHTML = todisplay;
 }
 
+// Given an item ID and a log object, returns HTML with the contents of each node in the log object that drops the item
 function getDropStatsQ(itemID, logobj) {
     var toreturn = "";
 
@@ -556,7 +557,7 @@ function getDropStatsQ(itemID, logobj) {
             }
             //Let us begin the output
             //First, the basic information
-            toreturn += '<div style="border: 1px solid #222222; padding: 8px; background-color: #111111">'
+            toreturn += '<div style="border: 1px solid #222222; padding: 8px; background-color: #111111">';
             toreturn += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
             toreturn += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
 
@@ -576,8 +577,8 @@ function getDropStatsQ(itemID, logobj) {
             var runsperdrop = (apperdrop/parseInt(quest.ap)).toFixed(1);
 
             toreturn += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
-            toreturn += '</div>'
+            toreturn += '</div>';
         }
     }
-    return toreturn
+    return toreturn;
 }

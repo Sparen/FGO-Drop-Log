@@ -26,13 +26,30 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-B: Ground Zero", "ap": "4", "last-upd": "", "column": "",
+            "qname": "X-B: Ground Zero", "ap": "4", "last-upd": "2018 07 18", "column": "4",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "", "column": "",
+            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "2018 07 18", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
             ]
         },
         {
