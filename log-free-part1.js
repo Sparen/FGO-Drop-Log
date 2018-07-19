@@ -26,7 +26,7 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-B: Ground Zero", "ap": "4", "last-upd": "2018 07 18", "column": "4",
+            "qname": "X-B: Ground Zero", "ap": "4", "last-upd": "2018 07 19", "column": "4",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
@@ -41,7 +41,7 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "2018 07 18", "column": "6",
+            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "2018 07 19", "column": "6",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
@@ -49,14 +49,25 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_LAN"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "X-D: Blood Soaked Port", "ap": "5", "last-upd": "2018 01 14", "column": "5",
+            "qname": "X-D: Blood Soaked Port", "ap": "5", "last-upd": "2018 07 19", "column": "6",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
