@@ -71,25 +71,48 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-E: Church of Wandering Corpses", "ap": "5", "last-upd": "2018 01 07", "column": "5",
+            "qname": "X-E: Church of Wandering Corpses", "ap": "5", "last-upd": "2018 07 19", "column": "4", "icon": "rider-medusa.png",
             "droplog": [
                 { "uplog": true, "drop": ["EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ARC"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["PIECE_RID"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "", "column": "",
+            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "2018 07 19", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_ASS", "EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EVIL_BONE"] }
             ]
         },
         {
-            "qname": "X-G: Blazing Forest", "ap": "15", "last-upd": "2017 12 13", "column": "8",
+            "qname": "X-G: Blazing Forest", "ap": "15", "last-upd": "2018 07 19", "column": "11",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] }
             ]
         },
         {
