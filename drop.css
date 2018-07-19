@@ -13,7 +13,7 @@
 
     /* Pages with tables can use the extra space */
     .tablepage {
-        max-width: 1080px;
+        max-width: 1024px;
     }
 
     .item {
