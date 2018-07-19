@@ -54,33 +54,33 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
 // Obtains the node divs for the item and sorts them.
 function getDropDisplay(itemID, eventflag) {
     var nodes = [];
-    nodes.push(getDropStatsQ(itemID, daily_saber_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_lancer_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_archer_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_rider_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_caster_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_assassin_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, daily_berserker_2017_10_obj));
-    nodes.push(getDropStatsQ(itemID, free_fuyuki_obj));
-    nodes.push(getDropStatsQ(itemID, free_orleans_obj));
-    nodes.push(getDropStatsQ(itemID, free_septem_obj));
-    nodes.push(getDropStatsQ(itemID, free_okeanos_obj));
-    nodes.push(getDropStatsQ(itemID, free_london_obj));
-    nodes.push(getDropStatsQ(itemID, free_epu_obj));
-    nodes.push(getDropStatsQ(itemID, free_camelot_obj));
+    nodes.push(getDropStatsQ(itemID, daily_saber_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_lancer_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_archer_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_rider_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_caster_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_assassin_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_berserker_2017_10_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, free_fuyuki_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_orleans_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_septem_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_okeanos_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_london_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_epu_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_camelot_obj, "FREE"));
     //If limited time quest checkbox is enabled
     if (document.getElementById("queryLTQCB").checked) {
-        nodes.push(getDropStatsQ(itemID, event_hunting1_obj));
+        nodes.push(getDropStatsQ(itemID, event_hunting1_obj, "EVENT"));
     }
     //If the item is an event item or if the checkbox for viewing event data for all items is checked
     if (eventflag || document.getElementById("queryEventCB").checked) {
-        nodes.push(getDropStatsQ(itemID, event_halloween2017_obj));
-        nodes.push(getDropStatsQ(itemID, event_gudaguda2017_obj));
-        nodes.push(getDropStatsQ(itemID, event_christmas2017_obj));
-        nodes.push(getDropStatsQ(itemID, event_saberwars2018_obj));
-        nodes.push(getDropStatsQ(itemID, event_davinci2018_obj));
-        nodes.push(getDropStatsQ(itemID, event_accelzero2018_objA));
-        nodes.push(getDropStatsQ(itemID, event_accelzero2018_objB));
+        nodes.push(getDropStatsQ(itemID, event_halloween2017_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_gudaguda2017_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_christmas2017_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_saberwars2018_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_davinci2018_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_accelzero2018_objA, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_accelzero2018_objB, "EVENT"));
     }
     // Note: nodes is an array of arrays of objects
     var nodeobjlist = [];
@@ -103,7 +103,7 @@ function getDropDisplay(itemID, eventflag) {
 
 // Given an item ID and a log object, returns HTML with the contents of each node in the log object that drops the item
 // Return format: [{"htmlval" : querynode, "apd" : apperdrop}, ...]
-function getDropStatsQ(itemID, logobj) {
+function getDropStatsQ(itemID, logobj, logtype) {
     var toreturn = []; //Array containing HTML nodes and their associated APD
 
     //For every quest in the log object...
@@ -156,10 +156,25 @@ function getDropStatsQ(itemID, logobj) {
                 textcolor = "#66FFCC";
             }
             //Let us begin the output
+
+            //Calculate Quest AP cost
+            var questap = quest.ap;
+            if (document.getElementById("queryHalfAPFreeQ").checked && logtype === "FREE") {
+                questap = Math.floor(questap/2);
+            } else if (document.getElementById("queryHalfAPDailyQ").checked && logtype === "DAILY") {
+                questap = Math.floor(questap/2);
+            }
+
             //First, the basic information
             var querynode = "";
             querynode += '<div style="border: 1px solid #222222; padding: 8px; background-color: #111111">';
-            querynode += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
+            if (document.getElementById("queryHalfAPFreeQ").checked && logtype === "FREE") {
+                querynode += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP -> ' + questap + ' AP]</h4>';
+            } else if (document.getElementById("queryHalfAPDailyQ").checked && logtype === "DAILY") {
+                querynode += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP -> ' + questap + ' AP]</h4>';
+            } else {
+                querynode += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
+            }
             querynode += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
 
             var percentdecimalfix = 1; //default to 1 decimal place
@@ -168,14 +183,14 @@ function getDropStatsQ(itemID, logobj) {
             if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
 
             var apperdropdecimalfix = 1; //default to 1 decimal place
-            if ((quest.ap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
-            var apperdrop = (parseInt(quest.ap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
+            if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+            var apperdrop = (parseInt(questap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
             if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
 
             //Padding for slightly more uniform formatting. Not going beyond 1000 because it's pointless lol
             if (numrunsTOTAL >= 1000) {querynode += '&nbsp;';} else if (numrunsTOTAL >= 100) {querynode += '&nbsp;&nbsp;';} else if (numrunsTOTAL >= 10) {querynode += '&nbsp;&nbsp;&nbsp;';} else {querynode += '&nbsp;&nbsp;&nbsp;&nbsp;';}
 
-            var runsperdrop = (apperdrop/parseInt(quest.ap)).toFixed(1);
+            var runsperdrop = (apperdrop/parseInt(questap)).toFixed(1);
 
             querynode += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
             querynode += '</div>';
