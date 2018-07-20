@@ -212,8 +212,18 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Marseille: Facing the Mediterranean Sea", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Marseille: Facing the Mediterranean Sea", "ap": "7", "last-upd": "2018 07 20", "column": "2",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
