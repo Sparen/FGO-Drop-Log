@@ -152,13 +152,24 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Vaucouleure: First Fortress", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Vaucouleure: First Fortress", "ap": "7", "last-upd": "2018 07 20", "column": "2",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
             "qname": "La Charite: Loire Ridge", "ap": "7", "last-upd": "", "column": "",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_RID"] }
             ]
         },
         {
