@@ -116,9 +116,18 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "Mobile Coordinate No.0: Massive Cavern", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Mobile Coordinate No.0: Massive Cavern", "ap": "7", "last-upd": "2018 07 19", "column": "2", "icon": "saber-saberalter.png",
             "droplog": [
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_SAB"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         }
     ]
@@ -128,8 +137,18 @@ var free_orleans_obj = {
     "cssclass": "h-orleans",
     "quests": [
         {
-            "qname": "Domremy: Jeanne's Birthplace", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Domremy: Jeanne's Birthplace", "ap": "7", "last-upd": "2018 07 19", "column": "4",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
