@@ -167,19 +167,48 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "La Charite: Loire Ridge", "ap": "7", "last-upd": "", "column": "",
+            "qname": "La Charite: Loire Ridge", "ap": "7", "last-upd": "2018 07 20", "column": "3",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Jura: Primeval Forest", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Jura: Primeval Forest", "ap": "7", "last-upd": "2018 07 20", "column": "2", "icon": "rider-martha.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "VOIDS_DUST"] }
             ]
         },
         {
-            "qname": "Lyon: Town of the Dead", "ap": "7", "last-upd": "", "column": "",
+            "qname": "Lyon: Town of the Dead", "ap": "7", "last-upd": "2018 07 20", "column": "2", "icon": "assassin-phantom.png",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         },
         {
