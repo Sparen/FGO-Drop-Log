@@ -227,7 +227,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Thiers: Town of Blades", "ap": "7", "last-upd": "2017 11 01", "column": "3",
+            "qname": "Thiers: Town of Blades", "ap": "7", "last-upd": "2018 07 21", "column": "3", "icon": "berserker-lancelot.png",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
@@ -241,11 +241,13 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "DRAGON_FANG"] },
                 { "uplog": true, "drop": ["GEM_BL_RID"] }
             ]
         },
         {
-            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 03 03", "column": "3",
+            "qname": "Bordeaux: A Toast with Wine", "ap": "7", "last-upd": "2018 07 21", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
@@ -295,12 +297,23 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
             ]
         },
         {
-            "qname": "Orleans: Fateful Fortress", "ap": "8", "last-upd": "", "column": "",
+            "qname": "Orleans: Fateful Fortress", "ap": "8", "last-upd": "2018 07 21", "column": "2", "icon": "caster-gilles.png",
             "droplog": [
+                { "uplog": true, "drop": ["PIECE_CAS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_RID"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
