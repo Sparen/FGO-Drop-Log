@@ -317,8 +317,18 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Paris: City of Art", "ap": "13", "last-upd": "", "column": "",
+            "qname": "Paris: City of Art", "ap": "13", "last-upd": "2018 07 21", "column": "2", "icon": "avenger-jalter.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] }
             ]
         }
     ]
