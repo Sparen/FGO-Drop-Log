@@ -309,13 +309,19 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Mausoleum of the Evening Bell: The Angel of Death", "ap": "19", "last-upd": "", "column": "",
+            "qname": "Mausoleum of the Evening Bell: The Angel of Death", "ap": "19", "last-upd": "2018 07 21", "column": "5",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "West Village Ruins: Traces of Cruelty", "ap": "20", "last-upd": "", "column": "",
+            "qname": "West Village Ruins: Traces of Cruelty", "ap": "20", "last-upd": "2018 07 21", "column": "4",
             "droplog": [
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -327,11 +333,18 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Main Gate: The Gate of Consecration", "ap": "20", "last-upd": "2018 07 18", "column": "7",
+            "qname": "Main Gate: The Gate of Consecration", "ap": "20", "last-upd": "2018 07 21", "column": "7",
             "droplog": [
                 { "uplog": true, "drop": ["EXP_4_LAN"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] }
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["EXP_4_LAN", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EXP_4_LAN"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -343,16 +356,26 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Hidden Village: Mirage of Dreams", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Hidden Village: Mirage of Dreams", "ap": "21", "last-upd": "2018 07 21", "column": "16",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_4_CAS"] },
+                { "uplog": true, "drop": ["EXP_4_CAS"] },
+                { "uplog": true, "drop": ["EXP_4_CAS"] },
+                { "uplog": true, "drop": ["EXP_4_CAS", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "LAMP_OF_EVIL_SEALING"] }
             ]
         },
         {
-            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "2018 07 18", "column": "16", "icon": "saber-gawain.png",
+            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "2018 07 21", "column": "16", "icon": "saber-gawain.png",
             "droplog": [
                 { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": ["EXP_4_SAB", "VOIDS_DUST"] },
-                { "uplog": true, "drop": ["PIECE_SAB", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["PIECE_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EXP_4_SAB"] }
             ]
         },
         {
