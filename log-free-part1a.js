@@ -353,8 +353,18 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Rome: Rome Was Not Built In A Day", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Rome: Rome Was Not Built In A Day", "ap": "9", "last-upd": "2018 07 22", "column": "2",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"] }
             ]
         },
         {
@@ -364,13 +374,33 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Florence: City of Flowers", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Florence: City of Flowers", "ap": "9", "last-upd": "2018 07 22", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Mediolanum: Middle of the Plain", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Mediolanum: Middle of the Plain", "ap": "9", "last-upd": "2018 07 22", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
