@@ -338,8 +338,18 @@ var free_septem_obj = {
     "cssclass": "h-septem",
     "quests": [
         {
-            "qname": "Appia Road: Queen of the Street", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Appia Road: Queen of the Street", "ap": "9", "last-upd": "2018 07 22", "column": "2", "icon": "berserker-caligula.png",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] }
             ]
         },
         {
