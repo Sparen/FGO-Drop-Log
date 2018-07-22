@@ -368,9 +368,18 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Mt. Etna: Exciting Land", "ap": "9", "last-upd": "2018 01 21", "column": "3",
+            "qname": "Mt. Etna: Exciting Land", "ap": "9", "last-upd": "2018 07 22", "column": "2",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GHOST_LANTERN"] }
             ]
         },
         {
