@@ -413,8 +413,18 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Germania: The Dark Forest", "ap": "15", "last-upd": "", "column": "",
+            "qname": "Germania: The Dark Forest", "ap": "15", "last-upd": "2018 07 23", "column": "2",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
