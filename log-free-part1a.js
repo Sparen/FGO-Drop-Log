@@ -428,8 +428,18 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Massilia: An Ancient Harbour", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Massilia: An Ancient Harbour", "ap": "9", "last-upd": "2018 07 23", "column": "6",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_RID"] },
+                { "uplog": true, "drop": ["PIECE_RID"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PIECE_RID", "PIECE_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
             ]
         },
         {
