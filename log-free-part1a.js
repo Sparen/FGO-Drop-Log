@@ -443,13 +443,33 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Gaul: Smoldering Warzone", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Gaul: Smoldering Warzone", "ap": "9", "last-upd": "2018 07 23", "column": "7", "icon": "saber-caesar.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PIECE_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Britannia: Misty Forest", "ap": "10", "last-upd": "", "column": "",
+            "qname": "Britannia: Misty Forest", "ap": "10", "last-upd": "2018 07 23", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] }
             ]
         },
         {
