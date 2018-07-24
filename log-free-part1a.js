@@ -473,13 +473,33 @@ var free_septem_obj = {
             ]
         },
         {
-            "qname": "Shaped Isle: Cave of the Goddess", "ap": "9", "last-upd": "", "column": "",
+            "qname": "Shaped Isle: Cave of the Goddess", "ap": "9", "last-upd": "2018 07 24", "column": "3", "icon": "berserker-caligula.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] }
             ]
         },
         {
-            "qname": "Alliance Capital: Rome's Horizon", "ap": "10", "last-upd": "", "column": "",
+            "qname": "Alliance Capital: Rome's Horizon", "ap": "10", "last-upd": "2018 07 24", "column": "2", "icon": "berserker-dariusiii.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC", "VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         }
     ]
