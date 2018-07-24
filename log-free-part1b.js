@@ -366,7 +366,7 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "2018 07 21", "column": "16", "icon": "saber-gawain.png",
+            "qname": "Royal Castle: The Thousand Year Kingdom", "ap": "21", "last-upd": "2018 07 23", "column": "16", "icon": "saber-gawain.png",
             "droplog": [
                 { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": ["EXP_4_SAB", "VOIDS_DUST"] },
@@ -375,7 +375,32 @@ var free_camelot_obj = {
                 { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["EXP_4_SAB"] }
+                { "uplog": true, "drop": ["EXP_4_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_SAB", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "EXP_4_SAB", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["MONU_SAB", "EXP_4_SAB"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["MONU_SAB", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PIECE_SAB"] },
+                { "uplog": true, "drop": ["PIECE_SAB"] },
+                { "uplog": true, "drop": ["EXP_4_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["EXP_4_SAB", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["PIECE_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB"] }
             ]
         },
         {
