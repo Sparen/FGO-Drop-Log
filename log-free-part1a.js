@@ -539,8 +539,18 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "King's Abode Island: Cursed Pirates", "ap": "13", "last-upd": "", "column": "",
+            "qname": "King's Abode Island: Cursed Pirates", "ap": "13", "last-upd": "2017 08 25", "column": "6", "icon": "berserker-ericbloodaxe.png",
             "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "PIECE_BER"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PIECE_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PIECE_BER", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
