@@ -524,8 +524,18 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Pirate Island: Pirate Hideout", "ap": "13", "last-upd": "", "column": "",
+            "qname": "Pirate Island: Pirate Hideout", "ap": "13", "last-upd": "2018 07 25", "column": "5", "icon": "rider-drake.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER", "VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
