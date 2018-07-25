@@ -277,7 +277,7 @@ var free_camelot_obj = {
             ]
         },
         {
-            "qname": "Wastelands of Death: The Mad Banquet of Blood and Flesh", "ap": "19", "last-upd": "2018 07 23", "column": "5",
+            "qname": "Wastelands of Death: The Mad Banquet of Blood and Flesh", "ap": "19", "last-upd": "2018 07 25", "column": "5",
             "droplog": [
                 { "uplog": true, "drop": ["FOOLS_CHAIN"] },
                 { "uplog": true, "drop": [] },
@@ -299,7 +299,16 @@ var free_camelot_obj = {
                 { "uplog": true, "drop": ["FOOLS_CHAIN"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "FOOLS_CHAIN"] }
             ]
         },
         {

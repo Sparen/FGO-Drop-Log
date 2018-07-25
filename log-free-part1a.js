@@ -509,8 +509,18 @@ var free_okeanos_obj = {
     "cssclass": "h-okeanos",
     "quests": [
         {
-            "qname": "Pirate Ship: Band of Corsairs", "ap": "12", "last-upd": "", "column": "",
+            "qname": "Pirate Ship: Band of Corsairs", "ap": "12", "last-upd": "2018 07 25", "column": "4",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PROOF_OF_HERO"] }
             ]
         },
         {
