@@ -569,9 +569,13 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Sunken Rock Seas: Ship Graveyard", "ap": "17", "last-upd": "", "column": "",
+            "qname": "Sunken Rock Seas: Ship Graveyard", "ap": "17", "last-upd": "2018 07 25", "column": "8",
             "droplog": [
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "SERPENT_JEWEL"] }
             ]
         },
         {
