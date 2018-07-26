@@ -179,7 +179,7 @@ function initPathMap() {
     //-- Onigashima [No Logging Intended]
     //-- Summer 2018
     imgpathmap.push({"id": "FOOD", "path": "./icon/ event/summer/Food.png", "label": "F", "qengine": "EVENT"});
-    imgpathmap.push({"id": "FRESH_WATER", "path": "./icon/ event/summer/Food.png", "label": "FW", "qengine": "EVENT"});
+    imgpathmap.push({"id": "FRESH_WATER", "path": "./icon/ event/summer/Water.png", "label": "FW", "qengine": "EVENT"});
     imgpathmap.push({"id": "LUMBER", "path": "./icon/ event/summer/Wood.png", "label": "L", "qengine": "EVENT"});
     imgpathmap.push({"id": "STONE", "path": "./icon/ event/summer/Stone.png", "label": "S", "qengine": "EVENT"});
     imgpathmap.push({"id": "IRON", "path": "./icon/ event/summer/Iron.png", "label": "I", "qengine": "EVENT"});
@@ -240,6 +240,8 @@ function loadEvent18() {
     console.log("loadEvent: Loading Event Quests - Fate/Accel Zero Order 2018");
     loadObject(event_accelzero2018_objA, "event-accelzero2018A");
     loadObject(event_accelzero2018_objB, "event-accelzero2018B");
+    console.log("loadEvent: Loading Event Quests - Summer 2018");
+    loadObject(event_summer2018part1_obj, "event-summer2018p1");
 }
 
 function loadHuntEvent() {
