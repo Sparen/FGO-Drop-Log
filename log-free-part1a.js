@@ -554,8 +554,18 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Mapped Island: Minotaur's Maze", "ap": "13", "last-upd": "", "column": "",
+            "qname": "Mapped Island: Minotaur's Maze", "ap": "13", "last-upd": "2018 07 25", "column": "4", "icon": "berserker-asterios.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG"] }
             ]
         },
         {
