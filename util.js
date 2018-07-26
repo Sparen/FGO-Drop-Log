@@ -21,6 +21,62 @@ var ID_SELF_PORTRAIT = 1;
 var ID_MONA_LISA = 2;
 var ID_MANUSCRIPT = 3;
 
+var ID_FOOD = 0;
+var ID_FRESH_WATER = 1;
+var ID_LUMBER = 2;
+var ID_STONE = 3;
+var ID_IRON = 4;
+
+function SCsummer2018() {
+    //Get the string located at name/id summer2018-sc-input
+    var input = document.getElementById("summer2018-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "F") {
+            typeConst = ID_FOOD;
+        } else if (typeID == "W") {
+            typeConst = ID_FRESH_WATER;
+        } else if (typeID == "L") {
+            typeConst = ID_LUMBER;
+        } else if (typeID == "S") {
+            typeConst = ID_STONE;
+        } else if (typeID == "I") {
+            typeConst = ID_IRON;
+        } else {
+            alert("SCsummer2018: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_FOOD) {
+                itemblock += 'FOOD';
+            } else if (typeConst == ID_FRESH_WATER) {
+                itemblock += 'FRESH_WATER';
+            } else if (typeConst == ID_LUMBER) {
+                itemblock += 'LUMBER';
+            } else if (typeConst == ID_STONE) {
+                itemblock += 'STONE';
+            } else if (typeConst == ID_IRON) {
+                itemblock += 'IRON';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("summer2018-sc-output").innerHTML = output;
+}
+
 function SCdavinci2018() {
     //Get the string located at name/id davinci2018-sc-input
     var input = document.getElementById("davinci2018-sc-input").value;
