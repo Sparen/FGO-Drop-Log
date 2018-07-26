@@ -91,6 +91,7 @@ function initPathMap() {
     imgpathmap.push({"id": "PHOENIX_FEATHER", "path": "./icon/Phoenix_plume.png", "label": "PF", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SERPENT_JEWEL", "path": "./icon/Snake_jewel.png", "label": "SJ", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SEED_OF_YGGDRASIL", "path": "./icon/Yggdrasil_seed.png", "label": "SoY", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "SHELL_OF_REMINISCENCE", "path": "./icon/Seashell of Recollection.png", "label": "SoR", "qengine": "ALWAYS"});
     //Super rare drops
     imgpathmap.push({"id": "BLACK_BEAST_GREASE", "path": "./icon/Blacktallow.png", "label": "BBG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "CLAW_OF_CHAOS", "path": "./icon/Talon_of_chaos.png", "label": "CoC", "qengine": "ALWAYS"});
@@ -176,6 +177,12 @@ function initPathMap() {
     //-- Rashomon [No Logging Intended]
     //-- Journey to the West [No Logging Intended]
     //-- Onigashima [No Logging Intended]
+    //-- Summer 2018
+    imgpathmap.push({"id": "FOOD", "path": "./icon/ event/summer/Food.png", "label": "F", "qengine": "EVENT"});
+    imgpathmap.push({"id": "FRESH_WATER", "path": "./icon/ event/summer/Food.png", "label": "FW", "qengine": "EVENT"});
+    imgpathmap.push({"id": "LUMBER", "path": "./icon/ event/summer/Wood.png", "label": "L", "qengine": "EVENT"});
+    imgpathmap.push({"id": "STONE", "path": "./icon/ event/summer/Stone.png", "label": "S", "qengine": "EVENT"});
+    imgpathmap.push({"id": "IRON", "path": "./icon/ event/summer/Iron.png", "label": "I", "qengine": "EVENT"});
 }
 
 function loadDaily() {
