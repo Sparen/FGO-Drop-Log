@@ -155,7 +155,7 @@ var event_summer2018part1_obj = {
         {
             "qname": "View Point - Thunder", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
-
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "LUMBER", "stack": 3}, {"id": "LUMBER", "stack": 3}, {"id": "LUMBER", "stack": 3}, {"id": "LUMBER", "stack": 3}, {"id": "LUMBER", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 3}, {"id": "STONE", "stack": 4}, {"id": "STONE", "stack": 4}, {"id": "STONE", "stack": 4}, {"id": "STONE", "stack": 4}, {"id": "IRON", "stack": 3}, {"id": "IRON", "stack": 3}, {"id": "IRON", "stack": 3}, {"id": "IRON", "stack": 3}, {"id": "IRON", "stack": 3}] }
             ]
         },
         {
@@ -173,13 +173,13 @@ var event_summer2018part1_obj = {
         {
             "qname": "Mystery Zone - Advanced", "ap": "30", "last-upd": "", "column": "",
             "droplog": [
-                
+                { "uplog": false, "drop": [], "stackdrop": [{"id": "FRESH_WATER", "stack": 2}, {"id": "FRESH_WATER", "stack": 2}, {"id": "FRESH_WATER", "stack": 2}, {"id": "FRESH_WATER", "stack": 2}, {"id": "FRESH_WATER", "stack": 2}, {"id": "FOOD", "stack": 2}, {"id": "FOOD", "stack": 2}, {"id": "FOOD", "stack": 2}, {"id": "FOOD", "stack": 2}] }
             ]
         },
         {
             "qname": "Mystery Zone - Expert", "ap": "40", "last-upd": "", "column": "",
             "droplog": [
-                
+                { "uplog": false, "drop": ["GEM_RD_BER", "GEM_GD_BER"], "stackdrop": [{"id": "FRESH_WATER", "stack": 3}, {"id": "FRESH_WATER", "stack": 3}, {"id": "FOOD", "stack": 3}, {"id": "FOOD", "stack": 3}, {"id": "FOOD", "stack": 3}, {"id": "FOOD", "stack": 3}, {"id": "FOOD", "stack": 4}, {"id": "FOOD", "stack": 4}, {"id": "FOOD", "stack": 4}, {"id": "FOOD", "stack": 4}] }
             ]
         },
         {
