@@ -86,7 +86,7 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "2018 07 19", "column": "3",
+            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "2018 07 29", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_ASS", "EVIL_BONE", "EVIL_BONE"] },
                 { "uplog": true, "drop": [] },
@@ -97,7 +97,12 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": ["VOIDS_DUST"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "EVIL_BONE"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -302,7 +307,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Orleans: Fateful Fortress", "ap": "8", "last-upd": "2018 07 21", "column": "2", "icon": "caster-gilles.png",
+            "qname": "Orleans: Fateful Fortress", "ap": "8", "last-upd": "2018 07 29", "column": "2", "icon": "caster-gilles.png",
             "droplog": [
                 { "uplog": true, "drop": ["PIECE_CAS"] },
                 { "uplog": true, "drop": [] },
@@ -312,6 +317,11 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_RID"] },
                 { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] }
             ]

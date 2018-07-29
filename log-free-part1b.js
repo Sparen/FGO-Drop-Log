@@ -191,11 +191,12 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "2018 05 17", "column": "8", "icon": "archer-arjuna.png",
+            "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "2018 07 29", "column": "8", "icon": "archer-arjuna.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ARC"] },
-                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
