@@ -241,7 +241,8 @@ function loadEvent18() {
     loadObject(event_accelzero2018_objA, "event-accelzero2018A");
     loadObject(event_accelzero2018_objB, "event-accelzero2018B");
     console.log("loadEvent: Loading Event Quests - Summer 2018");
-    loadObject(event_summer2018part1_obj, "event-summer2018p1");
+    loadObject(event_summer2018part1_objA, "event-summer2018p1a");
+    loadObject(event_summer2018part1_objB, "event-summer2018p1b");
 }
 
 function loadHuntEvent() {
