@@ -183,6 +183,7 @@ function initPathMap() {
     imgpathmap.push({"id": "LUMBER", "path": "./icon/ event/summer/Wood.png", "label": "L", "qengine": "EVENT"});
     imgpathmap.push({"id": "STONE", "path": "./icon/ event/summer/Stone.png", "label": "S", "qengine": "EVENT"});
     imgpathmap.push({"id": "IRON", "path": "./icon/ event/summer/Iron.png", "label": "I", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_SUMMERTIME_MISTRESS", "path": "./icon/ ce/Summer Time Mistress_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
