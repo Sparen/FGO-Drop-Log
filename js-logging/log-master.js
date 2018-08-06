@@ -184,6 +184,11 @@ function initPathMap() {
     imgpathmap.push({"id": "STONE", "path": "./icon/ event/summer/Stone.png", "label": "S", "qengine": "EVENT"});
     imgpathmap.push({"id": "IRON", "path": "./icon/ event/summer/Iron.png", "label": "I", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_SUMMERTIME_MISTRESS", "path": "./icon/ ce/Summer Time Mistress_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CEMENT", "path": "./icon/ event/summer/Cement.png", "label": "C", "qengine": "EVENT"});
+    imgpathmap.push({"id": "OIL", "path": "./icon/ event/summer/Oil.png", "label": "O", "qengine": "EVENT"});
+    imgpathmap.push({"id": "UISCE_ALLOY", "path": "./icon/ event/summer/Uisce Alloy.png", "label": "UA", "qengine": "EVENT"});
+    imgpathmap.push({"id": "EADROM_ALLOY", "path": "./icon/ event/summer/Eadrom Alloy.png", "label": "EA", "qengine": "EVENT"});
+    imgpathmap.push({"id": "REALTA_ALLOY", "path": "./icon/ event/summer/Realta Alloy.png", "label": "RA", "qengine": "EVENT"});
 }
 
 function loadDaily() {

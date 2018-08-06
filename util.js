@@ -26,6 +26,11 @@ var ID_FRESH_WATER = 1;
 var ID_LUMBER = 2;
 var ID_STONE = 3;
 var ID_IRON = 4;
+var ID_CEMENT = 10;
+var ID_OIL = 11;
+var ID_UISCE = 12;
+var ID_EADROM = 13;
+var ID_REALTA = 14;
 
 function SCsummer2018() {
     //Get the string located at name/id summer2018-sc-input
@@ -49,6 +54,16 @@ function SCsummer2018() {
             typeConst = ID_STONE;
         } else if (typeID == "I") {
             typeConst = ID_IRON;
+        } else if (typeID == "C") {
+            typeConst = ID_CEMENT;
+        } else if (typeID == "O") {
+            typeConst = ID_OIL;
+        } else if (typeID == "U") {
+            typeConst = ID_UISCE;
+        } else if (typeID == "E") {
+            typeConst = ID_EADROM;
+        } else if (typeID == "R") {
+            typeConst = ID_REALTA;
         } else {
             alert("SCsummer2018: Unable to parse input - unknown item type " + typeID);
         }
@@ -65,6 +80,16 @@ function SCsummer2018() {
                 itemblock += 'STONE';
             } else if (typeConst == ID_IRON) {
                 itemblock += 'IRON';
+            } else if (typeConst == ID_CEMENT) {
+                itemblock += 'CEMENT';
+            } else if (typeConst == ID_OIL) {
+                itemblock += 'OIL';
+            } else if (typeConst == ID_UISCE) {
+                itemblock += 'UISCE_ALLOY';
+            } else if (typeConst == ID_EADROM) {
+                itemblock += 'EADROM_ALLOY';
+            } else if (typeConst == ID_REALTA) {
+                itemblock += 'REALTA_ALLOY';
             }
             itemblock += '", "stack": ';
             itemblock += stacksize.toString();
