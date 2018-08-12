@@ -83,6 +83,7 @@ function getDropDisplay(itemID, eventflag) {
         nodes.push(getDropStatsQ(itemID, event_accelzero2018_objB, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_summer2018part1_objA, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_summer2018part1_objB, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_summer2018part2_obj, "EVENT"));
     }
     // Note: nodes is an array of arrays of objects
     var nodeobjlist = [];

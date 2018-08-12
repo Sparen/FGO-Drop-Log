@@ -256,7 +256,9 @@ var daily_rider_2017_10_obj = {
                 { "uplog": true, "drop": ["EXP_2_RID", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "PIECE_RID", "EXP_3_RID", "DRAGON_FANG"] },
                 { "uplog": true, "drop": ["EXP_3_RID"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "PIECE_RID", "EXP_2_RID"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "PIECE_RID", "EXP_2_RID"] },
+                { "uplog": false, "drop": ["GEM_BL_RID", "EXP_2_RID", "EXP_3_RID"] },
+                { "uplog": false, "drop": ["GEM_BL_RID", "GEM_BL_RID", "EXP_2_RID", "EXP_3_RID"] }
             ]
         },
         {

@@ -249,6 +249,7 @@ function loadEvent18() {
     console.log("loadEvent: Loading Event Quests - Summer 2018");
     loadObject(event_summer2018part1_objA, "event-summer2018p1a");
     loadObject(event_summer2018part1_objB, "event-summer2018p1b");
+    loadObject(event_summer2018part2_obj, "event-summer2018p2");
 }
 
 function loadHuntEvent() {

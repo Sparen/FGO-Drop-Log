@@ -274,3 +274,91 @@ var event_summer2018part1_objB = {
         }
     ]
 };
+
+var event_summer2018part2_obj = {
+    "cssclass": "h-summer",
+    "quests": [
+        {
+            "qname": "Dead Coast - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 3}, {"id": "CEMENT", "stack": 3}, {"id": "CEMENT", "stack": 3}, {"id": "CEMENT", "stack": 3}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Dead Coast - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "berserker-raikou.png",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS"], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}] },
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}] },
+                { "uplog": true, "drop": ["SHELL_OF_REMINISCENCE"], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}, {"id": "CEMENT", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Silent Field - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [  
+                { "uplog": true, "drop": ["VOIDS_DUST"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Silent Field - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "avenger-jalter.png",
+            "droplog": [
+                { "uplog": true, "drop": ["FOOLS_CHAIN"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "VOIDS_DUST", "SHELL_OF_REMINISCENCE"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "REALTA_ALLOY", "stack": 4}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}] },
+
+            ]
+        },
+        {
+            "qname": "Underworld - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [
+                { "uplog": true, "drop": ["HOMUNCULUS_BABY"], "stackdrop": [{"id": "EADROM_ALLOY", "stack": 2}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Underworld - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "archer-arjuna.png",
+            "droplog": [ 
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "EADROM_ALLOY", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Old Cave - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [ 
+                { "uplog": true, "drop": ["GEM_RD_SAB"], "stackdrop": [{"id": "UISCE_ALLOY", "stack": 2}, {"id": "UISCE_ALLOY", "stack": 2}, {"id": "UISCE_ALLOY", "stack": 2}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Old Cave - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "caster-xuanzang.png",
+            "droplog": [
+                { "uplog": true, "drop": ["SHELL_OF_REMINISCENCE"], "stackdrop": [{"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "UISCE_ALLOY", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Hazard Zone - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [ 
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 5}] },
+                { "uplog": true, "drop": ["SHELL_OF_REMINISCENCE", "FORBIDDEN_PAGE"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 5}] },
+                { "uplog": true, "drop": ["GEM_GD_CAS", "GEM_GD_CAS"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 5}] }
+            ]
+        },
+        {
+            "qname": "Hazard Zone - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "saber-altera.png",
+            "droplog": [
+                { "uplog": true, "drop": ["MONU_SAB", "FORBIDDEN_PAGE", "FORBIDDEN_PAGE"], "stackdrop": [{"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 3}, {"id": "REALTA_ALLOY", "stack": 5}, {"id": "REALTA_ALLOY", "stack": 5}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 3}, {"id": "EADROM_ALLOY", "stack": 5}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 3}, {"id": "UISCE_ALLOY", "stack": 5}] }
+            ]
+        },
+        {
+            "qname": "Piglet City - Explosion", "ap": "40", "last-upd": "2018 08 12", "column": "12",
+            "droplog": [ 
+                { "uplog": true, "drop": ["GEM_RD_SAB", "VOIDS_DUST"], "stackdrop": [{"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 2}, {"id": "OIL", "stack": 3}, {"id": "OIL", "stack": 3}, {"id": "OIL", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Piglet City - Annihilation", "ap": "40", "last-upd": "2018 08 12", "column": "12", "icon": "archer-tesla.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "OIL", "stack": 4}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}, {"id": "CEMENT", "stack": 2}] }
+            ]
+        }
+    ]
+};
