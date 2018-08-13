@@ -189,6 +189,7 @@ function initPathMap() {
     imgpathmap.push({"id": "UISCE_ALLOY", "path": "./icon/ event/summer/Uisce Alloy.png", "label": "UA", "qengine": "EVENT"});
     imgpathmap.push({"id": "EADROM_ALLOY", "path": "./icon/ event/summer/Eadrom Alloy.png", "label": "EA", "qengine": "EVENT"});
     imgpathmap.push({"id": "REALTA_ALLOY", "path": "./icon/ event/summer/Realta Alloy.png", "label": "RA", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_CHALDEA_LIFESAVERS", "path": "./icon/ ce/Chaldea Lifesavers_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
