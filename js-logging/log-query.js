@@ -3,9 +3,11 @@
 function loadQueryEngine() {
     initPathMap();
     console.log("loadQueryEngine: Preparing Query Engine");
-    var tablecontents = "";
+    var tablecontents1 = "";
+    var tablecontents2 = "";
     var numitems = imgpathmap.length;
-    var itemcounter = 0; //Some items will be excluded, so make sure the table doesn't break weirdly when excluding them.
+    var itemcounter1 = 0; //Some items will be excluded, so make sure the table doesn't break weirdly when excluding them.
+    var itemcounter2 = 0; //Some items will be excluded, so make sure the table doesn't break weirdly when excluding them.
     for (var i = 0; i < numitems; i += 1) {
         //Retrieve the target Item ID
         var targetID = imgpathmap[i].id;
@@ -15,23 +17,25 @@ function loadQueryEngine() {
         if (targetqengine == "ALWAYS") {
             var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\', \'' + targetPath + '\', \'' + targetLabel + '\', false)">Run</button>';
             var tablerow = '';
-            if (itemcounter % 7 == 0) {tablerow += '<tr>';}
+            if (itemcounter1 % 7 == 0) {tablerow += '<tr>';}
             tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + targetPath + '"><br>' + targetLabel + '<br>' + button + '</th>';
-            if (itemcounter % 7 == 6) {tablerow += '</tr>';}
-            tablecontents += tablerow;
-            itemcounter += 1;
+            if (itemcounter1 % 7 == 6) {tablerow += '</tr>';}
+            tablecontents1 += tablerow;
+            itemcounter1 += 1;
         } else if (targetqengine == "EVENT") {
             var button = '<button type="button" onclick="getDropStats(\'' + targetID + '\', \'' + targetPath + '\', \'' + targetLabel + '\', true)">Run</button>';
             var tablerow = '';
-            if (itemcounter % 7 == 0) {tablerow += '<tr>';}
+            if (itemcounter2 % 7 == 0) {tablerow += '<tr>';}
             tablerow += '<th style="border-color: #444444"><hr>' + targetID + '<hr>' + '<img class="item" src="' + targetPath + '"><br>' + targetLabel + '<br>' + button + '</th>';
-            if (itemcounter % 7 == 6) {tablerow += '</tr>';}
-            tablecontents += tablerow;
-            itemcounter += 1;
+            if (itemcounter2 % 7 == 6) {tablerow += '</tr>';}
+            tablecontents2 += tablerow;
+            itemcounter2 += 1;
         }
     }
-    if (itemcounter % 7 != 6) {tablecontents += '</tr>';} //prevent malformed tables
-    document.getElementById("query-engine-master").innerHTML = tablecontents;
+    if (itemcounter1 % 7 != 6) {tablecontents1 += '</tr>';} //prevent malformed tables
+    if (itemcounter2 % 7 != 6) {tablecontents2 += '</tr>';} //prevent malformed tables
+    document.getElementById("query-engine-master1").innerHTML = tablecontents1;
+    document.getElementById("query-engine-master2").innerHTML = tablecontents2;
 }
 
 //Calculates stats for the given item ID. Used in Query Engine.
