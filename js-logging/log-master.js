@@ -97,7 +97,7 @@ function initPathMap() {
     imgpathmap.push({"id": "CLAW_OF_CHAOS", "path": "./icon/Talon_of_chaos.png", "label": "CoC", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "DRAGONS_REVERSE_SCALE", "path": "./icon/Dragons_reverse_scale.png", "label": "DRS", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "LAMP_OF_EVIL_SEALING", "path": "./icon/Lamp of Sealed Evil.png", "label": "LoES", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "LAMP_OF_EVIL_SEALING", "path": "./icon/Lamp of Sealed Evil.png", "label": "LES", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SCARAB_OF_WISDOM", "path": "./icon/Scarab of Wisdom.png", "label": "SoW", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
