@@ -58,13 +58,23 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
 // Obtains the node divs for the item and sorts them.
 function getDropDisplay(itemID, eventflag) {
     var nodes = [];
-    nodes.push(getDropStatsQ(itemID, daily_saber_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_lancer_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_archer_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_rider_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_caster_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_assassin_2017_10_obj, "DAILY"));
-    nodes.push(getDropStatsQ(itemID, daily_berserker_2017_10_obj, "DAILY"));
+    // Toggle now-unavailable past daily quests
+    if (document.getElementById("queryPastDaily").checked) {
+        nodes.push(getDropStatsQ(itemID, daily_saber_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_lancer_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_archer_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_rider_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_caster_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_assassin_2017_10_obj, "DAILY"));
+        nodes.push(getDropStatsQ(itemID, daily_berserker_2017_10_obj, "DAILY"));
+    }
+    nodes.push(getDropStatsQ(itemID, daily_saber_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_lancer_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_archer_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_rider_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_caster_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_assassin_2018_08_obj, "DAILY"));
+    nodes.push(getDropStatsQ(itemID, daily_berserker_2018_08_obj, "DAILY"));
     nodes.push(getDropStatsQ(itemID, free_fuyuki_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_orleans_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_septem_obj, "FREE"));

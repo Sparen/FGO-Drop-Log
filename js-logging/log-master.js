@@ -208,6 +208,21 @@ function loadDaily() {
     loadObject(daily_assassin_2017_10_obj, "daily-assassin-2017-10");
     console.log("loadDaily: Loading Daily Quests - Berserker (Oct 2017 Dailies)");
     loadObject(daily_berserker_2017_10_obj, "daily-berserker-2017-10");
+
+    console.log("loadDaily: Loading Daily Quests - Saber (Aug 2018 Dailies)");
+    loadObject(daily_saber_2018_08_obj, "daily-saber-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Lancer (Aug 2018 Dailies)");
+    loadObject(daily_lancer_2018_08_obj, "daily-lancer-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Archer (Aug 2018 Dailies)");
+    loadObject(daily_archer_2018_08_obj, "daily-archer-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Rider (Aug 2018 Dailies)");
+    loadObject(daily_rider_2018_08_obj, "daily-rider-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Caster (Aug 2018 Dailies)");
+    loadObject(daily_caster_2018_08_obj, "daily-caster-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Assassin (Aug 2018 Dailies)");
+    loadObject(daily_assassin_2018_08_obj, "daily-assassin-2018-08");
+    console.log("loadDaily: Loading Daily Quests - Berserker (Aug 2018 Dailies)");
+    loadObject(daily_berserker_2018_08_obj, "daily-berserker-2018-08");
 }
 
 function loadFree() {
