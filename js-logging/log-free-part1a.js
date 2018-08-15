@@ -742,6 +742,11 @@ var free_okeanos_obj = {
             ]
         },
         {
+            "qname": "Archipelago: Hidden Island", "ap": "16", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
             "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 02 07", "column": "44",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
