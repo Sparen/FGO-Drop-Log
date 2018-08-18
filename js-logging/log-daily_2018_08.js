@@ -203,23 +203,43 @@ var daily_assassin_2018_08_obj = {
     "cssclass": "h-daily-cavalry1",
     "quests": [
         {
-            "qname": "[201808] Assassin Training Ground - Novice", "ap": "10", "last-upd": "", "column": "", "icon": "assassin-sasakikojiro.png",
+            "qname": "[201808] Assassin Training Ground - Novice", "ap": "10", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-sasakikojiro.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS", "EXP_1_ASS", "EXP_2_ASS", "EXP_3_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_BL_ASS", "PIECE_ASS", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "PIECE_ASS", "EXP_3_ASS"] },
+                { "uplog": true, "drop": ["EXP_3_ASS"] },
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "EXP_3_ASS"] }
             ]
         },
         {
-            "qname": "[201808] Assassin Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "", "icon": "assassin-jingke.png",
+            "qname": "[201808] Assassin Training Ground - Intermediate", "ap": "20", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-jingke.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS", "PIECE_ASS", "PIECE_ASS", "PIECE_ASS", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "PIECE_ASS", "EXP_2_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "EXP_3_ASS", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "PIECE_ASS", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "[201808] Assassin Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "", "icon": "assassin-stheno.png",
+            "qname": "[201808] Assassin Training Ground - Advanced", "ap": "30", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-stheno.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_GD_ASS", "PIECE_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS", "ETERNAL_GEAR", "GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "GHOST_LANTERN", "EXP_2_ASS"] }
             ]
         },
         {
-            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "", "column": "", "icon": "assassin-carmilla.png",
+            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-carmilla.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
+                { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "DRAGON_FANG", "GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "EXP_3_ASS"] }
             ]
         }
     ]
