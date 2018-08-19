@@ -4,23 +4,43 @@ var daily_saber_2018_08_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "[201808] Saber Training Ground - Novice", "ap": "10", "last-upd": "", "column": "", "icon": "saber-saberlily.png",
+            "qname": "[201808] Saber Training Ground - Novice", "ap": "10", "last-upd": "2018 08 19", "column": "20", "icon": "saber-saberlily.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "EXP_1_SAB", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "SHELL_OF_REMINISCENCE", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "PIECE_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB", "SHELL_OF_REMINISCENCE"] }
             ]
         },
         {
-            "qname": "[201808] Saber Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "", "icon": "saber-nero.png",
+            "qname": "[201808] Saber Training Ground - Intermediate", "ap": "20", "last-upd": "2018 08 19", "column": "20", "icon": "saber-nero.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "EXP_1_SAB", "EXP_2_SAB", "EXP_3_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "EXP_2_SAB", "EXP_3_SAB", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "EXP_3_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB"] }
             ]
         },
         {
-            "qname": "[201808] Saber Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "", "icon": "saber-saberalter.png",
+            "qname": "[201808] Saber Training Ground - Advanced", "ap": "30", "last-upd": "2018 08 19", "column": "20", "icon": "saber-saberalter.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "PIECE_SAB", "EXP_2_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "EXP_1_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["MONU_SAB", "EXP_1_SAB", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "", "column": "", "icon": "saber-altria.png",
+            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "2018 08 19", "column": "20", "icon": "saber-altria.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_SAB", "MONU_SAB", "SPIRIT_ROOT"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "PIECE_SAB", "SPIRIT_ROOT"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "EXP_2_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "MONU_SAB", "SHELL_OF_REMINISCENCE", "EXP_2_SAB"] }
             ]
         }
     ]
