@@ -742,8 +742,11 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Archipelago: Hidden Island", "ap": "16", "last-upd": "", "column": "",
+            "qname": "Archipelago: Hidden Island", "ap": "16", "last-upd": "2018 08 19", "column": "3",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
