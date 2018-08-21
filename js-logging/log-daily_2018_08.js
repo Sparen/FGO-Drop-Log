@@ -76,23 +76,43 @@ var daily_archer_2018_08_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "[201808] Archer Training Ground - Novice", "ap": "10", "last-upd": "", "column": "", "icon": "archer-robinhood.png",
+            "qname": "[201808] Archer Training Ground - Novice", "ap": "10", "last-upd": "2018 08 20", "column": "20", "icon": "archer-robinhood.png",
             "droplog": [
+                { "uplog": true, "drop": ["EXP_3_ARC", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["EXP_3_ARC", "PROOF_OF_HERO", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC"] }
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "", "icon": "archer-atalante.png",
+            "qname": "[201808] Archer Training Ground - Intermediate", "ap": "20", "last-upd": "2018 08 20", "column": "20", "icon": "archer-atalante.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC", "EXP_3_ARC", "EXP_3_ARC", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PIECE_ARC", "EXP_1_ARC", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["PIECE_ARC", "EXP_3_ARC", "EVIL_BONE"] }
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "", "icon": "archer-emiya.png",
+            "qname": "[201808] Archer Training Ground - Advanced", "ap": "30", "last-upd": "2018 08 20", "column": "20", "icon": "archer-emiya.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "MONU_ARC", "EXP_2_ARC"] },
+                { "uplog": true, "drop": ["PIECE_ARC", "MONU_ARC", "PROOF_OF_HERO"] }
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "", "column": "", "icon": "archer-gilgamesh.png",
-            "droplog": [            
+            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 08 20", "column": "20", "icon": "archer-gilgamesh.png",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "EXP_3_ARC", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PROOF_OF_HERO", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] }
             ]
         }
     ]
