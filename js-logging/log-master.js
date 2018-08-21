@@ -190,6 +190,10 @@ function initPathMap() {
     imgpathmap.push({"id": "EADROM_ALLOY", "path": "./icon/ event/summer/Eadrom Alloy.png", "label": "EA", "qengine": "EVENT"});
     imgpathmap.push({"id": "REALTA_ALLOY", "path": "./icon/ event/summer/Realta Alloy.png", "label": "RA", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_CHALDEA_LIFESAVERS", "path": "./icon/ ce/Chaldea Lifesavers_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
+    //-- Prisma Codes
+    imgpathmap.push({"id": "EXPENSIVE_PUDDING", "path": "./icon/ event/prismacodes/High-Class Pudding.png", "label": "EP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MB_MUSASHI", "path": "./icon/ event/prismacodes/Magical Bushido Musashi.png", "label": "MBM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MR_LION_GO_TOY", "path": "./icon/ event/prismacodes/Lion Go-kun.png", "label": "LGT", "qengine": "EVENT"});
 }
 
 function loadDaily() {
