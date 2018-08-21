@@ -270,6 +270,8 @@ function loadEvent18() {
     loadObject(event_summer2018part1_objA, "event-summer2018p1a");
     loadObject(event_summer2018part1_objB, "event-summer2018p1b");
     loadObject(event_summer2018part2_obj, "event-summer2018p2");
+    console.log("loadEvent: Loading Event Quests - Prisma Codes 2018");
+    loadObject(event_prismacodes2018_obj, "event-prisma2018");
 }
 
 function loadHuntEvent() {

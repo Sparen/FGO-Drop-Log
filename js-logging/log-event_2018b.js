@@ -387,3 +387,9 @@ var event_summer2018part2_obj = {
         }
     ]
 };
+
+var event_prismacodes2018_obj = {
+    "cssclass": "h-prisma",
+    "quests": [
+    ]
+};
