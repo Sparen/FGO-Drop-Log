@@ -50,23 +50,45 @@ var daily_lancer_2018_08_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "[201808] Lancer Training Ground - Novice", "ap": "10", "last-upd": "", "column": "", "icon": "lancer-cuchulainnproto.png",
+            "qname": "[201808] Lancer Training Ground - Novice", "ap": "10", "last-upd": "2018 08 21", "column": "20", "icon": "lancer-cuchulainnproto.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "EXP_3_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "EXP_3_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "EXP_1_LAN", "EXP_2_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "EXP_3_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "EXP_3_LAN"] }
             ]
         },
         {
-            "qname": "[201808] Lancer Training Ground - Intermediate", "ap": "20", "last-upd": "", "column": "", "icon": "lancer-romulus.png",
+            "qname": "[201808] Lancer Training Ground - Intermediate", "ap": "20", "last-upd": "2018 08 21", "column": "20", "icon": "lancer-romulus.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "EXP_3_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PIECE_LAN", "SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PIECE_LAN", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PIECE_LAN", "PIECE_LAN", "EVIL_BONE"] }
             ]
         },
         {
-            "qname": "[201808] Lancer Training Ground - Advanced", "ap": "30", "last-upd": "", "column": "", "icon": "lancer-cuchulainn.png",
+            "qname": "[201808] Lancer Training Ground - Advanced", "ap": "30", "last-upd": "2018 08 21", "column": "20", "icon": "lancer-cuchulainn.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "PIECE_LAN", "EXP_3_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "MONU_LAN", "EXP_3_LAN", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "PIECE_LAN", "EXP_2_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PIECE_LAN", "PROOF_OF_HERO", "SEED_OF_YGGDRASIL", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "PIECE_LAN", "EXP_2_LAN", "PROOF_OF_HERO"] }
             ]
         },
         {
-            "qname": "[201808] Lancer Training Ground - Expert", "ap": "40", "last-upd": "", "column": "", "icon": "lancer-elizabeth.png",
+            "qname": "[201808] Lancer Training Ground - Expert", "ap": "40", "last-upd": "2018 08 21", "column": "20", "icon": "lancer-elizabeth.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_LAN", "MONU_LAN", "VOIDS_DUST", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "PIECE_LAN", "VOIDS_DUST", "EXP_2_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN", "EXP_2_LAN"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PIECE_LAN", "PIECE_LAN", "PROOF_OF_HERO", "EXP_1_LAN", "EXP_2_LAN"] },
+                { "uplog": true, "drop": ["GEM_GD_LAN", "MONU_LAN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PIECE_LAN", "MONU_LAN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "PIECE_LAN", "EXP_2_LAN"] }
             ]
         }
     ]
