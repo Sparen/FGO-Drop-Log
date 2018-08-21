@@ -251,3 +251,11 @@
         border-style: none double none double; 
         padding-left: 4px; 
     }
+    .h-prisma {
+        color: #FFEEDD;
+        background-color: #FFAA99;
+        border-width: 4px; 
+        border-color: #FFEEDD; 
+        border-style: none double none double; 
+        padding-left: 4px; 
+    }
