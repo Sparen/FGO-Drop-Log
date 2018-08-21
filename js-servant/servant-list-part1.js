@@ -1481,6 +1481,44 @@ var servantlist_obj_part1 = {
             "ess": "Man",
             "alignment": "Lawful Good",
             "traits": ["Humanoid", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "136",
+            "sicon": "caster-illya.png",
+            "ename": "Illyasviel von Einzbern",
+            "jname1": "イリヤスフィール・フォン・アインツベルン",
+            "cicon": "caster-g.png",
+            "class": "Caster",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "A", "B"],
+            "deckhits": [3, 5, 1, 5],
+            "np": "B",
+            "starabs": "51",
+            "stargen": "10.7%",
+            "npcharge": ["0.32%", "3.0%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Neutral Good",
+            "traits": ["Humanoid", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "137",
+            "sicon": "archer-chloe.png",
+            "ename": "Chloe von Einzbern",
+            "jname1": "クロエ・フォン・アインツベルン",
+            "cicon": "archer-g.png",
+            "class": "Archer",
+            "rarity": "4",
+            "deck": ["Q", "Q", "A", "A", "B"],
+            "deckhits": [3, 6, 2, 4],
+            "np": "A",
+            "starabs": "148",
+            "stargen": "8%",
+            "npcharge": ["0.38%", "3.0%"],
+            "gender": "Female",
+            "ess": "Sky",
+            "alignment": "Chaotic Good",
+            "traits": ["Humanoid", "Weak to Enuma Elish"]
         }
     ]
 };
