@@ -391,5 +391,12 @@ var event_summer2018part2_obj = {
 var event_prismacodes2018_obj = {
     "cssclass": "h-prisma",
     "quests": [
+        {
+            "qname": "The Land of Sweets Rank D", "ap": "15", "last-upd": "NL", "column": "NL", "icon": "saber-deon.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] }
+            ]
+        },
     ]
 };
