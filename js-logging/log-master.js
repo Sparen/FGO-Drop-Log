@@ -192,8 +192,10 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_CHALDEA_LIFESAVERS", "path": "./icon/ ce/Chaldea Lifesavers_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Prisma Codes
     imgpathmap.push({"id": "EXPENSIVE_PUDDING", "path": "./icon/ event/prismacodes/High-Class Pudding.png", "label": "EP", "qengine": "EVENT"});
-    imgpathmap.push({"id": "MB_MUSASHI", "path": "./icon/ event/prismacodes/Magical Bushido Musashi.png", "label": "MBM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MAGICAL_BUSHIDO_MUSASHI", "path": "./icon/ event/prismacodes/Magical Bushido Musashi.png", "label": "MBM", "qengine": "EVENT"});
     imgpathmap.push({"id": "MR_LION_GO_TOY", "path": "./icon/ event/prismacodes/Lion Go-kun.png", "label": "LGT", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_KALEID_RUBY", "path": "./icon/ ce/Kaleid Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_KALEID_SAPPHIRE", "path": "./icon/ ce/Kaleid Sapphire_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
