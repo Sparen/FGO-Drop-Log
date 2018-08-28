@@ -405,16 +405,19 @@ var event_prismacodes2018_obj = {
             ]
         },
         {
-            "qname": "The Land of Sweets Rank B", "ap": "15", "last-upd": "", "column": "", "icon": "berserker-frankenstein.png",
+            "qname": "The Land of Sweets Rank B", "ap": "15", "last-upd": "2018 08 28", "column": "12", "icon": "berserker-frankenstein.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
-            "qname": "The Land of Sweets Rank A", "ap": "20", "last-upd": "", "column": "", "icon": "lancer-altriaalter.png",
+            "qname": "The Land of Sweets Rank A", "ap": "20", "last-upd": "2018 08 28", "column": "12", "icon": "lancer-altriaalter.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["EVIL_BONE", "METEORIC_HORSESHOE"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 1}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
@@ -431,20 +434,20 @@ var event_prismacodes2018_obj = {
             ]
         },
         {
-            "qname": "The Land of Dragons and Sea Rank B", "ap": "20", "last-upd": "", "column": "", "icon": "rider-medusa.png",
+            "qname": "The Land of Dragons and Sea Rank B", "ap": "20", "last-upd": "2018 08 28", "column": "12", "icon": "rider-medusa.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
-                { "uplog": false, "drop": ["GHOST_LANTERN"], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
-                { "uplog": false, "drop": ["DRAGON_FANG"], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["GHOST_LANTERN"], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["DRAGON_FANG"], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 1}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
-            "qname": "The Land of Dragons and Sea Rank A", "ap": "20", "last-upd": "", "column": "", "icon": "saber-altria.png",
+            "qname": "The Land of Dragons and Sea Rank A", "ap": "20", "last-upd": "2018 08 28", "column": "12", "icon": "saber-altria.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 1}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}] }
             ]
         },
         {
@@ -468,9 +471,15 @@ var event_prismacodes2018_obj = {
             ]
         },
         {
-            "qname": "The Land of Dead Bookshelves Rank A", "ap": "20", "last-upd": "", "column": "", "icon": "caster-davinci.png",
+            "qname": "The Land of Dead Bookshelves Rank A", "ap": "20", "last-upd": "2018 08 28", "column": "12", "icon": "caster-davinci.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "FOOLS_CHAIN", "FORBIDDEN_PAGE"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
@@ -483,19 +492,22 @@ var event_prismacodes2018_obj = {
         {
             "qname": "The Land of Snow and Honey Rank C", "ap": "20", "last-upd": "NL", "column": "NL", "icon": "assassin-carmilla.png",
             "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": ["PIECE_ASS", "OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
-            "qname": "The Land of Snow and Honey Rank B", "ap": "20", "last-upd": "", "column": "", "icon": "rider-drake.png",
+            "qname": "The Land of Snow and Honey Rank B", "ap": "20", "last-upd": "2018 08 28", "column": "12", "icon": "rider-drake.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}, {"id": "MR_LION_GO_TOY", "stack": 2}] }
             ]
         },
         {
-            "qname": "The Land of Snow and Honey Rank A", "ap": "30", "last-upd": "", "column": "", "icon": "saber-mordred.png",
+            "qname": "The Land of Snow and Honey Rank A", "ap": "30", "last-upd": "2018 08 28", "column": "12", "icon": "saber-mordred.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}] }
             ]
         },
         {
@@ -511,21 +523,21 @@ var event_prismacodes2018_obj = {
             ]
         },
         {
-            "qname": "The Land of Stars and Crystals Rank B", "ap": "30", "last-upd": "", "column": "",
+            "qname": "The Land of Stars and Crystals Rank B", "ap": "30", "last-upd": "2018 08 28", "column": "12", "icon": "lancer-brynhild.png",
             "droplog": [
-                
+                { "uplog": true, "drop": ["MONU_LAN"], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}] }
             ]
         },
         {
-            "qname": "The Land of Stars and Crystals Rank B+", "ap": "30", "last-upd": "", "column": "", "icon": "saber-saberalter.png",
+            "qname": "The Land of Stars and Crystals Rank B+", "ap": "30", "last-upd": "2018 08 28", "column": "12", "icon": "saber-saberalter.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 2}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}, {"id": "EXPENSIVE_PUDDING", "stack": 3}] }
             ]
         },
         {
-            "qname": "The Land of Stars and Crystals Rank A", "ap": "30", "last-upd": "", "column": "", "icon": "berserker-raikou.png",
+            "qname": "The Land of Stars and Crystals Rank A", "ap": "30", "last-upd": "2018 08 28", "column": "12", "icon": "berserker-raikou.png",
             "droplog": [
-                { "uplog": false, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 2}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}, {"id": "MAGICAL_BUSHIDO_MUSASHI", "stack": 3}] }
             ]
         }
     ]
