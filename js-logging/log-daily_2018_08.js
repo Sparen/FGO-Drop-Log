@@ -144,7 +144,7 @@ var daily_rider_2018_08_obj = {
     "cssclass": "h-daily-cavalry1",
     "quests": [
         {
-            "qname": "[201808] Rider Training Ground - Novice", "ap": "10", "last-upd": "2018 08 16", "column": "18", "icon": "rider-medusa.png",
+            "qname": "[201808] Rider Training Ground - Novice", "ap": "10", "last-upd": "2018 09 01", "column": "18", "icon": "rider-medusa.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "METEORIC_HORSESHOE", "EXP_1_RID", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "PIECE_RID"] },
@@ -179,7 +179,9 @@ var daily_rider_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "DRAGON_FANG", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "MONU_RID", "METEORIC_HORSESHOE"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "EXP_3_RID"] },
-                { "uplog": true, "drop": ["DRAGON_FANG", "DRAGON_FANG", "EXP_3_RID"] }
+                { "uplog": true, "drop": ["DRAGON_FANG", "DRAGON_FANG", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "EXP_3_RID"] }
             ]
         },
         {
@@ -227,13 +229,15 @@ var daily_caster_2018_08_obj = {
     "cssclass": "h-daily-cavalry1",
     "quests": [
         {
-            "qname": "[201808] Caster Training Ground - Novice", "ap": "10", "last-upd": "2018 08 18", "column": "20", "icon": "caster-gilles.png",
+            "qname": "[201808] Caster Training Ground - Novice", "ap": "10", "last-upd": "2018 09 01", "column": "20", "icon": "caster-gilles.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "PIECE_CAS", "EXP_3_CAS"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "EXP_3_CAS"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "EXP_3_CAS"] },
                 { "uplog": true, "drop": ["EXP_3_CAS"] },
-                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EXP_2_CAS", "EXP_3_CAS"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "EXP_2_CAS", "EXP_3_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "EXP_2_CAS", "PIECE_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "EXP_3_CAS"] }
             ]
         },
         {
@@ -273,13 +277,14 @@ var daily_assassin_2018_08_obj = {
     "cssclass": "h-daily-cavalry1",
     "quests": [
         {
-            "qname": "[201808] Assassin Training Ground - Novice", "ap": "10", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-sasakikojiro.png",
+            "qname": "[201808] Assassin Training Ground - Novice", "ap": "10", "last-upd": "2018 09 01", "column": "20", "icon": "assassin-sasakikojiro.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ASS", "EXP_1_ASS", "EXP_2_ASS", "EXP_3_ASS"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_BL_ASS", "PIECE_ASS", "DRAGON_FANG"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "PIECE_ASS", "EXP_3_ASS"] },
                 { "uplog": true, "drop": ["EXP_3_ASS"] },
-                { "uplog": true, "drop": ["ETERNAL_GEAR", "EXP_3_ASS"] }
+                { "uplog": true, "drop": ["ETERNAL_GEAR", "EXP_3_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "PIECE_ASS", "EXP_3_ASS", "VOIDS_DUST"] }
             ]
         },
         {
