@@ -10,7 +10,10 @@ var daily_saber_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "SHELL_OF_REMINISCENCE", "EXP_3_SAB"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "PIECE_SAB"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB", "SHELL_OF_REMINISCENCE"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": false, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO", "ETERNAL_GEAR", "EXP_3_SAB"] },
+                { "uplog": false, "drop": ["GEM_BL_SAB", "MONU_SAB", "PROOF_OF_HERO"] }
             ]
         },
         {

@@ -196,6 +196,7 @@ function initPathMap() {
     imgpathmap.push({"id": "MR_LION_GO_TOY", "path": "./icon/ event/prismacodes/Lion Go-kun.png", "label": "LGT", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_KALEID_RUBY", "path": "./icon/ ce/Kaleid Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_KALEID_SAPPHIRE", "path": "./icon/ ce/Kaleid Sapphire_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
+    imgpathmap.push({"id": "CE_MAGICAL_RUBY", "path": "./icon/ ce/Magical Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
