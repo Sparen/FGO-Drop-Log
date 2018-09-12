@@ -22,7 +22,11 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["EVIL_BONE"] }
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {

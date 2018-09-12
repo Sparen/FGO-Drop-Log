@@ -259,3 +259,11 @@
         border-style: none double none double; 
         padding-left: 4px; 
     }
+    .h-nerofest {
+        color: #FFDD88;
+        background-color: #CC2222;
+        border-width: 4px; 
+        border-color: #FFDD88; 
+        border-style: none double none double; 
+        padding-left: 4px; 
+    }
