@@ -127,7 +127,8 @@ var daily_archer_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "MONU_ARC"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "MONU_ARC", "EXP_2_ARC"] },
-                { "uplog": true, "drop": ["PIECE_ARC", "MONU_ARC", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["PIECE_ARC", "MONU_ARC", "PROOF_OF_HERO"] },
+                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] }
             ]
         },
         {
@@ -137,7 +138,9 @@ var daily_archer_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "EXP_3_ARC", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "TEARSTONE_OF_BLOOD"] },
-                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PROOF_OF_HERO", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] }
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PROOF_OF_HERO", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": false, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC"] },
+                { "uplog": false, "drop": ["PIECE_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] }
             ]
         }
     ]
@@ -317,7 +320,10 @@ var daily_assassin_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
                 { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "DRAGON_FANG", "GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "BLACK_BEAST_GREASE"] },
-                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "EXP_3_ASS"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "EXP_3_ASS"] },
+                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": false, "drop": ["GEM_GD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] }
             ]
         }
     ]
