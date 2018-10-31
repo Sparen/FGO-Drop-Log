@@ -36,6 +36,51 @@ var ID_EXPENSIVE_PUDDING = 0;
 var ID_MAGICAL_BUSHIDO_MUSASHI = 1;
 var ID_MR_LION_GO_TOY = 2;
 
+var ID_BAG_OF_COPPER = 0;
+var ID_BAG_OF_SILVER = 1;
+var ID_BAG_OF_GOLD = 2;
+
+function SChalloween2018() {
+    var input = document.getElementById("halloween2018-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "C") {
+            typeConst = ID_BAG_OF_COPPER;
+        } else if (typeID == "S") {
+            typeConst = ID_BAG_OF_SILVER;
+        } else if (typeID == "G") {
+            typeConst = ID_BAG_OF_GOLD;
+        } else {
+            alert("SChalloween2018: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_BAG_OF_COPPER) {
+                itemblock += 'BAG_OF_COPPER';
+            } else if (typeConst == ID_BAG_OF_SILVER) {
+                itemblock += 'BAG_OF_SILVER';
+            } else if (typeConst == ID_BAG_OF_GOLD) {
+                itemblock += 'BAG_OF_GOLD';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("halloween2018-sc-output").innerHTML = output;
+}
+
 function SCprisma2018() {
     //Get the string located at name/id summer2018-sc-input
     var input = document.getElementById("prisma2018-sc-input").value;
