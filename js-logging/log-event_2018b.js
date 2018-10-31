@@ -661,3 +661,50 @@ var event_prismacodes2018_obj = {
         }
     ]
 };
+
+// _SUMMER2018
+var event_halloween2018_obj = {
+    "cssclass": "h-halloween",
+    "quests": [
+        {
+            "qname": "Graveyard of Departure - Demon Lord", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "The Town that Beckons - Demon Lord", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Forest of Bewilderment - Demon Lord", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Cavern of Valor - Demon Lord", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Land of Slumber - Demon Lord", "ap": "40", "last-upd": "", "column": "", "icon": "berserker-lancelot.png",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Path of Resolve - Demon Lord", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Gate of Enlightenment - Demon Lord", "ap": "40", "last-upd": "", "column": "", "icon": "lancer-vladiii.png",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "The Golden Corridor - Demon Lord", "ap": "40", "last-upd": "", "column": "", "icon": "rider-ozymandias.png",
+            "droplog": [
+            ]
+        }
+    ]
+}

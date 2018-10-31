@@ -197,6 +197,17 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_KALEID_RUBY", "path": "./icon/ ce/Kaleid Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_KALEID_SAPPHIRE", "path": "./icon/ ce/Kaleid Sapphire_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MAGICAL_RUBY", "path": "./icon/ ce/Magical Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
+    //-- Nerofest 2018 [No Logging Intended]
+    //-- Halloween 2018
+    imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween2018/Bag of Cooper.png", "label": "BoC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_SILVER", "path": "./icon/ event/halloween2018/Bag of Silver.png", "label": "BoS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_GOLD", "path": "./icon/ event/halloween2018/Bag of Gold.png", "label": "BoG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_SWORD", "path": "./icon/ event/halloween2018/Hero Sword.png", "label": "HS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_LANCE", "path": "./icon/ event/halloween2018/Hero Lance.png", "label": "HL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_BOW", "path": "./icon/ event/halloween2018/Hero Bow.png", "label": "HB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_MANTLE", "path": "./icon/ event/halloween2018/Hero Shield.png", "label": "HS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_SHIELD", "path": "./icon/ event/halloween2018/Hero Mantle.png", "label": "HM", "qengine": "EVENT"});
+
 }
 
 function loadDaily() {
@@ -275,6 +286,8 @@ function loadEvent18() {
     loadObject(event_summer2018part2_obj, "event-summer2018p2");
     console.log("loadEvent: Loading Event Quests - Prisma Codes 2018");
     loadObject(event_prismacodes2018_obj, "event-prisma2018");
+    console.log("loadEvent: Loading Event Quests - Halloween 2018");
+    loadObject(event_halloween2018_obj, "event-halloween2018");
 }
 
 function loadHuntEvent() {
