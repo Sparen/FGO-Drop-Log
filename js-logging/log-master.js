@@ -199,7 +199,7 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_MAGICAL_RUBY", "path": "./icon/ ce/Magical Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Nerofest 2018 [No Logging Intended]
     //-- Halloween 2018
-    imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween2018/Bag of Cooper.png", "label": "BoC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween2018/Bag of Copper.png", "label": "BoC", "qengine": "EVENT"});
     imgpathmap.push({"id": "BAG_OF_SILVER", "path": "./icon/ event/halloween2018/Bag of Silver.png", "label": "BoS", "qengine": "EVENT"});
     imgpathmap.push({"id": "BAG_OF_GOLD", "path": "./icon/ event/halloween2018/Bag of Gold.png", "label": "BoG", "qengine": "EVENT"});
     imgpathmap.push({"id": "HERO_SWORD", "path": "./icon/ event/halloween2018/Hero Sword.png", "label": "HS", "qengine": "EVENT"});
