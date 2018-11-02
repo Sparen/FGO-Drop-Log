@@ -50,6 +50,14 @@
         border-radius: 2px;
     }
 
+    .iconx {
+        background-color: gray;
+        padding: 4px;
+        display: inline-block;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+    }
+
     .servantsmall {
         width: 32px;
         height: auto;

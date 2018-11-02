@@ -16,7 +16,7 @@ function loadObject(obj, dest) {
         } else {
             str += '<td>' + servant.ename + '<br>' + servant.jname1 + '</td>';
         }
-        str += '<td>'
+        str += '<td style="text-align:center">'
         for (j = 0; j < 5; j += 1) {
             var x = servant.deck[j];
             if (x === "Q") {
@@ -27,6 +27,11 @@ function loadObject(obj, dest) {
                 str += '<div class="iconb">B</div>';
             }
         }
+        str += '<br>';
+        str += '<div class="iconq">' + servant.deckhits[0] + '</div>';
+        str += '<div class="icona">' + servant.deckhits[1] + '</div>';
+        str += '<div class="iconb">' + servant.deckhits[2] + '</div>';
+        str += '<div class="iconx">' + servant.deckhits[3] + '</div>';
         str += '</td><td>';
         if (servant.np === "Q") {
             str += '<div class="iconq">Q</div>';
