@@ -85,6 +85,7 @@ function getDropDisplay(itemID, eventflag) {
     //If limited time quest checkbox is enabled
     if (document.getElementById("queryLTQCB").checked) {
         nodes.push(getDropStatsQ(itemID, event_hunting1_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_hunting2_obj, "EVENT"));
     }
     //If the item is an event item or if the checkbox for viewing event data for all items is checked
     if (eventflag || document.getElementById("queryEventCB").checked) {

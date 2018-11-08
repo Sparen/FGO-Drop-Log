@@ -295,6 +295,8 @@ function loadHuntEvent() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadHuntEvent: Loading Hunting Quests Part 1");
     loadObject(event_hunting1_obj, "event-hunting1");
+    console.log("loadHuntEvent: Loading Hunting Quests Part 2");
+    loadObject(event_hunting2_obj, "event-hunting2");
 }
 
 //Loads log object into the HTML table located at tableid

@@ -154,3 +154,28 @@ var event_hunting1_obj = {
         }
     ]
 };
+
+// Part 2
+var event_hunting2_obj = {
+    "cssclass": "h-hunting",
+    "quests": [
+        {
+            "qname": "[2018 11 08] Skeleton Hunt - Cause Rank [LAN]", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+
+            ]
+        },
+        {
+            "qname": "[2018 11 08] Skeleton Hunt - Fes Rank [LAN]", "ap": "35", "last-upd": "", "column": "",
+            "droplog": [
+
+            ]
+        },
+        {
+            "qname": "[2018 11 08] Skeleton Hunt - Pride Rank [LAN]", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+
+            ]
+        }
+    ]
+};
