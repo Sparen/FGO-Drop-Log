@@ -174,6 +174,13 @@ var event_hunting2_obj = {
         {
             "qname": "[2018 11 08] Skeleton Hunt - Pride Rank [LAN]", "ap": "40", "last-upd": "2018 11 08", "column": "48",
             "droplog": [
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "GEM_GD_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "GEM_BL_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
         }
