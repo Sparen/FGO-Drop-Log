@@ -160,21 +160,21 @@ var event_hunting2_obj = {
     "cssclass": "h-hunting",
     "quests": [
         {
-            "qname": "[2018 11 08] Skeleton Hunt - Cause Rank [LAN]", "ap": "30", "last-upd": "", "column": "",
+            "qname": "[2018 11 08] Skeleton Hunt - Cause Rank [LAN]", "ap": "30", "last-upd": "2018 11 08", "column": "48",
             "droplog": [
-
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
         },
         {
-            "qname": "[2018 11 08] Skeleton Hunt - Fes Rank [LAN]", "ap": "35", "last-upd": "", "column": "",
+            "qname": "[2018 11 08] Skeleton Hunt - Fes Rank [LAN]", "ap": "35", "last-upd": "2018 11 08", "column": "48",
             "droplog": [
-
+                { "uplog": true, "drop": ["EVIL_BONE", "GEM_GD_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
         },
         {
-            "qname": "[2018 11 08] Skeleton Hunt - Pride Rank [LAN]", "ap": "40", "last-upd": "", "column": "",
+            "qname": "[2018 11 08] Skeleton Hunt - Pride Rank [LAN]", "ap": "40", "last-upd": "2018 11 08", "column": "48",
             "droplog": [
-
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
         }
     ]
