@@ -181,7 +181,16 @@ var event_hunting2_obj = {
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
-                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "GEM_BL_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "GEM_RD_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "GEM_RD_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
         }
     ]
