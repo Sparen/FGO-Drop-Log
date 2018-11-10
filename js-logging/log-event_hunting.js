@@ -192,6 +192,26 @@ var event_hunting2_obj = {
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EVIL_BONE", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN"] }
             ]
+        },
+        {
+            "qname": "[2018 11 09] Wyvern Hunt - Cause Rank [RID]", "ap": "30", "last-upd": "2018 11 09", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 09] Wyvern Hunt - Fes Rank [RID]", "ap": "35", "last-upd": "2018 11 09", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_GD_RID", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 09] Wyvern Hunt - Pride Rank [RID]", "ap": "40", "last-upd": "2018 11 09", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_GD_RID", "DRAGON_FANG", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] },
+                { "uplog": true, "drop": ["DRAGON_FANG", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] }
+            ]
         }
     ]
 };
