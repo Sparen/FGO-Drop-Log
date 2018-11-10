@@ -228,7 +228,11 @@ var event_hunting2_obj = {
         {
             "qname": "[2018 11 10] Golem Hunt - Pride Rank [BER]", "ap": "40", "last-upd": "2018 11 10", "column": "48",
             "droplog": [
-                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
             ]
         }
     ]
