@@ -212,6 +212,24 @@ var event_hunting2_obj = {
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] },
                 { "uplog": true, "drop": ["DRAGON_FANG", "DRAGON_FANG", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID", "EXP_4_RID"] }
             ]
+        },
+        {
+            "qname": "[2018 11 10] Golem Hunt - Cause Rank [BER]", "ap": "30", "last-upd": "2018 11 10", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 10] Golem Hunt - Fes Rank [BER]", "ap": "35", "last-upd": "2018 11 10", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 10] Golem Hunt - Pride Rank [BER]", "ap": "40", "last-upd": "2018 11 10", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
+            ]
         }
     ]
 };
