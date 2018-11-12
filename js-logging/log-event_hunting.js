@@ -234,6 +234,45 @@ var event_hunting2_obj = {
                 { "uplog": true, "drop": ["OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
                 { "uplog": true, "drop": ["EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
             ]
+        },
+        {
+            "qname": "[2018 11 11] Soul Eater Hunt - Cause Rank [SAB/ASS]", "ap": "30", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "EXP_4_SAB", "EXP_4_ASS", "EXP_4_ASS"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 11] Soul Eater Hunt - Fes Rank [SAB/ASS]", "ap": "35", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_ASS", "EXP_4_ASS"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 11] Soul Eater Hunt - Pride Rank [SAB/ASS]", "ap": "40", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_ASS", "EXP_4_ASS"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "PROOF_OF_HERO", "BLACK_BEAST_GREASE", "EXP_4_SAB", "EXP_4_ASS"] },
+                { "uplog": true, "drop": ["EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_ASS", "EXP_4_ASS"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_ASS", "EXP_4_ASS"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 12] Enforcement Knight Hunt - Cause Rank", "ap": "30", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 12] Enforcement Knight Hunt - Fes Rank", "ap": "35", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_ARC"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 12] Enforcement Knight Hunt - Pride Rank", "ap": "40", "last-upd": "2018 11 12", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GEM_GD_LAN", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] }   
+            ]
         }
     ]
 };
