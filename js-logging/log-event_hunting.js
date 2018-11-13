@@ -271,7 +271,12 @@ var event_hunting2_obj = {
         {
             "qname": "[2018 11 12] Enforcement Knight Hunt - Pride Rank", "ap": "40", "last-upd": "2018 11 12", "column": "48",
             "droplog": [
-                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GEM_GD_LAN", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] }   
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GEM_GD_LAN", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GEM_GD_LAN", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "GEM_GD_LAN", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
+                { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] }
             ]
         }
     ]
