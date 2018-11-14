@@ -278,6 +278,29 @@ var event_hunting2_obj = {
                 { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] },
                 { "uplog": true, "drop": ["GREAT_KNIGHT_MEDAL", "EXP_4_SAB", "EXP_4_SAB", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_LAN", "EXP_4_ARC", "EXP_4_ARC", "EXP_4_ARC"] }
             ]
+        },
+        {
+            "qname": "[2018 11 13] Demon Hunt - Cause Rank [BER/CAS]", "ap": "30", "last-upd": "2018 11 13", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_GD_CAS", "EXP_4_CAS", "EXP_4_BER"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 13] Demon Hunt - Fes Rank [BER/CAS]", "ap": "35", "last-upd": "2018 11 13", "column": "48",
+            "droplog": [
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "HEART_OF_A_FOREIGN_GOD", "GEM_GD_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "GEM_GD_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER"] }
+            ]
+        },
+        {
+            "qname": "[2018 11 13] Demon Hunt - Pride Rank [BER/CAS]", "ap": "40", "last-upd": "2018 11 13", "column": "55",
+            "droplog": [
+                { "uplog": true, "drop": ["HEART_OF_A_FOREIGN_GOD", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["EXP_4_CAS", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "FOOLS_CHAIN", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_BER"] },
+                { "uplog": true, "drop": ["HEART_OF_A_FOREIGN_GOD", "EXP_4_CAS", "EXP_4_CAS", "EXP_4_BER", "EXP_4_BER", "EXP_4_BER"] }
+            ]
         }
     ]
 };
