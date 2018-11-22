@@ -121,26 +121,26 @@ var daily_archer_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Advanced", "ap": "30", "last-upd": "2018 08 20", "column": "20", "icon": "archer-emiya.png",
+            "qname": "[201808] Archer Training Ground - Advanced", "ap": "30", "last-upd": "2018 11 22", "column": "20", "icon": "archer-emiya.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "MONU_ARC"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "MONU_ARC", "EXP_2_ARC"] },
                 { "uplog": true, "drop": ["PIECE_ARC", "MONU_ARC", "PROOF_OF_HERO"] },
-                { "uplog": false, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] }
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 08 20", "column": "20", "icon": "archer-gilgamesh.png",
+            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "20", "icon": "archer-gilgamesh.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "EXP_3_ARC", "PROOF_OF_HERO", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PROOF_OF_HERO", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] },
-                { "uplog": false, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC"] },
-                { "uplog": false, "drop": ["PIECE_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] }
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC"] },
+                { "uplog": true, "drop": ["PIECE_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] }
             ]
         }
     ]
@@ -211,7 +211,7 @@ var daily_rider_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 08 22", "column": "18", "icon": "rider-marie.png",
+            "qname": "[201808] Rider Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "18", "icon": "rider-marie.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "DRAGONS_REVERSE_SCALE"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "MONU_RID"] },
@@ -225,7 +225,15 @@ var daily_rider_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_RID", "GEM_GD_RID", "MONU_RID", "EXP_3_RID"] },
                 { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "DRAGONS_REVERSE_SCALE"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "DRAGON_FANG", "METEORIC_HORSESHOE"] },
-                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "DRAGON_FANG", "EXP_3_RID"] }
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "DRAGON_FANG", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "EXP_1_RID"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "PIECE_RID", "METEORIC_HORSESHOE", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "MONU_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "PIECE_RID", "MONU_RID", "EXP_3_RID"] },
+                { "uplog": true, "drop": ["MONU_RID", "DRAGON_FANG", "DRAGON_FANG", "VOIDS_DUST", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "MONU_RID", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_GD_RID", "PIECE_RID", "PIECE_RID", "METEORIC_HORSESHOE", "EXP_1_RID"] }
             ]
         }
     ]
@@ -314,16 +322,16 @@ var daily_assassin_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 08 18", "column": "20", "icon": "assassin-carmilla.png",
+            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "20", "icon": "assassin-carmilla.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
                 { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "DRAGON_FANG", "GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "BLACK_BEAST_GREASE"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "EXP_3_ASS"] },
-                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
-                { "uplog": false, "drop": ["GEM_GD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
-                { "uplog": false, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] }
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] }
             ]
         }
     ]
@@ -383,7 +391,7 @@ var daily_berserker_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 08 22", "column": "18", "icon": "berserker-lancelot.png",
+            "qname": "[201808] Berserker Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "18", "icon": "berserker-lancelot.png",
             "droplog": [ 
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "PIECE_BER", "EXP_3_BER"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER", "OCTUPLET_CRYSTAL"] },
@@ -399,7 +407,8 @@ var daily_berserker_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "PIECE_BER", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["PIECE_BER", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "PIECE_BER"] },
-                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "PROOF_OF_HERO", "EXP_1_BER", "EXP_2_BER"] }
+                { "uplog": true, "drop": ["GEM_RD_BER", "PIECE_BER", "PROOF_OF_HERO", "EXP_1_BER", "EXP_2_BER"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_BER", "PIECE_BER", "EXP_1_BER", "EXP_3_BER"] }
             ]
         }
     ]
