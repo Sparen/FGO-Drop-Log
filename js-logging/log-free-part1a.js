@@ -4,7 +4,7 @@ var free_fuyuki_obj = {
     "cssclass": "h-fuyuki",
     "quests": [
         {
-            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "2018 01 25", "column": "6",
+            "qname": "X-A: The Residential Ruin", "ap": "3", "last-upd": "2018 11 26", "column": "6",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
@@ -23,10 +23,10 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -45,7 +45,7 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "2018 07 19", "column": "6",
+            "qname": "X-C: Giant Bridge", "ap": "4", "last-upd": "2018 11 26", "column": "12",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
@@ -56,7 +56,27 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE"] }
             ]
         },
         {
