@@ -132,7 +132,7 @@ var daily_archer_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "20", "icon": "archer-gilgamesh.png",
+            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 11 26", "column": "20", "icon": "archer-gilgamesh.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
@@ -140,7 +140,12 @@ var daily_archer_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "PROOF_OF_HERO", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC"] },
-                { "uplog": true, "drop": ["PIECE_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] }
+                { "uplog": true, "drop": ["PIECE_ARC", "SEED_OF_YGGDRASIL", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC", "EXP_3_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "EXP_1_ARC", "EXP_2_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PHOENIX_FEATHER", "EXP_1_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "SEED_OF_YGGDRASIL"] }
             ]
         }
     ]
