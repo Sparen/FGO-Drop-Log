@@ -112,10 +112,10 @@ function initPathMap() {
     imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/Dango.png", "label": "D", "qengine": "EVENT"});
     imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/Goldendango.png", "label": "RD", "qengine": "EVENT"});
     //-- Halloween 2017
-    imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/Cupcake.png", "label": "PC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/ event/Trick_bat.png", "label": "MB", "qengine": "EVENT"});
-    imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/ event/Pumpkin.png", "label": "PL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/halloween/Cupcake.png", "label": "PC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/halloween/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MISCHIEVOUS_BAT", "path": "./icon/ event/halloween/Trick_bat.png", "label": "MB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "PUMPKIN_LANTERN", "path": "./icon/ event/halloween/Pumpkin.png", "label": "PL", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_TRICK_OR_TREAT", "path": "./icon/ ce/Trickicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MAID_IN_HALLOWEEN", "path": "./icon/ ce/Maidicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_HALLOWEEN_PRINCESS", "path": "./icon/ ce/Princessicon.png", "label": "CE", "qengine": "EVENT-CE"});
@@ -199,14 +199,14 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_MAGICAL_RUBY", "path": "./icon/ ce/Magical Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Nerofest 2018 [No Logging Intended]
     //-- Halloween 2018
-    imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween2018/Bag of Copper.png", "label": "BoC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "BAG_OF_SILVER", "path": "./icon/ event/halloween2018/Bag of Silver.png", "label": "BoS", "qengine": "EVENT"});
-    imgpathmap.push({"id": "BAG_OF_GOLD", "path": "./icon/ event/halloween2018/Bag of Gold.png", "label": "BoG", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HERO_SWORD", "path": "./icon/ event/halloween2018/Hero Sword.png", "label": "HS", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HERO_LANCE", "path": "./icon/ event/halloween2018/Hero Lance.png", "label": "HL", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HERO_BOW", "path": "./icon/ event/halloween2018/Hero Bow.png", "label": "HB", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HERO_MANTLE", "path": "./icon/ event/halloween2018/Hero Mantle.png", "label": "HM", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HERO_SHIELD", "path": "./icon/ event/halloween2018/Hero Shield.png", "label": "HS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween/Bag of Copper.png", "label": "BoC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_SILVER", "path": "./icon/ event/halloween/Bag of Silver.png", "label": "BoS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "BAG_OF_GOLD", "path": "./icon/ event/halloween/Bag of Gold.png", "label": "BoG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_SWORD", "path": "./icon/ event/halloween/Hero Sword.png", "label": "HS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_LANCE", "path": "./icon/ event/halloween/Hero Lance.png", "label": "HL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_BOW", "path": "./icon/ event/halloween/Hero Bow.png", "label": "HB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_MANTLE", "path": "./icon/ event/halloween/Hero Mantle.png", "label": "HM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HERO_SHIELD", "path": "./icon/ event/halloween/Hero Shield.png", "label": "HS", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_WIZARD_AND_PRIEST", "path": "./icon/ ce/Wizard and Priest.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Christmas 2018
     imgpathmap.push({"id": "CHEESECAKE", "path": "./icon/ event/christmas/Cheesecake.png", "label": "CC", "qengine": "EVENT"});
