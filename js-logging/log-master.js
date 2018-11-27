@@ -106,11 +106,11 @@ function initPathMap() {
 
     //Event drops
     //-- Nerofest
-    imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
-    imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/nerofest/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/nerofest/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
     //-- Moon Goddess
-    imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/Dango.png", "label": "D", "qengine": "EVENT"});
-    imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/Goldendango.png", "label": "RD", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
     //-- Halloween 2017
     imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/halloween/Cupcake.png", "label": "PC", "qengine": "EVENT"});
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/halloween/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
@@ -153,9 +153,9 @@ function initPathMap() {
     //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/valentines/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
     //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/valentines/Matchoco.png", "label": "BC", "qengine": "EVENT"});
     //-- Kara no Kyoukai 2018 [Items are only here for reference as no logging is intended]
-    //imgpathmap.push({"id": "MINERAL_WATER", "path": "./icon/ event/mineralWater.png", "label": "MW", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "STRAWBERRY_IC", "path": "./icon/ event/strawberryIceCream.png", "label": "SIC", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "BLACK_CAT_FIGURINE", "path": "./icon/ event/blackCatFigurine.png", "label": "BCF", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "MINERAL_WATER", "path": "./icon/ event/karanokyoukai/mineralWater.png", "label": "MW", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "STRAWBERRY_IC", "path": "./icon/ event/karanokyoukai/strawberryIceCream.png", "label": "SIC", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "BLACK_CAT_FIGURINE", "path": "./icon/ event/karanokyoukai/blackCatFigurine.png", "label": "BCF", "qengine": "EVENT"});
     //-- Da Vinci 2018 [Manuscripts default to True image for contrast with background]
     imgpathmap.push({"id": "VITRUVIAN_MAN", "path": "./icon/ event/davinci/vitruvianMan.png", "label": "VM", "qengine": "EVENT"});
     imgpathmap.push({"id": "SELF_PORTRAIT", "path": "./icon/ event/davinci/selfPortrait.png", "label": "SP", "qengine": "EVENT"});
