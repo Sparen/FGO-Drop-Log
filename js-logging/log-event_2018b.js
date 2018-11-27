@@ -662,7 +662,7 @@ var event_prismacodes2018_obj = {
     ]
 };
 
-// _SUMMER2018
+// _HALLOWEEN2018
 var event_halloween2018_obj = {
     "cssclass": "h-halloween",
     "quests": [
@@ -760,4 +760,17 @@ var event_halloween2018_obj = {
             ]
         }
     ]
-}
+};
+
+// _CHRISTMAS2018
+var event_christmas2018_obj = {
+    "cssclass": "h-christmas",
+    "quests": [
+        {
+            "qname": "Placeholder", "ap": "10", "last-upd": "", "column": "",
+            "droplog": [
+ 
+            ]
+        }
+    ]
+};

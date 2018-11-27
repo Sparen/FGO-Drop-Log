@@ -289,6 +289,8 @@ function loadEvent18() {
     loadObject(event_prismacodes2018_obj, "event-prisma2018");
     console.log("loadEvent: Loading Event Quests - Halloween 2018");
     loadObject(event_halloween2018_obj, "event-halloween2018");
+    console.log("loadEvent: Loading Event Quests - Christmas 2018");
+    loadObject(event_christmas2018_obj, "event-christmas2018");
 }
 
 function loadHuntEvent() {
