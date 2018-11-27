@@ -767,9 +767,29 @@ var event_christmas2018_obj = {
     "cssclass": "h-christmas",
     "quests": [
         {
-            "qname": "Placeholder", "ap": "10", "last-upd": "", "column": "",
+            "qname": "Stocking Gathering - Novice: Christmas Concert", "ap": "10", "last-upd": "2018 11 27", "column": "24", "icon": "assassin-carmilla.png",
             "droplog": [
- 
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "CHEESECAKE", "stack": 3}, {"id": "CHEESECAKE", "stack": 3}, {"id": "CHEESECAKE", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "CHEESECAKE", "stack": 3}, {"id": "SHORTCAKE", "stack": 1}, {"id": "SHORTCAKE", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 1}, {"id": "MIRACLE_STOCKING", "stack": 2}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "CHEESECAKE", "stack": 1}, {"id": "CHEESECAKE", "stack": 3}, {"id": "CHEESECAKE", "stack": 3}, {"id": "CHEESECAKE", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 1}, {"id": "MIRACLE_STOCKING", "stack": 1}, {"id": "MIRACLE_STOCKING", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Intermediate: Witches' Christmas Party", "ap": "20", "last-upd": "2018 11 27", "column": "24", "icon": "caster-medea.png",
+            "droplog": [
+                { "uplog": true, "drop": ["METEORIC_HORSESHOE"], "stackdrop": [{"id": "CHEESECAKE", "stack": 1}, {"id": "CHEESECAKE", "stack": 3}, {"id": "SHORTCAKE", "stack": 1}, {"id": "SHORTCAKE", "stack": 3}, {"id": "SHORTCAKE", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 2}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Advanced: Mikon Mikon Christmas", "ap": "30", "last-upd": "2018 11 27", "column": "24", "icon": "caster-tamamo.png",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID"], "stackdrop": [{"id": "SHORTCAKE", "stack": 3}, {"id": "SHORTCAKE", "stack": 3}, {"id": "FRUITCAKE", "stack": 1}, {"id": "FRUITCAKE", "stack": 1}, {"id": "FRUITCAKE", "stack": 1}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 2}, {"id": "MIRACLE_STOCKING", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Stocking Gathering - Expert: Christmas Strategy", "ap": "40", "last-upd": "2018 11 27", "column": "24", "icon": "caster-zhugeliang.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "CHEESECAKE", "stack": 2}, {"id": "CHEESECAKE", "stack": 2}, {"id": "CHEESECAKE", "stack": 3}, {"id": "SHORTCAKE", "stack": 2}, {"id": "SHORTCAKE", "stack": 3}, {"id": "FRUITCAKE", "stack": 2}, {"id": "FRUITCAKE", "stack": 3}, {"id": "FRUITCAKE", "stack": 3}, {"id": "FRUITCAKE", "stack": 3}, {"id": "MIRACLE_STOCKING", "stack": 2}] }
             ]
         }
     ]

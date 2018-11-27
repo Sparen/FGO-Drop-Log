@@ -60,7 +60,7 @@ function SCchristmas2018() {
             typeConst = ID_CHEESECAKE;
         } else if (typeID == "S") {
             typeConst = ID_SHORTCAKE;
-        } else if (typeID == "G") {
+        } else if (typeID == "F") {
             typeConst = ID_BAG_OF_GOLD;
         } else if (typeID == "M") {
             typeConst = ID_MIRACLE_STOCKING;
