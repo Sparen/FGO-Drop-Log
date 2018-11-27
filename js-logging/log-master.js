@@ -128,10 +128,10 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_NOBU", "path": "./icon/ ce/Nobuicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_GUDAO", "path": "./icon/ ce/Gudaoicon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Christmas 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
-    imgpathmap.push({"id": "MINI_RIBBON", "path": "./icon/ event/Mini_ribbon.png", "label": "MR", "qengine": "EVENT"});
-    imgpathmap.push({"id": "SILVER_BELL", "path": "./icon/ event/Silver_bell.png", "label": "SB", "qengine": "EVENT"});
-    imgpathmap.push({"id": "GOLD_STAR", "path": "./icon/ event/Gold_star.png", "label": "GS", "qengine": "EVENT"});
-    imgpathmap.push({"id": "M_SOCK", "path": "./icon/ event/Magic_sock.png", "label": "MS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MINI_RIBBON", "path": "./icon/ event/christmas/Mini_ribbon.png", "label": "MR", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SILVER_BELL", "path": "./icon/ event/christmas/Silver_bell.png", "label": "SB", "qengine": "EVENT"});
+    imgpathmap.push({"id": "GOLD_STAR", "path": "./icon/ event/christmas/Gold_star.png", "label": "GS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "M_SOCK", "path": "./icon/ event/christmas/Magic_sock.png", "label": "MS", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_HOLY_NIGHT_SIGN", "path": "./icon/ ce/Holynighticon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Saber Wars 2018 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
     imgpathmap.push({"id": "ALTRIUM", "path": "./icon/ event/Altrium.png", "label": "アホ", "qengine": "EVENT"});
