@@ -208,7 +208,11 @@ function initPathMap() {
     imgpathmap.push({"id": "HERO_MANTLE", "path": "./icon/ event/halloween2018/Hero Mantle.png", "label": "HM", "qengine": "EVENT"});
     imgpathmap.push({"id": "HERO_SHIELD", "path": "./icon/ event/halloween2018/Hero Shield.png", "label": "HS", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_WIZARD_AND_PRIEST", "path": "./icon/ ce/Wizard and Priest.png", "label": "CE", "qengine": "EVENT-CE"});
-
+    //-- Christmas 2018
+    imgpathmap.push({"id": "CHEESECAKE", "path": "./icon/ event/christmas/Cheesecake.png", "label": "CC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SHORTCAKE", "path": "./icon/ event/christmas/Shortcake.png", "label": "SC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "FRUITCAKE", "path": "./icon/ event/christmas/Fruitcake.png", "label": "FC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MIRACLE_STOCKING", "path": "./icon/ event/christmas/Miracle Stocking.png", "label": "MS", "qengine": "EVENT"});
 }
 
 function loadDaily() {
