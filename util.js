@@ -40,6 +40,56 @@ var ID_BAG_OF_COPPER = 0;
 var ID_BAG_OF_SILVER = 1;
 var ID_BAG_OF_GOLD = 2;
 
+var ID_CHEESECAKE = 0;
+var ID_SHORTCAKE = 1;
+var ID_FRUITCAKE = 2;
+var ID_MIRACLE_STOCKING = 3;
+
+function SCchristmas2018() {
+    var input = document.getElementById("christmas2018-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "C") {
+            typeConst = ID_CHEESECAKE;
+        } else if (typeID == "S") {
+            typeConst = ID_SHORTCAKE;
+        } else if (typeID == "G") {
+            typeConst = ID_BAG_OF_GOLD;
+        } else if (typeID == "M") {
+            typeConst = ID_MIRACLE_STOCKING;
+        } else {
+            alert("SCchristmas2018: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_CHEESECAKE) {
+                itemblock += 'CHEESECAKE';
+            } else if (typeConst == ID_SHORTCAKE) {
+                itemblock += 'SHORTCAKE';
+            } else if (typeConst == ID_FRUITCAKE) {
+                itemblock += 'FRUITCAKE';
+            } else if (typeConst == ID_MIRACLE_STOCKING) {
+                itemblock += 'MIRACLE_STOCKING';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("christmas2018-sc-output").innerHTML = output;
+}
+
 function SChalloween2018() {
     var input = document.getElementById("halloween2018-sc-input").value;
     var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
