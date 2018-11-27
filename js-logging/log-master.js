@@ -120,10 +120,10 @@ function initPathMap() {
     imgpathmap.push({"id": "CE_MAID_IN_HALLOWEEN", "path": "./icon/ ce/Maidicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_HALLOWEEN_PRINCESS", "path": "./icon/ ce/Princessicon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- GUDAGUDA 2017 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
-    imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/ event/Honnoji.png", "label": "HP", "qengine": "EVENT"});
-    imgpathmap.push({"id": "T_NASU", "path": "./icon/ event/Tsukumogami_nasu.png", "label": "TN", "qengine": "EVENT"});
-    imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/ event/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": "EVENT"});
-    imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/ event/Hiragumo.png", "label": "HG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HONNOJI_PT", "path": "./icon/ event/gudaguda/Honnoji.png", "label": "HP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "T_NASU", "path": "./icon/ event/gudaguda/Tsukumogami_nasu.png", "label": "TN", "qengine": "EVENT"});
+    imgpathmap.push({"id": "YT_CHAWAN", "path": "./icon/ event/gudaguda/Youhen_tenmoku_chawan.png", "label": "YTC", "qengine": "EVENT"});
+    imgpathmap.push({"id": "HIRA_GUMO", "path": "./icon/ event/gudaguda/Hiragumo.png", "label": "HG", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_OKITA", "path": "./icon/ ce/Okitaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_NOBU", "path": "./icon/ ce/Nobuicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_GUDAO", "path": "./icon/ ce/Gudaoicon.png", "label": "CE", "qengine": "EVENT-CE"});
@@ -134,33 +134,33 @@ function initPathMap() {
     imgpathmap.push({"id": "M_SOCK", "path": "./icon/ event/christmas/Magic_sock.png", "label": "MS", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_HOLY_NIGHT_SIGN", "path": "./icon/ ce/Holynighticon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Saber Wars 2018 [string constants have been greatly abbreviated to maintain sanity when scrolling horizontally]
-    imgpathmap.push({"id": "ALTRIUM", "path": "./icon/ event/Altrium.png", "label": "アホ", "qengine": "EVENT"});
-    imgpathmap.push({"id": "TRANSISTOR", "path": "./icon/ event/Transistor.png", "label": "TG", "qengine": "EVENT"});
-    imgpathmap.push({"id": "AP_LENS", "path": "./icon/ event/Universallens.png", "label": "APL", "qengine": "EVENT"});
-    imgpathmap.push({"id": "VACUUM_TUBE", "path": "./icon/ event/Vacuumtube.png", "label": "VT", "qengine": "EVENT"});
+    imgpathmap.push({"id": "ALTRIUM", "path": "./icon/ event/saberwars/Altrium.png", "label": "アホ", "qengine": "EVENT"});
+    imgpathmap.push({"id": "TRANSISTOR", "path": "./icon/ event/saberwars/Transistor.png", "label": "TG", "qengine": "EVENT"});
+    imgpathmap.push({"id": "AP_LENS", "path": "./icon/ event/saberwars/Universallens.png", "label": "APL", "qengine": "EVENT"});
+    imgpathmap.push({"id": "VACUUM_TUBE", "path": "./icon/ event/saberwars/Vacuumtube.png", "label": "VT", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_MYSTERIOUS_SUBSTANCE_BETA", "path": "./icon/ ce/Substancebetaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MYSTERIOUS_SUBSTANCE_ALPHA", "path": "./icon/ ce/Substancealphaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_PURELY_BLOOM", "path": "./icon/ ce/Purebloomicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_STAR_OF_ALTRIA", "path": "./icon/ ce/Artoriastaricon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Valentines 2018 [Items are only here for reference as no logging is intended]
-    //imgpathmap.push({"id": "CHOCO_COIN_ALL", "path": "./icon/ event/All-Coin.png", "label": "X", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_SABER", "path": "./icon/ event/Saber-Coin.png", "label": "S", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_LANCER", "path": "./icon/ event/Lancer-Coin.png", "label": "L", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_ARCHER", "path": "./icon/ event/Archer-Coin.png", "label": "A", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_RIDER", "path": "./icon/ event/Rider-Coin.png", "label": "R", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_CASTER", "path": "./icon/ event/Caster-Coin.png", "label": "C", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_ASSASSIN", "path": "./icon/ event/Assassin-Coin.png", "label": "A", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/Matchoco.png", "label": "BC", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_ALL", "path": "./icon/ event/valentines/All-Coin.png", "label": "X", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_SABER", "path": "./icon/ event/valentines/Saber-Coin.png", "label": "S", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_LANCER", "path": "./icon/ event/valentines/Lancer-Coin.png", "label": "L", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_ARCHER", "path": "./icon/ event/valentines/Archer-Coin.png", "label": "A", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_RIDER", "path": "./icon/ event/valentines/Rider-Coin.png", "label": "R", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_CASTER", "path": "./icon/ event/valentines/Caster-Coin.png", "label": "C", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_ASSASSIN", "path": "./icon/ event/valentines/Assassin-Coin.png", "label": "A", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "CHOCO_COIN_BERSERKER", "path": "./icon/ event/valentines/Berserker-Coin.png", "label": "B", "qengine": "EVENT"});
+    //imgpathmap.push({"id": "BAKING_CHOCOLATE", "path": "./icon/ event/valentines/Matchoco.png", "label": "BC", "qengine": "EVENT"});
     //-- Kara no Kyoukai 2018 [Items are only here for reference as no logging is intended]
     //imgpathmap.push({"id": "MINERAL_WATER", "path": "./icon/ event/mineralWater.png", "label": "MW", "qengine": "EVENT"});
     //imgpathmap.push({"id": "STRAWBERRY_IC", "path": "./icon/ event/strawberryIceCream.png", "label": "SIC", "qengine": "EVENT"});
     //imgpathmap.push({"id": "BLACK_CAT_FIGURINE", "path": "./icon/ event/blackCatFigurine.png", "label": "BCF", "qengine": "EVENT"});
     //-- Da Vinci 2018 [Manuscripts default to True image for contrast with background]
-    imgpathmap.push({"id": "VITRUVIAN_MAN", "path": "./icon/ event/vitruvianMan.png", "label": "VM", "qengine": "EVENT"});
-    imgpathmap.push({"id": "SELF_PORTRAIT", "path": "./icon/ event/selfPortrait.png", "label": "SP", "qengine": "EVENT"});
-    imgpathmap.push({"id": "MONA_LISA", "path": "./icon/ event/monaLisa.png", "label": "ML", "qengine": "EVENT"});
-    imgpathmap.push({"id": "MANUSCRIPT", "path": "./icon/ event/manuscriptTrue.png", "label": "M", "qengine": "EVENT"});
+    imgpathmap.push({"id": "VITRUVIAN_MAN", "path": "./icon/ event/davinci/vitruvianMan.png", "label": "VM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "SELF_PORTRAIT", "path": "./icon/ event/davinci/selfPortrait.png", "label": "SP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MONA_LISA", "path": "./icon/ event/davinci/monaLisa.png", "label": "ML", "qengine": "EVENT"});
+    imgpathmap.push({"id": "MANUSCRIPT", "path": "./icon/ event/davinci/manuscriptTrue.png", "label": "M", "qengine": "EVENT"});
     imgpathmap.push({"id": "CE_SCHOLARS_OF_CHALDEA", "path": "./icon/ ce/Schoolchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_THE_MERCILESS_ONE", "path": "./icon/ ce/Empietaicon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MAIDEN_LEADING_CHALDEA", "path": "./icon/ ce/Holymaidenchaldeaicon.png", "label": "CE", "qengine": "EVENT-CE"});
