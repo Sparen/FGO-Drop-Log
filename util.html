@@ -34,15 +34,17 @@ EX: "" produces:<br>
 Please note that non-event items are not handled by this system and must be added to the drop array independently.</p>
 
 <h3 class="h-christmas">Christmas 2018 Shorthand Converter</h3>
-<p>Standard format</p>
+<p>Standard format with extended options for high-use nodes</p>
 <p>Quick Load: 
 <input type="submit" value="10AP" onClick="document.getElementById('christmas2018-sc-input').value = 'C1x0,C3x0,S1x0,S3x0,M1x0,M2x0'">
 <input type="submit" value="20AP" onClick="document.getElementById('christmas2018-sc-input').value = 'C1x0,C3x0,S1x0,S3x0,M2x0'">
 <input type="submit" value="30AP" onClick="document.getElementById('christmas2018-sc-input').value = 'S1x0,S3x0,F1x0,F3x0,M2x0,M3x0'">
-<input type="submit" value="40AP (L60)" onClick="document.getElementById('christmas2018-sc-input').value = 'C2x0,C3x0,S2x0,S3x0,F2x0,F3x0,M2x0,M3x0'">
-<input type="submit" value="40AP (L70)" onClick="document.getElementById('christmas2018-sc-input').value = 'C2x0,C3x0,S2x0,S3x0,M3x0,M4x0'">
+<input type="submit" value="40AP (Ex)" onClick="document.getElementById('christmas2018-sc-input').value = 'C2x0,C3x0,S2x0,S3x0,F2x0,F3x0,M2x0,M3x0'">
+<input type="submit" value="40AP (PS)" onClick="document.getElementById('christmas2018-sc-input').value = 'C2x0,C3x0,S2x0,S3x0,M3x0,M4x0'">
 </p>
-<p>INPUT:</p>
+<p>Special Inputs: Given ordering of items, just input space-delimited numbers and the input field will be filled and used for output.</p>
+<p>Powder Snow [C2 C3 S2 S3 M3 M4]: <input type="text" name="christmas-sc-input-ps" id="christmas2018-sc-input-ps" size="32"> <input type="submit" value="Submit" onClick="SCchristmas2018_PS()"></p>
+<p>GENERAL INPUT:</p>
 <input type="text" name="christmas-sc-input" id="christmas2018-sc-input" size="96"><br><br>
 <p>OUTPUT: (Safari: Tripleclick over code to select contents)</p>
 <div id="christmas2018-sc-output" style="background-color:#333333">
