@@ -102,8 +102,9 @@ function initPathMap() {
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "WARHORSE_YOUNG_HORN", "path": "./icon/Warhorse Small Horn.png", "label": "WYH", "qengine": "ALWAYS"});
-    //Special drops
+}
 
+function initPathMapEvent() {
     //Event drops
     //-- Nerofest
     //imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/nerofest/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
@@ -269,6 +270,7 @@ function loadFree() {
 
 function loadEvent17() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    initPathMapEvent();
     console.log("loadEvent: Loading Event Quests - Halloween 2017");
     loadObject(event_halloween2017_obj, "event-halloween2017");
     console.log("loadEvent: Loading Event Quests - GUDAGUDA 2017");
@@ -279,6 +281,7 @@ function loadEvent17() {
 
 function loadEvent18() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    initPathMapEvent();
     console.log("loadEvent: Loading Event Quests - Saber Wars 2018");
     loadObject(event_saberwars2018_obj, "event-saberwars2018");
     console.log("loadEvent: Loading Event Quests - Da Vinci 2018");

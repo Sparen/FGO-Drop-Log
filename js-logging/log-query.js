@@ -2,6 +2,7 @@
 
 function loadQueryEngine() {
     initPathMap();
+    initPathMapEvent();
     console.log("loadQueryEngine: Preparing Query Engine");
     var tablecontents1 = "";
     var tablecontents2 = "";
