@@ -213,6 +213,7 @@ function initPathMap() {
     imgpathmap.push({"id": "SHORTCAKE", "path": "./icon/ event/christmas/Shortcake.png", "label": "SC", "qengine": "EVENT"});
     imgpathmap.push({"id": "FRUITCAKE", "path": "./icon/ event/christmas/Fruitcake.png", "label": "FC", "qengine": "EVENT"});
     imgpathmap.push({"id": "MIRACLE_STOCKING", "path": "./icon/ event/christmas/Miracle Stocking.png", "label": "MS", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_HOLY_NIGHT_SUPPER", "path": "./icon/ ce/Holy Night Dinner_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
 }
 
 function loadDaily() {
