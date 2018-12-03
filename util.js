@@ -45,10 +45,16 @@ var ID_SHORTCAKE = 1;
 var ID_FRUITCAKE = 2;
 var ID_MIRACLE_STOCKING = 3;
 
+function SCchristmas2018_BL(num) { // Add the drop ID context for the bare numbers; pipe them into the main function
+    var output = "M2x" + num + ",M4x4,M5x3";
+    document.getElementById("christmas2018-sc-input").value = output;
+    SCchristmas2018();
+}
+
 function SCchristmas2018_SF() { // Add the drop ID context for the bare numbers; pipe them into the main function
     var input = document.getElementById("christmas2018-sc-input-sf").value;
     var drops = input.split(" ");
-    var output = "S2x" + drops[0] + ",S3x" + drops[1]+ ",S4x" + drops[2] + ",F2x" + drops[3] + ",F3x" + drops[4] + ",M3x" + drops[5] + ",M4x" + drops[6]+ ",M5x" + drops[7]
+    var output = "S2x" + drops[0] + ",S3x" + drops[1]+ ",S4x" + drops[2] + ",F2x" + drops[3] + ",F3x" + drops[4] + ",M3x" + drops[5] + ",M4x" + drops[6]+ ",M5x" + drops[7];
     document.getElementById("christmas2018-sc-input").value = output;
     SCchristmas2018();
 }
@@ -56,7 +62,7 @@ function SCchristmas2018_SF() { // Add the drop ID context for the bare numbers;
 function SCchristmas2018_PS() { // Add the drop ID context for the bare numbers; pipe them into the main function
     var input = document.getElementById("christmas2018-sc-input-ps").value;
     var drops = input.split(" ");
-    var output = "C2x" + drops[0] + ",C3x" + drops[1] + ",S2x" + drops[2] + ",S3x" + drops[3] + ",M3x" + drops[4] + ",M4x" + drops[5]
+    var output = "C2x" + drops[0] + ",C3x" + drops[1] + ",S2x" + drops[2] + ",S3x" + drops[3] + ",M3x" + drops[4] + ",M4x" + drops[5];
     document.getElementById("christmas2018-sc-input").value = output;
     SCchristmas2018();
 }
