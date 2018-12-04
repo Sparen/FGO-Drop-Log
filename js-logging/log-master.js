@@ -7,27 +7,27 @@ var imgpathmap = [];
 
 function initPathMap() {
     //Skill Up Gems
-    imgpathmap.push({"id": "GEM_BL_SAB", "path": "./icon/Shiningsaber.png", "label": "S", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_LAN", "path": "./icon/Shininglancer.png", "label": "L", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_ARC", "path": "./icon/Shiningarcher.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_RID", "path": "./icon/Shiningrider.png", "label": "R", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_CAS", "path": "./icon/Shiningcaster.png", "label": "C", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_ASS", "path": "./icon/Shiningassassin.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_BL_BER", "path": "./icon/Shiningberserker.png", "label": "B", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_SAB", "path": "./icon/Magicsaber.png", "label": "S", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_LAN", "path": "./icon/Magiclancer.png", "label": "L", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_ARC", "path": "./icon/Magicarcher.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_RID", "path": "./icon/Magicrider.png", "label": "R", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_CAS", "path": "./icon/Magiccaster.png", "label": "C", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_ASS", "path": "./icon/Magicassassin.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_RD_BER", "path": "./icon/Magicberserker.png", "label": "B", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_SAB", "path": "./icon/Secretsaber.png", "label": "S", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_LAN", "path": "./icon/Secretlancer.png", "label": "L", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_ARC", "path": "./icon/Secretarcher.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_RID", "path": "./icon/Secretrider.png", "label": "R", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_CAS", "path": "./icon/Secretcaster.png", "label": "C", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_ASS", "path": "./icon/Secretassassin.png", "label": "A", "qengine": "ALWAYS"});
-    imgpathmap.push({"id": "GEM_GD_BER", "path": "./icon/Secretberserker.png", "label": "B", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_SAB", "path": "./icon/ gem/Shiningsaber.png", "label": "S", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_LAN", "path": "./icon/ gem/Shininglancer.png", "label": "L", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_ARC", "path": "./icon/ gem/Shiningarcher.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_RID", "path": "./icon/ gem/Shiningrider.png", "label": "R", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_CAS", "path": "./icon/ gem/Shiningcaster.png", "label": "C", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_ASS", "path": "./icon/ gem/Shiningassassin.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_BL_BER", "path": "./icon/ gem/Shiningberserker.png", "label": "B", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_SAB", "path": "./icon/ gem/Magicsaber.png", "label": "S", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_LAN", "path": "./icon/ gem/Magiclancer.png", "label": "L", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_ARC", "path": "./icon/ gem/Magicarcher.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_RID", "path": "./icon/ gem/Magicrider.png", "label": "R", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_CAS", "path": "./icon/ gem/Magiccaster.png", "label": "C", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_ASS", "path": "./icon/ gem/Magicassassin.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_RD_BER", "path": "./icon/ gem/Magicberserker.png", "label": "B", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_SAB", "path": "./icon/ gem/Secretsaber.png", "label": "S", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_LAN", "path": "./icon/ gem/Secretlancer.png", "label": "L", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_ARC", "path": "./icon/ gem/Secretarcher.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_RID", "path": "./icon/ gem/Secretrider.png", "label": "R", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_CAS", "path": "./icon/ gem/Secretcaster.png", "label": "C", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_ASS", "path": "./icon/ gem/Secretassassin.png", "label": "A", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "GEM_GD_BER", "path": "./icon/ gem/Secretberserker.png", "label": "B", "qengine": "ALWAYS"});
     //Ascension pieces
     imgpathmap.push({"id": "PIECE_XXX", "path": "./icon/Saber_piece.png", "label": "ANY", "qengine": "NEVER"});
     imgpathmap.push({"id": "PIECE_SAB", "path": "./icon/Saber_piece.png", "label": "S", "qengine": "ALWAYS"});
