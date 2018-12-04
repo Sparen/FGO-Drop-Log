@@ -441,3 +441,10 @@ var free_camelot_obj = {
         }
     ]
 };
+
+// _BABYLONIA
+var free_babylonia_obj = {
+    "cssclass": "h-babylonia",
+    "quests": [
+    ]
+};

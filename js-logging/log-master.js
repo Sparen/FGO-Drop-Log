@@ -75,6 +75,7 @@ function initPathMap() {
     imgpathmap.push({"id": "EXP_4_ASS", "path": "./icon/Blaze-of-Wisdom---Gold-Assassin.png", "label": "A", "qengine": "NEVER"});
     imgpathmap.push({"id": "EXP_4_BER", "path": "./icon/Blaze-of-Wisdom---Gold-Berserker.png", "label": "B", "qengine": "NEVER"});
     //Common drops
+    imgpathmap.push({"id": "DEADLY_POISONOUS_NEEDLE", "path": "./icon/Stinger_of_Certain_Death.png", "label": "DPN", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "DRAGON_FANG", "path": "./icon/Dragon_fang.png", "label": "DF", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "EVIL_BONE", "path": "./icon/Unlucky_bone.png", "label": "EB", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "FOOLS_CHAIN", "path": "./icon/Chain of Fools.png", "label": "FC", "qengine": "ALWAYS"});
@@ -95,9 +96,11 @@ function initPathMap() {
     //Super rare drops
     imgpathmap.push({"id": "BLACK_BEAST_GREASE", "path": "./icon/Blacktallow.png", "label": "BBG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "CLAW_OF_CHAOS", "path": "./icon/Talon_of_chaos.png", "label": "CoC", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "CURSED_BEAST_GALLSTONE", "path": "./icon/Cursed_Beast_Cholecyst.png", "label": "CBG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "DRAGONS_REVERSE_SCALE", "path": "./icon/Dragons_reverse_scale.png", "label": "DRS", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "LAMP_OF_EVIL_SEALING", "path": "./icon/Lamp of Sealed Evil.png", "label": "LES", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "PRIMORDIAL_LANUGO", "path": "./icon/Primordial_Lanugo.png", "label": "PL", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SCARAB_OF_WISDOM", "path": "./icon/Scarab of Wisdom.png", "label": "SoW", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "TEARSTONE_OF_BLOOD", "path": "./icon/Tearstone of Blood.png", "label": "ToB", "qengine": "ALWAYS"});
@@ -266,6 +269,8 @@ function loadFree() {
     loadObject(free_epu_obj, "free-epu");
     console.log("loadFree: Loading Free Quests - Camelot");
     loadObject(free_camelot_obj, "free-camelot");
+    console.log("loadFree: Loading Free Quests - Babylonia");
+    loadObject(free_babylonia_obj, "free-babylonia");
 }
 
 function loadEvent17() {

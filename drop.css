@@ -137,6 +137,14 @@
         border-style: none none none solid; 
         padding-left: 4px; 
     }
+    .h-babylonia {
+        color: #FFF0AA;
+        background-color: #443333;
+        border-width: 4px; 
+        border-color: #FFF0AA; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
     .h-daily-knight1 {
         color: #AAFFCC;
         background-color: #338844;
