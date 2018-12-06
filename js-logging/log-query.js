@@ -202,11 +202,16 @@ function getDropStatsQ(itemID, logobj, logtype) {
 
             var percentdecimalfix = 2; //Query Mode allows for more decimal places than main tables since we have more space.
             if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+            else if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 10) {percentdecimalfix = 1;}
+            else if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 1) {percentdecimalfix = 2;}
             var percent = (numitemcountTOTAL / numrunsTOTAL * 100).toFixed(percentdecimalfix);
             if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
 
             var apperdropdecimalfix = 3; //Query Mode allows for more decimal places than main tables since we have more space.
             if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 10) {apperdropdecimalfix = 1;}
+            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 1) {apperdropdecimalfix = 2;}
+            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 0.1) {apperdropdecimalfix = 3;}
             var apperdrop = (parseInt(questap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
             if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
 
