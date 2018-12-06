@@ -1576,6 +1576,44 @@ var servantlist_obj_part1 = {
             "ess": "Man",
             "alignment": "Lawful Good",
             "traits": ["Humanoid - King", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "141",
+            "sicon": "lancer-jeannealterlily.png",
+            "ename": "Jeanne d'Arc Alter Santa Lily",
+            "jname1": "ジャンヌ・ダルク・オルタ・サンタ・リリィ",
+            "cicon": "lancer-g.png",
+            "class": "Lancer",
+            "rarity": "4",
+            "deck": ["Q", "Q", "A", "B", "B"],
+            "deckhits": [3, 3, 1, 5],
+            "np": "B",
+            "starabs": "92",
+            "stargen": "12.1%",
+            "npcharge": ["0.72%", "4%"],
+            "gender": "Female",
+            "ess": "Man",
+            "alignment": "Chaotic Good",
+            "traits": ["Humanoid - Saberface", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "142",
+            "sicon": "archer-ishtar.png",
+            "ename": "Ishtar",
+            "jname1": "イシュタル",
+            "cicon": "archer-g.png",
+            "class": "Archer",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [4, 4, 1, 7],
+            "np": "B",
+            "starabs": "153",
+            "stargen": "8%",
+            "npcharge": ["0.45%", "3%"],
+            "gender": "Female",
+            "ess": "Sky",
+            "alignment": "Lawful Good",
+            "traits": ["Divine - Humanoid - Pseudo-Servant", "Weak to Enuma Elish"]
         }
     ]
 };
