@@ -200,12 +200,12 @@ function getDropStatsQ(itemID, logobj, logtype) {
             }
             querynode += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
 
-            var percentdecimalfix = 1; //default to 1 decimal place
+            var percentdecimalfix = 2; //Query Mode allows for more decimal places than main tables since we have more space.
             if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
             var percent = (numitemcountTOTAL / numrunsTOTAL * 100).toFixed(percentdecimalfix);
             if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
 
-            var apperdropdecimalfix = 1; //default to 1 decimal place
+            var apperdropdecimalfix = 3; //Query Mode allows for more decimal places than main tables since we have more space.
             if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
             var apperdrop = (parseInt(questap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
             if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
@@ -213,7 +213,7 @@ function getDropStatsQ(itemID, logobj, logtype) {
             //Padding for slightly more uniform formatting. Not going beyond 1000 because it's pointless lol
             if (numrunsTOTAL >= 1000) {querynode += '&nbsp;';} else if (numrunsTOTAL >= 100) {querynode += '&nbsp;&nbsp;';} else if (numrunsTOTAL >= 10) {querynode += '&nbsp;&nbsp;&nbsp;';} else {querynode += '&nbsp;&nbsp;&nbsp;&nbsp;';}
 
-            var runsperdrop = (apperdrop/parseInt(questap)).toFixed(1);
+            var runsperdrop = (apperdrop/parseInt(questap)).toFixed(3);
 
             querynode += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
             querynode += '</div>';
