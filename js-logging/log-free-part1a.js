@@ -126,7 +126,12 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
+                { "uplog": false, "drop": ["EVIL_BONE"] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {

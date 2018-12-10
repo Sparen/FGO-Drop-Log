@@ -446,5 +446,75 @@ var free_camelot_obj = {
 var free_babylonia_obj = {
     "cssclass": "h-babylonia",
     "quests": [
+        {
+            "qname": "Fallen Babylon: The Lost Capital", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Northern Hill: Battlefield Overlook", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Black Cedar Forest: Den of Demonic Beasts", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Plateau: The Traveler's Secret Path", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Bog: Land Between Rivers", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Ur: Jaguar Park", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Eridu: Land of Royal Authority", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Observatory: The Mother Sea", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Field of Reeds: Prayer For A Good Harvest", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Kutha: The Entrance to the Underworld", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Northern Wall: Site of the Demonic Beast Front", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Nippur: Knot of Heaven and Earth", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Mt. Ebih: Tremors of the Sacred Mountain", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Blood Fort Andromeda: The Quickening Mountain", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
     ]
 };
