@@ -447,23 +447,35 @@ var free_babylonia_obj = {
     "cssclass": "h-babylonia",
     "quests": [
         {
-            "qname": "Fallen Babylon: The Lost Capital", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Fallen Babylon: The Lost Capital", "ap": "20", "last-upd": "2017 12 11", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID", "SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "Northern Hill: Battlefield Overlook", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Northern Hill: Battlefield Overlook", "ap": "20", "last-upd": "2017 12 11", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS"] }
             ]
         },
         {
-            "qname": "Black Cedar Forest: Den of Demonic Beasts", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Black Cedar Forest: Den of Demonic Beasts", "ap": "20", "last-upd": "2017 12 11", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Plateau: The Traveler's Secret Path", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Plateau: The Traveler's Secret Path", "ap": "20", "last-upd": "2017 12 11", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
