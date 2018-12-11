@@ -1728,6 +1728,44 @@ var servantlist_obj_part1 = {
             "ess": "Earth",
             "alignment": "Chaotic Neutral",
             "traits": ["Beast - Divine - Pseudo-Servant", "Humanoid", "Weak to Enuma Elish"]
+        },
+        {
+            "idnum": "149",
+            "sicon": "beast-tiamat.png",
+            "ename": "Tiamat",
+            "jname1": "ティアマト",
+            "cicon": "beast-2.png",
+            "class": "Beast",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "B", "B"],
+            "deckhits": [1, 1, 1, 1],
+            "np": "A",
+            "starabs": "104",
+            "stargen": "9.9%",
+            "npcharge": ["0%", "0%"],
+            "gender": "Female",
+            "ess": "Beast",
+            "alignment": "Chaotic Evil",
+            "traits": ["Divine - Large"]
+        },
+        {
+            "idnum": "150",
+            "sicon": "caster-merlin.png",
+            "ename": "Merlin",
+            "jname1": "マーリン",
+            "cicon": "caster-g.png",
+            "class": "Caster",
+            "rarity": "5",
+            "deck": ["Q", "A", "A", "A", "B"],
+            "deckhits": [3, 2, 5, 6],
+            "np": "A",
+            "starabs": "49",
+            "stargen": "10.8%",
+            "npcharge": ["0.81%", "3%"],
+            "gender": "Male",
+            "ess": "Earth",
+            "alignment": "Lawful Good",
+            "traits": ["Humanoid", "Weak to Enuma Elish"]
         }
     ]
 };
