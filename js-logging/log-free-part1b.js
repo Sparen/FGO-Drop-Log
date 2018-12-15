@@ -479,38 +479,59 @@ var free_babylonia_obj = {
             ]
         },
         {
-            "qname": "Bog: Land Between Rivers", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Bog: Land Between Rivers", "ap": "21", "last-upd": "2018 12 15", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
             ]
         },
         {
-            "qname": "Ur: Jaguar Park", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Ur: Jaguar Park", "ap": "21", "last-upd": "2018 12 15", "column": "10",
             "droplog": [
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"] }
             ]
         },
         {
-            "qname": "Eridu: Land of Royal Authority", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Eridu: Land of Royal Authority", "ap": "21", "last-upd": "2018 12 15", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["DRAGON_FANG"] }
             ]
         },
         {
-            "qname": "Observatory: The Mother Sea", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Observatory: The Mother Sea", "ap": "21", "last-upd": "2018 12 15", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Field of Reeds: Prayer For A Good Harvest", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Field of Reeds: Prayer For A Good Harvest", "ap": "21", "last-upd": "2018 12 15", "column": "10",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN"] }
             ]
         },
         {
-            "qname": "Kutha: The Entrance to the Underworld", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Kutha: The Entrance to the Underworld", "ap": "21", "last-upd": "2018 12 15", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS"] },
+                { "uplog": true, "drop": ["GHOST_LANTERN"] }
             ]
         },
         {
-            "qname": "Northern Wall: Site of the Demonic Beast Front", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Northern Wall: Site of the Demonic Beast Front", "ap": "21", "last-upd": "2018 12 15", "column": "10",
             "droplog": [
+                { "uplog": true, "drop": ["DEADLY_POISONOUS_NEEDLE", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_RD_RID"] }
             ]
         },
         {
