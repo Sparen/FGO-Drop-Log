@@ -271,6 +271,8 @@ function loadFree() {
     loadObject(free_camelot_obj, "free-camelot");
     console.log("loadFree: Loading Free Quests - Babylonia");
     loadObject(free_babylonia_obj, "free-babylonia");
+    console.log("loadFree: Loading Raid Quests - Solomon");
+    loadObject(raid_solomon_obj, "raid-solomon");
 }
 
 function loadEvent17() {

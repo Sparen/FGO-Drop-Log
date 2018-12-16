@@ -551,3 +551,45 @@ var free_babylonia_obj = {
         }
     ]
 };
+
+// _SOLOMON
+var raid_solomon_obj = {
+    "cssclass": "h-solomon",
+    "quests": [
+        {
+            "qname": "II Flauros", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "III Forneus", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "IV Barbatos", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "V Halphas", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "VI Amon Ra", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "VII Sabnock", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "X Andromalius", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
+    ]
+};
