@@ -535,18 +535,27 @@ var free_babylonia_obj = {
             ]
         },
         {
-            "qname": "Nippur: Knot of Heaven and Earth", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Nippur: Knot of Heaven and Earth", "ap": "21", "last-upd": "2018 12 17", "column": "8",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "DRAGONS_REVERSE_SCALE"] }
             ]
         },
         {
-            "qname": "Mt. Ebih: Tremors of the Sacred Mountain", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Mt. Ebih: Tremors of the Sacred Mountain", "ap": "21", "last-upd": "2018 12 17", "column": "16",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_BER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "Blood Fort Andromeda: The Quickening Mountain", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Blood Fort Andromeda: The Quickening Mountain", "ap": "21", "last-upd": "2018 12 17", "column": "16",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] }
             ]
         }
     ]

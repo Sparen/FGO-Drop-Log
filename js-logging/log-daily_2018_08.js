@@ -4,16 +4,16 @@ var daily_saber_2018_08_obj = {
     "cssclass": "h-daily-knight1",
     "quests": [
         {
-            "qname": "[201808] Saber Training Ground - Novice", "ap": "10", "last-upd": "2018 08 19", "column": "20", "icon": "saber-saberlily.png",
+            "qname": "[201808] Saber Training Ground - Novice", "ap": "10", "last-upd": "2018 12 17", "column": "20", "icon": "saber-saberlily.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "EXP_1_SAB", "EXP_3_SAB"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
                 { "uplog": true, "drop": ["EVIL_BONE", "SHELL_OF_REMINISCENCE", "EXP_3_SAB"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "PIECE_SAB"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "EXP_3_SAB", "SHELL_OF_REMINISCENCE"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
-                { "uplog": false, "drop": ["PROOF_OF_HERO", "ETERNAL_GEAR", "EXP_3_SAB"] },
-                { "uplog": false, "drop": ["GEM_BL_SAB", "MONU_SAB", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_SAB", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "ETERNAL_GEAR", "EXP_3_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "MONU_SAB", "PROOF_OF_HERO"] }
             ]
         },
         {
@@ -132,7 +132,7 @@ var daily_archer_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 11 26", "column": "20", "icon": "archer-gilgamesh.png",
+            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 12 17", "column": "20", "icon": "archer-gilgamesh.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
@@ -145,7 +145,10 @@ var daily_archer_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_RD_ARC", "MONU_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "EXP_1_ARC", "EXP_2_ARC"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PHOENIX_FEATHER", "EXP_1_ARC"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "SEED_OF_YGGDRASIL"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "EXP_1_ARC", "PHOENIX_FEATHER"] }
             ]
         }
     ]
