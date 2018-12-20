@@ -110,7 +110,7 @@ var free_fuyuki_obj = {
             ]
         },
         {
-            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "2018 07 29", "column": "3",
+            "qname": "X-F: Burnt-Down Schoolhouse", "ap": "6", "last-upd": "2018 12 20", "column": "8",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "PIECE_ASS", "EVIL_BONE", "EVIL_BONE"] },
                 { "uplog": true, "drop": [] },
@@ -127,11 +127,11 @@ var free_fuyuki_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
-                { "uplog": false, "drop": ["EVIL_BONE"] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["EVIL_BONE", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["EVIL_BONE"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -608,13 +608,18 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Sunken Rock Seas: Ship Graveyard", "ap": "17", "last-upd": "2018 07 25", "column": "8",
+            "qname": "Sunken Rock Seas: Ship Graveyard", "ap": "17", "last-upd": "2018 12 20", "column": "8",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": ["EVIL_BONE"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "SERPENT_JEWEL"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "EVIL_BONE", "EVIL_BONE", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS"] }
             ]
         },
         {
@@ -766,8 +771,11 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Archipelago: Quiet Bay", "ap": "15", "last-upd": "", "column": "",
+            "qname": "Archipelago: Quiet Bay", "ap": "15", "last-upd": "2018 12 20", "column": "8", "icon": "berserker-heracles.png",
             "droplog": [
+                { "uplog": true, "drop": ["PIECE_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PIECE_CAS"] }
             ]
         },
         {
