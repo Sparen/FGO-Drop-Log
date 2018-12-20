@@ -143,27 +143,11 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Lubbock: Texas Ranger", "ap": "18", "last-upd": "2018 03 24", "column": "5",
-            "droplog": [
-                { "uplog": true, "drop": ["GEM_RD_ASS"] },
-                { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS", "PROOF_OF_HERO"] }
-            ]
-        },
-        {
             "qname": "Dallas: Cowtown Colosseum", "ap": "17", "last-upd": "2018 03 25", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": [] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] }
-            ]
-        },
-        {
-            "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "2018 04 01", "column": "6",
-            "droplog": [
-                { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN", "GEM_BL_ARC", "PROOF_OF_HERO"] }
             ]
         },
         {
@@ -183,20 +167,36 @@ var free_epu_obj = {
             ]
         },
         {
-            "qname": "Kearney: Great Plains", "ap": "18", "last-upd": "2018 04 05", "column": "18",
-            "droplog": [
-                { "uplog": true, "drop": ["PROOF_OF_HERO", "WARHORSE_YOUNG_HORN"] },
-                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
-                { "uplog": true, "drop": [] }
-            ]
-        },
-        {
             "qname": "Montgomery: Heart of Dixie", "ap": "18", "last-upd": "2018 07 29", "column": "8", "icon": "archer-arjuna.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] }
+            ]
+        },
+        {
+            "qname": "Lubbock: Texas Ranger", "ap": "18", "last-upd": "2018 03 24", "column": "5",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_ASS", "PROOF_OF_HERO"] }
+            ]
+        },
+        {
+            "qname": "Alexandria: Weeks Island", "ap": "18", "last-upd": "2018 04 01", "column": "6",
+            "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_LAN", "GEM_BL_ARC", "PROOF_OF_HERO"] }
+            ]
+        },
+        {
+            "qname": "Kearney: Great Plains", "ap": "18", "last-upd": "2018 04 05", "column": "18",
+            "droplog": [
+                { "uplog": true, "drop": ["PROOF_OF_HERO", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
