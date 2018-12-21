@@ -316,7 +316,8 @@ function loadHuntEvent() {
     loadObject(event_hunting2_obj, "event-hunting2");
 }
 
-//Loads log object into the HTML table located at tableid
+// Loads log object's drops into the HTML table located at tableid
+// logobj parameter is a single log object with an array of quests.
 function loadObject(logobj, tableid) {
     var tablehtml = "<tr><th>Location + Quest</th><th>AP</th><th>Col</th><th>Last Upd</th><th>Boss</th><th>#</th>";
 
@@ -324,44 +325,7 @@ function loadObject(logobj, tableid) {
     //We will store this using a boolean array of size equivalent to that of imgpathmap
     //In the first run, all that will be done is log the items dropped.
     var numitems = imgpathmap.length;
-    var logItems = [];
-
-    for (var i = 0; i < numitems; i += 1) {
-        //Retrieve the target Item ID
-        var targetID = imgpathmap[i].id;
-        var found = false;
-        //Cross reference to see if it exists in the drop data
-        for (var j = 0; j < logobj.quests.length; j += 1) {
-            var droplog = logobj.quests[j].droplog;
-            for (var k = 0; k < droplog.length; k += 1) {
-                //Regular drops
-                if (droplog[k].hasOwnProperty('drop')) {
-                    var droplist = droplog[k].drop;
-                    for (var l = 0; l < droplist.length; l += 1) {
-                        if (targetID === droplist[l]) {
-                            found = true;
-                            break;
-                        }
-                    }
-                }
-                //Stack drops
-                if (droplog[k].hasOwnProperty('stackdrop')) {
-                    var stackdroplist = droplog[k].stackdrop;
-                    for (var l = 0; l < stackdroplist.length; l += 1) {
-                        if (targetID === stackdroplist[l].id) {
-                            found = true;
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-        if (found) {
-            logItems.push(1);
-        } else {
-            logItems.push(0);
-        }
-    }
+    var logItems = getDropsInQuest(logobj);
 
     //Now that we know which items were dropped...
     //Populate the first row in the table.
@@ -495,6 +459,54 @@ function loadObject(logobj, tableid) {
     }
 
     //Finally, write the table
-
     document.getElementById(tableid).innerHTML = tablehtml;
+}
+
+// Returns an array of length equivalent to the number of items in the image path map.
+// Each entry is 1 if found in log object's quest drops; 0 otherwise.
+// logobj parameter is a single log object with an array of quests.
+function getDropsInQuest(logobj) {
+    //We want to determine all the possible items that spawn given all occurrences in this object.
+    //We will store this using a boolean array of size equivalent to that of imgpathmap
+    //In the first run, all that will be done is log the items dropped.
+    var numitems = imgpathmap.length;
+    var logItems = [];
+
+    for (var i = 0; i < numitems; i += 1) {
+        //Retrieve the target Item ID
+        var targetID = imgpathmap[i].id;
+        var found = false;
+        //Cross reference to see if it exists in the drop data
+        for (var j = 0; j < logobj.quests.length; j += 1) {
+            var droplog = logobj.quests[j].droplog;
+            for (var k = 0; k < droplog.length; k += 1) {
+                //Regular drops
+                if (droplog[k].hasOwnProperty('drop')) {
+                    var droplist = droplog[k].drop;
+                    for (var l = 0; l < droplist.length; l += 1) {
+                        if (targetID === droplist[l]) {
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+                //Stack drops
+                if (droplog[k].hasOwnProperty('stackdrop')) {
+                    var stackdroplist = droplog[k].stackdrop;
+                    for (var l = 0; l < stackdroplist.length; l += 1) {
+                        if (targetID === stackdroplist[l].id) {
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        if (found) {
+            logItems.push(1);
+        } else {
+            logItems.push(0);
+        }
+    }
+    return logItems;
 }

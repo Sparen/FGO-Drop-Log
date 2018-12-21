@@ -1,5 +1,7 @@
 "use strict";
 
+// Main load function for the Query Engine. Called from the query page.
+// Logs all standard item drops and event item drops defined in the imgpathmap in log-master.js
 function loadQueryEngine() {
     initPathMap();
     initPathMapEvent();
@@ -39,7 +41,8 @@ function loadQueryEngine() {
     document.getElementById("query-engine-master2").innerHTML = tablecontents2;
 }
 
-//Calculates stats for the given item ID. Used in Query Engine.
+// Calculates stats for the given item ID. Used in Query Engine.
+// Called when clicking an item's button
 function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     var todisplay = "<p>Query Results:</p>";
     todisplay += '<table><tr><th><span style="color:#FF6666">UNRELIABLE</span></th><th><span style="color:#FF66AA">LACKING DATA</span></th><th><span style="color:#CCAAFF">SOMEWHAT RELIABLE</span></th><th><span style="color:#88CCFF">RATHER RELIABLE</span></th><th><span style="color:#66DDFF">RELIABLE</span></th><th><span style="color:#66EEDD">VERY RELIABLE</span></th><th><span style="color:#66FFCC">EXTREMELY RELIABLE</span></th></tr>';
@@ -57,6 +60,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
 }
 
 // Obtains the node divs for the item and sorts them.
+// All log objects to utilize in the query engine must be added here.
 function getDropDisplay(itemID, eventflag) {
     var nodes = [];
     // Toggle now-unavailable past daily quests
@@ -228,6 +232,8 @@ function getDropStatsQ(itemID, logobj, logtype) {
     }
     return toreturn;
 }
+
+/* ----- Utility Functions for sorting by APD via QuickSort ----- */
 
 // Sorts by APD, lowest at top. Wrapper for sortByField.
 function sortNodesByAPD(nodeobjlist) {
