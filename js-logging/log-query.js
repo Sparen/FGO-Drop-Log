@@ -167,22 +167,8 @@ function getDropStatsQ(itemID, logobj, logtype) {
         }
         //If at least one occurrence of the item dropped, we will write a log.
         else if (numitemcountTOTAL > 0) {
-            var textcolor = "#FFFFFF"; //Color of text. Will change depending on the reliability of the data.
-            if (numrunsTOTAL <= 5) {
-                textcolor = "#FF6666";
-            } else if (numrunsTOTAL <= 10) {
-                textcolor = "#FF66AA";
-            } else if (numrunsTOTAL <= 25) {
-                textcolor = "#CCAAFF";
-            } else if (numrunsTOTAL <= 50) {
-                textcolor = "#88CCFF";
-            } else if (numrunsTOTAL <= 75) {
-                textcolor = "#66DDFF";
-            } else if (numrunsTOTAL <= 100) {
-                textcolor = "#66EEDD";
-            } else {
-                textcolor = "#66FFCC";
-            }
+            var textcolor = getQualityColor(numrunsTOTAL);
+            
             //Let us begin the output
 
             //Calculate Quest AP cost
@@ -231,6 +217,28 @@ function getDropStatsQ(itemID, logobj, logtype) {
         }
     }
     return toreturn;
+}
+
+// Helper function for getDropStatsQ(). Given the number of runs, returns a hex color representing the quality of the data.
+// Colors correspond to the colors stated near the top of getDropStats().
+function getQualityColor(numrunsTOTAL) {
+    var textcolor = "#FFFFFF"; //Color of text. Will change depending on the reliability of the data.
+    if (numrunsTOTAL <= 5) {
+        textcolor = "#FF6666";
+    } else if (numrunsTOTAL <= 10) {
+        textcolor = "#FF66AA";
+    } else if (numrunsTOTAL <= 25) {
+        textcolor = "#CCAAFF";
+    } else if (numrunsTOTAL <= 50) {
+        textcolor = "#88CCFF";
+    } else if (numrunsTOTAL <= 75) {
+        textcolor = "#66DDFF";
+    } else if (numrunsTOTAL <= 100) {
+        textcolor = "#66EEDD";
+    } else {
+        textcolor = "#66FFCC";
+    }
+    return textcolor;
 }
 
 /* ----- Utility Functions for sorting by APD via QuickSort ----- */
