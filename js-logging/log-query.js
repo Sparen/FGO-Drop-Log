@@ -136,6 +136,17 @@ function getDropDisplay(itemID, eventflag) {
 function getDropStatsQ(itemID, logobj, logtype) {
     var toreturn = []; //Array containing HTML nodes and their associated APD
 
+    // First, determine location of current itemID in imgpathmap.
+    var itemidx = -1;
+    for (var i = 0; i < imgpathmap.length; i += 1) {
+        if (imgpathmap[i].id == itemID) {
+            itemidx = i;
+        }
+    }
+    if (itemidx === -1) {
+        console.log("getDropStatsQ: Specified item was not found in imgpathmap."); // Warning
+    }
+
     //For every quest in the log object...
     for (var i = 0; i < logobj.quests.length; i += 1) {
         var quest = logobj.quests[i];

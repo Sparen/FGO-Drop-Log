@@ -343,7 +343,7 @@ function loadObject(logobj, tableid) {
         //Gather data
         var questdata = getQuestDrops(quest);
         //Now that we've checked everything in the droplogs, let's create the table row for this quest
-        tablehtml += generateQuestRow(quest, questdata, logItems, true);
+        tablehtml += generateQuestRow(quest, questdata, logItems, true, true);
     }
 
     //Finally, write the table
@@ -473,17 +473,25 @@ function getQuestDrops(quest) {
 
 // Given a quest, the counts for drops in the quest, and the log of items dropped in the quest, generates an HTML row
 // To only show total counts, set unlogenable to false
-function generateQuestRow(quest, questdata, logItems, unlogenable) {
+// To disable column, last updated date, and other data logging information, set showfull to false. 
+// Caller function should handle the table itsels as well as the table header.
+function generateQuestRow(quest, questdata, logItems, unlogenable, showfull) {
     var rowhtml = "";
     //First, the basic information
-    rowhtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
-    rowhtml += '<td>' + quest["last-upd"] + '</td>';
-    if (quest.hasOwnProperty('icon')) {
-        rowhtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
-    } else {
-        rowhtml += '<td></td>';
+    rowhtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td>';
+    if (showfull) {
+        rowhtml += '<td>' + quest.column + '</td><td>' + quest["last-upd"] + '</td>';
+        if (quest.hasOwnProperty('icon')) {
+            rowhtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
+        } else {
+            rowhtml += '<td></td>';
+        }
     }
-    rowhtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
+    if (unlogenable) {
+        rowhtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
+    } else {
+        rowhtml += '<td>' + questdata.numrunsTOTAL.toString() + '</td>';
+    }
 
     //Next, the drops
     for (var m = 0; m < imgpathmap.length; m += 1) {
