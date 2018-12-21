@@ -335,76 +335,13 @@ function loadObject(logobj, tableid) {
         }
     }
 
-    tablehtml += "</tr>"
+    tablehtml += "</tr>";
 
     //Now we want to iterate through the quests and retrieve their data.
     for (var i = 0; i < logobj.quests.length; i += 1) {
         var quest = logobj.quests[i];
         //Gather data
-        var numrunsUNLOG = 0;
-        var numrunsTOTAL = 0;
-        //These arrays are the same size as imgpathmap and logItems
-        var numitemUNLOG = [];
-        var numitemTOTAL = [];
-        //Same as above but used to store stack size data. Each element is an object mapping stack size to occurences
-        var numitemstackUNLOG = [];
-        var numitemstackTOTAL = [];
-        //Initialize arrays for the current quest
-        for (var j = 0; j < imgpathmap.length; j += 1) {
-            numitemUNLOG.push(0);
-            numitemTOTAL.push(0);
-            numitemstackUNLOG.push({});
-            numitemstackTOTAL.push({});
-        }
-        //Now we iterate through the droplogs
-        for (var j = 0; j < quest.droplog.length; j += 1) {
-            var currdroplog = quest.droplog[j];
-            //For every drop in the current droplog, if there are drops
-            if (currdroplog.hasOwnProperty('drop')) {
-                for (var k = 0; k < currdroplog.drop.length; k += 1) {
-                    //console.log("Found " + currdroplog.drop[k] + " in quest " + quest.qname);
-                    //Search for matches in the list of items
-                    for (var l = 0; l < imgpathmap.length; l += 1) {
-                        if (currdroplog.drop[k] === imgpathmap[l].id) {
-                            numitemTOTAL[l] += 1;
-                            if (!currdroplog.uplog) {
-                                numitemUNLOG[l] += 1;
-                            }
-                        }
-                    }
-                }
-            }
-            //Handle stack drops here
-            if (currdroplog.hasOwnProperty('stackdrop')) {
-                for (var k = 0; k < currdroplog.stackdrop.length; k += 1) {
-                    //Search for matches in the list of items
-                    for (var l = 0; l < imgpathmap.length; l += 1) {
-                        if (currdroplog.stackdrop[k].id === imgpathmap[l].id) {
-                            //Increment item count by the stack size
-                            numitemTOTAL[l] += currdroplog.stackdrop[k].stack;
-                            if (numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] === undefined) {
-                                numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] = 1;
-                            } else {
-                                numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] += 1;
-                            }
-                            if (!currdroplog.uplog) {
-                                numitemUNLOG[l] += currdroplog.stackdrop[k].stack;
-                                if (numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] === undefined) {
-                                    numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] = 1;
-                                } else {
-                                    numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] += 1;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            //Increment run counts
-            numrunsTOTAL += 1;
-            if (!currdroplog.uplog) {
-                numrunsUNLOG += 1;
-            }
-        }
+        var questdata = getQuestDrops(quest);
         //Now that we've checked everything in the droplogs, let's create the table row for this quest
         //First, the basic information
         tablehtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
@@ -414,41 +351,41 @@ function loadObject(logobj, tableid) {
         } else {
             tablehtml += '<td></td>';
         }
-        tablehtml += '<td>' + numrunsUNLOG.toString() + ' [' + numrunsTOTAL.toString() + ']</td>';
+        tablehtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
 
         //Next, the drops
         for (var m = 0; m < imgpathmap.length; m += 1) {
             if (logItems[m] === 1) {
                 var percentdecimalfix = 1; //default to 1 decimal place
-                if ((numitemTOTAL[m] / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
-                var percent = (numitemTOTAL[m] / numrunsTOTAL * 100).toFixed(percentdecimalfix);
-                if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
+                if ((questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+                var percent = (questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100).toFixed(percentdecimalfix);
+                if (questdata.numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
 
                 var apperdropdecimalfix = 1; //default to 1 decimal place
-                if ((quest.ap.toString()/(numitemTOTAL[m] / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
-                var apperdrop = (parseInt(quest.ap)/(numitemTOTAL[m] / numrunsTOTAL)).toFixed(apperdropdecimalfix);
-                if (numrunsTOTAL === 0 || numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
+                if ((quest.ap.toString()/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+                var apperdrop = (parseInt(quest.ap)/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)).toFixed(apperdropdecimalfix);
+                if (questdata.numrunsTOTAL === 0 || questdata.numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
 
 
                 var stacksizetext = "";
                 //Make the tooltip with stack size information iff the item was a stack item
-                if (Object.keys(numitemstackTOTAL[m]).length !== 0) {
+                if (Object.keys(questdata.numitemstackTOTAL[m]).length !== 0) {
                     stacksizetext += '<span class="tooltiptext">';
                     stacksizetext += 'All Runs:<br>';
-                    for(var key in numitemstackTOTAL[m]) {
-                        var value = numitemstackTOTAL[m][key];
+                    for(var key in questdata.numitemstackTOTAL[m]) {
+                        var value = questdata.numitemstackTOTAL[m][key];
                         stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
                     }
                     stacksizetext += '<hr>Only Unlogged Runs:<br>';
-                    for(var key in numitemstackUNLOG[m]) {
-                        var value = numitemstackUNLOG[m][key];
+                    for(var key in questdata.numitemstackUNLOG[m]) {
+                        var value = questdata.numitemstackUNLOG[m][key];
                         stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
                     }
                     stacksizetext += '</span>';
                 }
 
-                if (numitemTOTAL[m] > 0) {
-                    tablehtml += '<td><div class="tooltip">' + numitemUNLOG[m].toString() + ' [' + numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
+                if (questdata.numitemTOTAL[m] > 0) {
+                    tablehtml += '<td><div class="tooltip">' + questdata.numitemUNLOG[m].toString() + ' [' + questdata.numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
                 } else {
                     tablehtml += '<td>-</td>';
                 }
@@ -509,4 +446,76 @@ function getDropsInQuest(logobj) {
         }
     }
     return logItems;
+}
+
+// Retrieves quest data and returns it as an object.
+// Takes a single quest object as a parameter
+// Logs total number of runs, item drops, and item stacks (mapping of stack size to occurences)
+function getQuestDrops(quest) {
+    //Gather data
+    var numrunsUNLOG = 0;
+    var numrunsTOTAL = 0;
+    //These arrays are the same size as imgpathmap and logItems
+    var numitemUNLOG = [];
+    var numitemTOTAL = [];
+    //Same as above but used to store stack size data. Each element is an object mapping stack size to occurences
+    var numitemstackUNLOG = [];
+    var numitemstackTOTAL = [];
+    //Initialize arrays for the current quest
+    for (var j = 0; j < imgpathmap.length; j += 1) {
+        numitemUNLOG.push(0);
+        numitemTOTAL.push(0);
+        numitemstackUNLOG.push({});
+        numitemstackTOTAL.push({});
+    }
+    //Now we iterate through the droplogs
+    for (var j = 0; j < quest.droplog.length; j += 1) {
+        var currdroplog = quest.droplog[j];
+        //For every drop in the current droplog, if there are drops
+        if (currdroplog.hasOwnProperty('drop')) {
+            for (var k = 0; k < currdroplog.drop.length; k += 1) {
+                //console.log("Found " + currdroplog.drop[k] + " in quest " + quest.qname);
+                //Search for matches in the list of items
+                for (var l = 0; l < imgpathmap.length; l += 1) {
+                    if (currdroplog.drop[k] === imgpathmap[l].id) {
+                        numitemTOTAL[l] += 1;
+                        if (!currdroplog.uplog) {
+                            numitemUNLOG[l] += 1;
+                        }
+                    }
+                }
+            }
+        }
+        //Handle stack drops here
+        if (currdroplog.hasOwnProperty('stackdrop')) {
+            for (var k = 0; k < currdroplog.stackdrop.length; k += 1) {
+                //Search for matches in the list of items
+                for (var l = 0; l < imgpathmap.length; l += 1) {
+                    if (currdroplog.stackdrop[k].id === imgpathmap[l].id) {
+                        //Increment item count by the stack size
+                        numitemTOTAL[l] += currdroplog.stackdrop[k].stack;
+                        if (numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] === undefined) {
+                            numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] = 1;
+                        } else {
+                            numitemstackTOTAL[l][currdroplog.stackdrop[k].stack] += 1;
+                        }
+                        if (!currdroplog.uplog) {
+                            numitemUNLOG[l] += currdroplog.stackdrop[k].stack;
+                            if (numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] === undefined) {
+                                numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] = 1;
+                            } else {
+                                numitemstackUNLOG[l][currdroplog.stackdrop[k].stack] += 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //Increment run counts
+        numrunsTOTAL += 1;
+        if (!currdroplog.uplog) {
+            numrunsUNLOG += 1;
+        }
+    }
+    return {"numrunsUNLOG": numrunsUNLOG, "numrunsTOTAL": numrunsTOTAL, "numitemUNLOG": numitemUNLOG, "numitemTOTAL": numitemTOTAL, "numitemstackUNLOG": numitemstackUNLOG, "numitemstackTOTAL": numitemstackTOTAL};
 }
