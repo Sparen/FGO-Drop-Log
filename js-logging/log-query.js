@@ -1,3 +1,5 @@
+// This file hosts code relating specifically to the query engine. General purpose code should go in log-master.
+
 "use strict";
 
 // Main load function for the Query Engine. Called from the query page.

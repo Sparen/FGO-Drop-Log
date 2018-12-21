@@ -343,56 +343,7 @@ function loadObject(logobj, tableid) {
         //Gather data
         var questdata = getQuestDrops(quest);
         //Now that we've checked everything in the droplogs, let's create the table row for this quest
-        //First, the basic information
-        tablehtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
-        tablehtml += '<td>' + quest["last-upd"] + '</td>';
-        if (quest.hasOwnProperty('icon')) {
-            tablehtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
-        } else {
-            tablehtml += '<td></td>';
-        }
-        tablehtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
-
-        //Next, the drops
-        for (var m = 0; m < imgpathmap.length; m += 1) {
-            if (logItems[m] === 1) {
-                var percentdecimalfix = 1; //default to 1 decimal place
-                if ((questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
-                var percent = (questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100).toFixed(percentdecimalfix);
-                if (questdata.numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
-
-                var apperdropdecimalfix = 1; //default to 1 decimal place
-                if ((quest.ap.toString()/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
-                var apperdrop = (parseInt(quest.ap)/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)).toFixed(apperdropdecimalfix);
-                if (questdata.numrunsTOTAL === 0 || questdata.numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
-
-
-                var stacksizetext = "";
-                //Make the tooltip with stack size information iff the item was a stack item
-                if (Object.keys(questdata.numitemstackTOTAL[m]).length !== 0) {
-                    stacksizetext += '<span class="tooltiptext">';
-                    stacksizetext += 'All Runs:<br>';
-                    for(var key in questdata.numitemstackTOTAL[m]) {
-                        var value = questdata.numitemstackTOTAL[m][key];
-                        stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
-                    }
-                    stacksizetext += '<hr>Only Unlogged Runs:<br>';
-                    for(var key in questdata.numitemstackUNLOG[m]) {
-                        var value = questdata.numitemstackUNLOG[m][key];
-                        stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
-                    }
-                    stacksizetext += '</span>';
-                }
-
-                if (questdata.numitemTOTAL[m] > 0) {
-                    tablehtml += '<td><div class="tooltip">' + questdata.numitemUNLOG[m].toString() + ' [' + questdata.numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
-                } else {
-                    tablehtml += '<td>-</td>';
-                }
-            }
-        }
-
-        tablehtml += '</tr>';
+        tablehtml += generateQuestRow(quest, questdata, logItems, true);
     }
 
     //Finally, write the table
@@ -518,4 +469,65 @@ function getQuestDrops(quest) {
         }
     }
     return {"numrunsUNLOG": numrunsUNLOG, "numrunsTOTAL": numrunsTOTAL, "numitemUNLOG": numitemUNLOG, "numitemTOTAL": numitemTOTAL, "numitemstackUNLOG": numitemstackUNLOG, "numitemstackTOTAL": numitemstackTOTAL};
+}
+
+// Given a quest, the counts for drops in the quest, and the log of items dropped in the quest, generates an HTML row
+// To only show total counts, set unlogenable to false
+function generateQuestRow(quest, questdata, logItems, unlogenable) {
+    var rowhtml = "";
+    //First, the basic information
+    rowhtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td><td>' + quest.column + '</td>';
+    rowhtml += '<td>' + quest["last-upd"] + '</td>';
+    if (quest.hasOwnProperty('icon')) {
+        rowhtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
+    } else {
+        rowhtml += '<td></td>';
+    }
+    rowhtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
+
+    //Next, the drops
+    for (var m = 0; m < imgpathmap.length; m += 1) {
+        if (logItems[m] === 1) {
+            var percentdecimalfix = 1; //default to 1 decimal place
+            if ((questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+            var percent = (questdata.numitemTOTAL[m] / questdata.numrunsTOTAL * 100).toFixed(percentdecimalfix);
+            if (questdata.numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
+
+            var apperdropdecimalfix = 1; //default to 1 decimal place
+            if ((quest.ap.toString()/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+            var apperdrop = (parseInt(quest.ap)/(questdata.numitemTOTAL[m] / questdata.numrunsTOTAL)).toFixed(apperdropdecimalfix);
+            if (questdata.numrunsTOTAL === 0 || questdata.numitemTOTAL[m] === 0) {apperdrop = "?";} //avoid NaN
+
+            var stacksizetext = "";
+            //Make the tooltip with stack size information iff the item was a stack item
+            if (Object.keys(questdata.numitemstackTOTAL[m]).length !== 0) {
+                stacksizetext += '<span class="tooltiptext">';
+                stacksizetext += 'All Runs:<br>';
+                for(var key in questdata.numitemstackTOTAL[m]) {
+                    var value = questdata.numitemstackTOTAL[m][key];
+                    stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
+                }
+                if (unlogenable) {
+                    stacksizetext += '<hr>Only Unlogged Runs:<br>';
+                    for(var key in questdata.numitemstackUNLOG[m]) {
+                        var value = questdata.numitemstackUNLOG[m][key];
+                        stacksizetext += "Stack Size: " + key.toString() + "; Stack Drop #: " + value.toString() + "<br>";
+                    }
+                }
+                stacksizetext += '</span>';
+            }
+
+            if (questdata.numitemTOTAL[m] > 0) {
+                if (unlogenable) {
+                    rowhtml += '<td><div class="tooltip">' + questdata.numitemUNLOG[m].toString() + ' [' + questdata.numitemTOTAL[m].toString() + ']<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
+                } else {
+                    rowhtml += '<td><div class="tooltip">' + questdata.numitemTOTAL[m].toString() + '<br>' + percent + '<span style="font-size:6px">%</span><br>' + apperdrop + '<span style="font-size:4px">AP</span>' + stacksizetext + '</div></td>';
+                }
+            } else {
+                rowhtml += '<td>-</td>';
+            }
+        }
+    }
+    rowhtml += '</tr>';
+    return rowhtml;
 }
