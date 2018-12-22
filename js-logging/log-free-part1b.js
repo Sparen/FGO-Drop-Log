@@ -602,7 +602,17 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_GD_CAS", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
-                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "GEM_GD_CAS", "GEM_GD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "PHOENIX_FEATHER", "SERPENT_JEWEL", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL"] },
             ]
         },
         {
