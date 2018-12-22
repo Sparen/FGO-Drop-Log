@@ -147,43 +147,39 @@ function getDropStatsQ(itemID, logobj, logtype) {
         console.log("getDropStatsQ: Specified item was not found in imgpathmap."); // Warning
     }
 
-    //For every quest in the log object...
+    // Initial data collection
+    var numitems = imgpathmap.length;
+
+    //For every quest in the log object, generate a div containing drop rates, APD, and a table containing other drops at the node.
     for (var i = 0; i < logobj.quests.length; i += 1) {
         var quest = logobj.quests[i];
-        //Gather data
-        var numrunsTOTAL = 0;
-        var numitemcountTOTAL = 0;
-        //Now we iterate through the droplogs
-        for (var j = 0; j < quest.droplog.length; j += 1) {
-            var currdroplog = quest.droplog[j];
-            //For every drop in the current droplog, if there are drops
-            if (currdroplog.hasOwnProperty('drop')) {
-                for (var k = 0; k < currdroplog.drop.length; k += 1) {
-                    if (currdroplog.drop[k] === itemID) {
-                        numitemcountTOTAL += 1;
-                    }
-                }
+
+        /* ----- HTML Quest Table ----- */
+        // HTML that will show other drops in this node
+        var tablehtml = "<div style='display: inline-table'><table style='margin-left: 16px; margin-top: 5px'><tr>";
+        var logItems = getDropsInQuestSingle(quest.droplog);
+        console.log(logItems);
+        for (var j = 0; j < numitems; j += 1) {
+            if (logItems[j] === 1) { //a hit
+                tablehtml += '<th><img class="item" src="' + imgpathmap[j].path + '"><br>' + imgpathmap[j].label + '</th>';
             }
-            //Handle stack drops here
-            if (currdroplog.hasOwnProperty('stackdrop')) {
-                for (var k = 0; k < currdroplog.stackdrop.length; k += 1) {
-                    if (currdroplog.stackdrop[k].id === itemID) {
-                        numitemcountTOTAL += currdroplog.stackdrop[k].stack;
-                    }
-                }
-            }
-            //Increment run counts
-            numrunsTOTAL += 1;
         }
-        if (document.getElementById("queryIgnoreSub5").checked && numrunsTOTAL < 5) {
+        tablehtml += "</tr>";
+
+        var questdata = getQuestDrops(quest);
+        //Now that we've checked everything in the droplogs, let's create the table row for this quest
+        tablehtml += generateQuestRow(quest, questdata, logItems, false, true);
+        tablehtml += "</table></div>";
+
+        /* ----- Main statistical component ----- */
+        
+        if (document.getElementById("queryIgnoreSub5").checked && questdata.numrunsTOTAL < 5) {
             //If ignoring nodes with under 5 runs and this node has under 5 runs, do not add.
         }
         //If at least one occurrence of the item dropped, we will write a log.
-        else if (numitemcountTOTAL > 0) {
-            var textcolor = getQualityColor(numrunsTOTAL);
-            
+        else if (questdata.numitemTOTAL[itemidx] > 0) {
+            var textcolor = getQualityColor(questdata.numrunsTOTAL);
             //Let us begin the output
-
             //Calculate Quest AP cost
             var questap = quest.ap;
             if (document.getElementById("queryHalfAPFreeQ").checked && logtype === "FREE") {
@@ -202,29 +198,32 @@ function getDropStatsQ(itemID, logobj, logtype) {
             } else {
                 querynode += '<h4 class="' + logobj.cssclass + '">' + quest.qname + ' [' + quest.ap + ' AP]</h4>';
             }
-            querynode += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '">Number of runs: ' + numrunsTOTAL.toString();
+            querynode += '<div class="useDIN" style="padding-left: 16px; padding-top: 4px; color:' + textcolor + '; display: inline-table">Number of runs: ' + questdata.numrunsTOTAL.toString();
+
+            var curritemcount = questdata.numitemTOTAL[itemidx];
 
             var percentdecimalfix = 2; //Query Mode allows for more decimal places than main tables since we have more space.
-            if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
-            else if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 10) {percentdecimalfix = 1;}
-            else if ((numitemcountTOTAL / numrunsTOTAL * 100) >= 1) {percentdecimalfix = 2;}
-            var percent = (numitemcountTOTAL / numrunsTOTAL * 100).toFixed(percentdecimalfix);
-            if (numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
+            if ((curritemcount / questdata.numrunsTOTAL * 100) >= 100) {percentdecimalfix = 0;}
+            else if ((curritemcount / questdata.numrunsTOTAL * 100) >= 10) {percentdecimalfix = 1;}
+            else if ((curritemcount / questdata.numrunsTOTAL * 100) >= 1) {percentdecimalfix = 2;}
+            var percent = (curritemcount / questdata.numrunsTOTAL * 100).toFixed(percentdecimalfix);
+            if (questdata.numrunsTOTAL === 0) {percent = (0).toFixed(0);} //avoid NaN
 
             var apperdropdecimalfix = 3; //Query Mode allows for more decimal places than main tables since we have more space.
-            if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
-            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 10) {apperdropdecimalfix = 1;}
-            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 1) {apperdropdecimalfix = 2;}
-            else if ((questap.toString()/(numitemcountTOTAL / numrunsTOTAL)) >= 0.1) {apperdropdecimalfix = 3;}
-            var apperdrop = (parseInt(questap)/(numitemcountTOTAL / numrunsTOTAL)).toFixed(apperdropdecimalfix);
-            if (numrunsTOTAL === 0 || numitemcountTOTAL === 0) {apperdrop = "?";} //avoid NaN
+            if ((questap.toString()/(curritemcount / questdata.numrunsTOTAL)) >= 100) {apperdropdecimalfix = 0;}
+            else if ((questap.toString()/(curritemcount / questdata.numrunsTOTAL)) >= 10) {apperdropdecimalfix = 1;}
+            else if ((questap.toString()/(curritemcount / questdata.numrunsTOTAL)) >= 1) {apperdropdecimalfix = 2;}
+            else if ((questap.toString()/(curritemcount / questdata.numrunsTOTAL)) >= 0.1) {apperdropdecimalfix = 3;}
+            var apperdrop = (parseInt(questap)/(curritemcount / questdata.numrunsTOTAL)).toFixed(apperdropdecimalfix);
+            if (questdata.numrunsTOTAL === 0 || curritemcount === 0) {apperdrop = "?";} //avoid NaN
 
             //Padding for slightly more uniform formatting. Not going beyond 1000 because it's pointless lol
-            if (numrunsTOTAL >= 1000) {querynode += '&nbsp;';} else if (numrunsTOTAL >= 100) {querynode += '&nbsp;&nbsp;';} else if (numrunsTOTAL >= 10) {querynode += '&nbsp;&nbsp;&nbsp;';} else {querynode += '&nbsp;&nbsp;&nbsp;&nbsp;';}
+            if (questdata.numrunsTOTAL >= 1000) {querynode += '&nbsp;';} else if (questdata.numrunsTOTAL >= 100) {querynode += '&nbsp;&nbsp;';} else if (questdata.numrunsTOTAL >= 10) {querynode += '&nbsp;&nbsp;&nbsp;';} else {querynode += '&nbsp;&nbsp;&nbsp;&nbsp;';}
 
             var runsperdrop = (apperdrop/parseInt(questap)).toFixed(3);
 
-            querynode += 'Total # Drops: ' + numitemcountTOTAL.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
+            querynode += 'Total # Drops: ' + curritemcount.toString() + '<br>Drop Rate Per Run: ' + percent + '%<br>AP Per Drop: ' + apperdrop + '<span style="font-size:8px">AP</span>&nbsp;&nbsp;[' + runsperdrop + ' Runs per drop]</div>';
+            querynode += tablehtml; // NOTE: Separate div from the useDIN block
             querynode += '</div>';
             toreturn.push({"htmlval" : querynode, "apd" : parseFloat(apperdrop)});
         }

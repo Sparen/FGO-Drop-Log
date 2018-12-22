@@ -343,7 +343,7 @@ function loadObject(logobj, tableid) {
         //Gather data
         var questdata = getQuestDrops(quest);
         //Now that we've checked everything in the droplogs, let's create the table row for this quest
-        tablehtml += generateQuestRow(quest, questdata, logItems, true, true);
+        tablehtml += generateQuestRow(quest, questdata, logItems, true, false);
     }
 
     //Finally, write the table
@@ -386,6 +386,52 @@ function getDropsInQuest(logobj) {
                             found = true;
                             break;
                         }
+                    }
+                }
+            }
+        }
+        if (found) {
+            logItems.push(1);
+        } else {
+            logItems.push(0);
+        }
+    }
+    return logItems;
+}
+
+// Returns an array of length equivalent to the number of items in the image path map.
+// Each entry is 1 if found in quest drops; 0 otherwise.
+// logobj parameter is a single log object with an array of quests.
+function getDropsInQuestSingle(droplog) {
+    //We want to determine all the possible items that spawn given all occurrences in this object.
+    //We will store this using a boolean array of size equivalent to that of imgpathmap
+    //In the first run, all that will be done is log the items dropped.
+    var numitems = imgpathmap.length;
+    var logItems = [];
+
+    for (var i = 0; i < numitems; i += 1) {
+        //Retrieve the target Item ID
+        var targetID = imgpathmap[i].id;
+        var found = false;
+        //Cross reference to see if it exists in the drop data
+        for (var k = 0; k < droplog.length; k += 1) {
+            //Regular drops
+            if (droplog[k].hasOwnProperty('drop')) {
+                var droplist = droplog[k].drop;
+                for (var l = 0; l < droplist.length; l += 1) {
+                    if (targetID === droplist[l]) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            //Stack drops
+            if (droplog[k].hasOwnProperty('stackdrop')) {
+                var stackdroplist = droplog[k].stackdrop;
+                for (var l = 0; l < stackdroplist.length; l += 1) {
+                    if (targetID === stackdroplist[l].id) {
+                        found = true;
+                        break;
                     }
                 }
             }
@@ -473,24 +519,24 @@ function getQuestDrops(quest) {
 
 // Given a quest, the counts for drops in the quest, and the log of items dropped in the quest, generates an HTML row
 // To only show total counts, set unlogenable to false
-// To disable column, last updated date, and other data logging information, set showfull to false. 
+// If dropsonly is true, only shows drops.
 // Caller function should handle the table itsels as well as the table header.
-function generateQuestRow(quest, questdata, logItems, unlogenable, showfull) {
+function generateQuestRow(quest, questdata, logItems, unlogenable, dropsonly) {
     var rowhtml = "";
     //First, the basic information
-    rowhtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td>';
-    if (showfull) {
+    if (!dropsonly) {
+        rowhtml += '<tr><td>' + quest.qname + '</td><td>' + quest.ap + '</td>';
         rowhtml += '<td>' + quest.column + '</td><td>' + quest["last-upd"] + '</td>';
         if (quest.hasOwnProperty('icon')) {
             rowhtml += '<td><img class="servantsmall" src="./sicon/' + quest["icon"] + '"></td>';
         } else {
             rowhtml += '<td></td>';
         }
-    }
-    if (unlogenable) {
-        rowhtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
-    } else {
-        rowhtml += '<td>' + questdata.numrunsTOTAL.toString() + '</td>';
+        if (unlogenable) {
+            rowhtml += '<td>' + questdata.numrunsUNLOG.toString() + ' [' + questdata.numrunsTOTAL.toString() + ']</td>';
+        } else {
+            rowhtml += '<td>' + questdata.numrunsTOTAL.toString() + '</td>';
+        }
     }
 
     //Next, the drops
