@@ -579,13 +579,30 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "III Forneus", "ap": "30", "last-upd": "2018 12 21", "column": "48",
+            "qname": "III Forneus", "ap": "30", "last-upd": "2018 12 22", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "SHELL_OF_REMINISCENCE"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
-                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE", "PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_GD_CAS", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_GD_CAS", "SERPENT_JEWEL", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_GD_CAS", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] }
             ]
         },
         {
