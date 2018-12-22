@@ -623,7 +623,18 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ASS", "ETERNAL_GEAR", "ETERNAL_GEAR", "ETERNAL_GEAR"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_GD_ASS", "ETERNAL_GEAR", "FORBIDDEN_PAGE", "HOMUNCULUS_BABY"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "ETERNAL_GEAR", "HOMUNCULUS_BABY", "HOMUNCULUS_BABY", "HOMUNCULUS_BABY"] },
-                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "FORBIDDEN_PAGE"] }
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "FORBIDDEN_PAGE"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_BL_ASS", "GEM_BL_ASS", "FORBIDDEN_PAGE", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_GD_ASS", "ETERNAL_GEAR", "HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "ETERNAL_GEAR", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "FORBIDDEN_PAGE"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_GD_ASS", "ETERNAL_GEAR", "FORBIDDEN_PAGE", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "ETERNAL_GEAR", "HOMUNCULUS_BABY", "HOMUNCULUS_BABY", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "ETERNAL_GEAR", "FORBIDDEN_PAGE", "FORBIDDEN_PAGE", "HOMUNCULUS_BABY"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_RD_ASS", "ETERNAL_GEAR", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "FORBIDDEN_PAGE", "FORBIDDEN_PAGE"] }
             ]
         },
         {
