@@ -566,7 +566,7 @@ var raid_solomon_obj = {
     "cssclass": "h-solomon",
     "quests": [
         {
-            "qname": "II Flauros", "ap": "30", "last-upd": "2018 12 21", "column": "48",
+            "qname": "Throne II - Flauros", "ap": "30", "last-upd": "2018 12 22", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "CLAW_OF_CHAOS"] },
                 { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
@@ -575,11 +575,41 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "OCTUPLET_CRYSTAL", "CLAW_OF_CHAOS"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "CLAW_OF_CHAOS"] },
-                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "OCTUPLET_CRYSTAL", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_GD_LAN", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PROOF_OF_HERO", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "CLAW_OF_CHAOS", "CLAW_OF_CHAOS", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "CLAW_OF_CHAOS", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_GD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_GD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] }
             ]
         },
         {
-            "qname": "III Forneus", "ap": "30", "last-upd": "2018 12 22", "column": "48",
+            "qname": "Throne III - Forneus", "ap": "30", "last-upd": "2018 12 22", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
@@ -613,10 +643,26 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GEM_GD_CAS", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_GD_CAS", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL"] }
             ]
         },
         {
-            "qname": "IV Barbatos", "ap": "30", "last-upd": "2018 12 21", "column": "48",
+            "qname": "Throne IV - Barbatos", "ap": "30", "last-upd": "2018 12 21", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "GEM_BL_ASS", "FORBIDDEN_PAGE", "FORBIDDEN_PAGE", "HOMUNCULUS_BABY"] },
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_BL_ASS", "ETERNAL_GEAR", "FORBIDDEN_PAGE", "HOMUNCULUS_BABY"] },
@@ -678,22 +724,34 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "V Halphas", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "", "column": "48",
             "droplog": [
             ]
         },
         {
-            "qname": "VI Amon Ra", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Throne VI - Amon Ra", "ap": "30", "last-upd": "", "column": "48",
             "droplog": [
             ]
         },
         {
-            "qname": "VII Sabnock", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Throne VII - Sabnock", "ap": "30", "last-upd": "2018 12 22", "column": "48",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL", "CURSED_BEAST_GALLSTONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "CURSED_BEAST_GALLSTONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "CURSED_BEAST_GALLSTONE"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "GEM_GD_ARC"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "X Andromalius", "ap": "30", "last-upd": "", "column": "",
+            "qname": "Throne X - Andromalius", "ap": "30", "last-upd": "", "column": "48",
             "droplog": [
             ]
         }

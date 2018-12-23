@@ -271,8 +271,24 @@ function loadFree() {
     loadObject(free_camelot_obj, "free-camelot");
     console.log("loadFree: Loading Free Quests - Babylonia");
     loadObject(free_babylonia_obj, "free-babylonia");
+
     console.log("loadFree: Loading Raid Quests - Solomon");
-    loadObject(raid_solomon_obj, "raid-solomon");
+    // For Solomon, instead of dumping everything into one table, each raid gets its own table (since drops on every one is disjoint)
+    // We will isolate each quest node in its own log object.
+    var obj_solo_flauros = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[0]]};
+    loadObject(obj_solo_flauros, "raid-solomon-2");
+    var obj_solo_forneus = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[1]]};
+    loadObject(obj_solo_forneus, "raid-solomon-3");
+    var obj_solo_barbatos = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[2]]};
+    loadObject(obj_solo_barbatos, "raid-solomon-4");
+    var obj_solo_halphas = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[3]]};
+    loadObject(obj_solo_halphas, "raid-solomon-5");
+    var obj_solo_amon = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[4]]};
+    loadObject(obj_solo_amon, "raid-solomon-6");
+    var obj_solo_sabnock = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[5]]};
+    loadObject(obj_solo_sabnock, "raid-solomon-7");
+    var obj_solo_andromalius = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[6]]};
+    loadObject(obj_solo_andromalius, "raid-solomon-10");
 }
 
 function loadEvent17() {
