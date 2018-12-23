@@ -566,7 +566,7 @@ var raid_solomon_obj = {
     "cssclass": "h-solomon",
     "quests": [
         {
-            "qname": "Throne II - Flauros", "ap": "30", "last-upd": "2018 12 22", "column": "48",
+            "qname": "Throne II - Flauros", "ap": "30", "last-upd": "2018 12 23", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "CLAW_OF_CHAOS"] },
                 { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_GD_LAN", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
@@ -605,11 +605,23 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_GD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": ["GEM_GD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
-                { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["GEM_RD_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_GD_LAN", "OCTUPLET_CRYSTAL", "DRAGONS_REVERSE_SCALE"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_GD_LAN", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "CLAW_OF_CHAOS", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL", "CLAW_OF_CHAOS", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] }
             ]
         },
         {
-            "qname": "Throne III - Forneus", "ap": "30", "last-upd": "2018 12 22", "column": "48",
+            "qname": "Throne III - Forneus", "ap": "30", "last-upd": "2018 12 23", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
@@ -658,7 +670,9 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
-                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SERPENT_JEWEL"] }
             ]
         },
         {
