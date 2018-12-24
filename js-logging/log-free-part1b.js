@@ -617,7 +617,8 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "CLAW_OF_CHAOS", "CLAW_OF_CHAOS"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "OCTUPLET_CRYSTAL", "OCTUPLET_CRYSTAL", "CLAW_OF_CHAOS", "CLAW_OF_CHAOS"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_RD_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["GEM_BL_LAN", "GEM_BL_LAN", "GEM_BL_LAN", "GEM_RD_LAN", "PROOF_OF_HERO"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "PROOF_OF_HERO", "PROOF_OF_HERO", "DRAGONS_REVERSE_SCALE"] }
             ]
         },
         {
