@@ -115,7 +115,8 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "PHOENIX_FEATHER", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
-                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE"] }
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE"] }
             ]
         },
         {
@@ -186,7 +187,8 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_GD_BER", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "METEORIC_HORSESHOE", "WARHORSE_YOUNG_HORN"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE"] },
-                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "METEORIC_HORSESHOE", "SPIRIT_ROOT"] }
             ]
         },
         {
