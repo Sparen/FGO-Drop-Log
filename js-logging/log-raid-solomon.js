@@ -187,7 +187,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne VII - Sabnock", "ap": "30", "last-upd": "2018 12 22", "column": "48",
+            "qname": "Throne VII - Sabnock", "ap": "30", "last-upd": "2018 12 23", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL", "CURSED_BEAST_GALLSTONE"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC"] },
@@ -200,7 +200,14 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "CURSED_BEAST_GALLSTONE"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "GEM_GD_ARC"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_GD_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG"] }
             ]
         },
         {
