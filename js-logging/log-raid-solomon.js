@@ -60,7 +60,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne III - Forneus", "ap": "30", "last-upd": "2018 12 23", "column": "48",
+            "qname": "Throne III - Forneus", "ap": "30", "last-upd": "2018 12 24", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "SHELL_OF_REMINISCENCE", "SHELL_OF_REMINISCENCE"] },
@@ -111,7 +111,11 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "SERPENT_JEWEL", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "SERPENT_JEWEL"] },
                 { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER"] },
-                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SERPENT_JEWEL"] }
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "DEADLY_POISONOUS_NEEDLE", "PHOENIX_FEATHER", "SERPENT_JEWEL"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "PHOENIX_FEATHER", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "GEM_RD_CAS", "DEADLY_POISONOUS_NEEDLE", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_BL_CAS", "DEADLY_POISONOUS_NEEDLE"] }
             ]
         },
         {
@@ -177,8 +181,12 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "", "column": "48",
+            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "2018 12 24", "column": "48",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_GD_BER", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "METEORIC_HORSESHOE", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] }
             ]
         },
         {
@@ -187,7 +195,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne VII - Sabnock", "ap": "30", "last-upd": "2018 12 23", "column": "48",
+            "qname": "Throne VII - Sabnock", "ap": "30", "last-upd": "2018 12 24", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL", "CURSED_BEAST_GALLSTONE"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC"] },
@@ -207,7 +215,8 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_GD_ARC", "DRAGON_FANG", "DRAGON_FANG", "SEED_OF_YGGDRASIL", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "DRAGON_FANG", "DRAGON_FANG", "DRAGON_FANG"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] },
-                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG"] }
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_BL_ARC", "DRAGON_FANG"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
