@@ -188,12 +188,19 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_RD_BER", "METEORIC_HORSESHOE", "WARHORSE_YOUNG_HORN"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] },
-                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "METEORIC_HORSESHOE", "SPIRIT_ROOT"] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "METEORIC_HORSESHOE", "SPIRIT_ROOT"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "GEM_GD_BER", "EVIL_BONE", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "EVIL_BONE", "SPIRIT_ROOT"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_GD_BER"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] }
             ]
         },
         {
-            "qname": "Throne VI - Amon Ra", "ap": "30", "last-upd": "", "column": "48",
+            "qname": "Throne VI - Amon", "ap": "30", "last-upd": "2018 12 24", "column": "48",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_GD_RID", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "GEM_GD_RID", "FOOLS_CHAIN"] }
             ]
         },
         {
