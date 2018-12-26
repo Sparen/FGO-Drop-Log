@@ -182,7 +182,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "2018 12 25", "column": "48",
+            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "2018 12 26", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_GD_BER", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "METEORIC_HORSESHOE", "WARHORSE_YOUNG_HORN"] },
@@ -197,11 +197,12 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "EVIL_BONE", "SPIRIT_ROOT"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_GD_BER", "GEM_GD_BER", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "METEORIC_HORSESHOE"] },
-                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "EVIL_BONE"] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "METEORIC_HORSESHOE", "METEORIC_HORSESHOE"] }
             ]
         },
         {
-            "qname": "Throne VI - Amon", "ap": "30", "last-upd": "2018 12 25", "column": "48",
+            "qname": "Throne VI - Amon", "ap": "30", "last-upd": "2018 12 26", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_GD_RID", "FOOLS_CHAIN"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "GEM_GD_RID", "FOOLS_CHAIN"] },
@@ -212,7 +213,15 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_GD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL", "LAMP_OF_EVIL_SEALING"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GREAT_KNIGHT_MEDAL", "SCARAB_OF_WISDOM"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "SCARAB_OF_WISDOM"] },
+                { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN", "SCARAB_OF_WISDOM"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "SCARAB_OF_WISDOM"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL", "SCARAB_OF_WISDOM"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN"] }
             ]
         },
         {
@@ -241,7 +250,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne X - Andromalius", "ap": "30", "last-upd": "2012 12 25", "column": "48",
+            "qname": "Throne X - Andromalius", "ap": "30", "last-upd": "2012 12 26", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "VOIDS_DUST", "TEARSTONE_OF_BLOOD", "PRIMORDIAL_LANUGO"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "TEARSTONE_OF_BLOOD", "PRIMORDIAL_LANUGO"] },
@@ -258,7 +267,8 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GHOST_LANTERN", "GHOST_LANTERN", "GHOST_LANTERN", "GHOST_LANTERN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_SAB", "GHOST_LANTERN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "VOIDS_DUST", "GHOST_LANTERN"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_SAB", "VOIDS_DUST"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_SAB", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "VOIDS_DUST", "VOIDS_DUST", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] }
             ]
         }
     ]
