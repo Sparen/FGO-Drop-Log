@@ -182,7 +182,7 @@ var raid_solomon_obj = {
             ]
         },
         {
-            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "2018 12 24", "column": "48",
+            "qname": "Throne V - Halphas", "ap": "30", "last-upd": "2018 12 25", "column": "48",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "GEM_GD_BER", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_RD_BER", "METEORIC_HORSESHOE", "WARHORSE_YOUNG_HORN"] },
@@ -193,7 +193,11 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "EVIL_BONE"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_RD_BER", "EVIL_BONE", "SPIRIT_ROOT"] },
                 { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_GD_BER"] },
-                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] }
+                { "uplog": true, "drop": ["GEM_BL_BER", "EVIL_BONE", "EVIL_BONE", "WARHORSE_YOUNG_HORN"] },
+                { "uplog": true, "drop": ["GEM_RD_BER", "GEM_RD_BER", "EVIL_BONE", "EVIL_BONE", "SPIRIT_ROOT"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_GD_BER", "GEM_GD_BER", "EVIL_BONE"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "GEM_RD_BER", "METEORIC_HORSESHOE"] },
+                { "uplog": true, "drop": ["GEM_BL_BER", "GEM_BL_BER", "GEM_BL_BER", "GEM_RD_BER", "EVIL_BONE"] }
             ]
         },
         {
@@ -205,7 +209,10 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_GD_RID", "GREAT_KNIGHT_MEDAL"] },
                 { "uplog": true, "drop": ["GEM_RD_RID", "GEM_RD_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL"] },
-                { "uplog": true, "drop": ["GEM_GD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] }
+                { "uplog": true, "drop": ["GEM_GD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL", "LAMP_OF_EVIL_SEALING"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL"] }
             ]
         },
         {
