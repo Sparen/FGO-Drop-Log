@@ -270,7 +270,20 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_SAB", "GHOST_LANTERN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "VOIDS_DUST", "GHOST_LANTERN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_GD_SAB", "VOIDS_DUST"] },
-                { "uplog": true, "drop": ["GEM_GD_SAB", "VOIDS_DUST", "VOIDS_DUST", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] }
+                { "uplog": true, "drop": ["GEM_GD_SAB", "VOIDS_DUST", "VOIDS_DUST", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "GEM_RD_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_GD_SAB", "VOIDS_DUST", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_GD_SAB", "VOIDS_DUST", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "VOIDS_DUST", "VOIDS_DUST", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_GD_SAB", "GEM_GD_SAB", "GHOST_LANTERN", "TEARSTONE_OF_BLOOD", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_GD_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "VOIDS_DUST", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "VOIDS_DUST", "VOIDS_DUST", "GHOST_LANTERN", "GHOST_LANTERN", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GHOST_LANTERN", "GHOST_LANTERN", "GHOST_LANTERN", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PRIMORDIAL_LANUGO"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_BL_SAB"] }
             ]
         }
     ]
