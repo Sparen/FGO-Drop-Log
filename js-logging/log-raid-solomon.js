@@ -221,7 +221,9 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_RID", "FOOLS_CHAIN", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "GREAT_KNIGHT_MEDAL", "SCARAB_OF_WISDOM"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL", "SCARAB_OF_WISDOM"] },
                 { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "FOOLS_CHAIN"] },
-                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN"] }
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_RD_RID", "GEM_RD_RID", "GREAT_KNIGHT_MEDAL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "GEM_RD_RID", "SCARAB_OF_WISDOM"] }
             ]
         },
         {
