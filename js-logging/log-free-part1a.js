@@ -246,7 +246,7 @@ var free_orleans_obj = {
             ]
         },
         {
-            "qname": "Marseille: Facing the Mediterranean Sea", "ap": "7", "last-upd": "2018 07 20", "column": "2",
+            "qname": "Marseille: Facing the Mediterranean Sea", "ap": "7", "last-upd": "2018 12 29", "column": "3",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "PROOF_OF_HERO"] },
                 { "uplog": true, "drop": [] },
@@ -257,7 +257,9 @@ var free_orleans_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {
@@ -787,7 +789,7 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 02 07", "column": "44",
+            "qname": "Bountiful Sea: Secret Route", "ap": "18", "last-upd": "2018 12 29", "column": "12",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB"] },
                 { "uplog": true, "drop": [] },
@@ -808,7 +810,9 @@ var free_okeanos_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_LAN"] },
                 { "uplog": true, "drop": [] },
-                { "uplog": true, "drop": ["PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] }
             ]
         }
     ]
