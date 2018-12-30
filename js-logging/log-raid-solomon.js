@@ -311,7 +311,10 @@ var raid_solomon_obj = {
                 { "uplog": true, "drop": ["GEM_BL_SAB", "TEARSTONE_OF_BLOOD"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "VOIDS_DUST", "VOIDS_DUST", "GHOST_LANTERN", "GHOST_LANTERN"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "VOIDS_DUST", "GHOST_LANTERN", "GHOST_LANTERN"] },
-                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "GHOST_LANTERN"] }
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "GHOST_LANTERN"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "VOIDS_DUST", "VOIDS_DUST", "TEARSTONE_OF_BLOOD"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "VOIDS_DUST", "GHOST_LANTERN", "TEARSTONE_OF_BLOOD"] }
             ]
         }
     ]
