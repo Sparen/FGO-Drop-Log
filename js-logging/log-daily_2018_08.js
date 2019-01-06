@@ -37,13 +37,16 @@ var daily_saber_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "2018 08 19", "column": "20", "icon": "saber-altria.png",
+            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "2019 01 05", "column": "20", "icon": "saber-altria.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "MONU_SAB", "SPIRIT_ROOT"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "PIECE_SAB", "SPIRIT_ROOT"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "EXP_2_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB", "ETERNAL_GEAR"] },
-                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "MONU_SAB", "SHELL_OF_REMINISCENCE", "EXP_2_SAB"] }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "MONU_SAB", "SHELL_OF_REMINISCENCE", "EXP_2_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB", "MONU_SAB"] },
+                { "uplog": true, "drop": ["PIECE_SAB", "PIECE_SAB", "PROOF_OF_HERO", "VOIDS_DUST", "SHELL_OF_REMINISCENCE"] }
             ]
         }
     ]
