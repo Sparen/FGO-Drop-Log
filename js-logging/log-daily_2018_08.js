@@ -292,13 +292,24 @@ var daily_caster_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Caster Training Ground - Expert", "ap": "40", "last-upd": "2018 08 18", "column": "20", "icon": "caster-zhugeliang.png",
+            "qname": "[201808] Caster Training Ground - Expert", "ap": "40", "last-upd": "2019 01 11", "column": "20", "icon": "caster-zhugeliang.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "PIECE_CAS", "FORBIDDEN_PAGE"] },
                 { "uplog": true, "drop": ["GEM_GD_CAS", "GEM_GD_CAS", "PIECE_CAS"] },
                 { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS", "FORBIDDEN_PAGE"] },
                 { "uplog": true, "drop": ["MONU_CAS", "FORBIDDEN_PAGE", "HEART_OF_A_FOREIGN_GOD"] },
-                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] }
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_RD_CAS", "GEM_RD_CAS", "MONU_CAS"] },
+                { "uplog": true, "drop": ["GEM_GD_CAS", "PIECE_CAS", "MONU_CAS", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "PIECE_CAS", "VOIDS_DUST"] },
+                { "uplog": true, "drop": ["GEM_GD_CAS", "MONU_CAS", "VOIDS_DUST", "SERPENT_JEWEL", "EXP_3_CAS"] },
+                { "uplog": true, "drop": ["GEM_BL_CAS", "GEM_RD_CAS", "PIECE_CAS", "PIECE_CAS", "HEART_OF_A_FOREIGN_GOD", "EXP_2_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS", "VOIDS_DUST", "VOIDS_DUST", "EXP_2_CAS"] },
+                { "uplog": true, "drop": ["GEM_GD_CAS", "GEM_GD_CAS", "MONU_CAS", "FORBIDDEN_PAGE"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS", "EXP_3_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "MONU_CAS", "VOIDS_DUST", "EXP_2_CAS"] },
+                { "uplog": true, "drop": ["GEM_GD_CAS", "PIECE_CAS", "MONU_CAS", "VOIDS_DUST", "EXP_3_CAS"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS", "GEM_GD_CAS", "PIECE_CAS", "EXP_2_CAS"] }
             ]
         }
     ]
