@@ -350,7 +350,7 @@ var daily_assassin_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "2018 11 22", "column": "20", "icon": "assassin-carmilla.png",
+            "qname": "[201808] Assassin Training Ground - Expert", "ap": "40", "last-upd": "2019 01 14", "column": "20", "icon": "assassin-carmilla.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
@@ -359,7 +359,15 @@ var daily_assassin_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "EXP_3_ASS"] },
                 { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_GD_ASS", "PIECE_ASS", "EXP_2_ASS", "SEED_OF_YGGDRASIL"] },
-                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] }
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "PIECE_ASS", "MONU_ASS", "GHOST_LANTERN", "EXP_2_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "MONU_ASS", "VOIDS_DUST", "GHOST_LANTERN", "BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "MONU_ASS", "MONU_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_GD_ASS", "MONU_ASS", "EXP_2_ASS"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_GD_ASS", "MONU_ASS", "EXP_1_ASS"] },
+                { "uplog": true, "drop": ["GEM_GD_ASS", "MONU_ASS", "DRAGON_FANG", "BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["GEM_BL_ASS", "GEM_RD_ASS", "GEM_RD_ASS", "MONU_ASS", "EXP_2_ASS", "EXP_3_ASS"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "GEM_RD_ASS", "PIECE_ASS", "DRAGON_FANG"] }
             ]
         }
     ]
