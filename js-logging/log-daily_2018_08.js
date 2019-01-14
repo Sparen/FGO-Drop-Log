@@ -37,7 +37,7 @@ var daily_saber_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "2019 01 05", "column": "20", "icon": "saber-altria.png",
+            "qname": "[201808] Saber Training Ground - Expert", "ap": "40", "last-upd": "2019 01 14", "column": "20", "icon": "saber-altria.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_SAB", "MONU_SAB", "SPIRIT_ROOT"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "PIECE_SAB", "SPIRIT_ROOT"] },
@@ -46,7 +46,13 @@ var daily_saber_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_RD_SAB", "PIECE_SAB", "MONU_SAB", "SHELL_OF_REMINISCENCE", "EXP_2_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB"] },
                 { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_RD_SAB", "PIECE_SAB", "MONU_SAB"] },
-                { "uplog": true, "drop": ["PIECE_SAB", "PIECE_SAB", "PROOF_OF_HERO", "VOIDS_DUST", "SHELL_OF_REMINISCENCE"] }
+                { "uplog": true, "drop": ["PIECE_SAB", "PIECE_SAB", "PROOF_OF_HERO", "VOIDS_DUST", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["PIECE_SAB", "PROOF_OF_HERO", "PHOENIX_FEATHER", "SHELL_OF_REMINISCENCE"] },
+                { "uplog": true, "drop": ["GEM_GD_SAB", "PIECE_SAB", "PROOF_OF_HERO", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["MONU_SAB", "MONU_SAB", "ETERNAL_GEAR", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB", "VOIDS_DUST", "EXP_2_SAB"] },
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "PIECE_SAB", "SEED_OF_YGGDRASIL"] }
             ]
         }
     ]
