@@ -141,7 +141,7 @@ var daily_archer_2018_08_obj = {
             ]
         },
         {
-            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2018 12 17", "column": "20", "icon": "archer-gilgamesh.png",
+            "qname": "[201808] Archer Training Ground - Expert", "ap": "40", "last-upd": "2019 01 15", "column": "20", "icon": "archer-gilgamesh.png",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "MONU_ARC", "MONU_ARC", "EXP_1_ARC", "PROOF_OF_HERO", "METEORIC_HORSESHOE", "SEED_OF_YGGDRASIL"] },
@@ -157,7 +157,12 @@ var daily_archer_2018_08_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "GEM_RD_ARC", "PIECE_ARC", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "MONU_ARC", "VOIDS_DUST"] },
                 { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "PROOF_OF_HERO"] },
-                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "EXP_1_ARC", "PHOENIX_FEATHER"] }
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "MONU_ARC", "EXP_1_ARC", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_RD_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "PIECE_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_GD_ARC", "PIECE_ARC", "VOIDS_DUST", "EXP_1_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "GEM_RD_ARC", "PIECE_ARC", "SEED_OF_YGGDRASIL", "EXP_2_ARC"] }
             ]
         }
     ]
