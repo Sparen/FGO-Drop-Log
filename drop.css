@@ -181,6 +181,14 @@
         padding-left: 4px; 
     }
 
+    .h-moonfest {
+        color: #FFFFEE;
+        background-color: #11AAEE;
+        border-width: 4px; 
+        border-color: #FFFFEE; 
+        border-style: none double none double; 
+        padding-left: 4px; 
+    }
     .h-halloween {
         color: #FFCCAA;
         background-color: #CC6633;

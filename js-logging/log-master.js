@@ -324,6 +324,11 @@ function loadEvent18() {
     loadObject(event_christmas2018_obj, "event-christmas2018");
 }
 
+function loadEvent19() {
+    initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
+    initPathMapEvent();
+}
+
 function loadHuntEvent() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     console.log("loadHuntEvent: Loading Hunting Quests Part 1");
