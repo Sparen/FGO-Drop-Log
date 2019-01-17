@@ -1,6 +1,9 @@
 "use strict";
 
 //Constants for the event items for use when multiple items have the same shorthand
+var ID_DUMPLING = 0;
+var ID_GDUMPLING = 1;
+
 var ID_HONNOUJI_PT = 0;
 var ID_T_NASU = 1;
 var ID_YT_CHAWAN = 2;
@@ -44,6 +47,51 @@ var ID_CHEESECAKE = 0;
 var ID_SHORTCAKE = 1;
 var ID_FRUITCAKE = 2;
 var ID_MIRACLE_STOCKING = 3;
+
+function SCmoonfest2017RE_Add(str) { // Adds the selected blob to the input
+    document.getElementById("moonfest2017re-sc-input").value = document.getElementById("moonfest2017re-sc-input").value + str + ",";
+}
+
+function SCmoonfest2017RE() {
+    var input = document.getElementById("moonfest2017re-sc-input").value;
+    // Add method results in trailing comma. Remove it.
+    if (input[input.length - 1] == ",") {
+        input = input.substring(0, input.length - 1);
+    }
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "D") {
+            typeConst = ID_DUMPLING;
+        } else if (typeID == "G") {
+            typeConst = ID_GDUMPLING;
+        } else {
+            alert("SCmoonfest2017RE: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_DUMPLING) {
+                itemblock += 'DUMPLING';
+            } else if (typeConst == ID_GDUMPLING) {
+                itemblock += 'GOLDEN_DUMPLING';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("moonfest2017re-sc-output").innerHTML = output;
+}
 
 function SCchristmas2018_BL(num) { // Add the drop ID context for the bare numbers; pipe them into the main function
     var output = "M2x" + num + ",M4x4,M5x3";
