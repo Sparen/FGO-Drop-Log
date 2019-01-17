@@ -51,7 +51,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
     todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span>&nbsp;<span class="h-orleans">ORLEANS&nbsp;</span>&nbsp;<span class="h-septem">SEPTEM&nbsp;</span>&nbsp;<span class="h-okeanos">OKEANOS&nbsp;</span>&nbsp;<span class="h-london">LONDON&nbsp;</span>&nbsp;<span class="h-epu">E PLURIBUS UNUM&nbsp;</span>&nbsp;<span class="h-camelot">CAMELOT&nbsp;</span>&nbsp;<span class="h-babylonia">BABYLONIA&nbsp;</span>&nbsp;<span class="h-solomon">SOLOMON&nbsp;</span><br>';
     todisplay += '<span class="h-daily-knight1">DAILY (KNIGHT)&nbsp;</span>&nbsp;<span class="h-daily-cavalry1">DAILY (CAVALRY)&nbsp;</span>&nbsp;<span class="h-hunting">HUNTING&nbsp;</span><br>';
-    todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span>&nbsp;<span class="h-davinci">DA VINCI&nbsp;</span>&nbsp;<span class="h-accelzero">ACCEL ZERO&nbsp;</span>&nbsp;<span class="h-summer">SUMMER&nbsp;</span>&nbsp;<span class="h-prisma">PRISMA&nbsp;</span></div><br>';
+    todisplay += '<span class="h-moonfest">MOONFEST&nbsp;</span>&nbsp;<span class="h-gudaguda">GUDAGUDA&nbsp;</span>&nbsp;<span class="h-halloween">HALLOWEEN&nbsp;</span>&nbsp;<span class="h-christmas">CHRISTMAS&nbsp;</span>&nbsp;<span class="h-saberwars">SABER WARS&nbsp;</span>&nbsp;<span class="h-davinci">DA VINCI&nbsp;</span>&nbsp;<span class="h-accelzero">ACCEL ZERO&nbsp;</span>&nbsp;<span class="h-summer">SUMMER&nbsp;</span>&nbsp;<span class="h-prisma">PRISMA&nbsp;</span></div><br>';
     todisplay += '<div style="border: 1px solid #444444; padding: 2px">'
     todisplay += '<table><tr><th style="border-color: #222222"><hr>' + itemID + '<hr>' + '<img class="item" src="' + itemPath + '"><br>' + itemLabel + '</th></tr></table>'
     //Iterate through all accepted quests
@@ -111,6 +111,7 @@ function getDropDisplay(itemID, eventflag) {
         nodes.push(getDropStatsQ(itemID, event_prismacodes2018_obj, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_halloween2018_obj, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_christmas2018_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_moonfest2017RE_obj, "EVENT"));
     }
     // Note: nodes is an array of arrays of objects
     var nodeobjlist = [];

@@ -112,9 +112,9 @@ function initPathMapEvent() {
     //-- Nerofest
     //imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/nerofest/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
     //imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/nerofest/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
-    //-- Moon Goddess
-    //imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
+    //-- Moon Festival
+    imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
+    imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
     //-- Halloween 2017
     imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/halloween/Cupcake.png", "label": "PC", "qengine": "EVENT"});
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/halloween/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
@@ -327,6 +327,8 @@ function loadEvent18() {
 function loadEvent19() {
     initPathMap(); //Initialize Path Map to load image paths into the imgpathmap
     initPathMapEvent();
+    console.log("loadEvent: Loading Event Quests - Moonfest 2017 RE");
+    loadObject(event_moonfest2017RE_obj, "event-moonfest2017RE");
 }
 
 function loadHuntEvent() {
