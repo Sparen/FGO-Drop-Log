@@ -115,6 +115,7 @@ function initPathMapEvent() {
     //-- Moon Festival
     imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
     imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_MOONLIGHT_FEST", "path": "./icon/ ce/Moonlight_icon.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Halloween 2017
     imgpathmap.push({"id": "PETIT_CAKE", "path": "./icon/ event/halloween/Cupcake.png", "label": "PC", "qengine": "EVENT"});
     imgpathmap.push({"id": "SWEET_CANDLE", "path": "./icon/ event/halloween/Sweet_candle.png", "label": "SC", "qengine": "EVENT"});
