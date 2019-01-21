@@ -13,9 +13,11 @@ var event_moonfest2017RE_obj = {
             ]
         },
         {
-            "qname": "Dumpling Gathering - Intermediate", "ap": "20", "last-upd": "2019 01 18", "column": "24", "icon": "rider-marie.png",
+            "qname": "Dumpling Gathering - Intermediate", "ap": "20", "last-upd": "2019 01 20", "column": "24", "icon": "rider-marie.png",
             "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "DUMPLING", "stack": 2}, {"id": "DUMPLING", "stack": 4}, {"id": "GOLDEN_DUMPLING", "stack": 2}, {"id": "GOLDEN_DUMPLING", "stack": 3}] }
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "DUMPLING", "stack": 2}, {"id": "DUMPLING", "stack": 4}, {"id": "GOLDEN_DUMPLING", "stack": 2}, {"id": "GOLDEN_DUMPLING", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "DUMPLING", "stack": 2}, {"id": "DUMPLING", "stack": 2}, {"id": "GOLDEN_DUMPLING", "stack": 2}, {"id": "GOLDEN_DUMPLING", "stack": 2}, {"id": "GOLDEN_DUMPLING", "stack": 3}] },
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "DUMPLING", "stack": 4}, {"id": "DUMPLING", "stack": 5}, {"id": "GOLDEN_DUMPLING", "stack": 3}] }
             ]
         },
         {
