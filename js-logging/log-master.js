@@ -80,6 +80,7 @@ function initPathMap() {
     imgpathmap.push({"id": "DRAGON_FANG", "path": "./icon/Dragon_fang.png", "label": "DF", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "EVIL_BONE", "path": "./icon/Unlucky_bone.png", "label": "EB", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "FOOLS_CHAIN", "path": "./icon/Chain of Fools.png", "label": "FC", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "MYSTIC_SPINAL_FLUID", "path": "./icon/Magical_Cerebrospinal_Fluid_icon.png", "label": "MSF", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PROOF_OF_HERO", "path": "./icon/Heros_proof.png", "label": "PoH", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "VOIDS_DUST", "path": "./icon/Voids_dust.png", "label": "VD", "qengine": "ALWAYS"});
     //Rare drops
