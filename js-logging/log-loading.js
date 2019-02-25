@@ -70,6 +70,9 @@ function loadFree() {
     loadObject(obj_solo_sabnock, "raid-solomon-7");
     var obj_solo_andromalius = {"cssclass": "h-solomon", "quests": [raid_solomon_obj.quests[6]]};
     loadObject(obj_solo_andromalius, "raid-solomon-10");
+
+    console.log("loadFree: Loading Free Quests - Shinjuku");
+    loadObject(free_shinjuku_obj, "free-shinjuku");
 }
 
 function loadFreeEOR() {
