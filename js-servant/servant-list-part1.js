@@ -1846,7 +1846,7 @@ var servantlist_obj_part1 = {
         {
             "idnum": "155",
             "sicon": "berserker-mhxa.png",
-            "ename": "Mysterious Heroine X Alater",
+            "ename": "Mysterious Heroine X Alter",
             "jname1": "謎のヒロインＸ〔オルタ〕",
             "cicon": "berserker-g.png",
             "class": "Berserker",
