@@ -761,10 +761,18 @@ var free_okeanos_obj = {
             ]
         },
         {
-            "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "2017 11 06", "column": "37",
+            "qname": "Caldera Island: Unexplored Island", "ap": "17", "last-upd": "2019 03 01", "column": "4",
             "droplog": [
                 { "uplog": true, "drop": ["GEM_BL_SAB", "METEORIC_HORSESHOE"] },
-                { "uplog": true, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["GEM_BL_SAB"] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
