@@ -36,13 +36,18 @@ var free_shinjuku_obj = {
             ]
         },
         {
-            "qname": "Kabukicho: Nightless Castle", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Kabukicho: Nightless Castle", "ap": "21", "last-upd": "2019 04 12", "column": "20", "icon": "assassin-phantom.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Barrel Tower: Rifling Hole", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Barrel Tower: Rifling Hole", "ap": "21", "last-upd": "2019 04 12", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_RD_ASS", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS", "ETERNAL_GEAR", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS"] }
             ]
         },
         {
