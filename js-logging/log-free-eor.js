@@ -51,13 +51,19 @@ var free_shinjuku_obj = {
             ]
         },
         {
-            "qname": "Party Hall: Killing Party", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Party Hall: Killing Party", "ap": "21", "last-upd": "2019 04 16", "column": "20", "icon": "assassin-yanqing.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_ARC"] },
+                { "uplog": true, "drop": ["GEM_RD_ARC", "ETERNAL_GEAR"] },
+                { "uplog": true, "drop": ["GEM_RD_ASS"] }
             ]
         },
         {
-            "qname": "Tower - Top Floor: Breechloader", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Tower - Top Floor: Breechloader", "ap": "21", "last-upd": "2019 04 16", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
