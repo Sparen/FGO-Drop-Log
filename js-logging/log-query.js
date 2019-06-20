@@ -50,6 +50,7 @@ function getDropStats(itemID, itemPath, itemLabel, eventflag) {
     todisplay += '<table><tr><th><span style="color:#FF6666">UNRELIABLE</span></th><th><span style="color:#FF66AA">LACKING DATA</span></th><th><span style="color:#CCAAFF">SOMEWHAT RELIABLE</span></th><th><span style="color:#88CCFF">RATHER RELIABLE</span></th><th><span style="color:#66DDFF">RELIABLE</span></th><th><span style="color:#66EEDD">VERY RELIABLE</span></th><th><span style="color:#66FFCC">EXTREMELY RELIABLE</span></th></tr>';
     todisplay += '<tr><td><span style="color:#FF6666">0-5 Runs</span></td><td><span style="color:#FF66AA">6-10 Runs</span></td><td><span style="color:#CCAAFF">11-25 Runs</span></td><td><span style="color:#88CCFF">26-50 Runs</span></td><td><span style="color:#66DDFF">51-75 Runs</span></td><td><span style="color:#66EEDD">76-100 Runs</span></td><td><span style="color:#66FFCC">100 Runs</span></td></tr></table>';
     todisplay += '<div><span class="h-fuyuki">FUYUKI&nbsp;</span> <span class="h-orleans">ORLEANS&nbsp;</span> <span class="h-septem">SEPTEM&nbsp;</span> <span class="h-okeanos">OKEANOS&nbsp;</span> <span class="h-london">LONDON&nbsp;</span> <span class="h-epu">E PLURIBUS UNUM&nbsp;</span> <span class="h-camelot">CAMELOT&nbsp;</span> <span class="h-babylonia">BABYLONIA&nbsp;</span> <span class="h-solomon">SOLOMON&nbsp;</span><br>';
+    todisplay += '<div><span class="h-shinjuku">SHINJUKU&nbsp;</span> <span class="h-agartha">AGARTHA&nbsp;</span><br>';
     todisplay += '<span class="h-daily-knight1">DAILY (KNIGHT)&nbsp;</span> <span class="h-daily-cavalry1">DAILY (CAVALRY)&nbsp;</span> <span class="h-hunting">HUNTING&nbsp;</span><br>';
     todisplay += '<span class="h-gudaguda">GUDAGUDA&nbsp;</span> <span class="h-halloween">HALLOWEEN&nbsp;</span> <span class="h-christmas">CHRISTMAS&nbsp;</span> <span class="h-summer">SUMMER&nbsp;</span><br>';
     todisplay += '<span class="h-moonfest">MOONFEST&nbsp;</span> <span class="h-saberwars">SABER WARS&nbsp;</span> <span class="h-davinci">DA VINCI&nbsp;</span> <span class="h-accelzero">ACCEL ZERO&nbsp;</span> <span class="h-prisma">PRISMA&nbsp;</span></div><br>';
@@ -91,6 +92,8 @@ function getDropDisplay(itemID, eventflag) {
     nodes.push(getDropStatsQ(itemID, free_epu_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_camelot_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_babylonia_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_shinjuku_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_agartha_obj, "FREE"));
     //If limited time quest checkbox is enabled
     if (document.getElementById("queryLTQCB").checked) {
         nodes.push(getDropStatsQ(itemID, event_hunting1_obj, "EVENT"));

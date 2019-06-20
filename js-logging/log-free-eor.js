@@ -78,3 +78,10 @@ var free_shinjuku_obj = {
         }
     ]
 };
+
+// _AGARTHA
+var free_agartha_obj = {
+    "cssclass": "h-agartha",
+    "quests": [
+    ]
+};

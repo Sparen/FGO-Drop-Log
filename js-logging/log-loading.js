@@ -73,6 +73,8 @@ function loadFree() {
 
     console.log("loadFree: Loading Free Quests - Shinjuku");
     loadObject(free_shinjuku_obj, "free-shinjuku");
+    console.log("loadFree: Loading Free Quests - Agartha");
+    loadObject(free_agartha_obj, "free-agartha");
 }
 
 function loadFreeEOR() {

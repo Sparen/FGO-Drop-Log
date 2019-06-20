@@ -161,6 +161,14 @@
         border-style: none none none solid; 
         padding-left: 4px; 
     }
+    .h-agartha {
+        color: #FFDD00;
+        background-color: #AA8800;
+        border-width: 4px; 
+        border-color: #FFDD00; 
+        border-style: none none none solid; 
+        padding-left: 4px; 
+    }
 
     .h-daily-knight1 {
         color: #AAFFCC;
