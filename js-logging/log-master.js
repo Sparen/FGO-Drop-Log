@@ -102,6 +102,7 @@ function initPathMap() {
     imgpathmap.push({"id": "DRAGONS_REVERSE_SCALE", "path": "./icon/Dragons_reverse_scale.png", "label": "DRS", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "HEART_OF_A_FOREIGN_GOD", "path": "./icon/Heart_of_a_foreign_god.png", "label": "HFG", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "LAMP_OF_EVIL_SEALING", "path": "./icon/Lamp of Sealed Evil.png", "label": "LES", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "MYSTERIOUS_DIVINE_WINE", "path": "./icon/Mysterious_Divine_Wine.png", "label": "MDW", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PRIMORDIAL_LANUGO", "path": "./icon/Primordial_Lanugo.png", "label": "PL", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SCARAB_OF_WISDOM", "path": "./icon/Scarab of Wisdom.png", "label": "SoW", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SPIRIT_ROOT", "path": "./icon/Spiritroot.png", "label": "SR", "qengine": "ALWAYS"});
