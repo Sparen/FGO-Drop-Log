@@ -69,11 +69,17 @@ var free_shinjuku_obj = {
         {
             "qname": "Shinjuku Gyoen: Demon's Garden", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": ["MYSTIC_SPINAL_FLUID", "HEART_OF_A_FOREIGN_GOD"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
             "qname": "Shinjuku 2-Chome: Rainbow Town", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["FORBIDDEN_PAGE"] },
+                { "uplog": true, "drop": ["GEM_RD_CAS"] },
+                { "uplog": true, "drop": [] }
             ]
         }
     ]
@@ -84,62 +90,62 @@ var free_agartha_obj = {
     "cssclass": "h-agartha",
     "quests": [
         {
-            "qname": "Underground Plains: Moss-Illuminated Fields", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Underground Plains: Moss-Illuminated Fields", "ap": "20", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Camping Ground: Warriors' Hunting Ground", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Camping Ground: Warriors' Hunting Ground", "ap": "20", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Riverside Town: Amazons' Banquet", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Riverside Town: Amazons' Banquet", "ap": "20", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Northern Cliffs: Criminal Disposal", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Northern Cliffs: Criminal Disposal", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Nightless City: Sleepless City", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Nightless City: Sleepless City", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Great Underground River: Jungle Voyage", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Great Underground River: Jungle Voyage", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "El Dorado: El Dorado", "ap": "21", "last-upd": "", "column": "",
+            "qname": "El Dorado: El Dorado", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         }
