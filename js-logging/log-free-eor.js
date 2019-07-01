@@ -83,5 +83,65 @@ var free_shinjuku_obj = {
 var free_agartha_obj = {
     "cssclass": "h-agartha",
     "quests": [
+        {
+            "qname": "Underground Plains: Moss-Illuminated Fields", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Camping Ground: Warriors' Hunting Ground", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Riverside Town: Amazons' Banquet", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Northern Cliffs: Criminal Disposal", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Nightless City: Sleepless City", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Great Underground River: Jungle Voyage", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "El Dorado: El Dorado", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
     ]
 };
