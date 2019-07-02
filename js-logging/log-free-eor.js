@@ -90,18 +90,27 @@ var free_agartha_obj = {
     "cssclass": "h-agartha",
     "quests": [
         {
-            "qname": "Underground Plains: Moss-Illuminated Fields", "ap": "20", "last-upd": "", "column": "20",
+            "qname": "Underground Plains: Moss-Illuminated Fields", "ap": "20", "last-upd": "2019 07 02", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_RID", "GEM_BL_RID", "CLAW_OF_CHAOS"] },
+                { "uplog": true, "drop": ["CLAW_OF_CHAOS"] }
             ]
         },
         {
-            "qname": "Camping Ground: Warriors' Hunting Ground", "ap": "20", "last-upd": "", "column": "20",
+            "qname": "Camping Ground: Warriors' Hunting Ground", "ap": "20", "last-upd": "2019 07 02", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_LAN", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["GEM_BL_LAN", "EXP_4_LAN"] },
+                { "uplog": true, "drop": ["WARHORSE_YOUNG_HORN", "SEED_OF_YGGDRASIL"] }
             ]
         },
         {
-            "qname": "Riverside Town: Amazons' Banquet", "ap": "20", "last-upd": "", "column": "20",
+            "qname": "Riverside Town: Amazons' Banquet", "ap": "20", "last-upd": "2019 07 02", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB"] }
             ]
         },
         {
