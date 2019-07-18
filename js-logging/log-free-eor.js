@@ -116,11 +116,17 @@ var free_agartha_obj = {
         {
             "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
             "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_RID"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
