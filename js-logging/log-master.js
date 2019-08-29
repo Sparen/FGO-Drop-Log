@@ -113,9 +113,11 @@ function initPathMap() {
 // Given the global Image Path Map, pushes all event drops into the array.
 function initPathMapEvent() {
     //Event drops
-    //-- Nerofest
-    //imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/nerofest/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
-    //imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/nerofest/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
+    //-- Nerofest (all runs here)
+    imgpathmap.push({"id": "NERO_BRONZE", "path": "./icon/ event/nerofest/Bronze_nero_medal.png", "label": "BNM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "NERO_SILVER", "path": "./icon/ event/nerofest/Silver_nero_medal.png", "label": "SNM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/nerofest/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CRIMSON_PETAL", "path": "./icon/ event/nerofest/Crimson_Petal.png", "label": "CP", "qengine": "EVENT"});
     //-- Moon Festival
     imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
     imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
@@ -206,7 +208,6 @@ function initPathMapEvent() {
     imgpathmap.push({"id": "CE_KALEID_RUBY", "path": "./icon/ ce/Kaleid Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_KALEID_SAPPHIRE", "path": "./icon/ ce/Kaleid Sapphire_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
     imgpathmap.push({"id": "CE_MAGICAL_RUBY", "path": "./icon/ ce/Magical Ruby_Icon.png", "label": "CE", "qengine": "EVENT-CE"});
-    //-- Nerofest 2018 [No Logging Intended]
     //-- Halloween 2018
     imgpathmap.push({"id": "BAG_OF_COPPER", "path": "./icon/ event/halloween/Bag of Copper.png", "label": "BoC", "qengine": "EVENT"});
     imgpathmap.push({"id": "BAG_OF_SILVER", "path": "./icon/ event/halloween/Bag of Silver.png", "label": "BoS", "qengine": "EVENT"});
