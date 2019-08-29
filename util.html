@@ -27,11 +27,21 @@
 <h1 class="h-master">Utilities</h1>
 <p>This page contains utilities for data collection.<br>
 Standard Format:<br>
-Input: CSV string with units in the format X#x#<br>
+Input: CSV string with units in the format X#x# (no spaces after commas)<br>
 Output: Extended log-event object<br>
 EX: "" produces:<br>
 <code style="font-size:8px"></code><br>
 Please note that non-event items are not handled by this system and must be added to the drop array independently.</p>
+
+<h3 class="h-nerofest">Nerofest 2019 Shorthand Converter</h3>
+<p>Standard format</p>
+<p>INPUT:</p>
+<input type="text" name="nerofest2019-sc-input" id="nerofest2019-sc-input" size="96"><br><br>
+<p>OUTPUT: (Safari: Tripleclick over code to select contents)</p>
+<div id="nerofest2019-sc-output" style="background-color:#333333">
+</div>
+<br>
+<input type="submit" value="Submit" onClick="SCnerofest2019()">
 
 <h3 class="h-moonfest">Moonfest 2017 Rerun Shorthand Converter</h3>
 <p>Standard format</p>

@@ -116,6 +116,7 @@ function getDropDisplay(itemID, eventflag) {
         nodes.push(getDropStatsQ(itemID, event_halloween2018_obj, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_christmas2018_obj, "EVENT"));
         nodes.push(getDropStatsQ(itemID, event_moonfest2017RE_obj, "EVENT"));
+        nodes.push(getDropStatsQ(itemID, event_nerofest2019_obj, "EVENT"));
     }
     // Note: nodes is an array of arrays of objects
     var nodeobjlist = [];

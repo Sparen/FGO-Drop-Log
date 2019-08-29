@@ -123,6 +123,8 @@ function loadEvent19() {
     initPathMapEvent();
     console.log("loadEvent: Loading Event Quests - Moonfest 2017 RE");
     loadObject(event_moonfest2017RE_obj, "event-moonfest2017RE");
+    console.log("loadEvent: Loading Event Quests - Nerofest 2019");
+    loadObject(event_nerofest2019_obj, "event-nerofest2019");
 }
 
 function loadHuntEvent() {

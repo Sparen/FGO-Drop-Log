@@ -85,10 +85,39 @@ var event_moonfest2017RE_obj = {
     ]
 };
 
-// _GUDAGUDA2
-var event_gudaguda2_objA = {
-    "cssclass": "h-gudaguda",
+// NEROFEST 2019
+var event_nerofest2019_obj = {
+    "cssclass": "h-nerofest",
     "quests": [
-        
+        {
+            "qname": "Qualifiers - Novice: Enjoy Nero Fest", "ap": "10", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Qualifiers - Intermediate: Romance in the Dunes", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Qualifiers - Advanced: GUDAGUDA☆Shinsengumi", "ap": "30", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Qualifiers - Expert: Chaldea Kitchen 2019", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Qualifiers - Hero: Downhill on Mt. Ooe", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Qualifiers - Conqueror: Close Deductions of the Third Kind", "ap": "40", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        }
     ]
 };

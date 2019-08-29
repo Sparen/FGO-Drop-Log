@@ -48,6 +48,57 @@ var ID_SHORTCAKE = 1;
 var ID_FRUITCAKE = 2;
 var ID_MIRACLE_STOCKING = 3;
 
+var ID_NERO_BRONZE = 0;
+var ID_NERO_SILVER = 1;
+var ID_NERO_GOLD = 2;
+var ID_CRIMSON_PETAL = 3;
+
+function SCnerofest2019() {
+    //Get the string located at name/id nerofest2019-sc-input
+    var input = document.getElementById("nerofest2019-sc-input").value;
+    var output = '<code>{ "uplog": false, "drop": [], "stackdrop": [';
+    var drops = input.split(",");
+    for (var i = 0; i < drops.length; i += 1) {
+        var count = drops[i];
+        var splitunit = count.split("x"); //First half is ID and stack size, second is number of stacks
+        var typeID = count[0]; //First character in each drop unit
+        var stacksize = parseInt(count.substr(1, count.length - 1));
+        var dropcount = parseInt(splitunit[1]);
+        var typeConst = 0;
+        if (typeID == "B") {
+            typeConst = ID_NERO_BRONZE;
+        } else if (typeID == "S") {
+            typeConst = ID_NERO_SILVER;
+        } else if (typeID == "G") {
+            typeConst = ID_NERO_GOLD;
+        } else if (typeID == "P") {
+            typeConst = ID_CRIMSON_PETAL;
+        } else {
+            alert("SCnerofest2019: Unable to parse input - unknown item type " + typeID);
+        }
+        //For each drop occurrence
+        for (var j = 0; j < dropcount; j += 1) {
+            var itemblock = '{"id": "';
+            if (typeConst == ID_NERO_BRONZE) {
+                itemblock += 'NERO_BRONZE';
+            } else if (typeConst == ID_NERO_SILVER) {
+                itemblock += 'NERO_SILVER';
+            } else if (typeConst == ID_NERO_GOLD) {
+                itemblock += 'NERO_GOLD';
+            } else if (typeConst == ID_CRIMSON_PETAL) {
+                itemblock += 'CRIMSON_PETAL';
+            }
+            itemblock += '", "stack": ';
+            itemblock += stacksize.toString();
+            itemblock += '}, ';
+            output += itemblock;
+        }
+    }
+    output = output.substr(0, output.length - 2); //prune last trailing comma and space
+    output += '] },</code>';
+    document.getElementById("nerofest2019-sc-output").innerHTML = output;
+}
+
 function SCmoonfest2017RE_Add(str) { // Adds the selected blob to the input
     document.getElementById("moonfest2017re-sc-input").value = document.getElementById("moonfest2017re-sc-input").value + str + ",";
 }
