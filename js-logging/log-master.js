@@ -118,6 +118,7 @@ function initPathMapEvent() {
     imgpathmap.push({"id": "NERO_SILVER", "path": "./icon/ event/nerofest/Silver_nero_medal.png", "label": "SNM", "qengine": "EVENT"});
     imgpathmap.push({"id": "NERO_GOLD", "path": "./icon/ event/nerofest/Gold_nero_medal.png", "label": "GNM", "qengine": "EVENT"});
     imgpathmap.push({"id": "CRIMSON_PETAL", "path": "./icon/ event/nerofest/Crimson_Petal.png", "label": "CP", "qengine": "EVENT"});
+    imgpathmap.push({"id": "CE_CHEER_FOR_MASTER", "path": "./icon/ ce/Cheer_for_Master.png", "label": "CE", "qengine": "EVENT-CE"});
     //-- Moon Festival
     imgpathmap.push({"id": "DUMPLING", "path": "./icon/ event/moongoddess/Dango.png", "label": "D", "qengine": "EVENT"});
     imgpathmap.push({"id": "GOLDEN_DUMPLING", "path": "./icon/ event/moongoddess/Goldendango.png", "label": "RD", "qengine": "EVENT"});
