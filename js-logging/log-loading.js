@@ -124,7 +124,8 @@ function loadEvent19() {
     console.log("loadEvent: Loading Event Quests - Moonfest 2017 RE");
     loadObject(event_moonfest2017RE_obj, "event-moonfest2017RE");
     console.log("loadEvent: Loading Event Quests - Nerofest 2019");
-    loadObject(event_nerofest2019_obj, "event-nerofest2019");
+    loadObject(event_nerofest2019_objA, "event-nerofest2019A");
+    loadObject(event_nerofest2019_objB, "event-nerofest2019B");
 }
 
 function loadHuntEvent() {

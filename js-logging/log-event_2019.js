@@ -86,7 +86,7 @@ var event_moonfest2017RE_obj = {
 };
 
 // NEROFEST 2019
-var event_nerofest2019_obj = {
+var event_nerofest2019_objA = {
     "cssclass": "h-nerofest",
     "quests": [
         {
@@ -110,6 +110,48 @@ var event_nerofest2019_obj = {
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}] }
             ]
         },
+        {
+            "qname": "Main Event - Novice: Beauty and the Berserker", "ap": "10", "last-upd": "NL", "column": "NL", "icon": "assassin-jingke.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Main Event - Intermediate: Frankenstein's Family", "ap": "20", "last-upd": "NL", "column": "NL", "icon": "berserker-frankenstein.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 3}, {"id": "NERO_BRONZE", "stack": 3}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Main Event - Advanced: L.L.L.", "ap": "30", "last-upd": "NL", "column": "NL", "icon": "rider-quetzalcoatl.png",
+            "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB"], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Finals - Novice: Two Too Beautiful People", "ap": "10", "last-upd": "NL", "column": "NL", "icon": "berserker-penthesilea.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] }
+            ]
+        },
+        {
+            "qname": "Finals - Intermediate: 100 Rice Ball Barrage", "ap": "20", "last-upd": "NL", "column": "NL", "icon": "caster-xuanzang.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}] }
+            ]
+        },
+        {
+            "qname": "Finals - Advanced: Londinium Student Dorm", "ap": "30", "last-upd": "NL", "column": "NL", "icon": "saber-mordred.png",
+            "droplog": [
+                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}] }
+            ]
+        }
+    ]
+};
+
+var event_nerofest2019_objB = {
+    "cssclass": "h-nerofest",
+    "quests": [
         {
             "qname": "Qualifiers - Expert: Chaldea Kitchen 2019", "ap": "40", "last-upd": "2019 08 30", "column": "36", "icon": "berserker-raikou.png",
             "droplog": [
@@ -146,24 +188,6 @@ var event_nerofest2019_obj = {
                 { "uplog": true, "drop": ["MONU_ARC", "SERPENT_JEWEL", "SCARAB_OF_WISDOM"], "stackdrop": [{"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] },
                 { "uplog": true, "drop": ["SCARAB_OF_WISDOM"], "stackdrop": [{"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] },
                 { "uplog": true, "drop": ["GEM_GD_ARC"], "stackdrop": [{"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] }
-            ]
-        },
-        {
-            "qname": "Main Event - Novice: Beauty and the Berserker", "ap": "10", "last-upd": "NL", "column": "NL", "icon": "assassin-jingke.png",
-            "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}] }
-            ]
-        },
-        {
-            "qname": "Main Event - Intermediate: Frankenstein's Family", "ap": "20", "last-upd": "NL", "column": "NL", "icon": "berserker-frankenstein.png",
-            "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 3}, {"id": "NERO_BRONZE", "stack": 3}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] }
-            ]
-        },
-        {
-            "qname": "Main Event - Advanced: L.L.L.", "ap": "30", "last-upd": "NL", "column": "NL", "icon": "rider-quetzalcoatl.png",
-            "droplog": [
-                { "uplog": true, "drop": ["GEM_BL_SAB"], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}] }
             ]
         },
         {
@@ -211,24 +235,6 @@ var event_nerofest2019_obj = {
             ]
         },
         {
-            "qname": "Finals - Novice: Two Too Beautiful People", "ap": "10", "last-upd": "NL", "column": "NL", "icon": "berserker-penthesilea.png",
-            "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}] }
-            ]
-        },
-        {
-            "qname": "Finals - Intermediate: 100 Rice Ball Barrage", "ap": "20", "last-upd": "NL", "column": "NL", "icon": "caster-xuanzang.png",
-            "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}] }
-            ]
-        },
-        {
-            "qname": "Finals - Advanced: Londinium Student Dorm", "ap": "30", "last-upd": "NL", "column": "NL", "icon": "saber-mordred.png",
-            "droplog": [
-                { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 3}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}] }
-            ]
-        },
-        {
             "qname": "Finals - Expert: Dark Fairytale", "ap": "40", "last-upd": "2019 09 08", "column": "18", "icon": "caster-nurseryrhyme.png",
             "droplog": [
                 { "uplog": true, "drop": [], "stackdrop": [{"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 2}, {"id": "NERO_BRONZE", "stack": 4}, {"id": "NERO_BRONZE", "stack": 4}, {"id": "NERO_BRONZE", "stack": 4}, {"id": "NERO_BRONZE", "stack": 4}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}] },
@@ -244,8 +250,11 @@ var event_nerofest2019_obj = {
             ]
         },
         {
-            "qname": "Finals - Hero: Prisoners of the Hollow Needle", "ap": "40", "last-upd": "", "column": "18",
+            "qname": "Finals - Hero: Prisoners of the Hollow Needle", "ap": "40", "last-upd": "2019 09 08", "column": "18", "icon": "avenger-dantes.png",
             "droplog": [
+            	{ "uplog": true, "drop": ["OCTUPLET_CRYSTAL"], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 6}] },
+            	{ "uplog": true, "drop": ["GEM_RD_BER"], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 6}] },
+            	{ "uplog": true, "drop": ["GEM_RD_BER", "GEM_GD_RID"], "stackdrop": [{"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 2}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_SILVER", "stack": 3}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 2}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "NERO_GOLD", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 3}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 4}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 5}, {"id": "CRIMSON_PETAL", "stack": 6}] }
             ]
         },
         {
