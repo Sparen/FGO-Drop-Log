@@ -27,6 +27,12 @@ const nerofest2019_defobj = [
     {"ID": "B", "itemID": "NERO_BRONZE"}, {"ID": "S", "itemID": "NERO_SILVER"}, {"ID": "G", "itemID": "NERO_GOLD"}, {"ID": "P", "itemID": "CRIMSON_PETAL"}
 ];
 
+function SCnerofest2019_FC(num) { // Based on SCchristmas2018_BL
+    var output = "P3x" + num + ",P4x3,P5x2";
+    document.getElementById("nerofest2019-sc-input").value = output;
+    SCnerofest2019();
+}
+
 function SCnerofest2019() {
     SCmain("nerofest2019", nerofest2019_defobj);
 }
