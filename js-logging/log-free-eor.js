@@ -114,29 +114,35 @@ var free_agartha_obj = {
             ]
         },
         {
-            "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Peach Blosson Shangri-La: Village of Dreams", "ap": "21", "last-upd": "2019 10 17", "column": "20",
             "droplog": [
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Ys: Capital of Immorality", "ap": "21", "last-upd": "2019 10 17", "column": "20",
             "droplog": [
-                { "uplog": false, "drop": ["GEM_BL_RID"] },
-                { "uplog": false, "drop": [] },
-                { "uplog": false, "drop": [] }
+                { "uplog": true, "drop": ["GEM_BL_RID"] },
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Northern Cliffs: Criminal Disposal", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Northern Cliffs: Criminal Disposal", "ap": "21", "last-upd": "2019 10 17", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["BLACK_BEAST_GREASE"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Nightless City: Sleepless City", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Nightless City: Sleepless City", "ap": "21", "last-upd": "2019 10 17", "column": "20", "icon": "assassin-wuzetian.png",
             "droplog": [
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["FOOLS_CHAIN", "FOOLS_CHAIN", "FOOLS_CHAIN"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
@@ -161,6 +167,58 @@ var free_agartha_obj = {
         },
         {
             "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "", "column": "20",
+            "droplog": [
+            ]
+        }
+    ]
+};
+
+// _SHIMOUSA
+var free_shimousa_obj = {
+    "cssclass": "h-shimousa",
+    "quests": [
+        {
+            "qname": "Rice Field: Rural Landscape", "ap": "20", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Village: Desolate Settlement", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Monastery: Senju Sengen", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Castle Town: Rise and Fall", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Battlefield: The Remains of Soldiers' Dreams", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Toke Castle: Kifune Castle", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Rear Mountain: Nameless Sacred Mountain", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Arakawa Field: Ancient Battlefield", "ap": "21", "last-upd": "", "column": "",
+            "droplog": [
+            ]
+        },
+        {
+            "qname": "Rear Mountain: Trembling in Fear", "ap": "21", "last-upd": "", "column": "",
             "droplog": [
             ]
         }

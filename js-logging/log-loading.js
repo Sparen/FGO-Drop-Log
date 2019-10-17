@@ -75,6 +75,8 @@ function loadFree() {
     loadObject(free_shinjuku_obj, "free-shinjuku");
     console.log("loadFree: Loading Free Quests - Agartha");
     loadObject(free_agartha_obj, "free-agartha");
+    console.log("loadFree: Loading Free Quests - Shimousa");
+    loadObject(free_shimousa_obj, "free-shimousa");
 }
 
 function loadFreeEOR() {

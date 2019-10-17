@@ -92,6 +92,7 @@ function initPathMap() {
     imgpathmap.push({"id": "METEORIC_HORSESHOE", "path": "./icon/Meteoric_horseshoe.png", "label": "MH", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "OCTUPLET_CRYSTAL", "path": "./icon/Octuplet_twin_crystals.png", "label": "OC", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "PHOENIX_FEATHER", "path": "./icon/Phoenix_plume.png", "label": "PF", "qengine": "ALWAYS"});
+    imgpathmap.push({"id": "REFINED_MAGATAMA", "path": "./icon/Kotan_Magatama.png", "label": "RM", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SERPENT_JEWEL", "path": "./icon/Snake_jewel.png", "label": "SJ", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SEED_OF_YGGDRASIL", "path": "./icon/Yggdrasil_seed.png", "label": "SoY", "qengine": "ALWAYS"});
     imgpathmap.push({"id": "SHELL_OF_REMINISCENCE", "path": "./icon/Seashell of Recollection.png", "label": "SoR", "qengine": "ALWAYS"});

@@ -94,6 +94,7 @@ function getDropDisplay(itemID, eventflag) {
     nodes.push(getDropStatsQ(itemID, free_babylonia_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_shinjuku_obj, "FREE"));
     nodes.push(getDropStatsQ(itemID, free_agartha_obj, "FREE"));
+    nodes.push(getDropStatsQ(itemID, free_shimousa_obj, "FREE"));
     //If limited time quest checkbox is enabled
     if (document.getElementById("queryLTQCB").checked) {
         nodes.push(getDropStatsQ(itemID, event_hunting1_obj, "EVENT"));
