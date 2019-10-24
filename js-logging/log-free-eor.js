@@ -148,11 +148,17 @@ var free_agartha_obj = {
         {
             "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+            	{ "uplog": false, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+            	{ "uplog": false, "drop": ["GEM_BL_ARC", "DRAGON_FANG"] },
+            	{ "uplog": false, "drop": ["GEM_BL_ARC"] }
             ]
         },
         {
             "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+            	{ "uplog": false, "drop": ["PROOF_OF_HERO", "MYSTERIOUS_DIVINE_WINE"] },
+            	{ "uplog": false, "drop": [] },
+            	{ "uplog": false, "drop": ["GEM_BL_RID", "GEM_GD_ARC"] }
             ]
         },
         {
