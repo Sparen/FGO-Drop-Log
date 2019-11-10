@@ -146,34 +146,43 @@ var free_agartha_obj = {
             ]
         },
         {
-            "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Foothills Jungle: Jungle Hiking", "ap": "21", "last-upd": "2019 11 10", "column": "20",
             "droplog": [
-            	{ "uplog": false, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
-            	{ "uplog": false, "drop": ["GEM_BL_ARC", "DRAGON_FANG"] },
-            	{ "uplog": false, "drop": ["GEM_BL_ARC"] }
+            	{ "uplog": true, "drop": ["GEM_BL_RID", "DRAGON_FANG"] },
+            	{ "uplog": true, "drop": ["GEM_BL_ARC", "DRAGON_FANG"] },
+            	{ "uplog": true, "drop": ["GEM_BL_ARC"] }
             ]
         },
         {
-            "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Dragon Palace: The Castle in the Lake", "ap": "21", "last-upd": "2019 11 10", "column": "20",
             "droplog": [
-            	{ "uplog": false, "drop": ["PROOF_OF_HERO", "MYSTERIOUS_DIVINE_WINE"] },
-            	{ "uplog": false, "drop": [] },
-            	{ "uplog": false, "drop": ["GEM_BL_RID", "GEM_GD_ARC"] }
+            	{ "uplog": true, "drop": ["PROOF_OF_HERO", "MYSTERIOUS_DIVINE_WINE"] },
+            	{ "uplog": true, "drop": [] },
+            	{ "uplog": true, "drop": ["GEM_BL_RID", "GEM_GD_ARC"] }
             ]
         },
         {
-            "qname": "Great Underground River: Jungle Voyage", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Great Underground River: Jungle Voyage", "ap": "21", "last-upd": "2019 11 10", "column": "20",
             "droplog": [
+                { "uplog": true, "drop": ["PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "PHOENIX_FEATHER"] },
+                { "uplog": true, "drop": ["GEM_BL_ARC", "GEM_BL_ARC", "PHOENIX_FEATHER", "PHOENIX_FEATHER"] }
             ]
         },
         {
-            "qname": "El Dorado: El Dorado", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "El Dorado: El Dorado", "ap": "21", "last-upd": "2019 11 10", "column": "20", "icon": "berserker-penthesilea.png",
             "droplog": [
+                { "uplog": true, "drop": ["GEM_BL_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] },
+                { "uplog": true, "drop": [] }
             ]
         },
         {
-            "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Chasm in the Earth: Valley of Diamonds", "ap": "21", "last-upd": "2019 11 10", "column": "20",
             "droplog": [
+            	{ "uplog": true, "drop": ["EXP_4_CAS"] },
+            	{ "uplog": true, "drop": [] },
+            	{ "uplog": true, "drop": [] }
             ]
         }
     ]
