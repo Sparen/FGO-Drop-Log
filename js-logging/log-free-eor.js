@@ -193,47 +193,50 @@ var free_shimousa_obj = {
     "cssclass": "h-shimousa",
     "quests": [
         {
-            "qname": "Rice Field: Rural Landscape", "ap": "20", "last-upd": "", "column": "",
+            "qname": "Rice Field: Rural Landscape", "ap": "20", "last-upd": "", "column": "20",
+            "droplog": [
+            	{ "uplog": true, "drop": ["GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
+            	{ "uplog": true, "drop": [] },
+            	{ "uplog": true, "drop": ["SEED_OF_YGGDRASIL"] }
+            ]
+        },
+        {
+            "qname": "Village: Desolate Settlement", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Village: Desolate Settlement", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Monastery: Senju Sengen", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Monastery: Senju Sengen", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Castle Town: Rise and Fall", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Castle Town: Rise and Fall", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Battlefield: The Remains of Soldiers' Dreams", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Battlefield: The Remains of Soldiers' Dreams", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Toke Castle: Kifune Castle", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Toke Castle: Kifune Castle", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Rear Mountain: Nameless Sacred Mountain", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Rear Mountain: Nameless Sacred Mountain", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Arakawa Field: Ancient Battlefield", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         },
         {
-            "qname": "Arakawa Field: Ancient Battlefield", "ap": "21", "last-upd": "", "column": "",
-            "droplog": [
-            ]
-        },
-        {
-            "qname": "Rear Mountain: Trembling in Fear", "ap": "21", "last-upd": "", "column": "",
+            "qname": "Rear Mountain: Trembling in Fear", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
             ]
         }
