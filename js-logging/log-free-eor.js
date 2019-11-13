@@ -193,7 +193,7 @@ var free_shimousa_obj = {
     "cssclass": "h-shimousa",
     "quests": [
         {
-            "qname": "Rice Field: Rural Landscape", "ap": "20", "last-upd": "", "column": "20",
+            "qname": "Rice Field: Rural Landscape", "ap": "20", "last-upd": "2019 11 10", "column": "20",
             "droplog": [
             	{ "uplog": true, "drop": ["GHOST_LANTERN", "SEED_OF_YGGDRASIL"] },
             	{ "uplog": true, "drop": [] },
@@ -201,8 +201,11 @@ var free_shimousa_obj = {
             ]
         },
         {
-            "qname": "Village: Desolate Settlement", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Village: Desolate Settlement", "ap": "21", "last-upd": "2019 11 12", "column": "20", "icon": "lancer-houzouin.png",
             "droplog": [
+                { "uplog": true, "drop": [] },
+                { "uplog": true, "drop": ["VOIDS_DUST"] },
+                { "uplog": true, "drop": ["VOIDS_DUST", "EXP_4_SAB"] }
             ]
         },
         {
