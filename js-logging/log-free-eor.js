@@ -211,21 +211,33 @@ var free_shimousa_obj = {
         {
             "qname": "Monastery: Senju Sengen", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_BL_ASS"] },
+                { "uplog": false, "drop": ["GHOST_LANTERN"] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
             "qname": "Castle Town: Rise and Fall", "ap": "21", "last-upd": "", "column": "20",
             "droplog": [
+                { "uplog": false, "drop": ["GEM_RD_SAB"] },
+                { "uplog": false, "drop": ["GEM_RD_SAB", "EXP_4_SAB"] },
+                { "uplog": false, "drop": ["REFINED_MAGATAMA"] }
             ]
         },
         {
-            "qname": "Battlefield: The Remains of Soldiers' Dreams", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Battlefield: The Remains of Soldiers' Dreams", "ap": "21", "last-upd": "", "column": "20", "icon": "archer-tomoe.png",
             "droplog": [
+                { "uplog": false, "drop": ["EVIL_BONE", "VOIDS_DUST", "REFINED_MAGATAMA"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": [] }
             ]
         },
         {
-            "qname": "Toke Castle: Kifune Castle", "ap": "21", "last-upd": "", "column": "20",
+            "qname": "Toke Castle: Kifune Castle", "ap": "21", "last-upd": "", "column": "20", "icon": "assassin-chiyome.png",
             "droplog": [
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["VOIDS_DUST"] },
+                { "uplog": false, "drop": ["EXP_4_SAB", "EXP_4_LAN"] }
             ]
         },
         {

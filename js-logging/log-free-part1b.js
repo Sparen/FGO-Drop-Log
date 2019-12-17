@@ -172,7 +172,10 @@ var free_epu_obj = {
                 { "uplog": true, "drop": ["GEM_BL_ARC"] },
                 { "uplog": true, "drop": ["GEM_BL_ARC", "PIECE_ARC"] },
                 { "uplog": true, "drop": ["PROOF_OF_HERO", "VOIDS_DUST"] },
-                { "uplog": true, "drop": ["PROOF_OF_HERO"] }
+                { "uplog": true, "drop": ["PROOF_OF_HERO"] },
+                { "uplog": false, "drop": ["MONU_ARC"] },
+                { "uplog": false, "drop": [] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO"] }
             ]
         },
         {

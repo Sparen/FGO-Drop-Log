@@ -52,7 +52,8 @@ var daily_saber_2018_08_obj = {
                 { "uplog": true, "drop": ["MONU_SAB", "MONU_SAB", "ETERNAL_GEAR", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_RD_SAB", "MONU_SAB", "SEED_OF_YGGDRASIL"] },
                 { "uplog": true, "drop": ["GEM_BL_SAB", "GEM_RD_SAB", "GEM_GD_SAB", "MONU_SAB", "VOIDS_DUST", "EXP_2_SAB"] },
-                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "PIECE_SAB", "SEED_OF_YGGDRASIL"] }
+                { "uplog": true, "drop": ["GEM_RD_SAB", "GEM_GD_SAB", "PIECE_SAB", "PIECE_SAB", "SEED_OF_YGGDRASIL"] },
+                { "uplog": false, "drop": ["PROOF_OF_HERO", "SPIRIT_ROOT", "PIECE_SAB"] }
             ]
         }
     ]
