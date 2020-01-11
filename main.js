@@ -1,5 +1,5 @@
 function load() {
-    document.getElementById("ft").innerHTML = '<p style="text-align: center;"><a href="#top">Top</a></p><p style="text-align: center;">Copyright © 2017-2019 by Andrew Fan<br>Data Collection started Oct 15, 2017</p>';
+    document.getElementById("ft").innerHTML = '<p style="text-align: center;"><a href="#top">Top</a></p><p style="text-align: center;">Copyright © 2017-2020 by Andrew Fan<br>Data Collection started Oct 15, 2017<br>As of 2020, this project is no longer being maintained.</p>';
     document.getElementById("menubar").innerHTML = '<ul><li><a href="./index.html">Index/Notes</a></li><li><a href="./query.html">Database Query</a></li><li><a href="./util.html">Log Utilities</a></li>' + 
         '<li><a href="./free-quest.html">Free Quest Logs</a></li><li><a href="./daily-quest.html">Daily Quest Logs</a></li>' + 
         '<li><a href="./event-quest19.html">Event Logs 2019</a></li><li><a href="./event-quest18.html">Event Logs 2018</a></li><li><a href="./event-quest17.html">Event Logs 2017</a></li>' + 
